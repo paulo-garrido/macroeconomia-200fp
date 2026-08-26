@@ -1,0 +1,84 @@
+---
+title: "Sesión 1"
+subtitle: "Introducción al análisis macroeconómico"
+toc: false
+page-layout: full
+---
+
+::: {.session-hero}
+
+::: {.session-number}
+SESIÓN 01
+:::
+
+# Introducción al análisis macroeconómico
+
+::: {.session-lead}
+Conceptos fundamentales para comprender cómo los economistas analizan la escasez, la elección, el costo de oportunidad y el funcionamiento general de una economía.
+:::
+
+::: {.session-meta}
+**Macroeconomía · 200 FP**
+
+Maestría en Formulación y Evaluación de Proyectos
+:::
+
+:::
+
+
+::: {.session-main-resource}
+
+::: {.session-main-copy}
+
+::: {.session-eyebrow .orange}
+DURANTE LA SESIÓN
+:::
+
+## Presentación de clase
+
+La sesión introduce los conceptos económicos fundamentales que servirán como base para el desarrollo posterior del curso.
+
+[Ver presentación PDF →](../presentaciones/sesion01/presentacion-sesion01.pdf){.course-btn .primary}
+
+:::
+
+::: {.session-main-side}
+
+### Contenido central
+
+- Economía, escasez y elección.
+- Costo de oportunidad.
+- Incentivos y decisiones.
+- Interacción entre agentes económicos.
+- Funcionamiento general de los mercados.
+- Introducción al análisis macroeconómico.
+
+:::
+
+:::
+
+
+::: {.session-callout}
+
+::: {.session-eyebrow}
+IDEA CENTRAL
+:::
+
+## Toda decisión económica implica una elección
+
+Los recursos son limitados mientras que las necesidades y objetivos son múltiples. Por ello, la economía estudia cómo los individuos, las empresas y las sociedades toman decisiones frente a restricciones y alternativas.
+
+:::
+
+
+::: {.session-sources}
+
+::: {.session-eyebrow}
+MATERIALES
+:::
+
+## Recursos de la sesión
+
+Los materiales complementarios y actividades correspondientes a esta sesión estarán disponibles en esta página conforme sean requeridos.
+
+:::
