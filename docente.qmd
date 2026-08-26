@@ -1,0 +1,49 @@
+---
+title: "Perfil docente"
+toc: false
+lang: es
+page-layout: full
+---
+
+::: {.profile-page}
+
+::: {.profile-photo}
+
+![](assets/img/paulo-garrido.jpg)
+
+<div class="profile-course">MACROECONOMÍA · 200 FP</div>
+
+:::
+
+::: {.profile-body}
+
+<div class="section-eyebrow">DOCENTE DEL CURSO</div>
+
+## Msc. Paulo Augusto Garrido Grijalva
+
+<span class="teacher-role">Docente titular</span>
+
+Economista egresado de la Facultad de Ciencias Económicas de la Universidad de San Carlos de Guatemala. Posee una Maestría en Administración Financiera, obtenida con distinción *Magna Cum Laude* en la Escuela de Estudios de Postgrado de la misma universidad, y cuenta con un Diplomado en Estadística para Investigadores, impartido por el Instituto Nacional de Estadística y la Dirección General de Investigación de la Universidad de San Carlos de Guatemala.
+
+Actualmente cursa el Programa de Estudios Superiores en Banca Central, Mención en Economía y Finanzas Aplicadas, desarrollado por el Banco de Guatemala, el Centro de Estudios Monetarios Latinoamericanos (CEMLA) y la Universidad Rafael Landívar (URL). Asimismo, es candidato a Doctor en Desarrollo Sostenible en el Instituto de Desarrollo Sostenible de la Universidad Galileo.
+
+Su experiencia profesional se vincula con el análisis macroeconómico y la elaboración de estadísticas económicas, particularmente en el ámbito de las cuentas nacionales y la medición de la actividad económica.
+
+Su enfoque docente procura combinar una exposición pedagógica de la teoría económica con el rigor analítico y cuantitativo que caracteriza a la economía moderna, promoviendo que el estudiante no solo comprenda los conceptos, sino que desarrolle capacidad para interpretar fenómenos económicos y analizar evidencia empírica.
+
+### Áreas de interés
+
+::: {.interest-tags}
+
+[Macroeconomía]{.interest-tag}
+[Cuentas nacionales]{.interest-tag}
+[Estadísticas macroeconómicas]{.interest-tag}
+[Política monetaria]{.interest-tag}
+[Econometría]{.interest-tag}
+[Desarrollo sostenible]{.interest-tag}
+
+:::
+
+:::
+
+:::

@@ -1,0 +1,79 @@
+---
+title: "Programa del curso"
+subtitle: "Macroeconomía · 200 FP"
+toc: true
+toc-title: "Contenido"
+---
+
+## Información general
+
+**Curso:** Macroeconomía  
+**Código:** 200 FP  
+**Programa:** Maestría en Formulación y Evaluación de Proyectos  
+**Unidad académica:** Escuela de Estudios de Postgrado · Facultad de Ciencias Económicas  
+**Universidad:** Universidad de San Carlos de Guatemala  
+**Trimestre:** III · 2026
+
+---
+
+## Propósito del curso
+
+El curso aborda el funcionamiento agregado de la economía y el análisis de las principales variables macroeconómicas que configuran el entorno en el cual se desarrollan las decisiones económicas y los proyectos de inversión.
+
+Se estudian, entre otros temas, la medición de la actividad económica, crecimiento y desarrollo, inflación, tasas de interés, política monetaria, política fiscal, sector externo y las relaciones entre el entorno macroeconómico y la formulación y evaluación de proyectos.
+
+---
+
+## Organización
+
+El curso se desarrolla en **12 sesiones**, combinando:
+
+- desarrollo conceptual;
+- análisis de información económica;
+- ejercicios de aplicación;
+- laboratorios;
+- lecturas y abstracts;
+- actividades de discusión;
+- panel-foro;
+- evaluación parcial;
+- evaluación final.
+
+---
+
+## Programa oficial
+
+El documento oficial contiene la descripción completa del curso, competencias, contenidos, metodología, sistema de evaluación, programación de sesiones y bibliografía.
+
+[**Abrir programa completo en PDF →**](programa/200FP-Macroeconomia.pdf){.course-btn .primary}
+
+---
+
+## Estructura general del curso
+
+### Bloque I · Comprender y medir la economía
+
+Medición de la actividad económica, Producto Interno Bruto y lectura de los principales agregados macroeconómicos.
+
+### Bloque II · Explicar su funcionamiento
+
+Consumo, ahorro, inversión, fluctuaciones económicas, crecimiento y desarrollo.
+
+### Bloque III · Política económica y entorno
+
+Inflación, dinero, tasas de interés, política monetaria, política fiscal, sector externo y tipo de cambio.
+
+### Bloque IV · Aplicación
+
+Interpretación del entorno macroeconómico y sus implicaciones para las decisiones económicas y los proyectos.
+
+---
+
+## Recursos del curso
+
+[Sesiones →](sesiones/index.qmd)
+
+[Laboratorios →](laboratorios/index.qmd)
+
+[Tareas →](tareas/index.qmd)
+
+[Lecturas →](lecturas/index.qmd)

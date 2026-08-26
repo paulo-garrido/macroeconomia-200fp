@@ -1,0 +1,138 @@
+---
+page-layout: full
+toc: false
+---
+
+::: {.course-hero}
+
+::: {.hero-topline}
+
+**MACROECONOMÍA · 200 FP**
+
+**CURSO 2026**
+
+:::
+
+::: {.hero-content}
+
+::: {.hero-kicker}
+
+MAESTRÍA EN FORMULACIÓN Y EVALUACIÓN DE PROYECTOS
+
+:::
+
+# Comprender la economía para tomar decisiones informadas
+
+::: {.hero-subtitle}
+
+Macroeconomía aplicada al análisis del entorno económico, la inversión y la formulación y evaluación de proyectos.
+
+:::
+
+::: {.hero-actions}
+
+[Explorar sesiones →](sesiones/index.qmd){.course-btn .primary}
+
+[Ver programa](programa.qmd){.course-btn .secondary}
+
+:::
+
+:::
+
+::: {.hero-bottom}
+
+**Escuela de Estudios de Postgrado**
+
+Facultad de Ciencias Económicas · Universidad de San Carlos de Guatemala
+
+:::
+
+:::
+
+
+::: {.home-intro}
+
+::: {.section-eyebrow}
+
+EL CURSO
+
+:::
+
+## De los agregados macroeconómicos y su interpretación
+
+El curso estudia cómo se mide y funciona una economía y cómo variables como producción, inflación, tasas de interés, tipo de cambio, política fiscal y sector externo configuran el entorno en el cual se toman decisiones económicas.
+
+:::
+
+
+::: {.resource-grid}
+
+::: {.resource-card}
+
+::: {.card-number}
+
+01
+
+:::
+
+### Sesiones
+
+Presentaciones interactivas, contenidos y materiales correspondientes a cada clase.
+
+[Ver sesiones →](sesiones/index.qmd){.card-link}
+
+:::
+
+
+::: {.resource-card}
+
+::: {.card-number}
+
+02
+
+:::
+
+### Laboratorios
+
+Aplicaciones prácticas, análisis de datos y ejercicios orientados al uso de información económica.
+
+[Ver laboratorios →](laboratorios/index.qmd){.card-link}
+
+:::
+
+
+::: {.resource-card}
+
+::: {.card-number}
+
+03
+
+:::
+
+### Tareas
+
+Instrucciones, formatos de trabajo y actividades evaluadas del curso.
+
+[Ver tareas →](tareas/index.qmd){.card-link}
+
+:::
+
+
+::: {.resource-card}
+
+::: {.card-number}
+
+04
+
+:::
+
+### Lecturas
+
+Bibliografía, abstracts y documentos utilizados para complementar las sesiones.
+
+[Ver lecturas →](lecturas/index.qmd){.card-link}
+
+:::
+
+:::
+

@@ -1,0 +1,1093 @@
+---
+title: "Sesión 2"
+subtitle: "Medición económica agregada: del PIB al mercado del proyecto"
+author: "Macroeconomía · 200 FP · Maestría en Formulación y Evaluación de Proyectos"
+date: "2026-08-15"
+lang: es
+format:
+  revealjs:
+    theme: simple
+    width: 1600
+    height: 900
+    margin: 0.055
+    center: false
+    transition: fade
+    slide-number: true
+    history: true
+    controls: true
+    progress: true
+    hash: true
+    chalkboard: true
+    preview-links: auto
+    smaller: false
+    html-math-method: mathjax
+    title-slide: false
+execute:
+  echo: false
+  warning: false
+  message: false
+include-in-header:
+  text: |
+    <style>
+    :root{
+      --navy:#08233f;
+      --navy2:#0e3d67;
+      --orange:#f06b11;
+      --orange2:#ff8a2a;
+      --cream:#fbf6ef;
+      --ink:#17202a;
+      --muted:#667085;
+      --soft:#eef3f8;
+      --green:#127a57;
+      --red:#b42318;
+      --yellow:#f2b705;
+      --card:#ffffff;
+    }
+
+    .reveal{
+      font-family: Inter, "Aptos", "Segoe UI", Arial, sans-serif;
+      color: var(--ink);
+      background: radial-gradient(circle at 90% 0%, rgba(240,107,17,.08), transparent 28%),
+                  linear-gradient(180deg, #ffffff 0%, #f7fafc 100%);
+    }
+    .reveal h1,.reveal h2,.reveal h3{
+      font-family: Inter, "Aptos Display", "Segoe UI", Arial, sans-serif;
+      letter-spacing:-.035em;
+      color:var(--navy);
+      font-weight:820;
+    }
+    .reveal h1{font-size:2.55em; line-height:1.02;}
+    .reveal h2{font-size:1.75em; line-height:1.06; margin-bottom:.42em;}
+    .reveal h3{font-size:1.12em; margin-bottom:.35em; color:var(--navy2);}
+    .reveal p,.reveal li{font-size:.72em; line-height:1.35;}
+    .reveal small{color:var(--muted);}
+    .reveal strong{color:var(--navy);}
+    .reveal em{color:var(--orange); font-style:normal; font-weight:760;}
+    .reveal .slide-number{font-size:18px!important; color:var(--navy)!important;}
+    .reveal .progress span{background:var(--orange)!important;}
+    .reveal .controls{color:var(--orange)!important;}
+
+    /* PORTADA MANUAL */
+    .reveal .slides section.session-cover-slide{
+      padding:0!important;
+      margin:0!important;
+      width:100%!important;
+      height:100%!important;
+      background:
+        radial-gradient(circle at 84% 72%, rgba(240,107,17,.40) 0%, rgba(240,107,17,.18) 17%, transparent 38%),
+        radial-gradient(circle at 8% 5%, rgba(255,255,255,.08) 0%, transparent 24%),
+        linear-gradient(135deg, #061f38 0%, #0a355b 57%, #124d7e 100%)!important;
+      overflow:hidden;
+    }
+    .session-cover-slide > h2{display:none!important;}
+    .session-cover{
+      box-sizing:border-box;
+      width:100%;
+      min-height:840px;
+      padding:62px 78px 54px;
+      color:#fff;
+      display:flex;
+      flex-direction:column;
+      position:relative;
+      overflow:hidden;
+    }
+    .session-cover::before{
+      content:"";
+      position:absolute;
+      width:430px; height:430px;
+      right:-145px; top:-175px;
+      border:38px solid rgba(255,255,255,.07);
+      border-radius:50%;
+    }
+    .session-cover::after{
+      content:"";
+      position:absolute;
+      width:290px; height:290px;
+      right:105px; bottom:-170px;
+      background:rgba(240,107,17,.22);
+      border-radius:50%;
+      filter:blur(2px);
+    }
+    .cover-top{
+      display:flex; align-items:center; justify-content:space-between;
+      position:relative; z-index:2;
+    }
+    .cover-kicker{
+      font-size:22px; font-weight:850; letter-spacing:.14em;
+      text-transform:uppercase; color:#ffd6b7;
+    }
+    .cover-session{
+      display:flex; align-items:center; justify-content:center;
+      width:92px; height:92px; border-radius:24px;
+      border:1px solid rgba(255,255,255,.28);
+      background:rgba(255,255,255,.10);
+      color:#fff; font-size:41px; font-weight:900;
+      box-shadow:0 16px 38px rgba(0,0,0,.14);
+    }
+    .cover-main{
+      margin-top:112px; max-width:1130px; position:relative; z-index:2;
+    }
+    .cover-eyebrow{
+      font-size:21px; font-weight:820; color:#ffad70;
+      text-transform:uppercase; letter-spacing:.11em; margin-bottom:18px;
+    }
+    .cover-title{
+      color:#fff!important; font-size:82px; line-height:.98;
+      font-weight:900; letter-spacing:-.055em; margin:0;
+      max-width:1050px; text-shadow:0 12px 30px rgba(0,0,0,.16);
+    }
+    .cover-subtitle{
+      margin-top:24px; font-size:34px; line-height:1.18;
+      font-weight:560; color:#dbe9f5; max-width:1000px;
+    }
+    .cover-rule{
+      width:138px; height:7px; margin-top:30px;
+      border-radius:999px; background:linear-gradient(90deg,var(--orange),var(--orange2));
+    }
+    .cover-bottom{
+      margin-top:auto; padding-top:27px;
+      border-top:1px solid rgba(255,255,255,.20);
+      display:grid; grid-template-columns:1.35fr .65fr; gap:34px;
+      align-items:end; position:relative; z-index:2;
+    }
+    .cover-program{
+      color:#fff; font-size:22px; font-weight:760; line-height:1.3;
+    }
+    .cover-program small{
+      display:block; color:#bfd3e4!important; font-size:17px;
+      margin-top:7px; font-weight:500;
+    }
+    .cover-meta{
+      text-align:right; color:#d4e1ec; font-size:18px; line-height:1.45;
+    }
+    .cover-meta strong{color:#fff!important;}
+    .cover-tags{
+      display:flex; gap:10px; flex-wrap:wrap; margin-top:16px;
+    }
+    .cover-tags span{
+      border-radius:999px; padding:8px 14px;
+      background:rgba(255,255,255,.09);
+      border:1px solid rgba(255,255,255,.15);
+      color:#eaf3fa; font-size:16px; font-weight:700;
+    }
+
+    .kicker{
+      display:inline-block; color:var(--orange); text-transform:uppercase;
+      font-weight:850; letter-spacing:.12em; font-size:.38em; margin-bottom:.45em;
+    }
+    .muted{color:var(--muted)!important;}
+    .big-number{font-size:3.8em; font-weight:900; letter-spacing:-.06em; color:var(--navy); line-height:.9;}
+    .accent{color:var(--orange)!important;}
+    .centered{display:flex; flex-direction:column; justify-content:center; align-items:center; min-height:640px; text-align:center;}
+    .right-note{position:absolute; right:72px; bottom:48px; color:var(--muted); font-size:18px;}
+
+    .hero{
+      min-height:660px; border-radius:36px; padding:58px 70px;
+      background:linear-gradient(135deg, rgba(8,35,63,.98), rgba(14,61,103,.92)),
+                 radial-gradient(circle at 80% 20%, rgba(240,107,17,.45), transparent 30%);
+      color:#fff; box-shadow:0 26px 70px rgba(8,35,63,.23); position:relative; overflow:hidden;
+    }
+    .hero h1,.hero h2,.hero h3,.hero p{color:#fff!important;}
+    .hero::before{
+      content:""; position:absolute; right:-120px; top:-130px; width:440px; height:440px;
+      border-radius:50%; background:rgba(240,107,17,.35); filter:blur(2px);
+    }
+    .hero::after{
+      content:""; position:absolute; right:86px; bottom:74px; width:240px; height:240px;
+      border-radius:50%; border:28px solid rgba(255,255,255,.12);
+    }
+    .hero .tag{display:inline-block; background:rgba(255,255,255,.13); border:1px solid rgba(255,255,255,.25); border-radius:999px; padding:10px 18px; font-size:22px; font-weight:720; margin-bottom:18px;}
+
+    .grid-2{display:grid; grid-template-columns:1fr 1fr; gap:28px; align-items:stretch;}
+    .grid-3{display:grid; grid-template-columns:repeat(3,1fr); gap:24px; align-items:stretch;}
+    .grid-4{display:grid; grid-template-columns:repeat(4,1fr); gap:18px; align-items:stretch;}
+    .wide-left{display:grid; grid-template-columns:1.16fr .84fr; gap:34px; align-items:center;}
+    .wide-right{display:grid; grid-template-columns:.85fr 1.15fr; gap:34px; align-items:center;}
+
+    .card{
+      background:var(--card); border:1px solid rgba(8,35,63,.09); border-radius:28px; padding:30px;
+      box-shadow:0 18px 45px rgba(8,35,63,.10); position:relative; overflow:hidden;
+    }
+    .card.soft{background:linear-gradient(180deg,#fff,#f8fbff);}
+    .card.orange{background:linear-gradient(135deg, rgba(240,107,17,.12), #fff); border-color:rgba(240,107,17,.22);}
+    .card.navy{background:linear-gradient(135deg,var(--navy),var(--navy2)); color:#fff;}
+    .card.navy h3,.card.navy p,.card.navy li,.card.navy strong{color:#fff!important;}
+    .card .icon{font-size:48px; margin-bottom:16px;}
+    .pill{display:inline-flex; align-items:center; border-radius:999px; padding:9px 15px; background:#eef3f8; color:var(--navy); font-weight:780; font-size:20px; margin:4px;}
+    .pill.orange{background:rgba(240,107,17,.12); color:var(--orange);}
+    .pill.dark{background:rgba(8,35,63,.10); color:var(--navy);}
+
+    .question{
+      font-size:1.22em!important; line-height:1.18!important; font-weight:850; letter-spacing:-.035em;
+      color:var(--navy); margin-top:24px;
+    }
+    .quote{
+      border-left:8px solid var(--orange); padding:26px 32px; background:#fff; border-radius:0 26px 26px 0;
+      box-shadow:0 16px 40px rgba(8,35,63,.08); font-size:.93em; line-height:1.28;
+    }
+    .warning{
+      background:rgba(242,183,5,.15); border-left:7px solid var(--yellow); border-radius:20px; padding:18px 24px;
+      font-weight:700; color:#3b2f00;
+    }
+    .formula-box{
+      display:flex; justify-content:center; align-items:center; min-height:120px; padding:20px 30px;
+      background:linear-gradient(135deg, #ffffff, #f4f7fb); border:1px solid rgba(8,35,63,.10); border-radius:28px;
+      box-shadow:0 16px 40px rgba(8,35,63,.09); font-size:1.05em;
+    }
+    .flow{display:flex; align-items:center; justify-content:center; gap:18px; flex-wrap:wrap; margin-top:28px;}
+    .node{background:#fff; border:1px solid rgba(8,35,63,.12); border-radius:24px; padding:20px 24px; min-width:190px; text-align:center; box-shadow:0 14px 30px rgba(8,35,63,.09); font-weight:790;}
+    .node.primary{background:linear-gradient(135deg,var(--navy),var(--navy2)); color:#fff;}
+    .node.orange{background:linear-gradient(135deg,var(--orange),var(--orange2)); color:#fff;}
+    .arrow{font-size:40px; color:var(--orange); font-weight:900;}
+    .tiny{font-size:.48em!important;}
+
+    table{font-size:.54em!important; border-collapse:collapse!important; width:100%;}
+    th{background:var(--navy)!important; color:white!important; font-weight:800!important;}
+    td,th{border:1px solid rgba(8,35,63,.12)!important; padding:10px 12px!important;}
+    tbody tr:nth-child(even){background:#f6f9fc;}
+
+    .btn-row{display:flex; flex-wrap:wrap; gap:12px; margin-top:20px;}
+    button.qbtn{
+      cursor:pointer; border:0; border-radius:999px; padding:13px 18px; font-size:19px; font-weight:800;
+      background:var(--navy); color:#fff; box-shadow:0 9px 22px rgba(8,35,63,.18);
+    }
+    button.qbtn.orange{background:var(--orange);}
+    button.qbtn.light{background:#eef3f8; color:var(--navy);}
+    button.qbtn:hover{transform:translateY(-1px); filter:brightness(1.04);}
+    .feedback{margin-top:20px; padding:22px 26px; background:#fff; border-radius:24px; border-left:7px solid var(--orange); box-shadow:0 12px 34px rgba(8,35,63,.10); min-height:78px; font-size:.72em;}
+    .ok{color:var(--green); font-weight:850;}
+    .no{color:var(--red); font-weight:850;}
+    .warn-text{color:#9a6700; font-weight:850;}
+
+    .choice-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:18px;}
+    .choice-card{border-radius:24px; padding:22px; background:#fff; border:1px solid rgba(8,35,63,.12); box-shadow:0 12px 30px rgba(8,35,63,.08); min-height:140px; cursor:pointer;}
+    .choice-card:hover{outline:4px solid rgba(240,107,17,.17); transform:translateY(-1px);}
+    .choice-card .label{font-size:20px; text-transform:uppercase; color:var(--orange); font-weight:900; letter-spacing:.07em;}
+    .choice-card .ans{display:none; margin-top:12px; font-size:20px; font-weight:780;}
+    .choice-card.revealed .ans{display:block;}
+
+    .calc-panel{background:#fff; border-radius:30px; padding:28px; border:1px solid rgba(8,35,63,.11); box-shadow:0 20px 45px rgba(8,35,63,.10);}
+    .calc-row{display:grid; grid-template-columns:1fr 180px; gap:18px; align-items:center; margin:14px 0;}
+    .calc-row label{font-size:24px; font-weight:760; color:var(--navy);}
+    .calc-row input{font-size:24px; padding:11px 13px; border:2px solid #d0d7e2; border-radius:16px; text-align:right;}
+    .calc-result{margin-top:18px; padding:22px; border-radius:24px; background:linear-gradient(135deg,var(--navy),var(--navy2)); color:#fff; font-size:34px; font-weight:900; text-align:center;}
+    .slider-row{display:grid; grid-template-columns:280px 1fr 110px; gap:18px; align-items:center; margin:20px 0;}
+    .slider-row label{font-size:22px; font-weight:760; color:var(--navy);}
+    input[type="range"]{width:100%; accent-color:var(--orange);}
+    .slider-value{font-size:24px; font-weight:900; color:var(--orange); text-align:right;}
+    .metric{font-size:54px; font-weight:950; color:var(--navy); letter-spacing:-.055em;}
+    .metric-label{font-size:22px; color:var(--muted); font-weight:700; text-transform:uppercase; letter-spacing:.06em;}
+
+    .sankey-wrap{display:grid; grid-template-columns:.9fr 1.05fr .95fr; gap:22px; align-items:center; margin-top:28px;}
+    .sankey-col{display:flex; flex-direction:column; gap:18px;}
+    .sbox{padding:20px 22px; border-radius:23px; background:#fff; box-shadow:0 15px 32px rgba(8,35,63,.10); border:1px solid rgba(8,35,63,.10); font-size:24px; font-weight:820; color:var(--navy);}
+    .sbox.orange{background:linear-gradient(135deg,var(--orange),var(--orange2)); color:#fff;}
+    .sbox.navy{background:linear-gradient(135deg,var(--navy),var(--navy2)); color:#fff;}
+    .sbox small{display:block; font-size:18px; color:inherit!important; opacity:.82; font-weight:600; margin-top:4px;}
+    .connector{height:8px; background:linear-gradient(90deg,var(--orange),rgba(240,107,17,.18)); border-radius:999px; position:relative;}
+    .connector::after{content:""; position:absolute; right:-4px; top:-7px; border-left:18px solid rgba(240,107,17,.85); border-top:11px solid transparent; border-bottom:11px solid transparent;}
+
+    .agenda{counter-reset:item; display:grid; grid-template-columns:1fr 1fr; gap:18px; margin-top:20px;}
+    .agenda div{background:#fff; border-radius:22px; padding:20px 22px; box-shadow:0 10px 28px rgba(8,35,63,.08); border:1px solid rgba(8,35,63,.08); font-size:25px; font-weight:760;}
+    .agenda div::before{counter-increment:item; content:counter(item); display:inline-flex; width:38px; height:38px; align-items:center; justify-content:center; border-radius:50%; background:var(--orange); color:#fff; margin-right:12px; font-weight:900;}
+
+    .inverse{
+      background:linear-gradient(135deg,var(--navy),var(--navy2))!important; color:white!important;
+    }
+    .inverse h1,.inverse h2,.inverse h3,.inverse p,.inverse li,.inverse strong{color:white!important;}
+    .inverse .kicker{color:#ffb078!important;}
+    .inverse .card{color:var(--ink)!important;}
+    .inverse .card h3,.inverse .card p,.inverse .card li{color:var(--ink)!important;}
+    .inverse .node{color:var(--navy)!important;}
+    .inverse .node.primary,.inverse .node.orange{color:#fff!important;}
+    .foot{position:absolute; left:70px; bottom:42px; font-size:18px!important; color:var(--muted);}
+    
+    /* BOTÓN PARA VOLVER AL SITIO */
+    .back-to-course{
+    position: fixed;
+    top: 16px;
+    left: 18px;
+    z-index: 9999;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+
+    padding: 8px 14px;
+    border-radius: 999px;
+
+    background: rgba(8,35,63,.88);
+    color: #fff !important;
+
+    font-family: Inter, "Aptos", "Segoe UI", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 750;
+
+    text-decoration: none !important;
+    box-shadow: 0 6px 18px rgba(8,35,63,.18);
+
+    transition: background .18s ease, transform .18s ease;
+    }
+
+    .back-to-course:hover{
+     background: var(--orange);
+    color: #fff !important;
+    transform: translateY(-1px);
+    }
+        </style>
+include-after-body:
+  text: |
+    <a class="back-to-course"
+       href="../../sesiones/sesion02.html">
+      ← Volver a la sesión
+    </a>
+
+    <script>
+    function revealAnswer(id){
+      const el=document.getElementById(id);
+      if(el) el.classList.toggle('revealed');
+    }
+    function setFeedback(id, html){
+      const el=document.getElementById(id);
+      if(el) el.innerHTML=html;
+    }
+    function fmtQ(x){
+      return 'Q ' + Number(x).toLocaleString('es-GT', {maximumFractionDigits:1}) + ' millones';
+    }
+    function calcProd(){
+      const rows=['a','b','c'];
+      let vab=0;
+      rows.forEach(r=>{
+        const vbp=Number(document.getElementById('vbp_'+r)?.value||0);
+        const ci=Number(document.getElementById('ci_'+r)?.value||0);
+        const value=vbp-ci;
+        const cell=document.getElementById('vab_'+r);
+        if(cell) cell.innerText=value.toFixed(0);
+        vab += value;
+      });
+      const imp=Number(document.getElementById('impnet')?.value||0);
+      const pib=vab+imp;
+      const total=document.getElementById('pib_prod');
+      if(total) total.innerText='PIB por producción = '+fmtQ(pib);
+    }
+    function calcGasto(){
+      const C=Number(document.getElementById('g_C')?.value||0);
+      const I=Number(document.getElementById('g_I')?.value||0);
+      const G=Number(document.getElementById('g_G')?.value||0);
+      const X=Number(document.getElementById('g_X')?.value||0);
+      const M=Number(document.getElementById('g_M')?.value||0);
+      const pib=C+I+G+X-M;
+      const total=document.getElementById('pib_gasto');
+      if(total) total.innerText='PIB por gasto = '+fmtQ(pib);
+    }
+    function calcIngreso(){
+      const R=Number(document.getElementById('i_R')?.value||0);
+      const EE=Number(document.getElementById('i_EE')?.value||0);
+      const IM=Number(document.getElementById('i_IM')?.value||0);
+      const T=Number(document.getElementById('i_T')?.value||0);
+      const pib=R+EE+IM+T;
+      const total=document.getElementById('pib_ingreso');
+      if(total) total.innerText='PIB por ingreso = '+fmtQ(pib);
+    }
+    function calcMarket(){
+      const prod=Number(document.getElementById('m_prod')?.value||0);
+      const imp=Number(document.getElementById('m_imp')?.value||0);
+      const exp=Number(document.getElementById('m_exp')?.value||0);
+      const ventas=Number(document.getElementById('m_ventas')?.value||0);
+      const mercado=prod+imp-exp;
+      const part=mercado>0 ? ventas/mercado*100 : 0;
+      document.getElementById('m_mercado').innerText=fmtQ(mercado);
+      document.getElementById('m_part').innerText=part.toFixed(1)+' %';
+    }
+    function updateDemand(){
+      const mercado=Number(document.getElementById('d_mercado')?.value||0);
+      const segmento=Number(document.getElementById('d_segmento')?.value||0)/100;
+      const territorio=Number(document.getElementById('d_territorio')?.value||0)/100;
+      const captura=Number(document.getElementById('d_captura')?.value||0)/100;
+      const crecimiento=Number(document.getElementById('d_crecimiento')?.value||0)/100;
+      const result=mercado*segmento*territorio*captura*(1+crecimiento);
+      ['d_mercado_v','d_segmento_v','d_territorio_v','d_captura_v','d_crecimiento_v'].forEach(id=>{});
+      document.getElementById('d_mercado_v').innerText=fmtQ(mercado);
+      document.getElementById('d_segmento_v').innerText=(segmento*100).toFixed(0)+' %';
+      document.getElementById('d_territorio_v').innerText=(territorio*100).toFixed(0)+' %';
+      document.getElementById('d_captura_v').innerText=(captura*100).toFixed(1)+' %';
+      document.getElementById('d_crecimiento_v').innerText=(crecimiento*100).toFixed(1)+' %';
+      document.getElementById('d_result').innerText=fmtQ(result);
+    }
+    document.addEventListener('DOMContentLoaded',()=>{
+      calcProd(); calcGasto(); calcIngreso(); calcMarket(); updateDemand();
+    });
+    </script>
+---
+## Sesión 2 {.session-cover-slide .hide-slide-number}
+
+```{=html}
+<div class="session-cover">
+  <div class="cover-top">
+    <div class="cover-kicker">Macroeconomía · 200 FP</div>
+    <div class="cover-session">02</div>
+  </div>
+
+  <div class="cover-main">
+    <div class="cover-eyebrow">Medición económica agregada</div>
+    <div class="cover-title">Del PIB al mercado del proyecto</div>
+    <div class="cover-subtitle">Cómo transformar las cuentas nacionales en información útil para dimensionar la demanda potencial de un proyecto.</div>
+    <div class="cover-rule"></div>
+  </div>
+
+  <div class="cover-bottom">
+    <div class="cover-program">
+      Maestría en Formulación y Evaluación de Proyectos
+      <small>Escuela de Estudios de Postgrado · Facultad de Ciencias Económicas · USAC</small>
+      <div class="cover-tags">
+        <span>PIB</span><span>Cuentas nacionales</span><span>Oferta-utilización</span><span>Estudio de mercado</span>
+      </div>
+    </div>
+    <div class="cover-meta">
+      <strong>Msc. Paulo Augusto Garrido Grijalva</strong><br>
+      15 de agosto de 2026
+    </div>
+  </div>
+</div>
+```
+
+## Punto de partida {.inverse}
+
+```{=html}
+<div class="hero">
+  <span class="tag">Lectura de entrada</span>
+  <h1>El PIB no es una fotografía neutral de la economía.</h1>
+  <p style="max-width:980px;font-size:0.86em;">Es una construcción estadística: selecciona una frontera de producción, valora bienes y servicios, evita doble contabilización y organiza el circuito económico en cuentas coherentes.</p>
+  <p class="question" style="color:white!important;max-width:1100px;">Pregunta conductora: si quiero formular un proyecto de calzado, ¿qué puede decirme el PIB sobre mi mercado… y qué no puede decirme?</p>
+</div>
+```
+
+::: {.notes}
+Abra la sesión recuperando la lectura de Diane Coyle. No empiece definiendo PIB; empiece con la pregunta de medición. El objetivo pedagógico es que el estudiante entienda que medir la economía es construir un sistema de información para tomar decisiones.
+:::
+
+## Ruta de la sesión
+
+```{=html}
+<div class="agenda">
+  <div>Discusión del abstract: Diane Coyle y el problema de medir la economía</div>
+  <div>PIB como circuito: producción, ingreso y gasto</div>
+  <div>Ejercicio: una economía pequeña medida por tres enfoques</div>
+  <div>Cuentas Nacionales del Banguat como insumo para proyectos</div>
+  <div>Caso aplicado: mercado potencial para calzado</div>
+  <div>Cierre: del dato macroeconómico al supuesto financiero</div>
+</div>
+```
+
+## Activación: ¿cuenta o no cuenta en el PIB?
+
+<p class="muted">Haga clic en cada tarjeta después de escuchar dos o tres respuestas.</p>
+
+```{=html}
+<div class="choice-grid">
+  <div class="choice-card" id="q1" onclick="revealAnswer('q1')">
+    <div class="label">Caso 1</div>
+    Una empresa produce Q100,000 en zapatos nuevos.
+    <div class="ans"><span class="ok">Sí.</span> Producción corriente de bienes finales o de bienes que entran al circuito productivo.</div>
+  </div>
+  <div class="choice-card" id="q2" onclick="revealAnswer('q2')">
+    <div class="label">Caso 2</div>
+    Una persona cocina para su familia en casa.
+    <div class="ans"><span class="no">No usualmente.</span> Queda fuera de la frontera convencional de producción de mercado.</div>
+  </div>
+  <div class="choice-card" id="q3" onclick="revealAnswer('q3')">
+    <div class="label">Caso 3</div>
+    La misma comida es preparada por un restaurante.
+    <div class="ans"><span class="ok">Sí.</span> Ahora hay una transacción de mercado registrada.</div>
+  </div>
+  <div class="choice-card" id="q4" onclick="revealAnswer('q4')">
+    <div class="label">Caso 4</div>
+    Se revende un automóvil usado.
+    <div class="ans"><span class="no">El bien no.</span> Solo puede registrarse el servicio de intermediación/comisión.</div>
+  </div>
+  <div class="choice-card" id="q5" onclick="revealAnswer('q5')">
+    <div class="label">Caso 5</div>
+    Una empresa produce inventarios que aún no vende.
+    <div class="ans"><span class="ok">Sí.</span> Se registra como variación de existencias.</div>
+  </div>
+  <div class="choice-card" id="q6" onclick="revealAnswer('q6')">
+    <div class="label">Caso 6</div>
+    Una aplicación gratuita mejora el bienestar de millones de usuarios.
+    <div class="ans"><span class="warn-text">Difícil.</span> Ilustra límites de valoración de servicios digitales y bienestar.</div>
+  </div>
+</div>
+```
+
+## Discusión del abstract
+
+```{=html}
+<div class="wide-left">
+<div>
+<span class="kicker">Coyle como provocación</span>
+<h2>El PIB mide producción, no bienestar.</h2>
+<p>La utilidad de la contabilidad nacional no está en decirnos si una sociedad “vive bien”, sino en ordenar cuantitativamente la producción, el ingreso y el gasto.</p>
+<p class="question">Entonces: ¿por qué seguimos usando el PIB?</p>
+</div>
+<div class="card orange">
+<h3>Preguntas para participación</h3>
+<ol>
+<li>¿Por qué surge la necesidad de medir la economía y qué problema intenta resolver una medida agregada como el PIB?</li>
+<li>¿Qué diferencia hay entre producción, ingreso y bienestar?</li>
+<li>¿Por qué creen que Coyle insiste en la historia del PIB para explicar qué significa este indicador actualmente?</li>
+<li>¿Qué error comete un formulador de proyectos si toma el PIB como “demanda automática”?</li>
+</ol>
+</div>
+</div>
+```
+
+::: {.notes}
+Seleccione estudiantes al azar. Evite que solo resuman la lectura. Pídales posición: qué mide, qué no mide, y cómo puede inducir errores si se usa mecánicamente para proyectar demanda.
+:::
+
+## Tesis de la clase {.inverse}
+
+```{=html}
+<div class="centered">
+<h1>PIB ≠ mercado del proyecto</h1>
+<p style="max-width:1050px;">Pero las cuentas utilizadas para construir el PIB contienen información crítica para estimar el tamaño, la estructura y la evolución de un mercado.</p>
+<div class="flow">
+  <div class="node">PIB</div><div class="arrow">→</div>
+  <div class="node">Actividad</div><div class="arrow">→</div>
+  <div class="node">Producto</div><div class="arrow">→</div>
+  <div class="node orange">Demanda potencial</div>
+</div>
+</div>
+```
+
+## La misma economía, tres cámaras
+
+```{=html}
+<div class="grid-3">
+<div class="card soft">
+<div class="icon">🏭</div>
+<h3>Producción</h3>
+<p>¿Cuánto valor agregó cada actividad productiva?</p>
+<div class="pill dark">VBP − CI = VAB</div>
+</div>
+<div class="card soft">
+<div class="icon">💵</div>
+<h3>Ingreso</h3>
+<p>¿Cómo se distribuyó el ingreso generado por la producción?</p>
+<div class="pill dark">salarios · excedente · impuestos</div>
+</div>
+<div class="card soft">
+<div class="icon">🛒</div>
+<h3>Gasto</h3>
+<p>¿Quién compró la producción final?</p>
+<div class="pill dark">C + I + G + X − M</div>
+</div>
+</div>
+```
+
+```{=html}
+<div class="formula-box" style="margin-top:30px;">
+\[
+\boxed{\text{Producción}=\text{Ingreso}=\text{Gasto}}
+\]
+</div>
+```
+
+## Enfoque de la producción
+
+### ¿Cuánto valor nuevo genera cada actividad económica?
+
+::: {.columns}
+
+::: {.column width="62%"}
+
+::: {.formula-card}
+
+$$
+VAB_i = \text{Producción}_i - \text{Consumo intermedio}_i
+$$
+
+:::
+
+::: {.formula-card style="margin-top: 1.2rem;"}
+
+$$
+PIB = \sum_i VAB_i + \text{Impuestos netos sobre los productos}
+$$
+
+:::
+:::
+
+::: {.column width="34%"}
+
+<div class="kicker">LÓGICA</div>
+
+### No sumamos todo lo producido
+
+A la producción de cada actividad le restamos los bienes y servicios que utilizó como insumos. Así evitamos **contabilizar varias veces el mismo valor** a lo largo de la cadena productiva.
+
+<div class="question-box">
+
+**Pregunta a clase**
+
+Si el cuero vale **Q100** y los zapatos fabricados con ese cuero se venden por **Q300**, ¿por qué sería incorrecto afirmar que esta cadena produjo Q400?
+
+</div>
+
+:::
+
+:::
+
+## Cadena productiva: calzado
+
+```{=html}
+<div class="flow" style="margin-top:70px;">
+  <div class="node">Cuero<br><small>insumo</small></div>
+  <div class="arrow">→</div>
+  <div class="node">Fábrica<br><small>manufactura</small></div>
+  <div class="arrow">→</div>
+  <div class="node">Comercio<br><small>distribución</small></div>
+  <div class="arrow">→</div>
+  <div class="node orange">Consumidor<br><small>uso final</small></div>
+</div>
+```
+
+```{=html}
+<div class="quote" style="margin-top:60px;">
+El PIB evita la doble contabilización registrando el <strong>valor agregado</strong> en cada etapa, no el valor bruto acumulado de todas las transacciones.
+</div>
+```
+
+## Enfoque del gasto
+
+```{=html}
+<div class="wide-left">
+<div>
+<span class="kicker">Demanda agregada</span>
+<h2>¿Quién absorbe la producción final?</h2>
+<p>El enfoque del gasto organiza el PIB desde los usos finales de la producción: hogares, empresas, gobierno y sector externo.</p>
+</div>
+<div class="formula-box">
+\[
+PIB = C + I + G + (X-M)
+\]
+</div>
+</div>
+```
+
+```{=html}
+<div class="grid-4" style="margin-top:34px;">
+<div class="card"><h3>C</h3><p>Consumo de los hogares</p></div>
+<div class="card"><h3>I</h3><p>Formación bruta de capital y existencias</p></div>
+<div class="card"><h3>G</h3><p>Gasto de consumo del gobierno</p></div>
+<div class="card"><h3>X − M</h3><p>Exportaciones netas</p></div>
+</div>
+```
+
+## Enfoque del ingreso
+
+```{=html}
+<div class="wide-right">
+<div class="card navy">
+<h3>Idea central</h3>
+<p>Todo valor agregado generado en la producción termina como ingreso para algún agente económico o como impuesto neto para el sector público.</p>
+</div>
+<div class="formula-box">
+\[
+PIB = RA + EBE + IM + T_n
+\]
+</div>
+</div>
+```
+
+```{=html}
+<div class="grid-4" style="margin-top:34px;">
+<div class="card"><h3>RA</h3><p>Remuneración de asalariados</p></div>
+<div class="card"><h3>EBE</h3><p>Excedente bruto de explotación</p></div>
+<div class="card"><h3>IM</h3><p>Ingreso mixto</p></div>
+<div class="card"><h3>Tn</h3><p>Impuestos netos sobre producción/productos</p></div>
+</div>
+```
+
+## Ejercicio 1: producción
+
+```{=html}
+<div class="grid-2">
+<div class="calc-panel">
+<h3>Ingrese VBP y CI. El VAB se calcula automáticamente.</h3>
+<table>
+<thead><tr><th>Actividad</th><th>VBP</th><th>CI</th><th>VAB</th></tr></thead>
+<tbody>
+<tr><td>Agricultura</td><td><input id="vbp_a" value="120" oninput="calcProd()" style="width:105px"></td><td><input id="ci_a" value="40" oninput="calcProd()" style="width:105px"></td><td id="vab_a">80</td></tr>
+<tr><td>Manufactura</td><td><input id="vbp_b" value="300" oninput="calcProd()" style="width:105px"></td><td><input id="ci_b" value="120" oninput="calcProd()" style="width:105px"></td><td id="vab_b">180</td></tr>
+<tr><td>Comercio y servicios</td><td><input id="vbp_c" value="180" oninput="calcProd()" style="width:105px"></td><td><input id="ci_c" value="60" oninput="calcProd()" style="width:105px"></td><td id="vab_c">120</td></tr>
+</tbody>
+</table>
+<div class="calc-row"><label>Impuestos netos</label><input id="impnet" value="20" oninput="calcProd()"></div>
+<div class="calc-result" id="pib_prod">PIB por producción = Q 400 millones</div>
+</div>
+<div class="card orange">
+<h3>Discusión</h3>
+<p>¿Qué pasaría si se sumara el VBP de todas las actividades?</p>
+<p class="question">¿Por qué ese resultado sobrestimaría la producción?</p>
+</div>
+</div>
+```
+
+## Ejercicio 2: gasto
+
+```{=html}
+<div class="grid-2">
+<div class="calc-panel">
+<div class="calc-row"><label>Consumo de hogares \(C\)</label><input id="g_C" value="290" oninput="calcGasto()"></div>
+<div class="calc-row"><label>Inversión \(I\)</label><input id="g_I" value="80" oninput="calcGasto()"></div>
+<div class="calc-row"><label>Gasto público \(G\)</label><input id="g_G" value="30" oninput="calcGasto()"></div>
+<div class="calc-row"><label>Exportaciones \(X\)</label><input id="g_X" value="60" oninput="calcGasto()"></div>
+<div class="calc-row"><label>Importaciones \(M\)</label><input id="g_M" value="60" oninput="calcGasto()"></div>
+<div class="calc-result" id="pib_gasto">PIB por gasto = Q 400 millones</div>
+</div>
+<div>
+<div class="formula-box">
+\[
+PIB=C+I+G+X-M
+\]
+</div>
+<div class="warning" style="margin-top:26px;">Nota didáctica: la inversión incluye formación de capital y variación de existencias.</div>
+</div>
+</div>
+```
+
+## Ejercicio 3: ingreso
+
+```{=html}
+<div class="grid-2">
+<div class="calc-panel">
+<div class="calc-row"><label>Remuneraciones</label><input id="i_R" value="170" oninput="calcIngreso()"></div>
+<div class="calc-row"><label>Excedente bruto</label><input id="i_EE" value="130" oninput="calcIngreso()"></div>
+<div class="calc-row"><label>Ingreso mixto</label><input id="i_IM" value="80" oninput="calcIngreso()"></div>
+<div class="calc-row"><label>Impuestos netos</label><input id="i_T" value="20" oninput="calcIngreso()"></div>
+<div class="calc-result" id="pib_ingreso">PIB por ingreso = Q 400 millones</div>
+</div>
+<div class="card navy">
+<h3>idea central</h3>
+<p>Si el sistema estadístico es coherente, los tres enfoques convergen conceptualmente al mismo agregado.</p>
+<p>Las diferencias empíricas se manejan mediante conciliación estadística.</p>
+</div>
+</div>
+```
+
+## Tres caminos. Una economía. Un PIB. {.inverse}
+
+```{=html}
+<div class="centered">
+<div class="flow">
+  <div class="node primary">Producción<br><small>VAB + impuestos</small></div>
+  <div class="arrow">→</div>
+  <div class="node orange">PIB</div>
+  <div class="arrow">←</div>
+  <div class="node primary">Gasto<br><small>C + I + G + X − M</small></div>
+</div>
+<div class="flow" style="margin-top:30px;">
+  <div class="node primary">Ingreso<br><small>remuneraciones + excedente + ingreso mixto + impuestos</small></div>
+</div>
+<p style="margin-top:50px;max-width:1000px;">El PIB es el resultado agregado. Para proyectos necesitamos descender hacia actividades, productos, territorio y estructura de demanda.</p>
+</div>
+```
+
+## El PIB es la punta del iceberg
+
+```{=html}
+<div class="wide-left">
+<div>
+<span class="kicker">Del agregado al proyecto</span>
+<h2>El verdadero valor para estudios de mercado está debajo del PIB.</h2>
+<p>La medición agregada se apoya en una arquitectura de cuentas que permite identificar actividades económicas, productos, oferta, utilización y relaciones intersectoriales.</p>
+</div>
+<div class="card orange">
+<h3>Preguntas del formulador</h3>
+<ul>
+<li>¿Qué actividades crecen?</li>
+<li>¿Qué productos se producen o importan?</li>
+<li>¿Cuánto se consume internamente?</li>
+<li>¿Qué parte del mercado podría capturar el proyecto?</li>
+</ul>
+</div>
+</div>
+```
+
+## Mapa de fuentes: Banguat
+
+```{=html}
+<div class="grid-3">
+<div class="card soft">
+<div class="icon">📈</div>
+<h3>PIB por actividad</h3>
+<p>Sirve para caracterizar el dinamismo macrosectorial: manufactura, comercio, construcción, servicios, etc.</p>
+</div>
+<div class="card soft">
+<div class="icon">🧩</div>
+<h3>Equilibrios oferta-utilización</h3>
+<p>Sirven para aproximar el tamaño observado de mercados por producto.</p>
+</div>
+<div class="card soft">
+<div class="icon">🗺️</div>
+<h3>PIB regional/departamental</h3>
+<p>Sirve para contextualizar territorio, poder económico relativo y concentración de actividad.</p>
+</div>
+</div>
+```
+
+```{=html}
+<div class="quote" style="margin-top:30px;">
+Para un proyecto, el dato macroeconómico no sustituye el estudio de mercado; lo <strong>disciplina</strong>. Obliga a que los supuestos de venta sean consistentes con el tamaño real del mercado.
+</div>
+```
+
+## Oferta-utilización: el puente hacia el mercado
+
+```{=html}
+<div class="formula-box">
+\[
+\underbrace{P + M}_{\text{Oferta}} = \underbrace{CI + C + G + FBK + X}_{\text{Utilización}}
+\]
+</div>
+```
+
+```{=html}
+<div class="sankey-wrap">
+  <div class="sankey-col">
+    <div class="sbox navy">Producción nacional<small>Oferta interna</small></div>
+    <div class="sbox navy">Importaciones<small>Oferta externa</small></div>
+  </div>
+  <div>
+    <div class="connector"></div>
+    <div class="sbox orange" style="text-align:center;margin:24px 0;">Oferta total del producto<small>valor disponible en la economía</small></div>
+    <div class="connector"></div>
+  </div>
+  <div class="sankey-col">
+    <div class="sbox">Consumo final<small>hogares/gobierno</small></div>
+    <div class="sbox">Consumo intermedio<small>empresas</small></div>
+    <div class="sbox">Exportaciones<small>resto del mundo</small></div>
+  </div>
+</div>
+```
+
+## Caso conductor
+
+```{=html}
+<div class="hero">
+<span class="tag">Proyecto hipotético</span>
+<h1>Una planta de calzado en Guatemala</h1>
+<p style="max-width:1000px;">La pregunta del inversionista no es: “¿cuánto crece el PIB?”. La pregunta correcta es: “¿qué tan grande es el mercado relevante y qué participación debo capturar para que el proyecto sea viable?”.</p>
+</div>
+```
+
+## Mala respuesta vs. buena respuesta
+
+```{=html}
+<div class="grid-2">
+<div class="card orange">
+<h3>Respuesta débil</h3>
+<p class="question">“El PIB crece, por lo tanto habrá demanda para el proyecto”.</p>
+<p><span class="no">Problema:</span> confunde crecimiento agregado con mercado específico.</p>
+</div>
+<div class="card navy">
+<h3>Respuesta técnica</h3>
+<p class="question" style="color:white!important;">“Estimemos el mercado observado del producto y evaluemos qué cuota necesita capturar el proyecto”.</p>
+<p>Parte de Cuentas Nacionales, pero baja a producto, segmento, territorio y competencia.</p>
+</div>
+</div>
+```
+
+## Estimación inicial: mercado doméstico aparente
+
+```{=html}
+<div class="grid-2">
+<div class="calc-panel">
+<h3>Valores didácticos en millones de quetzales</h3>
+<div class="calc-row"><label>Producción nacional</label><input id="m_prod" value="2400" oninput="calcMarket()"></div>
+<div class="calc-row"><label>Importaciones</label><input id="m_imp" value="1000" oninput="calcMarket()"></div>
+<div class="calc-row"><label>Exportaciones</label><input id="m_exp" value="600" oninput="calcMarket()"></div>
+<div class="calc-row"><label>Ventas esperadas del proyecto</label><input id="m_ventas" value="200" oninput="calcMarket()"></div>
+</div>
+<div>
+<div class="card soft">
+<div class="metric-label">Mercado doméstico aparente</div>
+<div class="metric" id="m_mercado">Q 2,800 millones</div>
+<p class="tiny">Producción nacional + importaciones − exportaciones.</p>
+</div>
+<div class="card orange" style="margin-top:22px;">
+<div class="metric-label">Participación implícita</div>
+<div class="metric" id="m_part">7.1 %</div>
+<p class="tiny">Ventas esperadas / mercado doméstico aparente.</p>
+</div>
+</div>
+</div>
+```
+
+## La pregunta decisiva
+
+```{=html}
+<div class="centered">
+<h1>¿Es plausible que una empresa nueva capture 7.1 % del mercado nacional?</h1>
+<p style="max-width:1000px;">La respuesta ya no depende solo de macroeconomía. Depende de segmento, precio, canal de distribución, competencia, territorio, capacidad instalada y estrategia comercial.</p>
+</div>
+```
+
+## Del mercado nacional al mercado del proyecto
+
+```{=html}
+<div class="flow" style="margin-top:72px;">
+  <div class="node">Mercado nacional<br><small>cuentas nacionales</small></div>
+  <div class="arrow">→</div>
+  <div class="node">Mercado relevante<br><small>producto/segmento</small></div>
+  <div class="arrow">→</div>
+  <div class="node">Mercado objetivo<br><small>territorio/canal</small></div>
+  <div class="arrow">→</div>
+  <div class="node orange">Demanda capturable<br><small>ventas del proyecto</small></div>
+</div>
+```
+
+```{=html}
+<div class="formula-box" style="margin-top:64px;">
+\[
+D_{proyecto}=D_{macro}\times s_{segmento}\times s_{territorio}\times s_{captura}
+\]
+</div>
+```
+
+## Simulador de demanda del proyecto
+
+```{=html}
+<div class="grid-2">
+<div class="calc-panel">
+<div class="slider-row"><label>Mercado base</label><input id="d_mercado" type="range" min="500" max="5000" step="100" value="2800" oninput="updateDemand()"><div class="slider-value" id="d_mercado_v">Q 2,800 millones</div></div>
+<div class="slider-row"><label>Segmento relevante</label><input id="d_segmento" type="range" min="5" max="80" step="1" value="35" oninput="updateDemand()"><div class="slider-value" id="d_segmento_v">35 %</div></div>
+<div class="slider-row"><label>Territorio inicial</label><input id="d_territorio" type="range" min="5" max="80" step="1" value="30" oninput="updateDemand()"><div class="slider-value" id="d_territorio_v">30 %</div></div>
+<div class="slider-row"><label>Captura esperada</label><input id="d_captura" type="range" min="1" max="25" step="0.5" value="8" oninput="updateDemand()"><div class="slider-value" id="d_captura_v">8.0 %</div></div>
+<div class="slider-row"><label>Crecimiento del mercado</label><input id="d_crecimiento" type="range" min="-10" max="15" step="0.5" value="0" oninput="updateDemand()"><div class="slider-value" id="d_crecimiento_v">0.0 %</div></div>
+</div>
+<div class="card navy" style="display:flex;flex-direction:column;justify-content:center;text-align:center;">
+<div class="metric-label" style="color:#c9d8e8!important;">Ventas potenciales del proyecto</div>
+<div class="metric" id="d_result" style="color:white!important;">Q 23.5 millones</div>
+<p>Este número aún no es el flujo de caja: es el supuesto de demanda que luego alimenta ingresos, capacidad, costos y sensibilidad.</p>
+</div>
+</div>
+```
+
+## Interpretación del simulador
+
+```{=html}
+<div class="grid-3">
+<div class="card">
+<h3>1. Tamaño macro</h3>
+<p>El mercado observado pone un techo estadístico inicial. Evita supuestos de ventas desproporcionados.</p>
+</div>
+<div class="card">
+<h3>2. Segmentación</h3>
+<p>No todo el mercado de calzado es mercado del proyecto: tipo, precio, calidad, canal y consumidor importan.</p>
+</div>
+<div class="card">
+<h3>3. Captura</h3>
+<p>La cuota proyectada debe justificarse con competencia, estrategia comercial, capacidad y diferenciación.</p>
+</div>
+</div>
+```
+
+```{=html}
+<div class="warning" style="margin-top:32px;">La cuenta nacional aproxima demanda realizada. La demanda potencial requiere supuestos adicionales y validación de mercado.</div>
+```
+
+## Actividad en grupos
+
+```{=html}
+<div class="grid-2">
+<div class="card orange">
+<h3>Grupo A</h3>
+<p>Defienda que el proyecto sí podría alcanzar la participación propuesta.</p>
+<ul>
+<li>¿Qué evidencia necesitaría?</li>
+<li>¿Qué canales usaría?</li>
+<li>¿Qué segmento atacaría primero?</li>
+</ul>
+</div>
+<div class="card navy">
+<h3>Grupo B</h3>
+<p>Cuestione la plausibilidad del supuesto de ventas.</p>
+<ul>
+<li>¿Qué competencia existe?</li>
+<li>¿Qué barreras de entrada aparecen?</li>
+<li>¿Qué sensibilidad haría?</li>
+</ul>
+</div>
+</div>
+```
+
+## Del dato al flujo de caja
+
+```{=html}
+<div class="flow" style="margin-top:70px;">
+  <div class="node">Cuentas Nacionales</div>
+  <div class="arrow">→</div>
+  <div class="node">Mercado potencial</div>
+  <div class="arrow">→</div>
+  <div class="node">Ventas estimadas</div>
+  <div class="arrow">→</div>
+  <div class="node">Ingresos</div>
+  <div class="arrow">→</div>
+  <div class="node orange">VAN / TIR</div>
+</div>
+```
+
+```{=html}
+<div class="quote" style="margin-top:60px;">
+Una proyección financiera empieza mucho antes del flujo de caja: empieza entendiendo correctamente la economía que genera la demanda.
+</div>
+```
+
+## Cierre: vuelva a la pregunta inicial {.inverse}
+
+```{=html}
+<div class="centered">
+<h1>Si el PIB crece 4 %, ¿la demanda de mi proyecto crecerá 4 %?</h1>
+<div class="btn-row" style="justify-content:center;">
+<button class="qbtn orange" onclick="setFeedback('finalfb','<span class=ok>No necesariamente.</span> El PIB describe el crecimiento agregado; el proyecto depende de producto, mercado relevante, precios, ingreso, competencia, territorio y capacidad de captura.')">Revelar respuesta</button>
+</div>
+<div id="finalfb" class="feedback" style="max-width:1050px;color:#17202a;"></div>
+</div>
+```
+
+## Para la próxima sesión
+
+```{=html}
+<div class="wide-left">
+<div>
+<span class="kicker">Conexión</span>
+<h2>Del PIB al consumo y la inversión</h2>
+<p>La próxima clase profundiza en los componentes de la demanda agregada que sostienen el mercado de los proyectos: consumo, ahorro, inversión y mercado de fondos prestables.</p>
+</div>
+<div class="card orange">
+<h3>Pregunta de transición</h3>
+<p class="question">¿Qué cambia en la viabilidad de un proyecto si las familias consumen menos y el costo financiero de invertir aumenta?</p>
+</div>
+</div>
+```
+
+## Apéndice técnico: cómo sustituir el ejemplo por datos reales
+
+```{=html}
+<div class="card soft">
+<h3>Ruta sugerida</h3>
+<ol>
+<li>Descargar del Banguat el equilibrio oferta-utilización o el COU del producto de interés.</li>
+<li>Identificar producción nacional, importaciones y exportaciones del producto.</li>
+<li>Calcular mercado doméstico aparente: producción + importaciones − exportaciones.</li>
+<li>Ajustar por segmento, territorio, canal y participación esperada.</li>
+<li>Documentar supuestos y trasladarlos al flujo de caja.</li>
+</ol>
+</div>
+```
+
+```{=html}
+<div class="warning" style="margin-top:28px;">Los valores de calzado incluidos en esta presentación son didácticos. Sustitúyalos por las cifras oficiales correspondientes antes de usar el caso como estimación empírica.</div>
+```
+

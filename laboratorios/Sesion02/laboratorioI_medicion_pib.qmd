@@ -1,0 +1,398 @@
+---
+lang: es
+format:
+  pdf:
+    pdf-engine: pdflatex
+    documentclass: article
+    papersize: letter
+    fontsize: 11pt
+    geometry:
+      - top=2.15cm
+      - bottom=2.15cm
+      - left=2.25cm
+      - right=2.25cm
+    colorlinks: true
+    keep-tex: false
+    toc: false
+    number-sections: false
+header-includes:
+  - |
+    \usepackage[most]{tcolorbox}
+    \usepackage{booktabs}
+    \usepackage{tabularx}
+    \usepackage{array}
+    \usepackage{enumitem}
+    \usepackage{fancyhdr}
+    \usepackage{titlesec}
+    \usepackage{microtype}
+    \usepackage{amsmath,amssymb}
+    \usepackage{xcolor}
+    \usepackage{graphicx}
+    \definecolor{Navy}{HTML}{0B2E4F}
+    \definecolor{Navy2}{HTML}{164873}
+    \definecolor{Orange}{HTML}{F97316}
+    \definecolor{OrangeLight}{HTML}{FFF2E8}
+    \definecolor{BlueLight}{HTML}{EEF4F8}
+    \definecolor{GrayText}{HTML}{4B5563}
+    \definecolor{GrayLight}{HTML}{F7F8FA}
+    \definecolor{Green}{HTML}{2F6B57}
+    \definecolor{GreenLight}{HTML}{EAF4EF}
+    \pagestyle{fancy}
+    \fancyhf{}
+    \lhead{\textcolor{Navy}{\small\textbf{Macroeconomía · 200 FP}}}
+    \rhead{\textcolor{GrayText}{\small Laboratorio de aplicación}}
+    \cfoot{\textcolor{GrayText}{\small Página \thepage}}
+    \renewcommand{\headrulewidth}{0.3pt}
+    \renewcommand{\footrulewidth}{0pt}
+    \setlength{\headheight}{14pt}
+    \titleformat{\section}{\Large\bfseries\color{Navy}}{}{0pt}{}
+    \titleformat{\subsection}{\large\bfseries\color{Navy2}}{}{0pt}{}
+    \setlist[enumerate]{leftmargin=*,itemsep=0.55em,topsep=0.4em}
+    \setlist[itemize]{leftmargin=*,itemsep=0.35em,topsep=0.35em}
+    \newtcolorbox{objetivo}{enhanced,breakable,colback=BlueLight,colframe=Navy2,boxrule=0.8pt,arc=3mm,left=4mm,right=4mm,top=3mm,bottom=3mm}
+    \newtcolorbox{caso}{enhanced,breakable,colback=GrayLight,colframe=Navy,boxrule=0.9pt,arc=3mm,left=4mm,right=4mm,top=3mm,bottom=3mm}
+    \newtcolorbox{supuestos}{enhanced,breakable,colback=OrangeLight,colframe=Orange,boxrule=0.9pt,arc=3mm,left=4mm,right=4mm,top=3mm,bottom=3mm}
+    \newtcolorbox{pista}{enhanced,breakable,colback=GreenLight,colframe=Green,boxrule=0.8pt,arc=3mm,left=4mm,right=4mm,top=3mm,bottom=3mm}
+    \newtcolorbox{pregunta}{enhanced,breakable,colback=white,colframe=Navy2,boxrule=0.7pt,arc=2mm,left=4mm,right=4mm,top=2.5mm,bottom=2.5mm}
+    \newcommand{\separador}{\vspace{0.3em}\noindent\textcolor{Orange}{\rule{\linewidth}{1.5pt}}\vspace{0.5em}}
+---
+
+```{=latex}
+\begin{titlepage}
+\thispagestyle{empty}
+\vspace*{0.6cm}
+
+\noindent\textcolor{Orange}{\rule{\linewidth}{4pt}}
+\vspace{0.8cm}
+
+{\Large\color{Navy}\textbf{Universidad de San Carlos de Guatemala}}\\[0.15cm]
+{\large\color{GrayText}Facultad de Ciencias Económicas · Escuela de Estudios de Postgrado}\\[0.2cm]
+{\large\color{GrayText}Maestría en Formulación y Evaluación de Proyectos}
+
+\vfill
+
+{\fontsize{18}{20}\selectfont\color{Orange}\textbf{LABORATORIO DE APLICACIÓN}}\\[0.35cm]
+{\fontsize{30}{34}\selectfont\color{Navy}\textbf{Del dato macroeconómico\\al mercado de un proyecto}}\\[0.45cm]
+{\Large\color{Navy2}\textbf{Caso: proyecto de producción y comercialización de calzado en Guatemala}}
+
+\vspace{1cm}
+
+\begin{tcolorbox}[colback=BlueLight,colframe=Navy2,boxrule=0.8pt,arc=3mm,left=5mm,right=5mm,top=4mm,bottom=4mm]
+\large
+\textbf{Pregunta central}\par
+\vspace{0.15cm}
+¿Puede la información de las Cuentas Nacionales ayudarnos a dimensionar la demanda potencial de un proyecto de inversión?
+\end{tcolorbox}
+
+\vfill
+
+{\large\color{Navy}\textbf{Curso:} Macroeconomía · 200 FP}\\[0.15cm]
+{\large\color{Navy}\textbf{Catedrático:} Msc. Paulo Augusto Garrido Grijalva}\\[0.15cm]
+{\large\color{GrayText}Trimestre II · 2026}
+
+\vspace{0.7cm}
+\noindent\textcolor{Orange}{\rule{\linewidth}{4pt}}
+\end{titlepage}
+```
+
+# Propósito del laboratorio
+
+```{=latex}
+\begin{objetivo}
+\textbf{Objetivo.} Utilizar un equilibrio de oferta y utilización del Banco de Guatemala como punto de partida para estimar el tamaño de un mercado, delimitar un segmento comercial y aproximar la demanda que podría captar un proyecto de inversión.
+
+\vspace{0.2cm}
+Al finalizar, el estudiante deberá distinguir con claridad entre \textbf{oferta total}, \textbf{consumo observado}, \textbf{mercado relevante}, \textbf{mercado objetivo} y \textbf{demanda capturable por el proyecto}.
+\end{objetivo}
+```
+
+La lógica del ejercicio es deliberadamente aplicada. El objetivo no es convertir las Cuentas Nacionales en un sustituto de una investigación de mercado, sino aprender a utilizarlas como una **fuente de dimensionamiento y contraste** dentro de un estudio de prefactibilidad.
+
+# Contexto del caso
+
+```{=latex}
+\begin{caso}
+\textbf{Proyecto ANDAR GT, S.A.}\par
+\vspace{0.15cm}
+Un grupo de inversionistas guatemaltecos evalúa instalar una pequeña planta para producir y comercializar \textbf{calzado casual-deportivo de gama media}. La estrategia inicial contempla producción nacional, una combinación de venta minorista y comercio electrónico, y una expansión gradual conforme la marca gane posicionamiento.
+
+\vspace{0.2cm}
+Antes de autorizar recursos para el estudio técnico y la estructuración financiera, el comité de inversión solicita responder una pregunta básica: \textbf{¿existe un mercado suficientemente amplio para justificar el proyecto y qué nivel de ventas podría considerarse razonable durante su primera etapa?}
+
+\vspace{0.2cm}
+Usted forma parte del equipo de prefactibilidad. Su tarea consiste en construir una primera estimación de demanda utilizando información oficial del Banco de Guatemala y un conjunto de supuestos comerciales proporcionados por una firma consultora contratada por los inversionistas.
+\end{caso}
+```
+
+# Fuente estadística obligatoria
+
+El docente indicará en clase la ruta de acceso al portal del **Banco de Guatemala**. Descargue el archivo de **Equilibrios de oferta y utilización** y trabaje en la pestaña denominada **“Equilibrio Oferta-Utilización”**.
+
+Localice el siguiente producto:
+
+```{=latex}
+\begin{tcolorbox}[colback=white,colframe=Orange,boxrule=1pt,arc=2mm,left=4mm,right=4mm,top=3mm,bottom=3mm]
+\textbf{Código NPG: P062}\\
+\textbf{Producto:} Calzado y sus partes, de cualquier material y de cualquier uso\\
+\textbf{Serie disponible:} 2013--2024\\
+\textbf{Unidad:} millones de quetzales
+\end{tcolorbox}
+```
+
+Antes de efectuar cálculos, identifique las notas metodológicas del cuadro: **PB** significa precio básico; **PC**, precio de comprador; **CIF**, costo, seguro y flete; y **FOB**, libre a bordo. Las cifras 2023 y 2024 están identificadas como preliminares en el archivo utilizado para este laboratorio.
+
+# Etapa 1. Leer el equilibrio antes de calcular
+
+Extraiga del archivo los valores de **2013, 2019, 2020, 2023 y 2024** para las siguientes partidas: producción, importaciones, oferta total, consumo intermedio, consumo final privado, variación de existencias, exportaciones y utilización total.
+
+Complete una tabla de trabajo en Excel con la siguiente estructura:
+
+| Concepto | 2013 | 2019 | 2020 | 2023 | 2024 |
+|---|---:|---:|---:|---:|---:|
+| Producción (PB) |  |  |  |  |  |
+| Importaciones (CIF) |  |  |  |  |  |
+| Oferta total |  |  |  |  |  |
+| Consumo intermedio (PC) |  |  |  |  |  |
+| Consumo final privado (PC) |  |  |  |  |  |
+| Variación de existencias (PC) |  |  |  |  |  |
+| Exportaciones (FOB) |  |  |  |  |  |
+| Utilización total |  |  |  |  |  |
+
+```{=latex}
+\begin{pregunta}
+\textbf{1.1 Verificación contable.} Compruebe para 2024 que la oferta total es igual a la utilización total. ¿Qué interpretación económica tiene esta igualdad?
+\end{pregunta}
+```
+
+```{=latex}
+\begin{pregunta}
+\textbf{1.2 El dato correcto para el proyecto.} ANDAR GT venderá principalmente a consumidores finales. Entre producción, importaciones, oferta total y consumo final privado, ¿qué partida considera la mejor aproximación inicial al \textbf{mercado nacional observado} del proyecto? Justifique su respuesta en no más de cinco líneas.
+\end{pregunta}
+```
+
+```{=latex}
+\begin{pista}
+\textbf{Pista metodológica.} Pregúntese quién realiza la compra final del producto que desea vender el proyecto. No confunda el valor total disponible en la economía con el gasto realizado por el grupo de compradores que constituye su mercado.
+\end{pista}
+```
+
+# Etapa 2. ¿Qué nos dice la historia reciente del mercado?
+
+Utilice la serie anual 2013--2024 del **consumo final privado de calzado** y realice los siguientes cálculos en Excel.
+
+1. Calcule la tasa de crecimiento de 2019 a 2020, de 2020 a 2021 y de 2023 a 2024.
+2. Calcule la tasa media anual de crecimiento entre 2013 y 2024 mediante:
+
+$$
+TCMA=\left(\frac{D_{2024}}{D_{2013}}\right)^{\frac{1}{11}}-1
+$$
+
+3. Construya un gráfico de línea con la evolución del consumo final privado de calzado entre 2013 y 2024.
+4. Identifique el principal quiebre de la serie y explique qué precaución tendría al utilizar una tendencia histórica para proyectar la demanda futura.
+
+```{=latex}
+\begin{pregunta}
+\textbf{2.1 Pregunta crítica.} Los valores del equilibrio están expresados en millones de quetzales corrientes. ¿La tasa de crecimiento calculada puede interpretarse directamente como crecimiento de la cantidad de pares de zapatos demandados? Explique.
+\end{pregunta}
+```
+
+```{=latex}
+\begin{pista}
+Una variación en el valor monetario puede provenir de cambios en cantidades, precios o ambos. Por ello, una serie a precios corrientes es útil para dimensionar el mercado monetario, pero no identifica por sí sola el crecimiento real del volumen demandado.
+\end{pista}
+```
+
+# Etapa 3. Del mercado nacional al mercado relevante
+
+El estudio complementario contratado por los inversionistas proporciona los siguientes **supuestos de trabajo**. Estos datos son ficticios y se utilizan únicamente con fines académicos; no provienen del Banco de Guatemala.
+
+```{=latex}
+\begin{supuestos}
+\textbf{Supuestos comerciales del caso}\par
+\vspace{0.15cm}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}X >{\raggedleft\arraybackslash}p{3.0cm}}
+\toprule
+\textbf{Variable} & \textbf{Supuesto} \\
+\midrule
+Participación del segmento casual-deportivo de gama media dentro del consumo privado de calzado & 30\% \\
+Participación del territorio y canales que la empresa puede atender en su primera etapa & 25\% \\
+Precio neto promedio esperado por par, expresado a precios de 2024 & Q420 \\
+Captura de mercado - escenario conservador & 1.5\% \\
+Captura de mercado - escenario base & 2.0\% \\
+Captura de mercado - escenario optimista & 3.0\% \\
+Capacidad máxima de producción durante el primer año & 30,000 pares \\
+\bottomrule
+\end{tabularx}
+\end{supuestos}
+```
+
+Trabaje con **2024 como año base**. No proyecte inflación ni crecimiento adicional para esta etapa; el objetivo es construir una fotografía consistente a precios de 2024.
+
+## Paso A. Mercado nacional observado
+
+Defina:
+
+$$
+M_{nacional}=\text{consumo final privado de calzado en 2024}
+$$
+
+Registre el valor que obtuvo directamente del equilibrio del Banco de Guatemala.
+
+## Paso B. Mercado relevante
+
+El proyecto no compite en todas las categorías de calzado. Aplique la participación del segmento proporcionada por la firma consultora:
+
+$$
+M_{relevante}=M_{nacional}\times s_{segmento}
+$$
+
+## Paso C. Mercado objetivo
+
+La empresa tampoco puede atender todo el mercado relevante durante su primera etapa. Ajuste por el territorio y los canales efectivamente accesibles:
+
+$$
+M_{objetivo}=M_{relevante}\times s_{territorio/canal}
+$$
+
+```{=latex}
+\begin{pregunta}
+\textbf{3.1 Interpretación.} Explique con sus propias palabras la diferencia entre \textit{mercado nacional}, \textit{mercado relevante} y \textit{mercado objetivo}. ¿Por qué sería incorrecto utilizar directamente el consumo nacional como ventas esperadas del proyecto?
+\end{pregunta}
+```
+
+# Etapa 4. Estimar la demanda capturable
+
+Ahora estime cuánto del mercado objetivo podría capturar ANDAR GT bajo tres escenarios:
+
+$$
+D_{proyecto,s}=M_{objetivo}\times s_{captura,s}
+$$
+
+Calcule posteriormente la cantidad de pares implícita en cada escenario. Recuerde que el equilibrio está expresado en **millones de quetzales**:
+
+$$
+Q_{pares,s}=\frac{D_{proyecto,s}\times 1{,}000{,}000}{P_{promedio}}
+$$
+
+Complete la siguiente matriz:
+
+| Escenario | Captura | Ventas potenciales (millones de Q) | Pares demandados |
+|---|---:|---:|---:|
+| Conservador | 1.5% |  |  |
+| Base | 2.0% |  |  |
+| Optimista | 3.0% |  |  |
+
+```{=latex}
+\begin{pregunta}
+\textbf{4.1 Sensibilidad.} ¿Qué variable tiene mayor capacidad de alterar la demanda estimada del proyecto: el tamaño del mercado nacional, la participación del segmento, la cobertura territorial o la tasa de captura? Justifique pensando en cuáles parámetros están sustentados por información oficial y cuáles dependen de supuestos comerciales.
+\end{pregunta}
+```
+
+# Etapa 5. Mercado no es lo mismo que ventas factibles
+
+El estudio técnico preliminar indica que la planta solamente puede producir **30,000 pares durante el primer año**.
+
+Para cada escenario, calcule:
+
+$$
+Q_{factible,s}=\min\left(Q_{pares,s},30{,}000\right)
+$$
+
+$$
+Ventas_{factibles,s}=Q_{factible,s}\times Q420
+$$
+
+$$
+Utilizacion\ de\ capacidad_s=\frac{Q_{factible,s}}{30{,}000}
+$$
+
+Complete:
+
+| Escenario | Pares demandados | Capacidad máxima | Pares factibles | Utilización de capacidad | Ventas factibles (Q) |
+|---|---:|---:|---:|---:|---:|
+| Conservador |  | 30,000 |  |  |  |
+| Base |  | 30,000 |  |  |  |
+| Optimista |  | 30,000 |  |  |  |
+
+```{=latex}
+\begin{pregunta}
+\textbf{5.1 Decisión.} ¿En cuál de los escenarios la restricción principal proviene del mercado y en cuál proviene de la capacidad productiva? ¿Qué implicación tendría esto para el diseño técnico del proyecto?
+\end{pregunta}
+```
+
+# Etapa 6. Recomendación al comité de inversión
+
+Prepare una recomendación ejecutiva de **máximo 250 palabras** dirigida al comité de inversión. Debe responder:
+
+1. ¿Cuál es el tamaño del mercado nacional observado de calzado que utilizó como punto de partida?
+2. ¿Cuál es el mercado objetivo estimado para ANDAR GT?
+3. ¿Cuántos pares podría demandar el mercado en los tres escenarios?
+4. ¿Es coherente la capacidad inicial de 30,000 pares con la demanda estimada?
+5. ¿Recomendaría avanzar al estudio técnico-financiero? Justifique.
+
+```{=latex}
+\begin{tcolorbox}[colback=OrangeLight,colframe=Orange,boxrule=1pt,arc=3mm,left=4mm,right=4mm,top=3mm,bottom=3mm]
+\textbf{Regla de decisión.} No basta con afirmar que “el mercado es grande”. Una recomendación de prefactibilidad debe diferenciar entre el tamaño del mercado, la proporción realmente accesible para el proyecto, la participación que razonablemente podría capturarse y las restricciones técnicas para atenderla.
+\end{tcolorbox}
+```
+
+# Discusión final: los límites de la estimación
+
+Antes de cerrar el laboratorio, responda brevemente las siguientes preguntas.
+
+1. ¿Qué información adicional solicitaría para convertir esta aproximación en un estudio de mercado completo?
+2. ¿Qué ocurriría con la metodología si el proyecto produjera principalmente **calzado de seguridad para empresas** en vez de calzado casual para hogares?
+3. ¿Por qué no sería correcto interpretar las importaciones como “mercado disponible para sustituir” ni proyectar la demanda futura únicamente con la tasa media 2013--2024?
+4. ¿Cómo se trasladaría una sobreestimación de la demanda hacia los ingresos, el flujo de caja, el VAN y la TIR del proyecto?
+
+```{=latex}
+\begin{objetivo}
+\textbf{Idea de cierre.} Las Cuentas Nacionales permiten conocer el entorno y dimensionar el mercado desde una perspectiva agregada; el estudio de mercado transforma esa información en una estimación específica para el proyecto mediante segmentación, cobertura, competencia, precios y supuestos de captura. La calidad de esos supuestos será determinante para la evaluación financiera posterior.
+\end{objetivo}
+```
+
+# Entregable
+
+Entregue el archivo de Excel con datos, fórmulas, cálculos y gráfico, junto con la recomendación ejecutiva. Identifique como fuente al **Banco de Guatemala, Equilibrio de oferta y utilización, producto P062**, y diferencie claramente los **supuestos académicos del caso**.
+
+<!--
+CLAVE DOCENTE - NO SE RENDERIZA
+
+Datos de control del archivo utilizado:
+2024 (millones de Q):
+Producción PB = 1,867.031572
+Importaciones CIF = 2,448.267986
+Impuestos/derechos importación = 231.884052
+IVA = 449.753166
+Márgenes = 2,797.197184
+Oferta total = 7,794.133960
+Consumo intermedio PC = 232.722268
+Consumo final privado PC = 7,052.934865
+Variación de existencias PC = -46.965079
+Exportaciones FOB = 555.441906
+Utilización total = 7,794.133960
+
+Consumo final privado:
+2013 = 4,549.262024
+2019 = 5,655.009864
+2020 = 4,718.303396
+2021 = 5,492.107713
+2023 = 6,480.708477
+2024 = 7,052.934865
+
+Cambios de control:
+2019-2020 = -16.56%
+2020-2021 = +16.40%
+2023-2024 = +8.83%
+TCMA 2013-2024 = 4.07% nominal anual aprox.
+
+Embudo 2024:
+Mercado nacional = 7,052.934865 millones Q
+Mercado relevante (30%) = 2,115.880460 millones Q
+Mercado objetivo (25%) = 528.970115 millones Q
+
+Escenarios:
+Conservador 1.5%: ventas potenciales = 7.934552 millones Q; pares = 18,892 aprox.; uso capacidad = 63.0%
+Base 2.0%: ventas potenciales = 10.579402 millones Q; pares = 25,189 aprox.; uso capacidad = 84.0%
+Optimista 3.0%: ventas potenciales = 15.869103 millones Q; pares = 37,784 aprox.; capacidad limita a 30,000 pares; ventas factibles = Q12.6 millones.
+-->

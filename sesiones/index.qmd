@@ -1,0 +1,49 @@
+---
+title: "Sesiones"
+subtitle: "Macroeconomía · 200 FP"
+toc: false
+---
+
+## Programa de sesiones
+
+Los materiales de cada sesión incluyen presentaciones, lecturas, ejercicios, laboratorios y actividades correspondientes al desarrollo del curso.
+
+
+### Sesión 01
+
+**Introducción al análisis macroeconómico**
+
+Principios económicos, escasez, elección, costo de oportunidad y una primera aproximación al funcionamiento agregado de la economía.
+
+[Ver sesión →](sesion01.qmd)
+
+
+---
+
+### Sesión 02
+
+**Medición económica agregada**
+
+Producto Interno Bruto, cuentas nacionales y medición de la actividad económica mediante los enfoques de producción, gasto e ingreso.
+
+[Ver sesión →](sesion02.html)
+
+[Ver presentación interactiva →](../presentaciones/sesion02/index.qmd)
+
+
+---
+
+### Sesión 03
+
+**Próxima sesión**
+
+Contenido disponible próximamente.
+
+
+---
+
+### Sesión 04
+
+**Próxima sesión**
+
+Contenido disponible próximamente.

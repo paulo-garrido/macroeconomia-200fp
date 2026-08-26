@@ -1,0 +1,66 @@
+project:
+  type: website
+  output-dir: _site
+
+  resources:
+    - assets/img/**
+    - programa/**/*.pdf
+    - laboratorios/**/*.pdf
+    - laboratorios/**/*.xlsx
+    - tareas/**/*.pdf
+    - tareas/**/*.xlsx
+
+website:
+  title: "Macroeconomía · 200 FP"
+
+  navbar:
+    background: "#0B2E4F"
+    foreground: "#FFFFFF"
+
+    left:
+      - href: index.qmd
+        text: Inicio
+
+      - href: programa.qmd
+        text: Programa
+
+      - href: sesiones/index.qmd
+        text: Sesiones
+
+      - href: laboratorios/index.qmd
+        text: Laboratorios
+
+      - href: tareas/index.qmd
+        text: Tareas
+
+      - href: lecturas/index.qmd
+        text: Lecturas
+
+      - href: docente.qmd
+        text: Docente
+
+  search: true
+
+  page-footer:
+    left: |
+      **Macroeconomía · 200 FP**  
+      Maestría en Formulación y Evaluación de Proyectos
+
+    right: |
+      Escuela de Estudios de Postgrado  
+      Facultad de Ciencias Económicas · USAC
+  
+
+format:
+  html:
+    theme: cosmo
+    css: assets/css/styles.css
+    toc: true
+    toc-location: right
+    smooth-scroll: true
+    link-external-newwindow: true
+    html-math-method: mathjax
+
+lang: es
+
+   

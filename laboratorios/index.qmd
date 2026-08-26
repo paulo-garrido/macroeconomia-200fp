@@ -1,0 +1,34 @@
+---
+title: "Laboratorios"
+subtitle: "Macroeconomía · 200 FP"
+toc: false
+---
+
+## Laboratorios del curso
+
+Los laboratorios están diseñados para aplicar los conceptos desarrollados en clase mediante ejercicios de cálculo, interpretación y uso de información económica oficial.
+
+---
+
+### Laboratorio 01
+
+**Medición económica agregada**
+
+Aplicación de los conceptos de medición del PIB y uso de información estadística del Banco de Guatemala.
+
+El laboratorio permite trabajar con:
+
+- cuentas nacionales;
+- equilibrio oferta-utilización;
+- interpretación de información económica;
+- estimación y análisis de magnitudes agregadas.
+
+[Ver laboratorio PDF →](../laboratorios/sesion02/laboratorioI_medicion_pib.pdf)
+
+[Descargar Excel de trabajo →](../laboratorios/sesion02/laboratorioI_medicion_pib.xlsx)
+
+---
+
+### Próximos laboratorios
+
+Los nuevos laboratorios se incorporarán a esta sección conforme avance el curso.

@@ -1,0 +1,206 @@
+---
+title: "Sesión 2"
+subtitle: "Medición económica agregada"
+toc: false
+page-layout: full
+---
+
+::: {.session-hero}
+
+::: {.session-number}
+
+SESIÓN 02
+
+:::
+
+
+
+# Medición económica agregada
+
+::: {.session-lead}
+
+Del Producto Interno Bruto a la comprensión de cómo se mide la actividad económica mediante los enfoques de producción, gasto e ingreso.
+
+:::
+
+::: {.session-meta}
+
+**Macroeconomía · 200 FP**
+
+Maestría en Formulación y Evaluación de Proyectos
+
+:::
+
+:::
+
+
+::: {.session-content}
+
+::: {.session-eyebrow}
+
+ANTES DE LA SESIÓN
+
+:::
+
+## Lectura y abstract
+
+**Diane Coyle**  
+*GDP: A Brief but Affectionate History*  
+**Capítulo 1**
+
+La sesión inicia con una discusión del abstract elaborado a partir de esta lectura. Algunos estudiantes serán seleccionados para responder preguntas y discutir las ideas centrales del capítulo.
+
+:::
+
+
+::: {.session-main-resource}
+
+::: {.session-main-copy}
+
+::: {.session-eyebrow .orange}
+
+DURANTE LA SESIÓN
+
+:::
+
+## Presentación interactiva
+
+La presentación aborda:
+
+- qué mide y qué no mide el PIB;
+- el enfoque de la producción;
+- el enfoque del gasto;
+- el enfoque del ingreso;
+- la equivalencia entre los tres métodos;
+- ejercicios de cálculo e interpretación.
+
+[Abrir presentación interactiva →](../presentaciones/sesion02/index.html){.course-btn .primary}
+
+:::
+
+::: {.session-main-side}
+
+### Contenido central
+
+**Producción**
+
+$$
+PIB = \sum_i VAB_i + \text{impuestos netos sobre productos}
+$$
+
+**Gasto**
+
+$$
+PIB = C + I + G + (X-M)
+$$
+
+**Ingreso**
+
+$$
+PIB = RA + EBE + IMB + \text{impuestos netos}
+$$
+:::
+
+:::
+
+
+::: {.session-materials}
+
+::: {.material-card}
+
+::: {.material-label}
+
+LABORATORIO
+
+:::
+
+### Aplicación de la medición económica
+
+Ejercicio de aplicación para trabajar con información estadística y desarrollar una lectura económica de los resultados.
+
+[Ver laboratorio →](../laboratorios/sesion02/laboratorioI_medicion_pib.pdf)
+
+[Descargar Excel de trabajo →](../laboratorios/sesion02/laboratorioI_medicion_pib.xlsx)
+
+:::
+    
+    
+::: {.material-card}
+
+::: {.material-label}
+
+TAREA
+
+:::
+
+### Medición del PIB
+
+Cinco ejercicios que combinan cálculo e interpretación mediante los enfoques de producción, gasto e ingreso, incluyendo una aplicación con información oficial del Banco de Guatemala.
+
+[Ver instrucciones →](../tareas/sesion02/tarea-medicion-pib.pdf)
+
+[Descargar formato Excel →](../tareas/sesion02/tarea-medicion-pib.xlsx)
+
+:::
+
+:::
+
+
+::: {.session-callout}
+
+::: {.session-eyebrow}
+
+IDEA CENTRAL
+
+:::
+
+## Tres enfoques, una misma economía
+
+El PIB puede observarse desde tres perspectivas distintas:
+
+- **Producción:** cuánto valor nuevo se genera.
+- **Gasto:** quién adquiere la producción final.
+- **Ingreso:** cómo se distribuye el ingreso generado.
+
+\[
+PIB_{\text{producción}}
+=
+PIB_{\text{gasto}}
+=
+PIB_{\text{ingreso}}
+\]
+
+:::
+
+
+::: {.session-sources}
+
+::: {.session-eyebrow}
+
+FUENTES Y RECURSOS
+
+:::
+
+## Información oficial
+
+Durante la sesión se utilizan estadísticas del **Banco de Guatemala**, particularmente información de cuentas nacionales y equilibrios de oferta y utilización.
+
+:::
+
+::: {.attendance-card}
+
+::: {.session-eyebrow .orange}
+
+ASISTENCIA
+
+:::
+
+## Registro de asistencia
+
+Registre su asistencia correspondiente a la **Sesión 02**.
+
+El formulario registra automáticamente la fecha y hora de envío. Complete correctamente su carné, nombre y el código de asistencia indicado durante la sesión.
+
+[Registrar asistencia →](https://docs.google.com/forms/d/e/1FAIpQLSfj3CT9kTzVRnLW000dwj3_kfSfsu0q3rqh-c4v6pKlmb0o7w/viewform?usp=pp_url&entry.981962467=Sesi%C3%B3n+02){.course-btn .primary target="_blank"}
+
+:::

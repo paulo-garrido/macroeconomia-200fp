@@ -1,0 +1,45 @@
+---
+title: "Tareas"
+subtitle: "Macroeconomía · 200 FP"
+toc: false
+---
+
+## Actividades evaluadas
+
+En esta sección se publican las tareas del curso, junto con sus instrucciones y los archivos de trabajo necesarios para su desarrollo.
+
+---
+
+### Tarea 01
+
+**Medición del Producto Interno Bruto**
+
+La actividad busca consolidar la comprensión de los tres enfoques de medición del PIB y fortalecer la interpretación económica de los resultados.
+
+La tarea incluye cinco ejercicios:
+
+1. PIB por el enfoque de la **producción**.
+2. PIB por el enfoque del **gasto**.
+3. PIB por el enfoque del **ingreso**.
+4. Integración de los **tres enfoques de medición**.
+5. Análisis del PIB de Guatemala por **actividad económica**, utilizando información oficial del Banco de Guatemala.
+
+#### Archivos
+
+[Ver instrucciones de la tarea →](sesion02/tarea-medicion-pib.pdf){.course-btn .primary}
+
+[Descargar formato Excel →](sesion02/tarea-medicion-pib.xlsx){.course-btn .download-btn}
+
+---
+
+### Entrega
+
+La tarea debe desarrollarse utilizando el formato de Excel proporcionado.
+
+Se evaluará tanto la **correcta resolución de los ejercicios** como la **interpretación económica de los resultados**.
+
+---
+
+### Próximas tareas
+
+Las nuevas actividades se incorporarán a esta sección conforme avance el curso.

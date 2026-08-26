@@ -1,0 +1,56 @@
+---
+title: "Lecturas"
+subtitle: "Macroeconomía · 200 FP"
+toc: false
+---
+
+## Lecturas del curso
+
+Esta sección reúne los textos, capítulos, artículos e informes que complementan las sesiones del curso.
+
+Las lecturas buscan ampliar la discusión desarrollada en clase y fortalecer la capacidad de los estudiantes para **interpretar, sintetizar y discutir argumentos económicos**.
+
+---
+### Criterios para elaborar un abstract
+
+Este documento orienta en líneas generales lo que un estudiante debe de considerar al escribir sus abstract, articulos, ensayos, considerando el nivel profesional requerido.
+
+[Ver criterios para elaborar abstracts →](recursos/criterios_para_elaborar Abstract.pdf){.course-btn .primary}
+
+
+### Lectura 01 · Sesión 02
+
+## Diane Coyle · *GDP: A Brief but Affectionate History*
+
+**Capítulo 1**
+
+El capítulo introduce el Producto Interno Bruto no solamente como una medida estadística, sino como una construcción histórica que refleja determinadas formas de entender y representar la actividad económica.
+
+La lectura sirve como punto de partida para discutir preguntas como:
+
+- ¿qué pretende medir el PIB?;
+- ¿por qué surgió la necesidad de medir la producción de una economía?;
+- ¿qué actividades quedan dentro y fuera de la medición?;
+- ¿qué limitaciones existen al utilizar el PIB como indicador del desempeño económico?
+
+::: {.reading-task}
+
+### Actividad asociada
+
+Elabore el **abstract asignado** a partir del capítulo.
+
+El documento debe identificar:
+
+1. el argumento central de la autora;
+2. las principales ideas desarrolladas;
+3. la relevancia del texto para comprender la medición económica;
+4. una reflexión o interrogante derivada de la lectura.
+
+::: {.reading-note}
+
+**Disponibilidad de la lectura:** consulte el material proporcionado por el docente a través de Classroom.
+
+:::
+### Próximas lecturas
+
+Las lecturas correspondientes a las siguientes sesiones se incorporarán progresivamente a esta sección.
