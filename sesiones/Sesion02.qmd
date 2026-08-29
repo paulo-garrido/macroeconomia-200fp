@@ -118,9 +118,9 @@ LABORATORIO
 
 Ejercicio de aplicación para trabajar con información estadística y desarrollar una lectura económica de los resultados.
 
-[Ver laboratorio →](../laboratorios/sesion02/laboratorioI_medicion_pib.pdf)
+[Ver laboratorio →](../laboratorios/Sesion02/laboratorioI_medicion_pib.pdf)
 
-[Descargar Excel de trabajo →](../laboratorios/sesion02/laboratorioI_medicion_pib.xlsx)
+[Descargar Excel de trabajo →](../laboratorios/Sesion02/laboratorioI_medicion_pib.xlsx)
 
 :::
     
@@ -203,5 +203,4 @@ El formulario registra automáticamente la fecha y hora de envío. Complete corr
 
 [Registrar asistencia →](https://docs.google.com/forms/d/e/1FAIpQLSfj3CT9kTzVRnLW000dwj3_kfSfsu0q3rqh-c4v6pKlmb0o7w/viewform?usp=pp_url&entry.981962467=Sesi%C3%B3n+02){.course-btn .primary target="_blank"}
 
-[Abrir presentación PES →](../presentaciones/sesion02/index2.html){.course-btn .primary}
 :::
