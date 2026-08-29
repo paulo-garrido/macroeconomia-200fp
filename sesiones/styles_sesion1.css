@@ -1,0 +1,58 @@
+
+.reveal {
+  font-family: "Aptos", "Helvetica Neue", Arial, sans-serif;
+  font-size: 34px;
+}
+
+.reveal h1, .reveal h2, .reveal h3 {
+  color: #17324d;
+  font-weight: 750;
+}
+
+.reveal h2 {
+  font-size: 1.25em;
+  margin-bottom: 0.55em;
+}
+
+.reveal .slide {
+  text-align: left;
+}
+
+.center-title, .center {
+  text-align: center;
+}
+
+.big {
+  font-size: 1.35em;
+  line-height: 1.25;
+  color: #17324d;
+  font-weight: 650;
+}
+
+.important {
+  background: #eef4f8;
+  border-left: 8px solid #1b587c;
+  padding: 0.7em 0.9em;
+  border-radius: 12px;
+  color: #17324d;
+}
+
+.reveal table {
+  font-size: 0.82em;
+}
+
+.reveal .columns {
+  gap: 1.6em;
+}
+
+.reveal .fragment {
+  margin-top: 0.3em;
+}
+
+.reveal .math.display {
+  margin: 0.55em 0;
+}
+
+.reveal p, .reveal li {
+  line-height: 1.35;
+}
