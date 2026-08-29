@@ -1,0 +1,126 @@
+---
+title: "Sesión 3"
+subtitle: "Oferta-utilización y dimensionamiento del mercado"
+toc: false
+page-layout: full
+---
+
+::: {.session-hero}
+
+::: {.session-number}
+SESIÓN 03
+:::
+
+# Oferta-utilización y dimensionamiento del mercado
+
+::: {.session-lead}
+De las cuentas nacionales a una primera aproximación del tamaño y estructura del mercado relevante para un proyecto.
+:::
+
+::: {.session-meta}
+**Macroeconomía · 200 FP**
+
+Maestría en Formulación y Evaluación de Proyectos
+:::
+
+:::
+
+
+::: {.session-main-resource}
+
+::: {.session-main-copy}
+
+::: {.session-eyebrow .orange}
+CONTINUACIÓN DE LA SESIÓN ANTERIOR
+:::
+
+## Oferta-utilización: el puente hacia el mercado
+
+La sesión retoma la discusión sobre la medición económica y profundiza en la relación entre la oferta de bienes y servicios y sus distintos usos dentro de la economía.
+
+$$
+P + M = CI + C + G + FBK + X
+$$
+
+A partir de esta identidad se analiza cómo la información de cuentas nacionales puede utilizarse como referencia para dimensionar mercados y evaluar la consistencia de los supuestos de demanda de un proyecto.
+
+:::
+
+::: {.session-main-side}
+
+### Contenido central
+
+- Oferta nacional e importaciones.
+- Consumo intermedio y consumo final.
+- Formación bruta de capital.
+- Exportaciones.
+- Equilibrio oferta-utilización.
+- Mercado doméstico aparente.
+- Aplicación a estudios de mercado.
+
+:::
+
+:::
+
+
+::: {.session-materials}
+
+::: {.material-card}
+
+::: {.material-label}
+LABORATORIO
+:::
+
+### Del equilibrio oferta-utilización al mercado potencial
+
+Aplicación práctica utilizando información económica para aproximar el tamaño del mercado y evaluar la participación requerida por un proyecto.
+
+[Ver laboratorio PDF →](../laboratorios/Sesion02/laboratorioI_medicion_pib.pdf)
+
+[Descargar Excel de trabajo →](../laboratorios/Sesion02/laboratorioI_medicion_pib.xlsx)
+
+:::
+
+:::
+
+
+::: {.session-callout}
+
+::: {.session-eyebrow}
+IDEA CENTRAL
+:::
+
+## El PIB no es el mercado del proyecto
+
+Las cuentas nacionales permiten establecer un marco cuantitativo para comprender el tamaño y estructura de una economía. Sin embargo, el mercado específico de un proyecto requiere descender desde el agregado hacia el producto, el territorio, el segmento y la competencia.
+
+:::
+
+
+::: {.session-eyebrow}
+
+FUENTES Y RECURSOS
+
+:::
+
+## Información oficial
+
+Durante la sesión se utilizan estadísticas del **Banco de Guatemala**, particularmente información de cuentas nacionales y equilibrios de oferta y utilización.
+
+::: {.attendance-card}
+
+::: {.session-eyebrow .orange}
+
+ASISTENCIA
+
+:::
+
+## Registro de asistencia
+
+Registre su asistencia correspondiente a la **Sesión 03**.
+
+El formulario registra automáticamente la fecha y hora de envío. Complete correctamente su carné, nombre y el código de asistencia indicado durante la sesión.
+
+[Registrar asistencia →](https://docs.google.com/forms/d/e/1FAIpQLSfj3CT9kTzVRnLW000dwj3_kfSfsu0q3rqh-c4v6pKlmb0o7w/viewform?usp=pp_url&entry.981962467=Sesi%C3%B3n+03){.course-btn .primary target="_blank"}
+
+:::

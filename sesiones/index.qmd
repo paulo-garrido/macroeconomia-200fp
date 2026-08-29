@@ -35,9 +35,11 @@ Producto Interno Bruto, cuentas nacionales y medición de la actividad económic
 
 ### Sesión 03
 
-**Próxima sesión**
+**Oferta-utilización y dimensionamiento del mercado**
 
-Contenido disponible próximamente.
+De las cuentas nacionales al análisis del mercado: oferta, utilización y aplicación al estudio de demanda de un proyecto.
+
+[Ver sesión →](sesion03.qmd)
 
 
 ---

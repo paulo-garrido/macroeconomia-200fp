@@ -110,21 +110,6 @@ $$
 
 ::: {.material-label}
 
-LABORATORIO
-
-:::
-
-### Aplicación de la medición económica
-
-Ejercicio de aplicación para trabajar con información estadística y desarrollar una lectura económica de los resultados.
-
-[Ver laboratorio →](../laboratorios/Sesion02/laboratorioI_medicion_pib.pdf)
-
-[Descargar Excel de trabajo →](../laboratorios/Sesion02/laboratorioI_medicion_pib.xlsx)
-
-:::
-    
-    
 ::: {.material-card}
 
 ::: {.material-label}
