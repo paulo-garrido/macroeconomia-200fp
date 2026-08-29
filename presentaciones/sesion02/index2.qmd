@@ -1,0 +1,764 @@
+---
+title: "Sesión 1"
+subtitle: "Números reales, exponentes, radicales, intervalos y valor absoluto"
+author: "Preparación Matemática para el PES"
+lang: es
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    chalkboard: true
+    preview-links: auto
+    transition: fade
+    controls: true
+    progress: true
+    center: false
+    width: 1600
+    height: 900
+    margin: 0.06
+    css: styles_sesion1.css
+execute:
+  echo: false
+---
+
+## Objetivo de la sesión {.center-title}
+
+::: {.big}
+Construir una base algebraica sólida para trabajar después con ecuaciones, funciones y cálculo.
+:::
+
+::: {.fragment}
+Hoy trabajaremos cinco ideas:
+
+1. números reales;
+2. propiedades algebraicas;
+3. exponentes;
+4. radicales;
+5. intervalos, valor absoluto y dominio.
+:::
+
+---
+
+## ¿Por qué empezar aquí?
+
+::: {.columns}
+
+::: {.column width="50%"}
+En cálculo aparecerán expresiones como:
+
+$$
+\lim_{x\to 2}\frac{x^2-4}{x-2}
+$$
+
+$$
+\frac{f(x+h)-f(x)}{h}
+$$
+
+$$
+\sqrt{x^2+2x+1}
+$$
+:::
+
+::: {.column width="50%"}
+Para resolverlas bien necesitamos:
+
+- factorizar;
+- simplificar;
+- cuidar restricciones;
+- operar con exponentes;
+- interpretar valor absoluto;
+- escribir dominios correctamente.
+:::
+
+:::
+
+---
+
+## Regla de trabajo del curso
+
+::: {.big}
+No buscamos sólo “llegar a la respuesta”.
+:::
+
+::: {.fragment}
+Buscamos poder responder:
+
+1. ¿qué propiedad estoy usando?;
+2. ¿el paso es válido?;
+3. ¿hay restricciones de dominio?;
+4. ¿puedo explicar la solución?
+:::
+
+---
+
+## El sistema de números reales
+
+::: {.center}
+$$
+\mathbb{N}\subset \mathbb{Z}\subset \mathbb{Q}\subset \mathbb{R}
+$$
+:::
+
+| Conjunto | Ejemplos |
+|---|---|
+| Naturales | $1,2,3,\ldots$ |
+| Enteros | $\ldots,-2,-1,0,1,2,\ldots$ |
+| Racionales | $\frac{3}{4}, -2, 0.25, 0.\overline{3}$ |
+| Irracionales | $\sqrt{2}, \pi, e$ |
+| Reales | racionales e irracionales |
+
+---
+
+## Una distinción importante
+
+::: {.columns}
+
+::: {.column width="48%"}
+Todo racional puede escribirse como:
+
+$$
+\frac{p}{q},\qquad p,q\in\mathbb{Z},\quad q\neq0.
+$$
+:::
+
+::: {.column width="48%"}
+Un irracional **no** puede escribirse como cociente de enteros.
+
+Ejemplos:
+
+$$
+\sqrt{2},\qquad \pi.
+$$
+:::
+
+:::
+
+---
+
+## Ejercicio 1: clasificar números
+
+Clasifique cada número en el conjunto más específico posible:
+
+$$
+-5,\qquad 0,\qquad \frac{7}{3},\qquad \sqrt{16},\qquad \sqrt{5},\qquad 0.\overline{12}
+$$
+
+::: {.fragment}
+**Discusión esperada**
+
+- $\sqrt{16}=4$ es natural.
+- $0.\overline{12}$ es racional.
+- $\sqrt{5}$ es irracional.
+:::
+
+---
+
+## Propiedades algebraicas básicas
+
+| Propiedad | Forma |
+|---|---|
+| Conmutativa | $a+b=b+a$, $ab=ba$ |
+| Asociativa | $(a+b)+c=a+(b+c)$ |
+| Distributiva | $a(b+c)=ab+ac$ |
+| Identidad aditiva | $a+0=a$ |
+| Identidad multiplicativa | $a\cdot 1=a$ |
+| Inverso multiplicativo | $a\cdot \frac{1}{a}=1$, $a\neq0$ |
+
+---
+
+## La propiedad distributiva
+
+::: {.big}
+La propiedad distributiva conecta suma y multiplicación.
+:::
+
+$$
+a(b+c)=ab+ac
+$$
+
+::: {.fragment}
+Ejemplo:
+
+$$
+3(x+4)=3x+12.
+$$
+:::
+
+::: {.fragment}
+Error común:
+
+$$
+3(x+4)\neq 3x+4.
+$$
+:::
+
+---
+
+## Ejercicio 2: simplificación
+
+Simplifique:
+
+$$
+4(2x-3)-3(x+5)
+$$
+
+::: {.fragment}
+Solución:
+
+$$
+4(2x-3)-3(x+5)
+=8x-12-3x-15
+=5x-27.
+$$
+:::
+
+---
+
+## Exponentes
+
+Para $a\neq0$:
+
+$$
+a^0=1
+$$
+
+$$
+a^{-n}=\frac{1}{a^n}
+$$
+
+$$
+a^m a^n=a^{m+n}
+$$
+
+$$
+\frac{a^m}{a^n}=a^{m-n}
+$$
+
+$$
+(a^m)^n=a^{mn}
+$$
+
+---
+
+## Exponentes: error frecuente
+
+::: {.columns}
+
+::: {.column width="50%"}
+Correcto:
+
+$$
+(x^2)^3=x^6.
+$$
+
+$$
+x^2x^3=x^5.
+$$
+:::
+
+::: {.column width="50%"}
+Incorrecto:
+
+$$
+x^2+x^3\neq x^5.
+$$
+
+La ley de exponentes aplica a productos y cocientes, no a sumas.
+:::
+
+:::
+
+---
+
+## Ejercicio 3: exponentes
+
+Simplifique y escriba con exponentes positivos:
+
+$$
+\frac{a^{-2}b^5}{a^3b^{-1}}
+$$
+
+::: {.fragment}
+Solución:
+
+$$
+\frac{a^{-2}b^5}{a^3b^{-1}}
+=
+a^{-2-3}b^{5-(-1)}
+=
+a^{-5}b^6
+=
+\frac{b^6}{a^5}.
+$$
+:::
+
+---
+
+## Exponentes racionales
+
+Los radicales pueden escribirse como exponentes racionales:
+
+$$
+\sqrt[n]{a}=a^{1/n}
+$$
+
+$$
+\sqrt[n]{a^m}=a^{m/n}
+$$
+
+Ejemplos:
+
+$$
+\sqrt{x}=x^{1/2}
+$$
+
+$$
+\sqrt[3]{x^2}=x^{2/3}
+$$
+
+---
+
+## Ejercicio 4: exponentes racionales
+
+Simplifique:
+
+$$
+16^{3/4}
+$$
+
+::: {.fragment}
+Primero:
+
+$$
+16^{1/4}=2
+$$
+
+porque
+
+$$
+2^4=16.
+$$
+:::
+
+::: {.fragment}
+Entonces:
+
+$$
+16^{3/4}=(16^{1/4})^3=2^3=8.
+$$
+:::
+
+---
+
+## Radicales
+
+::: {.big}
+Un radical representa una raíz.
+:::
+
+$$
+\sqrt[n]{a}=b
+\quad \Longleftrightarrow \quad
+b^n=a.
+$$
+
+::: {.fragment}
+Pero hay que tener cuidado con raíces pares de números negativos:
+
+$$
+\sqrt{-9}
+$$
+
+no es un número real.
+:::
+
+---
+
+## Raíces pares e impares
+
+| Expresión | ¿Es real? | Resultado |
+|---|---:|---|
+| $\sqrt{9}$ | Sí | $3$ |
+| $\sqrt{-9}$ | No | no real |
+| $\sqrt[3]{8}$ | Sí | $2$ |
+| $\sqrt[3]{-8}$ | Sí | $-2$ |
+
+---
+
+## Cuidado central
+
+::: {.big}
+Para todo número real $x$:
+:::
+
+$$
+\sqrt{x^2}=\lvert x\rvert
+$$
+
+::: {.fragment}
+No necesariamente:
+
+$$
+\sqrt{x^2}=x.
+$$
+:::
+
+::: {.fragment}
+Ejemplo: si $x=-3$,
+
+$$
+\sqrt{(-3)^2}=\sqrt{9}=3=\lvert -3\rvert.
+$$
+:::
+
+---
+
+## Ejercicio 5: simplificar radicales
+
+Simplifique:
+
+$$
+\sqrt{72}
+$$
+
+::: {.fragment}
+Factorizamos:
+
+$$
+72=36\cdot 2.
+$$
+:::
+
+::: {.fragment}
+Entonces:
+
+$$
+\sqrt{72}
+=
+\sqrt{36\cdot2}
+=
+6\sqrt{2}.
+$$
+:::
+
+---
+
+## Ejercicio 6: radical con variable
+
+Simplifique, suponiendo $x>0$:
+
+$$
+\sqrt{50x^2}
+$$
+
+::: {.fragment}
+$$
+\sqrt{50x^2}
+=
+\sqrt{25\cdot2\cdot x^2}
+=
+5x\sqrt{2}.
+$$
+:::
+
+::: {.fragment}
+Si no se supone $x>0$:
+
+$$
+\sqrt{50x^2}=5\lvert x\rvert\sqrt{2}.
+$$
+:::
+
+---
+
+## Intervalos
+
+| Desigualdad | Intervalo |
+|---|---|
+| $a<x<b$ | $(a,b)$ |
+| $a\leq x\leq b$ | $[a,b]$ |
+| $x>a$ | $(a,\infty)$ |
+| $x\leq a$ | $(-\infty,a]$ |
+
+---
+
+## Valor absoluto
+
+El valor absoluto mide distancia al cero:
+
+$$
+\lvert x\rvert =
+\begin{cases}
+x, & x\geq 0,\\
+-x, & x<0.
+\end{cases}
+$$
+
+::: {.fragment}
+Por eso:
+
+$$
+\lvert x\rvert<3
+$$
+
+significa:
+
+$$
+-3<x<3.
+$$
+:::
+
+---
+
+## Ejercicio 7: valor absoluto
+
+Resuelva:
+
+$$
+\lvert 2x-1\rvert\leq 5
+$$
+
+::: {.fragment}
+Equivale a:
+
+$$
+-5\leq 2x-1\leq 5.
+$$
+:::
+
+::: {.fragment}
+Sumamos 1:
+
+$$
+-4\leq 2x\leq 6.
+$$
+:::
+
+::: {.fragment}
+Dividimos entre 2:
+
+$$
+-2\leq x\leq 3.
+$$
+
+Solución:
+
+$$
+[-2,3].
+$$
+:::
+
+---
+
+## Dominio de una expresión
+
+::: {.big}
+El dominio es el conjunto de valores permitidos para la variable.
+:::
+
+Restricciones frecuentes:
+
+1. no dividir entre cero;
+2. no tomar raíz par de número negativo;
+3. no tomar logaritmo de número no positivo.
+
+---
+
+## Ejemplo: dominio
+
+Determine el dominio:
+
+$$
+\frac{1}{x-4}
+$$
+
+::: {.fragment}
+Restricción:
+
+$$
+x-4\neq0.
+$$
+:::
+
+::: {.fragment}
+Entonces:
+
+$$
+x\neq4.
+$$
+
+Dominio:
+
+$$
+(-\infty,4)\cup(4,\infty).
+$$
+:::
+
+---
+
+## Ejercicio 8: dominio con raíz
+
+Determine el dominio:
+
+$$
+\sqrt{x+3}
+$$
+
+::: {.fragment}
+La expresión dentro de la raíz debe ser no negativa:
+
+$$
+x+3\geq0.
+$$
+:::
+
+::: {.fragment}
+Entonces:
+
+$$
+x\geq-3.
+$$
+
+Dominio:
+
+$$
+[-3,\infty).
+$$
+:::
+
+---
+
+## Ejercicio 9: dominio combinado
+
+Determine el dominio:
+
+$$
+\frac{\sqrt{x+1}}{x-3}
+$$
+
+::: {.fragment}
+Por la raíz:
+
+$$
+x+1\geq0
+\quad\Rightarrow\quad
+x\geq -1.
+$$
+:::
+
+::: {.fragment}
+Por el denominador:
+
+$$
+x-3\neq0
+\quad\Rightarrow\quad
+x\neq3.
+$$
+:::
+
+::: {.fragment}
+Dominio:
+
+$$
+[-1,3)\cup(3,\infty).
+$$
+:::
+
+---
+
+## Ejercicio 10: reto de cierre
+
+Determine el dominio:
+
+$$
+\sqrt{\frac{x-1}{x+2}}
+$$
+
+::: {.fragment}
+Necesitamos:
+
+$$
+\frac{x-1}{x+2}\geq0,
+\qquad x\neq -2.
+$$
+:::
+
+::: {.fragment}
+Puntos críticos:
+
+$$
+x=1,\qquad x=-2.
+$$
+:::
+
+::: {.fragment}
+Solución:
+
+$$
+(-\infty,-2)\cup[1,\infty).
+$$
+:::
+
+---
+
+## Síntesis de la sesión
+
+Hoy trabajamos:
+
+- números reales;
+- propiedades algebraicas;
+- exponentes;
+- radicales;
+- valor absoluto;
+- intervalos;
+- dominio.
+
+::: {.fragment}
+La idea central fue:
+
+$$
+\boxed{\text{Toda operación algebraica debe respetar sus restricciones.}}
+$$
+:::
+
+---
+
+## Tarea
+
+Realizar la **Hoja de ejercicios — Sesión 1**.
+
+::: {.important}
+Entregar con procedimiento completo y respuestas justificadas.
+:::
+
+Priorizar:
+
+- restricciones de dominio;
+- simplificación correcta;
+- uso adecuado de valor absoluto;
+- explicación de propiedades.
+
+---
+
+## Para estudiar mejor
+
+Antes de resolver cada ejercicio, preguntarse:
+
+1. ¿qué tipo de expresión tengo?;
+2. ¿hay raíces?;
+3. ¿hay denominadores?;
+4. ¿hay valor absoluto?;
+5. ¿qué restricciones aparecen?;
+6. ¿qué propiedad justifica mi paso?
+
+---
+
+## Cierre
+
+::: {.big}
+La preparación matemática no empieza con cálculo.
+:::
+
+::: {.fragment}
+Empieza con dominar el lenguaje algebraico que hace posible el cálculo.
+:::

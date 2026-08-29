@@ -23,9 +23,9 @@ El laboratorio permite trabajar con:
 - interpretación de información económica;
 - estimación y análisis de magnitudes agregadas.
 
-[Ver laboratorio PDF →](../laboratorios/sesion02/laboratorioI_medicion_pib.pdf)
+[Ver laboratorio PDF →](../laboratorios/Sesion02/laboratorioI_medicion_pib.pdf)
 
-[Descargar Excel de trabajo →](../laboratorios/sesion02/laboratorioI_medicion_pib.xlsx)
+[Descargar Excel de trabajo →](../laboratorios/Sesion02/laboratorioI_medicion_pib.xlsx)
 
 ---
 
