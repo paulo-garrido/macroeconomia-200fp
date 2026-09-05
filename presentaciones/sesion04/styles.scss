@@ -1,0 +1,412 @@
+/*-- scss:defaults --*/
+
+$body-bg: #f7f9fc;
+$body-color: #1f2937;
+$link-color: #1f5a99;
+$presentation-heading-color: #123b6d;
+$presentation-heading-font-weight: 700;
+$presentation-font-size-root: 30px;
+$code-block-bg: #eef2f7;
+$code-block-border-color: #d7dee9;
+
+/*-- scss:rules --*/
+
+:root {
+  --usac-navy: #123b6d;
+  --usac-blue: #1f5a99;
+  --usac-blue-soft: #edf4fb;
+  --usac-orange: #f28c28;
+  --usac-orange-soft: #fff4e7;
+  --ink: #1f2937;
+  --muted: #667085;
+  --paper: #ffffff;
+  --line: #dbe3ee;
+  --soft: #f3f6fa;
+  --positive: #1f7a52;
+  --negative: #b42318;
+  --warning: #b86a00;
+}
+
+.reveal {
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+
+.reveal .slides section {
+  padding-top: 0.2rem;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+  font-weight: 750;
+  letter-spacing: -0.025em;
+}
+
+.reveal h1 {
+  font-size: 1.9em;
+  color: var(--usac-navy);
+}
+
+.reveal h2 {
+  font-size: 1.42em;
+  color: var(--usac-navy);
+  border-bottom: 3px solid var(--usac-orange);
+  padding-bottom: 0.14em;
+  margin-bottom: 0.6em;
+}
+
+.reveal h3 {
+  color: var(--usac-blue);
+  font-size: 1.08em;
+}
+
+.reveal p,
+.reveal li {
+  line-height: 1.35;
+}
+
+.reveal strong {
+  color: var(--usac-navy);
+}
+
+.reveal .slide-number {
+  color: var(--usac-navy);
+  background: rgba(255,255,255,.88);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.12rem 0.36rem;
+}
+
+/* Portada */
+.title-slide h1.title {
+  font-size: 2.05em;
+  line-height: 1.05;
+  color: var(--usac-navy);
+  margin-bottom: .25em;
+}
+
+.title-slide .subtitle {
+  font-size: 1.12em;
+  color: var(--usac-blue);
+  font-weight: 650;
+}
+
+.title-slide .author,
+.title-slide .date {
+  color: var(--muted);
+  font-size: .82em;
+}
+
+.title-slide::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 10px;
+  background: linear-gradient(90deg, var(--usac-navy) 0 72%, var(--usac-orange) 72% 100%);
+}
+
+
+/* Encabezados internos: no usar h3 dentro de tarjetas/cajas en Reveal.js.
+   Pandoc puede convertir un Div que inicia con un heading en un <section>,
+   y Reveal.js lo interpreta como una diapositiva anidada. */
+.mini-heading {
+  color: var(--usac-blue);
+  font-size: 1.08em;
+  line-height: 1.15;
+  font-weight: 750;
+  letter-spacing: -0.02em;
+  margin: 0 0 .35em 0;
+}
+
+.hero-box .mini-heading,
+.section-slide .mini-heading {
+  color: white;
+}
+
+.card .mini-heading {
+  margin-top: 0;
+}
+
+/* Separadores */
+.section-slide {
+  background: linear-gradient(135deg, var(--usac-navy), #205b98);
+  color: white !important;
+  border-radius: 22px;
+  padding: 1.15em 1.2em !important;
+  box-shadow: 0 14px 34px rgba(18,59,109,.18);
+}
+
+.section-slide h1,
+.section-slide h2,
+.section-slide h3,
+.section-slide strong {
+  color: white !important;
+  border: 0 !important;
+}
+
+.section-kicker {
+  display: inline-block;
+  color: #fff;
+  background: rgba(255,255,255,.14);
+  border: 1px solid rgba(255,255,255,.25);
+  border-radius: 999px;
+  padding: .18em .65em;
+  font-size: .72em;
+  font-weight: 700;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+}
+
+/* Cajas */
+.hero-box,
+.blue-box,
+.orange-box,
+.question-box,
+.insight-box,
+.risk-box,
+.answer-box {
+  border-radius: 16px;
+  padding: .78em 1em;
+  margin: .55em 0;
+  box-shadow: 0 8px 20px rgba(17,24,39,.055);
+}
+
+.hero-box {
+  background: linear-gradient(135deg, var(--usac-navy), var(--usac-blue));
+  color: white;
+}
+.hero-box strong,
+.hero-box h2,
+.hero-box h3 { color: white !important; }
+
+.blue-box {
+  background: var(--usac-blue-soft);
+  border-left: 7px solid var(--usac-blue);
+}
+
+.orange-box {
+  background: var(--usac-orange-soft);
+  border-left: 7px solid var(--usac-orange);
+}
+
+.question-box {
+  background: #fff9f1;
+  border: 2px solid #f3ad63;
+}
+
+.insight-box {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-top: 5px solid var(--usac-navy);
+}
+
+.risk-box {
+  background: #fff5f3;
+  border-left: 7px solid var(--negative);
+}
+
+.answer-box {
+  background: #f0f9f5;
+  border-left: 7px solid var(--positive);
+}
+
+/* Tarjetas */
+.cards-2,
+.cards-3,
+.cards-4 {
+  display: grid;
+  gap: .7em;
+  align-items: stretch;
+}
+
+.cards-2 { grid-template-columns: repeat(2, 1fr); }
+.cards-3 { grid-template-columns: repeat(3, 1fr); }
+.cards-4 { grid-template-columns: repeat(4, 1fr); }
+
+.card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: .75em .85em;
+  box-shadow: 0 7px 20px rgba(17,24,39,.05);
+  min-height: 120px;
+}
+
+.card h3,
+.card h4 { margin-top: 0; }
+
+.card .eyebrow {
+  color: var(--muted);
+  font-size: .68em;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  font-weight: 750;
+}
+
+.card-demand { border-top: 6px solid var(--usac-blue); }
+.card-supply { border-top: 6px solid var(--usac-orange); }
+.card-risk { border-top: 6px solid var(--negative); }
+.card-project { border-top: 6px solid var(--positive); }
+
+/* Números y cadenas */
+.big-number {
+  font-size: 2em;
+  line-height: 1;
+  font-weight: 800;
+  color: var(--usac-orange);
+}
+
+.causal-chain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .35em;
+  flex-wrap: wrap;
+  margin: .7em 0;
+}
+
+.causal-chain .node {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  padding: .45em .65em;
+  font-weight: 700;
+  color: var(--usac-navy);
+  box-shadow: 0 5px 12px rgba(17,24,39,.04);
+}
+
+.causal-chain .arrow {
+  color: var(--usac-orange);
+  font-weight: 900;
+  font-size: 1.25em;
+}
+
+/* Etiquetas */
+.pill {
+  display: inline-block;
+  padding: .13em .55em;
+  border-radius: 999px;
+  font-size: .68em;
+  font-weight: 750;
+  letter-spacing: .02em;
+}
+
+.pill-blue { color: var(--usac-navy); background: #dfeefe; }
+.pill-orange { color: #8a4a00; background: #ffe7cb; }
+.pill-green { color: #13613f; background: #daf2e7; }
+.pill-red { color: #8e2017; background: #fee4e2; }
+
+.positive { color: var(--positive); font-weight: 750; }
+.negative { color: var(--negative); font-weight: 750; }
+.warning { color: var(--warning); font-weight: 750; }
+.muted { color: var(--muted); }
+
+/* Tablas */
+.reveal table {
+  width: 100%;
+  font-size: .78em;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--paper);
+}
+
+.reveal table thead {
+  background: var(--usac-navy);
+  color: white;
+}
+
+.reveal table th {
+  color: white;
+  font-weight: 700;
+  padding: .45em .55em;
+}
+
+.reveal table td {
+  padding: .4em .55em;
+  border-top: 1px solid #edf1f6;
+}
+
+.reveal table tbody tr:nth-child(even) {
+  background: #fafbfd;
+}
+
+/* SVG de OA-DA */
+.macro-chart {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: .3em;
+  box-shadow: 0 8px 20px rgba(17,24,39,.05);
+}
+
+.macro-chart svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.chart-label {
+  font-size: 18px;
+  font-weight: 700;
+  fill: var(--ink);
+}
+
+.chart-muted {
+  font-size: 15px;
+  fill: #667085;
+}
+
+/* Interactividad / instrucciones */
+.activity-title {
+  color: var(--usac-orange);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  font-size: .72em;
+}
+
+.timer {
+  display: inline-block;
+  background: var(--usac-navy);
+  color: white;
+  border-radius: 999px;
+  padding: .18em .55em;
+  font-weight: 750;
+  font-size: .72em;
+}
+
+/* Footer visual */
+.session-footer {
+  position: absolute;
+  bottom: 8px;
+  left: 18px;
+  font-size: .5em;
+  color: #98a2b3;
+}
+
+/* Utilidades */
+.centered { text-align: center; }
+.right { text-align: right; }
+.small { font-size: .86em; }
+.mini { font-size: .74em; }
+.tiny { font-size: .64em; }
+.no-border h2 { border-bottom: 0; }
+.tight p { margin: .25em 0; }
+
+/* Mejoras de columnas */
+.reveal .columns { gap: 1em; }
+
+/* Evita desbordes en slides densas */
+.compact .reveal,
+.reveal .compact { font-size: .9em; }
+
+@media (max-width: 900px) {
+  .cards-3, .cards-4 { grid-template-columns: repeat(2, 1fr); }
+}

@@ -1,0 +1,1020 @@
+---
+title: "Sesión 4"
+subtitle: "Fluctuaciones económicas, oferta y demanda agregada: del choque macroeconómico al riesgo del proyecto"
+author: "Macroeconomía 200 FP · Maestría en Formulación y Evaluación de Proyectos"
+date: "2026"
+format:
+  revealjs:
+    theme: [default, styles.scss]
+    slide-number: c/t
+    transition: fade
+    controls: true
+    progress: true
+    center: false
+    overview: true
+    smaller: true
+    embed-resources: true
+    width: 1600
+    height: 900
+    margin: 0.07
+    navigation-mode: linear
+    hash: true
+    history: true
+    pdf-separate-fragments: false
+    slide-level: 2
+lang: es
+---
+
+## Antes de comenzar {.no-border}
+
+::: {.hero-box}
+<div class="mini-heading">La pregunta de la sesión</div>
+
+**¿Qué le ocurre a un proyecto cuando el entorno macroeconómico cambia después de haber sido formulado?**
+:::
+
+::: {.columns}
+::: {.column width="62%"}
+Un proyecto hotelero fue evaluado suponiendo:
+
+- crecimiento sostenido de la demanda,
+- costos relativamente estables,
+- crédito disponible a tasas razonables.
+
+Tres meses después:
+
+1. cae el turismo regional;
+2. suben combustibles y alimentos;
+3. se encarece el financiamiento.
+:::
+
+::: {.column width="38%"}
+::: {.question-box}
+**Decisión inicial**
+
+¿Cuál es el principal problema?
+
+A. Menor demanda  
+B. Mayores costos  
+C. Financiamiento más caro  
+D. Los tres interactúan
+:::
+:::
+:::
+
+::: {.fragment .answer-box}
+**Pista:** la viabilidad del proyecto depende de cómo el shock se transmite hacia **ventas, costos y financiamiento**.
+:::
+
+---
+
+## El hilo conductor de hoy
+
+<div class="causal-chain">
+  <span class="node">Choque macroeconómico</span>
+  <span class="arrow">→</span>
+  <span class="node">DA u OA se desplaza</span>
+  <span class="arrow">→</span>
+  <span class="node">Cambian producción y precios</span>
+  <span class="arrow">→</span>
+  <span class="node">Cambian ventas, costos y crédito</span>
+  <span class="arrow">→</span>
+  <span class="node">Cambia el flujo de caja</span>
+</div>
+
+::: {.fragment .orange-box}
+**Objetivo:** usar el modelo de **oferta agregada–demanda agregada (OA–DA)** como una herramienta para interpretar **riesgo macroeconómico en proyectos**, no como un fin en sí mismo.
+:::
+
+---
+
+## ¿Dónde estamos en el curso?
+
+::: {.cards-4}
+::: {.card}
+<span class="eyebrow">Sesión 1</span>
+<div class="mini-heading">Entorno económico</div>
+Mercados, agentes, flujo circular y decisiones.
+:::
+
+::: {.card}
+<span class="eyebrow">Sesión 2</span>
+<div class="mini-heading">Medición agregada</div>
+PIB, producción y lectura de la economía.
+:::
+
+::: {.card}
+<span class="eyebrow">Sesión 3</span>
+<div class="mini-heading">Consumo e inversión</div>
+Decisiones intertemporales y recursos prestables.
+:::
+
+::: {.card .card-project}
+<span class="eyebrow">Sesión 4</span>
+<div class="mini-heading">Fluctuaciones</div>
+¿Qué pasa cuando el entorno cambia?
+:::
+:::
+
+---
+
+## Objetivos de aprendizaje
+
+Al finalizar la sesión, podrán:
+
+::: {.cards-2}
+::: {.card .card-demand}
+<div class="mini-heading">1 · Identificar el origen</div>
+Distinguir un **choque de demanda** de un **choque de oferta**.
+:::
+
+::: {.card .card-supply}
+<div class="mini-heading">2 · Leer el equilibrio</div>
+Interpretar el efecto sobre **producción** y **nivel general de precios**.
+:::
+
+::: {.card .card-risk}
+<div class="mini-heading">3 · Traducir el shock</div>
+Reconocer efectos sobre **ventas, costos, financiamiento y riesgo**.
+:::
+
+::: {.card .card-project}
+<div class="mini-heading">4 · Llevarlo al proyecto</div>
+Incorporar el shock en **escenarios, sensibilidad, VAN y TIR**.
+:::
+:::
+
+# 1 · Fluctuaciones económicas {.section-slide}
+
+<span class="section-kicker">Bloque 1</span>
+
+## La economía no se mueve en línea recta
+
+**Expansión, desaceleración, recesión y recuperación** forman parte del entorno en el que operan los proyectos.
+
+---
+
+## ¿Qué significa que la economía fluctúa?
+
+::: {.columns}
+::: {.column width="52%"}
+Las economías atraviesan periodos en los que cambian simultáneamente:
+
+- la producción,
+- el empleo,
+- el consumo,
+- la inversión,
+- la inflación,
+- las expectativas.
+
+::: {.fragment .blue-box}
+Una **recesión** no es solamente “menos PIB”: para un proyecto puede significar menos clientes, mayor mora, inventarios acumulados y menor acceso al crédito.
+:::
+:::
+
+::: {.column width="48%"}
+<div class="macro-chart">
+<svg viewBox="0 0 620 360" role="img" aria-label="Representación estilizada de un ciclo económico">
+  <line x1="60" y1="310" x2="585" y2="310" stroke="#98a2b3" stroke-width="2"/>
+  <line x1="60" y1="40" x2="60" y2="310" stroke="#98a2b3" stroke-width="2"/>
+  <path d="M70,240 C125,155 165,145 215,195 C265,245 315,260 370,165 C425,75 470,90 540,140" fill="none" stroke="#1f5a99" stroke-width="8" stroke-linecap="round"/>
+  <line x1="70" y1="210" x2="550" y2="120" stroke="#f28c28" stroke-width="4" stroke-dasharray="10,10"/>
+  <text x="425" y="107" class="chart-label">Tendencia</text>
+  <text x="115" y="135" class="chart-label">Expansión</text>
+  <text x="250" y="285" class="chart-label">Recesión</text>
+  <text x="405" y="68" class="chart-label">Recuperación</text>
+  <text x="278" y="346" class="chart-muted">Tiempo</text>
+  <text x="16" y="44" class="chart-muted" transform="rotate(-90 16,44)">Actividad</text>
+</svg>
+</div>
+:::
+:::
+
+---
+
+## Primera intuición: ¿qué observa un formulador de proyectos?
+
+::: {.cards-3}
+::: {.card}
+<span class="pill pill-blue">Demanda</span>
+<div class="mini-heading">Mercado</div>
+¿Cambian el ingreso, la confianza o el gasto de los clientes?
+:::
+
+::: {.card}
+<span class="pill pill-orange">Oferta</span>
+<div class="mini-heading">Costos</div>
+¿Cambian energía, salarios, insumos o logística?
+:::
+
+::: {.card}
+<span class="pill pill-red">Finanzas</span>
+<div class="mini-heading">Crédito</div>
+¿Cambian tasas, liquidez, riesgo o condiciones de financiamiento?
+:::
+:::
+
+::: {.fragment .insight-box}
+La pregunta no es únicamente **“¿sube o baja el PIB?”**. La pregunta de proyectos es: **¿por qué cambió y por qué canal llega al flujo de caja?**
+:::
+
+# 2 · Demanda agregada {.section-slide}
+
+<span class="section-kicker">Bloque 2</span>
+
+## ¿Qué puede hacer que el gasto total de la economía aumente o disminuya?
+
+---
+
+## Demanda agregada: el gasto total
+
+La demanda agregada resume el gasto deseado en bienes y servicios:
+
+\[
+DA = C + I + G + X - M
+\]
+
+::: {.cards-4}
+::: {.card}
+<div class="mini-heading">\(C\)</div>
+**Consumo** de los hogares.
+:::
+
+::: {.card}
+<div class="mini-heading">\(I\)</div>
+**Inversión** privada.
+:::
+
+::: {.card}
+<div class="mini-heading">\(G\)</div>
+**Gasto** del gobierno.
+:::
+
+::: {.card}
+<div class="mini-heading">\(X-M\)</div>
+**Demanda externa neta**.
+:::
+:::
+
+::: {.fragment .blue-box}
+Cuando uno o varios de estos componentes cambian de forma importante, la **curva de demanda agregada se desplaza**.
+:::
+
+---
+
+## ¿Por qué la DA tiene pendiente negativa?
+
+::: {.columns}
+::: {.column width="52%"}
+Cuando el nivel general de precios aumenta, manteniendo lo demás constante, la cantidad demandada de producción tiende a disminuir.
+
+Tres intuiciones:
+
+1. **efecto riqueza**;
+2. **efecto tasa de interés**;
+3. **efecto tipo de cambio / demanda externa**.
+
+::: {.fragment .orange-box}
+No confundamos **movimiento sobre la curva** con **desplazamiento de la curva**.
+:::
+:::
+
+::: {.column width="48%"}
+<div class="macro-chart">
+<svg viewBox="0 0 620 390" role="img" aria-label="Curva de demanda agregada">
+  <line x1="70" y1="330" x2="575" y2="330" stroke="#98a2b3" stroke-width="2"/>
+  <line x1="70" y1="45" x2="70" y2="330" stroke="#98a2b3" stroke-width="2"/>
+  <path d="M135,80 C230,120 330,205 510,300" fill="none" stroke="#1f5a99" stroke-width="8" stroke-linecap="round"/>
+  <text x="490" y="278" class="chart-label">DA</text>
+  <text x="258" y="372" class="chart-muted">Producción (Y)</text>
+  <text x="22" y="185" class="chart-muted" transform="rotate(-90 22,185)">Nivel de precios (P)</text>
+</svg>
+</div>
+:::
+:::
+
+---
+
+## ¿Qué desplaza la demanda agregada?
+
+::: {.columns}
+::: {.column width="50%"}
+::: {.card .card-project}
+<div class="mini-heading">DA → derecha</div>
+
+- mayor consumo,
+- más inversión,
+- aumento del gasto público,
+- mejora de exportaciones,
+- mayor confianza,
+- condiciones financieras más expansivas.
+:::
+:::
+
+::: {.column width="50%"}
+::: {.card .card-risk}
+<div class="mini-heading">DA → izquierda</div>
+
+- caída del consumo,
+- menor inversión,
+- menor gasto,
+- caída de exportaciones,
+- deterioro de expectativas,
+- crédito más caro o restringido.
+:::
+:::
+:::
+
+---
+
+## Actividad 1 · Clasifique el choque
+
+<span class="activity-title">Participación rápida</span> <span class="timer">4 minutos</span>
+
+Para cada noticia indiquen: **DA**, **OA** o **ambas**.
+
+1. El gobierno acelera inversión pública en carreteras.  
+2. Aumenta fuertemente el precio internacional del petróleo.  
+3. Crecen las remesas y aumenta el consumo de los hogares.  
+4. Una crisis externa reduce la demanda por exportaciones.  
+5. Mejora la productividad por adopción tecnológica.
+
+::: {.fragment .answer-box}
+**Respuestas:** 1) DA ↑ · 2) OA ↓ · 3) DA ↑ · 4) DA ↓ · 5) OA ↑
+:::
+
+---
+
+## Un ejemplo cercano: remesas y demanda interna
+
+::: {.question-box}
+Supongamos que las remesas que reciben los hogares aumentan de forma sostenida.
+
+**¿Qué componentes del gasto podrían reaccionar primero?**
+:::
+
+::: {.fragment}
+<div class="causal-chain">
+  <span class="node">Remesas ↑</span>
+  <span class="arrow">→</span>
+  <span class="node">Ingreso disponible ↑</span>
+  <span class="arrow">→</span>
+  <span class="node">Consumo ↑</span>
+  <span class="arrow">→</span>
+  <span class="node">DA ↑</span>
+</div>
+:::
+
+::: {.fragment .insight-box}
+Para un proyecto orientado al mercado interno, el efecto puede verse en **ventas, ocupación, rotación de inventarios y capacidad de pago de los clientes**.
+:::
+
+# 3 · Oferta agregada {.section-slide}
+
+<span class="section-kicker">Bloque 3</span>
+
+## ¿Qué determina cuánto pueden producir las empresas y a qué costo?
+
+---
+
+## Oferta agregada de corto plazo
+
+La OA de corto plazo representa la producción que las empresas están dispuestas a ofrecer ante distintos niveles de precios.
+
+::: {.columns}
+::: {.column width="52%"}
+En el corto plazo importan especialmente:
+
+- costos de insumos,
+- salarios,
+- energía,
+- productividad,
+- logística,
+- expectativas de precios.
+
+::: {.fragment .orange-box}
+Un shock de costos puede reducir producción **aunque la demanda no haya cambiado**.
+:::
+:::
+
+::: {.column width="48%"}
+<div class="macro-chart">
+<svg viewBox="0 0 620 390" role="img" aria-label="Curva de oferta agregada de corto plazo">
+  <line x1="70" y1="330" x2="575" y2="330" stroke="#98a2b3" stroke-width="2"/>
+  <line x1="70" y1="45" x2="70" y2="330" stroke="#98a2b3" stroke-width="2"/>
+  <path d="M130,300 C245,265 360,190 510,75" fill="none" stroke="#f28c28" stroke-width="8" stroke-linecap="round"/>
+  <text x="475" y="90" class="chart-label">OA</text>
+  <text x="258" y="372" class="chart-muted">Producción (Y)</text>
+  <text x="22" y="185" class="chart-muted" transform="rotate(-90 22,185)">Nivel de precios (P)</text>
+</svg>
+</div>
+:::
+:::
+
+---
+
+## ¿Qué desplaza la OA?
+
+::: {.columns}
+::: {.column width="50%"}
+::: {.card .card-project}
+<div class="mini-heading">OA → derecha</div>
+
+- mejora tecnológica,
+- menores costos,
+- mayor productividad,
+- mejor infraestructura,
+- mayor disponibilidad de insumos.
+:::
+:::
+
+::: {.column width="50%"}
+::: {.card .card-supply}
+<div class="mini-heading">OA → izquierda</div>
+
+- encarecimiento de energía,
+- mayores costos de transporte,
+- interrupciones logísticas,
+- desastres naturales,
+- menor productividad.
+:::
+:::
+:::
+
+---
+
+## Oferta agregada de largo plazo
+
+::: {.blue-box}
+En el **largo plazo**, la capacidad productiva depende menos de shocks transitorios y más de factores estructurales:
+
+**capital + trabajo + tecnología + productividad + instituciones**.
+:::
+
+::: {.fragment .question-box}
+**Pregunta:** ¿un proyecto de infraestructura puede ser solamente “demanda” en el corto plazo o también puede modificar la **oferta potencial** de la economía en el largo plazo?
+:::
+
+::: {.fragment}
+Exacto: puede operar por ambos canales. Durante su construcción eleva gasto; una vez en operación puede **reducir costos, mejorar productividad o ampliar capacidad productiva**.
+:::
+
+# 4 · Equilibrio OA–DA {.section-slide}
+
+<span class="section-kicker">Bloque 4</span>
+
+## El punto donde producción y precios son consistentes con las decisiones de gasto y producción
+
+---
+
+## Equilibrio macroeconómico de corto plazo
+
+::: {.columns}
+::: {.column width="48%"}
+<div class="macro-chart">
+<svg viewBox="0 0 620 390" role="img" aria-label="Equilibrio de oferta y demanda agregada">
+  <line x1="70" y1="330" x2="575" y2="330" stroke="#98a2b3" stroke-width="2"/>
+  <line x1="70" y1="45" x2="70" y2="330" stroke="#98a2b3" stroke-width="2"/>
+  <path d="M125,95 C250,145 355,225 520,300" fill="none" stroke="#1f5a99" stroke-width="8" stroke-linecap="round"/>
+  <path d="M130,300 C245,265 360,190 510,75" fill="none" stroke="#f28c28" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="327" cy="204" r="9" fill="#123b6d"/>
+  <line x1="327" y1="204" x2="327" y2="330" stroke="#123b6d" stroke-width="2" stroke-dasharray="7,7"/>
+  <line x1="70" y1="204" x2="327" y2="204" stroke="#123b6d" stroke-width="2" stroke-dasharray="7,7"/>
+  <text x="485" y="282" class="chart-label">DA</text>
+  <text x="475" y="94" class="chart-label">OA</text>
+  <text x="336" y="194" class="chart-label">E</text>
+  <text x="310" y="355" class="chart-muted">Y*</text>
+  <text x="38" y="210" class="chart-muted">P*</text>
+</svg>
+</div>
+:::
+
+::: {.column width="52%"}
+El equilibrio determina, de forma simplificada:
+
+- **producción de corto plazo** \(Y\),
+- **nivel general de precios** \(P\).
+
+::: {.fragment .insight-box}
+Lo importante no es memorizar la intersección. Lo importante es preguntar:
+
+**¿qué curva se movió y qué implicación tiene para el proyecto?**
+:::
+:::
+:::
+
+---
+
+## Mapa de los cuatro choques básicos
+
+| Choque | Producción | Precios | Lectura macroeconómica |
+|---|---:|---:|---|
+| **DA aumenta** | ↑ | ↑ | expansión con presión inflacionaria |
+| **DA disminuye** | ↓ | ↓ / desacelera | enfriamiento o recesión |
+| **OA aumenta** | ↑ | ↓ | expansión con menor presión de costos |
+| **OA disminuye** | ↓ | ↑ | contracción con inflación de costos |
+
+::: {.fragment .orange-box}
+La combinación más incómoda para un proyecto suele ser **producción ↓ + precios/costos ↑**: un shock adverso de oferta.
+:::
+
+# 5 · Choques de demanda {.section-slide}
+
+<span class="section-kicker">Bloque 5</span>
+
+## ¿Qué ocurre cuando cambia el gasto total de la economía?
+
+---
+
+## Choque negativo de demanda
+
+::: {.columns}
+::: {.column width="48%"}
+<div class="macro-chart">
+<svg viewBox="0 0 620 390" role="img" aria-label="Choque negativo de demanda agregada">
+  <defs>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L7,3 z" fill="#1f5a99"/>
+    </marker>
+  </defs>
+  <line x1="70" y1="330" x2="575" y2="330" stroke="#98a2b3" stroke-width="2"/>
+  <line x1="70" y1="45" x2="70" y2="330" stroke="#98a2b3" stroke-width="2"/>
+  <path d="M155,95 C280,145 385,225 545,300" fill="none" stroke="#9db8d7" stroke-width="7"/>
+  <path d="M105,95 C220,145 320,225 475,300" fill="none" stroke="#1f5a99" stroke-width="8"/>
+  <path d="M130,300 C245,265 360,190 510,75" fill="none" stroke="#f28c28" stroke-width="8"/>
+  <line x1="420" y1="125" x2="335" y2="125" stroke="#1f5a99" stroke-width="5" marker-end="url(#arrowBlue)"/>
+  <text x="505" y="278" class="chart-label">DA₀</text>
+  <text x="432" y="280" class="chart-label">DA₁</text>
+  <text x="475" y="92" class="chart-label">OA</text>
+</svg>
+</div>
+:::
+
+::: {.column width="52%"}
+<span class="pill pill-blue">DA ↓</span>
+
+Ejemplos:
+
+- cae la confianza,
+- disminuye el ingreso de los hogares,
+- baja la inversión,
+- se reducen exportaciones,
+- se endurece el crédito.
+
+::: {.fragment .risk-box}
+**Resultado típico:** menor producción y menor presión sobre precios.
+:::
+:::
+:::
+
+---
+
+## Caso 1 · Centro comercial
+
+<span class="activity-title">Discusión por parejas</span> <span class="timer">5 minutos</span>
+
+Un centro comercial de escala media proyectó ocupación del 92%. Luego ocurre:
+
+- menor crecimiento del ingreso disponible;
+- deterioro de confianza del consumidor;
+- desaceleración del crédito al consumo.
+
+::: {.question-box}
+1. ¿Qué curva se desplaza?  
+2. ¿Qué pasa con producción y precios?  
+3. ¿Qué variable del proyecto se deteriora primero?  
+4. ¿Qué supuesto del flujo de caja revisarían?
+:::
+
+::: {.fragment .answer-box}
+**Lectura esperada:** DA ↓ → actividad ↓ → menor tráfico y ventas → presión sobre ocupación y alquileres → flujo operativo ↓ → VAN ↓.
+:::
+
+---
+
+## De la recesión al VAN
+
+<div class="causal-chain">
+  <span class="node">Actividad ↓</span>
+  <span class="arrow">→</span>
+  <span class="node">Demanda del proyecto ↓</span>
+  <span class="arrow">→</span>
+  <span class="node">Ingresos ↓</span>
+  <span class="arrow">→</span>
+  <span class="node">Flujo neto ↓</span>
+  <span class="arrow">→</span>
+  <span class="node">VAN ↓</span>
+</div>
+
+::: {.fragment .insight-box}
+**Lección de formulación:** el escenario base no debería ser el único. Al menos debe existir un escenario de **desaceleración/recesión** con supuestos explícitos sobre volumen, precios y cobranza.
+:::
+
+# 6 · Choques de oferta {.section-slide}
+
+<span class="section-kicker">Bloque 6</span>
+
+## ¿Qué ocurre cuando producir se vuelve más caro o más difícil?
+
+---
+
+## Choque adverso de oferta
+
+::: {.columns}
+::: {.column width="48%"}
+<div class="macro-chart">
+<svg viewBox="0 0 620 390" role="img" aria-label="Choque adverso de oferta agregada">
+  <defs>
+    <marker id="arrowOrange" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L7,3 z" fill="#f28c28"/>
+    </marker>
+  </defs>
+  <line x1="70" y1="330" x2="575" y2="330" stroke="#98a2b3" stroke-width="2"/>
+  <line x1="70" y1="45" x2="70" y2="330" stroke="#98a2b3" stroke-width="2"/>
+  <path d="M125,95 C250,145 355,225 520,300" fill="none" stroke="#1f5a99" stroke-width="8"/>
+  <path d="M150,300 C265,265 385,190 530,75" fill="none" stroke="#f7c187" stroke-width="7"/>
+  <path d="M105,300 C215,255 320,185 455,70" fill="none" stroke="#f28c28" stroke-width="8"/>
+  <line x1="430" y1="115" x2="345" y2="115" stroke="#f28c28" stroke-width="5" marker-end="url(#arrowOrange)"/>
+  <text x="500" y="287" class="chart-label">DA</text>
+  <text x="488" y="92" class="chart-label">OA₀</text>
+  <text x="405" y="82" class="chart-label">OA₁</text>
+</svg>
+</div>
+:::
+
+::: {.column width="52%"}
+<span class="pill pill-orange">OA ↓</span>
+
+Ejemplos:
+
+- petróleo más caro,
+- aumento de fletes,
+- escasez de insumos,
+- desastre natural,
+- caída de productividad.
+
+::: {.fragment .risk-box}
+**Resultado típico:** producción ↓ y precios ↑.
+:::
+:::
+:::
+
+---
+
+## ¿Por qué es especialmente complejo para proyectos?
+
+::: {.cards-3}
+::: {.card .card-risk}
+<div class="mini-heading">Ventas</div>
+La economía puede desacelerarse y reducir demanda.
+:::
+
+::: {.card .card-supply}
+<div class="mini-heading">Costos</div>
+Los insumos y servicios pueden encarecerse simultáneamente.
+:::
+
+::: {.card .card-risk}
+<div class="mini-heading">Financiamiento</div>
+La inflación puede elevar tasas y endurecer crédito.
+:::
+:::
+
+::: {.fragment .orange-box}
+El proyecto puede sufrir **por ambos lados del flujo de caja**: ingresos más débiles y egresos más altos.
+:::
+
+---
+
+## Caso 2 · Edificio residencial
+
+<span class="activity-title">Aplicación guiada</span> <span class="timer">6 minutos</span>
+
+Durante la construcción ocurre:
+
+- acero +18%,
+- cemento +12%,
+- combustible +20%,
+- retrasos de importación.
+
+El precio de preventa ya fue acordado con parte de los compradores.
+
+::: {.question-box}
+1. ¿Qué tipo de choque domina?  
+2. ¿Qué parte del flujo de caja cambia?  
+3. ¿Puede el proyecto trasladar el aumento de costos al cliente?  
+4. ¿Qué riesgo aparece si el financiamiento ya estaba estructurado?
+:::
+
+::: {.fragment .answer-box}
+**Lectura:** shock de OA adverso → costos de inversión y capital de trabajo ↑ → margen ↓ → necesidad de financiamiento adicional → VAN y TIR ↓.
+:::
+
+---
+
+## El concepto clave: descalce
+
+::: {.hero-box}
+<div class="mini-heading">Un proyecto puede tener ingresos y costos que reaccionan de forma distinta</div>
+
+**Ejemplo:** precios de venta fijos + costos variables indexados = **riesgo de margen**.
+:::
+
+::: {.fragment}
+Eso obliga a preguntar, desde la formulación:
+
+- ¿qué costos son fijos y cuáles variables?
+- ¿qué contratos permiten ajuste?
+- ¿qué insumos dependen del exterior?
+- ¿qué reservas de contingencia existen?
+:::
+
+# 7 · Cuatro shocks, cuatro lecturas {.section-slide}
+
+<span class="section-kicker">Bloque 7</span>
+
+## El modelo como mapa para no confundir el origen del problema
+
+---
+
+## Matriz de lectura rápida
+
+| Shock | PIB / producción | Precios | Riesgo dominante para el proyecto |
+|---|---:|---:|---|
+| **DA ↑** | ↑ | ↑ | sobrecalentamiento, costos y tasas futuras |
+| **DA ↓** | ↓ | ↓ / desacelera | ventas, ocupación, mora |
+| **OA ↑** | ↑ | ↓ | mayor competencia, caída de precios relativos |
+| **OA ↓** | ↓ | ↑ | costos, margen, capital de trabajo |
+
+::: {.fragment .insight-box}
+La misma caída del PIB puede tener **causas distintas**. Y si la causa cambia, también cambia la respuesta adecuada del proyecto.
+:::
+
+---
+
+## Actividad 2 · Diagnóstico en 30 segundos
+
+<span class="activity-title">Mano alzada / chat</span>
+
+Para cada situación digan **DA u OA** y la dirección:
+
+1. El precio del petróleo cae abruptamente.  
+2. Los hogares posponen compras por incertidumbre.  
+3. Se implementa una mejora logística que reduce tiempos de transporte.  
+4. Una expansión fiscal aumenta compras e inversión pública.  
+5. Un socio comercial entra en recesión.
+
+::: {.fragment .answer-box}
+1) OA ↑ · 2) DA ↓ · 3) OA ↑ · 4) DA ↑ · 5) DA ↓
+:::
+
+# 8 · Del modelo macro al proyecto {.section-slide}
+
+<span class="section-kicker">Bloque 8</span>
+
+## Traducir un shock en supuestos concretos de evaluación
+
+---
+
+## ¿Qué variables del proyecto debemos revisar?
+
+::: {.cards-4}
+::: {.card .card-demand}
+<div class="mini-heading">Ingresos</div>
+Volumen, ocupación, precio, cobranza y crecimiento de mercado.
+:::
+
+::: {.card .card-supply}
+<div class="mini-heading">Costos</div>
+Insumos, energía, transporte, salarios y mantenimiento.
+:::
+
+::: {.card .card-risk}
+<div class="mini-heading">Financiamiento</div>
+Tasa, plazo, cuota, cobertura y refinanciamiento.
+:::
+
+::: {.card .card-project}
+<div class="mini-heading">Indicadores</div>
+Flujo neto, VAN, TIR, payback y cobertura de deuda.
+:::
+:::
+
+---
+
+## La cadena de transmisión del riesgo macroeconómico
+
+<div class="causal-chain">
+  <span class="node">Shock</span>
+  <span class="arrow">→</span>
+  <span class="node">Variables macro</span>
+  <span class="arrow">→</span>
+  <span class="node">Supuestos del proyecto</span>
+  <span class="arrow">→</span>
+  <span class="node">Flujo de caja</span>
+  <span class="arrow">→</span>
+  <span class="node">VAN / TIR / riesgo</span>
+</div>
+
+::: {.fragment .blue-box}
+**La sensibilidad no comienza en Excel.** Comienza identificando qué variable macroeconómica puede alterar cada supuesto económico del proyecto.
+:::
+
+---
+
+## Ejemplo numérico mínimo
+
+Un proyecto tiene el siguiente flujo operativo anual esperado:
+
+| Concepto | Escenario base | Shock de demanda |
+|---|---:|---:|
+| Ventas | Q 10.0 millones | Q 8.5 millones |
+| Costos variables | Q 5.0 millones | Q 4.5 millones |
+| Costos fijos | Q 2.0 millones | Q 2.0 millones |
+| **Flujo operativo** | **Q 3.0 millones** | **Q 2.0 millones** |
+
+::: {.fragment .question-box}
+Las ventas caen **15%**, pero el flujo operativo cae **33%**. ¿Por qué?
+:::
+
+::: {.fragment .answer-box}
+Porque los **costos fijos no se ajustan al mismo ritmo**. Esta es una forma sencilla de ver cómo el ciclo puede amplificar el riesgo del proyecto.
+:::
+
+---
+
+## Del shock al escenario
+
+::: {.columns}
+::: {.column width="50%"}
+<div class="mini-heading">Escenario base</div>
+
+- crecimiento esperado,
+- inflación normal,
+- costos conforme al estudio,
+- tasa financiera prevista,
+- demanda proyectada.
+:::
+
+::: {.column width="50%"}
+<div class="mini-heading">Escenario adverso</div>
+
+- demanda menor,
+- costos mayores,
+- ejecución más lenta,
+- tasa más alta,
+- menor disponibilidad de crédito.
+:::
+:::
+
+::: {.fragment .orange-box}
+La evaluación robusta pregunta: **¿el proyecto sigue siendo viable bajo un escenario macroeconómico razonablemente adverso?**
+:::
+
+# 9 · Laboratorio en clase {.section-slide}
+
+<span class="section-kicker">Bloque 9</span>
+
+## Diagnosticar un shock y traducirlo a una decisión de proyecto
+
+---
+
+## Laboratorio · “El shock llega después”
+
+<span class="activity-title">Trabajo en grupos de 3–4</span> <span class="timer">20 minutos</span>
+
+Cada grupo elige **un proyecto**:
+
+- hotel,
+- edificio de apartamentos,
+- planta agroindustrial,
+- parque solar,
+- centro logístico.
+
+Y recibe **un shock**:
+
+1. caída de remesas;  
+2. petróleo +30%;  
+3. expansión fuerte del gasto público;  
+4. tasas de interés +250 puntos básicos.
+
+---
+
+## Matriz de trabajo
+
+Completen esta secuencia:
+
+| Paso | Pregunta |
+|---|---|
+| **1. Diagnóstico** | ¿Es un shock de DA, OA o mixto? |
+| **2. Macro** | ¿Qué pasa con producción y precios? |
+| **3. Canal** | ¿Cómo llega al proyecto? |
+| **4. Flujo** | ¿Qué rubro cambia primero: ingresos, costos o financiamiento? |
+| **5. Indicador** | ¿Qué ocurre probablemente con VAN/TIR? |
+| **6. Respuesta** | ¿Qué decisión de gestión recomendarían? |
+
+::: {.fragment .insight-box}
+No basta escribir “sube” o “baja”. El grupo debe explicar **el mecanismo causal**.
+:::
+
+---
+
+## Una regla para la presentación de cada grupo
+
+<span class="timer">2 minutos por grupo</span>
+
+::: {.cards-3}
+::: {.card}
+<div class="mini-heading">1 · Diagnóstico</div>
+“Este es principalmente un shock de…”
+:::
+
+::: {.card}
+<div class="mini-heading">2 · Transmisión</div>
+“Llega al proyecto por…”
+:::
+
+::: {.card}
+<div class="mini-heading">3 · Decisión</div>
+“Recomendamos revisar…”
+:::
+:::
+
+# 10 · Cierre {.section-slide}
+
+<span class="section-kicker">Bloque 10</span>
+
+## De la macroeconomía a la decisión de inversión
+
+---
+
+## Lo esencial de la sesión
+
+::: {.cards-2}
+::: {.card .card-demand}
+<div class="mini-heading">Demanda agregada</div>
+Explica shocks asociados al **gasto total** y su efecto sobre actividad y precios.
+:::
+
+::: {.card .card-supply}
+<div class="mini-heading">Oferta agregada</div>
+Explica shocks asociados a **costos y capacidad productiva**.
+:::
+
+::: {.card .card-risk}
+<div class="mini-heading">Riesgo macroeconómico</div>
+El mismo proyecto puede enfrentar simultáneamente **ventas ↓, costos ↑ y crédito más caro**.
+:::
+
+::: {.card .card-project}
+<div class="mini-heading">Evaluación</div>
+Los shocks deben convertirse en **escenarios y sensibilidades del flujo de caja**.
+:::
+:::
+
+---
+
+## Preguntas de cierre
+
+::: {.question-box}
+1. ¿Qué diferencia esencial existe entre un shock de **DA** y uno de **OA**?  
+2. ¿Por qué una caída del PIB no basta para diagnosticar el riesgo del proyecto?  
+3. ¿Qué shock sería más difícil de manejar para un proyecto con precios de venta fijos?  
+4. ¿Cuál supuesto del flujo de caja revisarían primero ante una recesión?
+:::
+
+---
+
+## Exit ticket
+
+En una frase completen:
+
+::: {.cards-3}
+::: {.card}
+<div class="mini-heading">Hoy entendí que…</div>
+:::
+
+::: {.card}
+<div class="mini-heading">En un proyecto debo vigilar…</div>
+:::
+
+::: {.card}
+<div class="mini-heading">La duda que todavía tengo es…</div>
+:::
+:::
+
+---
+
+## Cierre de la sesión {.no-border}
+
+::: {.hero-box}
+<div class="mini-heading">Idea final</div>
+
+**La macroeconomía no es un dato externo que se agrega al final del estudio.**
+
+Es el entorno que puede alterar la demanda, los costos, el financiamiento y, por tanto, la **viabilidad del proyecto**.
+:::
+
+::: {.centered .small}
+**Próxima sesión:** crecimiento y desarrollo económico.
+:::

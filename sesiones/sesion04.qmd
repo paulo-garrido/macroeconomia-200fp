@@ -1,0 +1,241 @@
+---
+title: "Sesión 4"
+subtitle: "Fluctuaciones económicas, oferta y demanda agregada"
+toc: false
+page-layout: full
+---
+
+::: {.session-hero}
+
+::: {.session-number}
+SESIÓN 04
+:::
+
+# Fluctuaciones económicas y riesgo para los proyectos
+
+::: {.session-lead}
+¿Cómo cambia la viabilidad de un proyecto cuando la economía entra en expansión, recesión o enfrenta un choque de costos?
+:::
+
+::: {.session-meta}
+**Macroeconomía · 200 FP**
+
+Maestría en Formulación y Evaluación de Proyectos
+:::
+
+:::
+
+
+::: {.session-main-resource}
+
+::: {.session-main-copy}
+
+::: {.session-eyebrow .orange}
+DEL NIVEL DE ACTIVIDAD AL RIESGO DEL PROYECTO
+:::
+
+## Oferta y demanda agregada
+
+La sesión introduce el análisis de las **fluctuaciones económicas de corto plazo** mediante el modelo de oferta y demanda agregada.
+
+El objetivo no es solamente estudiar por qué cambia la producción de una economía, sino identificar cómo distintos choques macroeconómicos pueden transmitirse hacia las variables fundamentales de un proyecto:
+
+$$
+\text{Choque macroeconómico}
+\rightarrow
+\text{Producción y precios}
+\rightarrow
+\text{Ventas, costos y financiamiento}
+\rightarrow
+\text{Flujo de caja}
+$$
+
+A partir de este marco se analizan expansiones, recesiones y choques de costos, así como sus posibles efectos sobre la formulación y evaluación de proyectos de inversión.
+
+:::
+
+::: {.session-main-side}
+
+### Contenido central
+
+- Fluctuaciones económicas.
+- Demanda agregada.
+- Oferta agregada.
+- Equilibrio macroeconómico de corto plazo.
+- Choques de demanda.
+- Choques de oferta.
+- Recesiones y expansiones.
+- Transmisión hacia los proyectos.
+- Ingresos, costos y financiamiento.
+- Riesgo macroeconómico.
+
+:::
+
+:::
+
+
+::: {.session-materials}
+
+::: {.material-card}
+
+::: {.material-label}
+PRESENTACIÓN
+:::
+
+### Fluctuaciones económicas y riesgo para los proyectos
+
+Presentación interactiva para analizar el equilibrio de corto plazo y distinguir cómo diferentes choques de oferta y demanda afectan la producción, los precios y las perspectivas de un proyecto.
+
+[Ver presentación →](../presentaciones/Sesion04/sesion04_fluctuaciones_macro.html)
+
+:::
+
+::: {.material-card}
+
+::: {.material-label}
+ACTIVIDAD EN CLASE
+:::
+
+### Del choque macroeconómico al flujo de caja
+
+Durante la sesión se analizarán distintos escenarios macroeconómicos y su efecto sobre proyectos de inversión.
+
+El ejercicio busca identificar:
+
+- el origen del choque;
+- si afecta principalmente la oferta o la demanda agregada;
+- su efecto esperado sobre producción y precios;
+- el principal canal de transmisión hacia el proyecto;
+- las variables que deberían incorporarse en un análisis de sensibilidad.
+
+:::
+
+:::
+
+
+::: {.session-callout}
+
+::: {.session-eyebrow}
+IDEA CENTRAL
+:::
+
+## La macroeconomía modifica los supuestos del proyecto
+
+Un proyecto puede ser técnicamente viable y financieramente rentable bajo determinadas condiciones iniciales. Sin embargo, esas condiciones pueden cambiar.
+
+Una recesión puede reducir la demanda esperada; un choque de oferta puede incrementar los costos; y un deterioro de las condiciones financieras puede elevar el costo del financiamiento.
+
+Por ello, comprender las fluctuaciones económicas permite construir **escenarios más realistas de ingresos, costos y riesgo**.
+
+:::
+
+
+::: {.session-eyebrow}
+
+APLICACIÓN A PROYECTOS
+
+:::
+
+## ¿Qué variables debemos observar?
+
+Ante un cambio en el entorno macroeconómico, el evaluador debe preguntarse qué parte del proyecto puede verse afectada:
+
+::: {.session-materials}
+
+::: {.material-card}
+
+### Ingresos
+
+Cambios en el ingreso de los hogares, la actividad económica o la confianza pueden modificar:
+
+- demanda esperada;
+- volumen de ventas;
+- ocupación;
+- ritmo de crecimiento del mercado.
+
+:::
+
+::: {.material-card}
+
+### Costos
+
+Los choques de oferta pueden modificar:
+
+- materias primas;
+- energía;
+- transporte;
+- salarios;
+- costos logísticos.
+
+:::
+
+::: {.material-card}
+
+### Financiamiento
+
+El entorno económico también puede modificar:
+
+- disponibilidad de crédito;
+- tasas de interés;
+- costo de capital;
+- servicio de la deuda;
+- liquidez del proyecto.
+
+:::
+
+:::
+
+
+::: {.session-eyebrow}
+
+FUENTES Y RECURSOS
+
+:::
+
+## Información macroeconómica
+
+Durante la sesión se utilizarán ejemplos y estadísticas para interpretar el comportamiento de la actividad económica, los precios y las condiciones generales del entorno.
+
+Entre las principales fuentes de referencia se encuentran:
+
+- **Banco de Guatemala**: actividad económica, cuentas nacionales y política monetaria.
+- **Instituto Nacional de Estadística**: precios e indicadores económicos.
+- **Fondo Monetario Internacional** y **Banco Mundial**: perspectivas y entorno económico internacional.
+
+El propósito será utilizar esta información como insumo para la construcción de escenarios relevantes para los proyectos.
+
+
+::: {.session-callout}
+
+::: {.session-eyebrow .orange}
+PARA RECORDAR
+:::
+
+## No todos los choques afectan de la misma manera
+
+Un choque negativo de **demanda agregada** suele manifestarse principalmente mediante una reducción de la actividad económica y de las ventas.
+
+Un choque adverso de **oferta agregada**, en cambio, puede combinar menor producción con mayores precios y costos.
+
+Para un proyecto, distinguir entre ambos mecanismos es fundamental para determinar **qué supuestos deben modificarse en el flujo de caja**.
+
+:::
+
+
+::: {.attendance-card}
+
+::: {.session-eyebrow .orange}
+
+ASISTENCIA
+
+:::
+
+## Registro de asistencia
+
+Registre su asistencia correspondiente a la **Sesión 04**.
+
+El formulario registra automáticamente la fecha y hora de envío. Complete correctamente su carné, nombre y el código de asistencia indicado durante la sesión.
+
+[Registrar asistencia →](https://docs.google.com/forms/d/e/1FAIpQLSfj3CT9kTzVRnLW000dwj3_kfSfsu0q3rqh-c4v6pKlmb0o7w/viewform?usp=pp_url&entry.981962467=Sesi%C3%B3n+04){.course-btn .primary target="_blank"}
+
+:::
