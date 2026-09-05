@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Sesiones – Macroeconomía · 200 FP</title>
+<title>Sesión 4 – Macroeconomía · 200 FP</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,11 +70,40 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -102,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Programa</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../sesiones/index.html" aria-current="page"> 
+    <a class="nav-link" href="../sesiones/index.html"> 
 <span class="menu-text">Sesiones</span></a>
   </li>  
   <li class="nav-item">
@@ -129,22 +158,22 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Sesiones</h1>
-<p class="subtitle lead">Macroeconomía · 200 FP</p>
+<h1 class="title">Sesión 4</h1>
+<p class="subtitle lead">Fluctuaciones económicas, oferta y demanda agregada</p>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -156,45 +185,176 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="programa-de-sesiones" class="level2">
-<h2 class="anchored" data-anchor-id="programa-de-sesiones">Programa de sesiones</h2>
-<p>Los materiales de cada sesión incluyen presentaciones, lecturas, ejercicios, laboratorios y actividades correspondientes al desarrollo del curso.</p>
-<section id="sesión-01" class="level3">
-<h3 class="anchored" data-anchor-id="sesión-01">Sesión 01</h3>
-<p><strong>Introducción al análisis macroeconómico</strong></p>
-<p>Principios económicos, escasez, elección, costo de oportunidad y una primera aproximación al funcionamiento agregado de la economía.</p>
-<p><a href="../sesiones/sesion01.html">Ver sesión →</a></p>
-<hr>
+<div class="session-hero">
+<div class="session-number">
+<p>SESIÓN 04</p>
+</div>
+<section id="fluctuaciones-económicas-y-riesgo-para-los-proyectos" class="level1">
+<h1>Fluctuaciones económicas y riesgo para los proyectos</h1>
+<div class="session-lead">
+<p>¿Cómo cambia la viabilidad de un proyecto cuando la economía entra en expansión, recesión o enfrenta un choque de costos?</p>
+</div>
+<div class="session-meta">
+<p><strong>Macroeconomía · 200 FP</strong></p>
+<p>Maestría en Formulación y Evaluación de Proyectos</p>
+</div>
 </section>
-<section id="sesión-02" class="level3">
-<h3 class="anchored" data-anchor-id="sesión-02">Sesión 02</h3>
-<p><strong>Medición económica agregada</strong></p>
-<p>Producto Interno Bruto, cuentas nacionales y medición de la actividad económica mediante los enfoques de producción, gasto e ingreso.</p>
-<p><a href="sesion02.html">Ver sesión →</a></p>
-<p><a href="../presentaciones/sesion02/index.html">Ver presentación interactiva →</a></p>
-<hr>
+</div>
+<div class="session-main-resource">
+<div class="session-main-copy">
+<div class="session-eyebrow orange">
+<p>DEL NIVEL DE ACTIVIDAD AL RIESGO DEL PROYECTO</p>
+</div>
+<section id="oferta-y-demanda-agregada" class="level2">
+<h2 class="anchored" data-anchor-id="oferta-y-demanda-agregada">Oferta y demanda agregada</h2>
+<p>La sesión introduce el análisis de las <strong>fluctuaciones económicas de corto plazo</strong> mediante el modelo de oferta y demanda agregada.</p>
+<p>El objetivo no es solamente estudiar por qué cambia la producción de una economía, sino identificar cómo distintos choques macroeconómicos pueden transmitirse hacia las variables fundamentales de un proyecto:</p>
+<p><span class="math display">\[
+\text{Choque macroeconómico}
+\rightarrow
+\text{Producción y precios}
+\rightarrow
+\text{Ventas, costos y financiamiento}
+\rightarrow
+\text{Flujo de caja}
+\]</span></p>
+<p>A partir de este marco se analizan expansiones, recesiones y choques de costos, así como sus posibles efectos sobre la formulación y evaluación de proyectos de inversión.</p>
 </section>
-<section id="sesión-03" class="level3">
-<h3 class="anchored" data-anchor-id="sesión-03">Sesión 03</h3>
-<p><strong>Oferta-utilización y dimensionamiento del mercado</strong></p>
-<p>De las cuentas nacionales al análisis del mercado: oferta, utilización y aplicación al estudio de demanda de un proyecto.</p>
-<p><a href="../sesiones/sesion03.html">Ver sesión →</a></p>
-<hr>
+</div>
+<section id="contenido-central" class="level3 session-main-side">
+<h3 class="anchored" data-anchor-id="contenido-central">Contenido central</h3>
+<ul>
+<li>Fluctuaciones económicas.</li>
+<li>Demanda agregada.</li>
+<li>Oferta agregada.</li>
+<li>Equilibrio macroeconómico de corto plazo.</li>
+<li>Choques de demanda.</li>
+<li>Choques de oferta.</li>
+<li>Recesiones y expansiones.</li>
+<li>Transmisión hacia los proyectos.</li>
+<li>Ingresos, costos y financiamiento.</li>
+<li>Riesgo macroeconómico.</li>
+</ul>
 </section>
-<section id="sesión-04" class="level3">
-<h3 class="anchored" data-anchor-id="sesión-04">Sesión 04</h3>
-<p><strong>Próxima sesión</strong></p>
-<p>Fluctuaciones económicas, oferta y demanda agregada.</p>
-<p><a href="../sesiones/sesion04.html">Ver sesión →</a>.</p>
-<hr>
+</div>
+<div class="session-materials">
+<div class="material-card">
+<div class="material-label">
+<p>PRESENTACIÓN</p>
+</div>
+<section id="fluctuaciones-económicas-y-riesgo-para-los-proyectos-1" class="level3">
+<h3 class="anchored" data-anchor-id="fluctuaciones-económicas-y-riesgo-para-los-proyectos-1">Fluctuaciones económicas y riesgo para los proyectos</h3>
+<p>Presentación interactiva para analizar el equilibrio de corto plazo y distinguir cómo diferentes choques de oferta y demanda afectan la producción, los precios y las perspectivas de un proyecto.</p>
+<p><a href="../presentaciones/Sesion04/sesion04_fluctuaciones_macro.html">Ver presentación →</a></p>
 </section>
-<section id="sesión-05" class="level3">
-<h3 class="anchored" data-anchor-id="sesión-05">Sesión 05</h3>
-<p><strong>Próxima sesión</strong></p>
-<p>Contenido disponible próximamente.</p>
+</div>
+<div class="material-card">
+<div class="material-label">
+<p>ACTIVIDAD EN CLASE</p>
+</div>
+<section id="del-choque-macroeconómico-al-flujo-de-caja" class="level3">
+<h3 class="anchored" data-anchor-id="del-choque-macroeconómico-al-flujo-de-caja">Del choque macroeconómico al flujo de caja</h3>
+<p>Durante la sesión se analizarán distintos escenarios macroeconómicos y su efecto sobre proyectos de inversión.</p>
+<p>El ejercicio busca identificar:</p>
+<ul>
+<li>el origen del choque;</li>
+<li>si afecta principalmente la oferta o la demanda agregada;</li>
+<li>su efecto esperado sobre producción y precios;</li>
+<li>el principal canal de transmisión hacia el proyecto;</li>
+<li>las variables que deberían incorporarse en un análisis de sensibilidad.</li>
+</ul>
+</section>
+</div>
+</div>
+<div class="session-callout">
+<div class="session-eyebrow">
+<p>IDEA CENTRAL</p>
+</div>
+<section id="la-macroeconomía-modifica-los-supuestos-del-proyecto" class="level2">
+<h2 class="anchored" data-anchor-id="la-macroeconomía-modifica-los-supuestos-del-proyecto">La macroeconomía modifica los supuestos del proyecto</h2>
+<p>Un proyecto puede ser técnicamente viable y financieramente rentable bajo determinadas condiciones iniciales. Sin embargo, esas condiciones pueden cambiar.</p>
+<p>Una recesión puede reducir la demanda esperada; un choque de oferta puede incrementar los costos; y un deterioro de las condiciones financieras puede elevar el costo del financiamiento.</p>
+<p>Por ello, comprender las fluctuaciones económicas permite construir <strong>escenarios más realistas de ingresos, costos y riesgo</strong>.</p>
+</section>
+</div>
+<div class="session-eyebrow">
+<p>APLICACIÓN A PROYECTOS</p>
+</div>
+<section id="qué-variables-debemos-observar" class="level2">
+<h2 class="anchored" data-anchor-id="qué-variables-debemos-observar">¿Qué variables debemos observar?</h2>
+<p>Ante un cambio en el entorno macroeconómico, el evaluador debe preguntarse qué parte del proyecto puede verse afectada:</p>
+<div class="session-materials">
+<section id="ingresos" class="level3 material-card">
+<h3 class="anchored" data-anchor-id="ingresos">Ingresos</h3>
+<p>Cambios en el ingreso de los hogares, la actividad económica o la confianza pueden modificar:</p>
+<ul>
+<li>demanda esperada;</li>
+<li>volumen de ventas;</li>
+<li>ocupación;</li>
+<li>ritmo de crecimiento del mercado.</li>
+</ul>
+</section>
+<section id="costos" class="level3 material-card">
+<h3 class="anchored" data-anchor-id="costos">Costos</h3>
+<p>Los choques de oferta pueden modificar:</p>
+<ul>
+<li>materias primas;</li>
+<li>energía;</li>
+<li>transporte;</li>
+<li>salarios;</li>
+<li>costos logísticos.</li>
+</ul>
+</section>
+<section id="financiamiento" class="level3 material-card">
+<h3 class="anchored" data-anchor-id="financiamiento">Financiamiento</h3>
+<p>El entorno económico también puede modificar:</p>
+<ul>
+<li>disponibilidad de crédito;</li>
+<li>tasas de interés;</li>
+<li>costo de capital;</li>
+<li>servicio de la deuda;</li>
+<li>liquidez del proyecto.</li>
+</ul>
+</section>
+</div>
+<div class="session-eyebrow">
+<p>FUENTES Y RECURSOS</p>
+</div>
+</section>
+<section id="información-macroeconómica" class="level2">
+<h2 class="anchored" data-anchor-id="información-macroeconómica">Información macroeconómica</h2>
+<p>Durante la sesión se utilizarán ejemplos y estadísticas para interpretar el comportamiento de la actividad económica, los precios y las condiciones generales del entorno.</p>
+<p>Entre las principales fuentes de referencia se encuentran:</p>
+<ul>
+<li><strong>Banco de Guatemala</strong>: actividad económica, cuentas nacionales y política monetaria.</li>
+<li><strong>Instituto Nacional de Estadística</strong>: precios e indicadores económicos.</li>
+<li><strong>Fondo Monetario Internacional</strong> y <strong>Banco Mundial</strong>: perspectivas y entorno económico internacional.</li>
+</ul>
+<p>El propósito será utilizar esta información como insumo para la construcción de escenarios relevantes para los proyectos.</p>
+<div class="session-callout">
+<div class="session-eyebrow orange">
+<p>PARA RECORDAR</p>
+</div>
+<section id="no-todos-los-choques-afectan-de-la-misma-manera" class="level2">
+<h2 class="anchored" data-anchor-id="no-todos-los-choques-afectan-de-la-misma-manera">No todos los choques afectan de la misma manera</h2>
+<p>Un choque negativo de <strong>demanda agregada</strong> suele manifestarse principalmente mediante una reducción de la actividad económica y de las ventas.</p>
+<p>Un choque adverso de <strong>oferta agregada</strong>, en cambio, puede combinar menor producción con mayores precios y costos.</p>
+<p>Para un proyecto, distinguir entre ambos mecanismos es fundamental para determinar <strong>qué supuestos deben modificarse en el flujo de caja</strong>.</p>
+</section>
+</div>
+<div class="attendance-card">
+<div class="session-eyebrow orange">
+<p>ASISTENCIA</p>
+</div>
+<section id="registro-de-asistencia" class="level2">
+<h2 class="anchored" data-anchor-id="registro-de-asistencia">Registro de asistencia</h2>
+<p>Registre su asistencia correspondiente a la <strong>Sesión 04</strong>.</p>
+<p>El formulario registra automáticamente la fecha y hora de envío. Complete correctamente su carné, nombre y el código de asistencia indicado durante la sesión.</p>
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfj3CT9kTzVRnLW000dwj3_kfSfsu0q3rqh-c4v6pKlmb0o7w/viewform?usp=pp_url&amp;entry.981962467=Sesi%C3%B3n+04" class="course-btn primary" target="_blank">Registrar asistencia →</a></p>
+</section>
+</div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
