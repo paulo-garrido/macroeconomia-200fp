@@ -1,0 +1,174 @@
+---
+title: "Guía de repaso"
+subtitle: "Examen Parcial · Macroeconomía 200 FP"
+toc: false
+page-layout: full
+---
+
+::: {.callout-note}
+## Propósito
+
+El examen parcial evaluará la comprensión de los conceptos trabajados durante las primeras sesiones y, especialmente, la capacidad de aplicarlos a situaciones vinculadas con la formulación y evaluación de proyectos.
+
+No se espera únicamente memorizar definiciones o fórmulas. Es importante comprender qué representa cada variable, cómo se relacionan entre sí y qué información puede obtenerse de ellas para analizar un proyecto.
+:::
+
+## 1. Decisiones económicas y entorno del proyecto
+
+Repase los conceptos básicos que permiten entender una decisión económica:
+
+- escasez;
+- elección;
+- costo de oportunidad;
+- agentes económicos;
+- diferencia entre microeconomía y macroeconomía;
+- funcionamiento básico del flujo circular de la economía;
+- relación entre las decisiones de las empresas, los hogares y el entorno económico.
+
+Debe poder identificar estos conceptos dentro de un caso, no solamente definirlos.
+
+---
+
+## 2. Medición de la actividad económica
+
+Repase la lógica de medición del Producto Interno Bruto y las principales relaciones estudiadas en clase.
+
+En particular:
+
+- qué mide y qué no mide el PIB;
+- producción y valor agregado;
+- problema de la doble contabilización;
+- enfoque del gasto:
+
+$$
+PIB = C + I + G + X - M
+$$
+
+- interpretación de consumo, inversión, gasto público, exportaciones e importaciones;
+- por qué las importaciones se restan en el cálculo del PIB;
+- diferencia entre una variable expresada en valores monetarios y una medida de volumen o cantidad.
+
+Más que recordar una fórmula, debe poder **interpretar económicamente el resultado obtenido**.
+
+---
+
+## 3. Oferta y utilización
+
+Repase la estructura básica de un equilibrio de oferta y utilización y la relación:
+
+$$
+Oferta\ total = Utilización\ total
+$$
+
+Debe reconocer el significado económico de partidas como:
+
+- producción;
+- importaciones;
+- oferta total;
+- consumo intermedio;
+- consumo final privado;
+- variación de existencias;
+- exportaciones;
+- utilización total.
+
+También debe ser capaz de determinar **qué variable resulta pertinente según el tipo de proyecto y el comprador final del producto**.
+
+---
+
+## 4. Del dato macroeconómico al mercado de un proyecto
+
+Repase la lógica utilizada en el laboratorio para transformar información agregada en una primera aproximación al mercado de un proyecto.
+
+Debe distinguir entre:
+
+### Mercado nacional observado
+
+Corresponde al punto de partida obtenido de la información económica disponible.
+
+### Mercado relevante
+
+Es la parte del mercado nacional que corresponde al segmento específico que pretende atender el proyecto.
+
+$$
+M_{relevante}
+=
+M_{nacional}\times s_{segmento}
+$$
+
+### Mercado objetivo
+
+Considera, además, el territorio, los canales u otras restricciones que delimitan el mercado efectivamente accesible.
+
+$$
+M_{objetivo}
+=
+M_{relevante}\times s_{cobertura}
+$$
+
+### Demanda capturable
+
+Representa la parte del mercado objetivo que razonablemente podría captar el proyecto.
+
+$$
+D_{proyecto}
+=
+M_{objetivo}\times s_{captura}
+$$
+
+Debe comprender que **mercado nacional, mercado objetivo y ventas esperadas no son conceptos equivalentes**.
+
+---
+
+## 5. De valores monetarios a unidades físicas
+
+Repase cómo transformar una estimación monetaria de demanda en unidades físicas cuando se dispone de un precio esperado:
+
+$$
+Q =
+\frac{Ventas\ potenciales}{Precio\ unitario}
+$$
+
+Preste atención a las unidades de medida. Si la información original está expresada en millones de quetzales, deberá realizar la conversión correspondiente antes de dividir entre el precio unitario.
+
+---
+
+## 6. Mercado y capacidad del proyecto
+
+Repase la diferencia entre:
+
+- demanda estimada por el mercado;
+- capacidad máxima de producción;
+- ventas o producción factible.
+
+Una relación útil es:
+
+$$
+Q_{factible}
+=
+\min(Q_{demandada},Q_{capacidad})
+$$
+
+Debe poder identificar cuándo la principal restricción para un proyecto proviene del mercado y cuándo proviene de su capacidad productiva.
+
+---
+
+## ¿Qué debería poder hacer antes del examen?
+
+Al finalizar su repaso, debería poder:
+
+1. identificar escasez, elección y costo de oportunidad dentro de una situación concreta;
+2. calcular e interpretar el PIB a partir de información económica;
+3. interpretar un equilibrio básico de oferta y utilización;
+4. seleccionar el dato adecuado para aproximar el mercado de un proyecto;
+5. construir una estimación de mercado nacional, relevante y objetivo;
+6. estimar ventas potenciales y cantidades demandadas;
+7. comparar la demanda con la capacidad productiva;
+8. explicar brevemente qué significan los resultados para una decisión de proyecto.
+
+::: {.callout-tip}
+## Recomendación para estudiar
+
+Repase los ejercicios desarrollados en clase y el laboratorio “Del dato macroeconómico al mercado de un proyecto”.
+
+No es necesario memorizar los valores numéricos utilizados en los ejercicios. Concéntrese en comprender la secuencia de análisis, las relaciones entre las variables y la interpretación económica de los resultados.
+:::

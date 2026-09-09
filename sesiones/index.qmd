@@ -46,7 +46,7 @@ De las cuentas nacionales al análisis del mercado: oferta, utilización y aplic
 
 ### Sesión 04
 
-**Próxima sesión**
+**Dinámica Económica**
 
 Fluctuaciones económicas, oferta y demanda agregada.
 
@@ -55,6 +55,15 @@ Fluctuaciones económicas, oferta y demanda agregada.
 ---
 
 ### Sesión 05
+
+**Guia examen parcial**
+
+¿que deben de estudiar para prepararse par el examen parcial?
+
+[Ver sesión →](sesion05.qmd).
+---
+
+### Sesión 06
 
 **Próxima sesión**
 

@@ -22,7 +22,7 @@ format:
     history: true
     pdf-separate-fragments: false
     slide-level: 2
-lang: es
+    lang: es
 ---
 
 ## Antes de comenzar {.no-border}
