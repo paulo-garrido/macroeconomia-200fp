@@ -161,566 +161,6 @@
     "text": "Registro de asistencia\nRegistre su asistencia correspondiente a la Sesión 04.\nEl formulario registra automáticamente la fecha y hora de envío. Complete correctamente su carné, nombre y el código de asistencia indicado durante la sesión.\nRegistrar asistencia →"
   },
   {
-    "objectID": "presentaciones/sesion02/index2.html#objetivo-de-la-sesión",
-    "href": "presentaciones/sesion02/index2.html#objetivo-de-la-sesión",
-    "title": "Sesión 1",
-    "section": "Objetivo de la sesión",
-    "text": "Objetivo de la sesión\n\nConstruir una base algebraica sólida para trabajar después con ecuaciones, funciones y cálculo.\n\n\nHoy trabajaremos cinco ideas:\n\nnúmeros reales;\npropiedades algebraicas;\nexponentes;\nradicales;\nintervalos, valor absoluto y dominio."
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#por-qué-empezar-aquí",
-    "href": "presentaciones/sesion02/index2.html#por-qué-empezar-aquí",
-    "title": "Sesión 1",
-    "section": "¿Por qué empezar aquí?",
-    "text": "¿Por qué empezar aquí?\n\n\nEn cálculo aparecerán expresiones como:\n\\[\n\\lim_{x\\to 2}\\frac{x^2-4}{x-2}\n\\]\n\\[\n\\frac{f(x+h)-f(x)}{h}\n\\]\n\\[\n\\sqrt{x^2+2x+1}\n\\]\n\nPara resolverlas bien necesitamos:\n\nfactorizar;\nsimplificar;\ncuidar restricciones;\noperar con exponentes;\ninterpretar valor absoluto;\nescribir dominios correctamente."
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#regla-de-trabajo-del-curso",
-    "href": "presentaciones/sesion02/index2.html#regla-de-trabajo-del-curso",
-    "title": "Sesión 1",
-    "section": "Regla de trabajo del curso",
-    "text": "Regla de trabajo del curso\n\nNo buscamos sólo “llegar a la respuesta”.\n\n\nBuscamos poder responder:\n\n¿qué propiedad estoy usando?;\n¿el paso es válido?;\n¿hay restricciones de dominio?;\n¿puedo explicar la solución?"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#el-sistema-de-números-reales",
-    "href": "presentaciones/sesion02/index2.html#el-sistema-de-números-reales",
-    "title": "Sesión 1",
-    "section": "El sistema de números reales",
-    "text": "El sistema de números reales\n\n\\[\n\\mathbb{N}\\subset \\mathbb{Z}\\subset \\mathbb{Q}\\subset \\mathbb{R}\n\\]\n\n\n\n\nConjunto\nEjemplos\n\n\n\n\nNaturales\n\\(1,2,3,\\ldots\\)\n\n\nEnteros\n\\(\\ldots,-2,-1,0,1,2,\\ldots\\)\n\n\nRacionales\n\\(\\frac{3}{4}, -2, 0.25, 0.\\overline{3}\\)\n\n\nIrracionales\n\\(\\sqrt{2}, \\pi, e\\)\n\n\nReales\nracionales e irracionales"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#una-distinción-importante",
-    "href": "presentaciones/sesion02/index2.html#una-distinción-importante",
-    "title": "Sesión 1",
-    "section": "Una distinción importante",
-    "text": "Una distinción importante\n\n\nTodo racional puede escribirse como:\n\\[\n\\frac{p}{q},\\qquad p,q\\in\\mathbb{Z},\\quad q\\neq0.\n\\]\n\nUn irracional no puede escribirse como cociente de enteros.\nEjemplos:\n\\[\n\\sqrt{2},\\qquad \\pi.\n\\]"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#ejercicio-1-clasificar-números",
-    "href": "presentaciones/sesion02/index2.html#ejercicio-1-clasificar-números",
-    "title": "Sesión 1",
-    "section": "Ejercicio 1: clasificar números",
-    "text": "Ejercicio 1: clasificar números\nClasifique cada número en el conjunto más específico posible:\n\\[\n-5,\\qquad 0,\\qquad \\frac{7}{3},\\qquad \\sqrt{16},\\qquad \\sqrt{5},\\qquad 0.\\overline{12}\n\\]\n\nDiscusión esperada\n\n\\(\\sqrt{16}=4\\) es natural.\n\\(0.\\overline{12}\\) es racional.\n\\(\\sqrt{5}\\) es irracional."
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#propiedades-algebraicas-básicas",
-    "href": "presentaciones/sesion02/index2.html#propiedades-algebraicas-básicas",
-    "title": "Sesión 1",
-    "section": "Propiedades algebraicas básicas",
-    "text": "Propiedades algebraicas básicas\n\n\n\nPropiedad\nForma\n\n\n\n\nConmutativa\n\\(a+b=b+a\\), \\(ab=ba\\)\n\n\nAsociativa\n\\((a+b)+c=a+(b+c)\\)\n\n\nDistributiva\n\\(a(b+c)=ab+ac\\)\n\n\nIdentidad aditiva\n\\(a+0=a\\)\n\n\nIdentidad multiplicativa\n\\(a\\cdot 1=a\\)\n\n\nInverso multiplicativo\n\\(a\\cdot \\frac{1}{a}=1\\), \\(a\\neq0\\)"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#la-propiedad-distributiva",
-    "href": "presentaciones/sesion02/index2.html#la-propiedad-distributiva",
-    "title": "Sesión 1",
-    "section": "La propiedad distributiva",
-    "text": "La propiedad distributiva\n\nLa propiedad distributiva conecta suma y multiplicación.\n\n\\[\na(b+c)=ab+ac\n\\]\n\nEjemplo:\n\\[\n3(x+4)=3x+12.\n\\]\n\n\nError común:\n\\[\n3(x+4)\\neq 3x+4.\n\\]"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#ejercicio-2-simplificación",
-    "href": "presentaciones/sesion02/index2.html#ejercicio-2-simplificación",
-    "title": "Sesión 1",
-    "section": "Ejercicio 2: simplificación",
-    "text": "Ejercicio 2: simplificación\nSimplifique:\n\\[\n4(2x-3)-3(x+5)\n\\]\n\nSolución:\n\\[\n4(2x-3)-3(x+5)\n=8x-12-3x-15\n=5x-27.\n\\]"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#exponentes",
-    "href": "presentaciones/sesion02/index2.html#exponentes",
-    "title": "Sesión 1",
-    "section": "Exponentes",
-    "text": "Exponentes\nPara \\(a\\neq0\\):\n\\[\na^0=1\n\\]\n\\[\na^{-n}=\\frac{1}{a^n}\n\\]\n\\[\na^m a^n=a^{m+n}\n\\]\n\\[\n\\frac{a^m}{a^n}=a^{m-n}\n\\]\n\\[\n(a^m)^n=a^{mn}\n\\]"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#exponentes-error-frecuente",
-    "href": "presentaciones/sesion02/index2.html#exponentes-error-frecuente",
-    "title": "Sesión 1",
-    "section": "Exponentes: error frecuente",
-    "text": "Exponentes: error frecuente\n\n\nCorrecto:\n\\[\n(x^2)^3=x^6.\n\\]\n\\[\nx^2x^3=x^5.\n\\]\n\nIncorrecto:\n\\[\nx^2+x^3\\neq x^5.\n\\]\nLa ley de exponentes aplica a productos y cocientes, no a sumas."
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#ejercicio-3-exponentes",
-    "href": "presentaciones/sesion02/index2.html#ejercicio-3-exponentes",
-    "title": "Sesión 1",
-    "section": "Ejercicio 3: exponentes",
-    "text": "Ejercicio 3: exponentes\nSimplifique y escriba con exponentes positivos:\n\\[\n\\frac{a^{-2}b^5}{a^3b^{-1}}\n\\]\n\nSolución:\n\\[\n\\frac{a^{-2}b^5}{a^3b^{-1}}\n=\na^{-2-3}b^{5-(-1)}\n=\na^{-5}b^6\n=\n\\frac{b^6}{a^5}.\n\\]"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#exponentes-racionales",
-    "href": "presentaciones/sesion02/index2.html#exponentes-racionales",
-    "title": "Sesión 1",
-    "section": "Exponentes racionales",
-    "text": "Exponentes racionales\nLos radicales pueden escribirse como exponentes racionales:\n\\[\n\\sqrt[n]{a}=a^{1/n}\n\\]\n\\[\n\\sqrt[n]{a^m}=a^{m/n}\n\\]\nEjemplos:\n\\[\n\\sqrt{x}=x^{1/2}\n\\]\n\\[\n\\sqrt[3]{x^2}=x^{2/3}\n\\]"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#ejercicio-4-exponentes-racionales",
-    "href": "presentaciones/sesion02/index2.html#ejercicio-4-exponentes-racionales",
-    "title": "Sesión 1",
-    "section": "Ejercicio 4: exponentes racionales",
-    "text": "Ejercicio 4: exponentes racionales\nSimplifique:\n\\[\n16^{3/4}\n\\]\n\nPrimero:\n\\[\n16^{1/4}=2\n\\]\nporque\n\\[\n2^4=16.\n\\]\n\n\nEntonces:\n\\[\n16^{3/4}=(16^{1/4})^3=2^3=8.\n\\]"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#radicales",
-    "href": "presentaciones/sesion02/index2.html#radicales",
-    "title": "Sesión 1",
-    "section": "Radicales",
-    "text": "Radicales\n\nUn radical representa una raíz.\n\n\\[\n\\sqrt[n]{a}=b\n\\quad \\Longleftrightarrow \\quad\nb^n=a.\n\\]\n\nPero hay que tener cuidado con raíces pares de números negativos:\n\\[\n\\sqrt{-9}\n\\]\nno es un número real."
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#raíces-pares-e-impares",
-    "href": "presentaciones/sesion02/index2.html#raíces-pares-e-impares",
-    "title": "Sesión 1",
-    "section": "Raíces pares e impares",
-    "text": "Raíces pares e impares\n\n\n\nExpresión\n¿Es real?\nResultado\n\n\n\n\n\\(\\sqrt{9}\\)\nSí\n\\(3\\)\n\n\n\\(\\sqrt{-9}\\)\nNo\nno real\n\n\n\\(\\sqrt[3]{8}\\)\nSí\n\\(2\\)\n\n\n\\(\\sqrt[3]{-8}\\)\nSí\n\\(-2\\)"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#cuidado-central",
-    "href": "presentaciones/sesion02/index2.html#cuidado-central",
-    "title": "Sesión 1",
-    "section": "Cuidado central",
-    "text": "Cuidado central\n\nPara todo número real \\(x\\):\n\n\\[\n\\sqrt{x^2}=\\lvert x\\rvert\n\\]\n\nNo necesariamente:\n\\[\n\\sqrt{x^2}=x.\n\\]\n\n\nEjemplo: si \\(x=-3\\),\n\\[\n\\sqrt{(-3)^2}=\\sqrt{9}=3=\\lvert -3\\rvert.\n\\]"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#ejercicio-5-simplificar-radicales",
-    "href": "presentaciones/sesion02/index2.html#ejercicio-5-simplificar-radicales",
-    "title": "Sesión 1",
-    "section": "Ejercicio 5: simplificar radicales",
-    "text": "Ejercicio 5: simplificar radicales\nSimplifique:\n\\[\n\\sqrt{72}\n\\]\n\nFactorizamos:\n\\[\n72=36\\cdot 2.\n\\]\n\n\nEntonces:\n\\[\n\\sqrt{72}\n=\n\\sqrt{36\\cdot2}\n=\n6\\sqrt{2}.\n\\]"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#ejercicio-6-radical-con-variable",
-    "href": "presentaciones/sesion02/index2.html#ejercicio-6-radical-con-variable",
-    "title": "Sesión 1",
-    "section": "Ejercicio 6: radical con variable",
-    "text": "Ejercicio 6: radical con variable\nSimplifique, suponiendo \\(x&gt;0\\):\n\\[\n\\sqrt{50x^2}\n\\]\n\n\\[\n\\sqrt{50x^2}\n=\n\\sqrt{25\\cdot2\\cdot x^2}\n=\n5x\\sqrt{2}.\n\\]\n\n\nSi no se supone \\(x&gt;0\\):\n\\[\n\\sqrt{50x^2}=5\\lvert x\\rvert\\sqrt{2}.\n\\]"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#intervalos",
-    "href": "presentaciones/sesion02/index2.html#intervalos",
-    "title": "Sesión 1",
-    "section": "Intervalos",
-    "text": "Intervalos\n\n\n\nDesigualdad\nIntervalo\n\n\n\n\n\\(a&lt;x&lt;b\\)\n\\((a,b)\\)\n\n\n\\(a\\leq x\\leq b\\)\n\\([a,b]\\)\n\n\n\\(x&gt;a\\)\n\\((a,\\infty)\\)\n\n\n\\(x\\leq a\\)\n\\((-\\infty,a]\\)"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#valor-absoluto",
-    "href": "presentaciones/sesion02/index2.html#valor-absoluto",
-    "title": "Sesión 1",
-    "section": "Valor absoluto",
-    "text": "Valor absoluto\nEl valor absoluto mide distancia al cero:\n\\[\n\\lvert x\\rvert =\n\\begin{cases}\nx, & x\\geq 0,\\\\\n-x, & x&lt;0.\n\\end{cases}\n\\]\n\nPor eso:\n\\[\n\\lvert x\\rvert&lt;3\n\\]\nsignifica:\n\\[\n-3&lt;x&lt;3.\n\\]"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#ejercicio-7-valor-absoluto",
-    "href": "presentaciones/sesion02/index2.html#ejercicio-7-valor-absoluto",
-    "title": "Sesión 1",
-    "section": "Ejercicio 7: valor absoluto",
-    "text": "Ejercicio 7: valor absoluto\nResuelva:\n\\[\n\\lvert 2x-1\\rvert\\leq 5\n\\]\n\nEquivale a:\n\\[\n-5\\leq 2x-1\\leq 5.\n\\]\n\n\nSumamos 1:\n\\[\n-4\\leq 2x\\leq 6.\n\\]\n\n\nDividimos entre 2:\n\\[\n-2\\leq x\\leq 3.\n\\]\nSolución:\n\\[\n[-2,3].\n\\]"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#dominio-de-una-expresión",
-    "href": "presentaciones/sesion02/index2.html#dominio-de-una-expresión",
-    "title": "Sesión 1",
-    "section": "Dominio de una expresión",
-    "text": "Dominio de una expresión\n\nEl dominio es el conjunto de valores permitidos para la variable.\n\nRestricciones frecuentes:\n\nno dividir entre cero;\nno tomar raíz par de número negativo;\nno tomar logaritmo de número no positivo."
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#ejemplo-dominio",
-    "href": "presentaciones/sesion02/index2.html#ejemplo-dominio",
-    "title": "Sesión 1",
-    "section": "Ejemplo: dominio",
-    "text": "Ejemplo: dominio\nDetermine el dominio:\n\\[\n\\frac{1}{x-4}\n\\]\n\nRestricción:\n\\[\nx-4\\neq0.\n\\]\n\n\nEntonces:\n\\[\nx\\neq4.\n\\]\nDominio:\n\\[\n(-\\infty,4)\\cup(4,\\infty).\n\\]"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#ejercicio-8-dominio-con-raíz",
-    "href": "presentaciones/sesion02/index2.html#ejercicio-8-dominio-con-raíz",
-    "title": "Sesión 1",
-    "section": "Ejercicio 8: dominio con raíz",
-    "text": "Ejercicio 8: dominio con raíz\nDetermine el dominio:\n\\[\n\\sqrt{x+3}\n\\]\n\nLa expresión dentro de la raíz debe ser no negativa:\n\\[\nx+3\\geq0.\n\\]\n\n\nEntonces:\n\\[\nx\\geq-3.\n\\]\nDominio:\n\\[\n[-3,\\infty).\n\\]"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#ejercicio-9-dominio-combinado",
-    "href": "presentaciones/sesion02/index2.html#ejercicio-9-dominio-combinado",
-    "title": "Sesión 1",
-    "section": "Ejercicio 9: dominio combinado",
-    "text": "Ejercicio 9: dominio combinado\nDetermine el dominio:\n\\[\n\\frac{\\sqrt{x+1}}{x-3}\n\\]\n\nPor la raíz:\n\\[\nx+1\\geq0\n\\quad\\Rightarrow\\quad\nx\\geq -1.\n\\]\n\n\nPor el denominador:\n\\[\nx-3\\neq0\n\\quad\\Rightarrow\\quad\nx\\neq3.\n\\]\n\n\nDominio:\n\\[\n[-1,3)\\cup(3,\\infty).\n\\]"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#ejercicio-10-reto-de-cierre",
-    "href": "presentaciones/sesion02/index2.html#ejercicio-10-reto-de-cierre",
-    "title": "Sesión 1",
-    "section": "Ejercicio 10: reto de cierre",
-    "text": "Ejercicio 10: reto de cierre\nDetermine el dominio:\n\\[\n\\sqrt{\\frac{x-1}{x+2}}\n\\]\n\nNecesitamos:\n\\[\n\\frac{x-1}{x+2}\\geq0,\n\\qquad x\\neq -2.\n\\]\n\n\nPuntos críticos:\n\\[\nx=1,\\qquad x=-2.\n\\]\n\n\nSolución:\n\\[\n(-\\infty,-2)\\cup[1,\\infty).\n\\]"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#síntesis-de-la-sesión",
-    "href": "presentaciones/sesion02/index2.html#síntesis-de-la-sesión",
-    "title": "Sesión 1",
-    "section": "Síntesis de la sesión",
-    "text": "Síntesis de la sesión\nHoy trabajamos:\n\nnúmeros reales;\npropiedades algebraicas;\nexponentes;\nradicales;\nvalor absoluto;\nintervalos;\ndominio.\n\n\nLa idea central fue:\n\\[\n\\boxed{\\text{Toda operación algebraica debe respetar sus restricciones.}}\n\\]"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#tarea",
-    "href": "presentaciones/sesion02/index2.html#tarea",
-    "title": "Sesión 1",
-    "section": "Tarea",
-    "text": "Tarea\nRealizar la Hoja de ejercicios — Sesión 1.\n\nEntregar con procedimiento completo y respuestas justificadas.\n\nPriorizar:\n\nrestricciones de dominio;\nsimplificación correcta;\nuso adecuado de valor absoluto;\nexplicación de propiedades."
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#para-estudiar-mejor",
-    "href": "presentaciones/sesion02/index2.html#para-estudiar-mejor",
-    "title": "Sesión 1",
-    "section": "Para estudiar mejor",
-    "text": "Para estudiar mejor\nAntes de resolver cada ejercicio, preguntarse:\n\n¿qué tipo de expresión tengo?;\n¿hay raíces?;\n¿hay denominadores?;\n¿hay valor absoluto?;\n¿qué restricciones aparecen?;\n¿qué propiedad justifica mi paso?"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index2.html#cierre",
-    "href": "presentaciones/sesion02/index2.html#cierre",
-    "title": "Sesión 1",
-    "section": "Cierre",
-    "text": "Cierre\n\nLa preparación matemática no empieza con cálculo.\n\n\nEmpieza con dominar el lenguaje algebraico que hace posible el cálculo."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Comprender la economía para tomar decisiones informadas",
-    "section": "",
-    "text": "MACROECONOMÍA · 200 FP\nCURSO 2026\n\n\n\nMAESTRÍA EN FORMULACIÓN Y EVALUACIÓN DE PROYECTOS\n\n\n\n\nMacroeconomía aplicada al análisis del entorno económico, la inversión y la formulación y evaluación de proyectos.\n\n\nExplorar sesiones →\nVer programa\n\n\n\n\nEscuela de Estudios de Postgrado\nFacultad de Ciencias Económicas · Universidad de San Carlos de Guatemala"
-  },
-  {
-    "objectID": "index.html#de-los-agregados-macroeconómicos-y-su-interpretación",
-    "href": "index.html#de-los-agregados-macroeconómicos-y-su-interpretación",
-    "title": "Comprender la economía para tomar decisiones informadas",
-    "section": "De los agregados macroeconómicos y su interpretación",
-    "text": "De los agregados macroeconómicos y su interpretación\nEl curso estudia cómo se mide y funciona una economía y cómo variables como producción, inflación, tasas de interés, tipo de cambio, política fiscal y sector externo configuran el entorno en el cual se toman decisiones económicas."
-  },
-  {
-    "objectID": "programa.html",
-    "href": "programa.html",
-    "title": "Programa del curso",
-    "section": "",
-    "text": "Curso: Macroeconomía\nCódigo: 200 FP\nPrograma: Maestría en Formulación y Evaluación de Proyectos\nUnidad académica: Escuela de Estudios de Postgrado · Facultad de Ciencias Económicas\nUniversidad: Universidad de San Carlos de Guatemala\nTrimestre: III · 2026"
-  },
-  {
-    "objectID": "programa.html#información-general",
-    "href": "programa.html#información-general",
-    "title": "Programa del curso",
-    "section": "",
-    "text": "Curso: Macroeconomía\nCódigo: 200 FP\nPrograma: Maestría en Formulación y Evaluación de Proyectos\nUnidad académica: Escuela de Estudios de Postgrado · Facultad de Ciencias Económicas\nUniversidad: Universidad de San Carlos de Guatemala\nTrimestre: III · 2026"
-  },
-  {
-    "objectID": "programa.html#propósito-del-curso",
-    "href": "programa.html#propósito-del-curso",
-    "title": "Programa del curso",
-    "section": "Propósito del curso",
-    "text": "Propósito del curso\nEl curso aborda el funcionamiento agregado de la economía y el análisis de las principales variables macroeconómicas que configuran el entorno en el cual se desarrollan las decisiones económicas y los proyectos de inversión.\nSe estudian, entre otros temas, la medición de la actividad económica, crecimiento y desarrollo, inflación, tasas de interés, política monetaria, política fiscal, sector externo y las relaciones entre el entorno macroeconómico y la formulación y evaluación de proyectos."
-  },
-  {
-    "objectID": "programa.html#organización",
-    "href": "programa.html#organización",
-    "title": "Programa del curso",
-    "section": "Organización",
-    "text": "Organización\nEl curso se desarrolla en 12 sesiones, combinando:\n\ndesarrollo conceptual;\nanálisis de información económica;\nejercicios de aplicación;\nlaboratorios;\nlecturas y abstracts;\nactividades de discusión;\npanel-foro;\nevaluación parcial;\nevaluación final."
-  },
-  {
-    "objectID": "programa.html#programa-oficial",
-    "href": "programa.html#programa-oficial",
-    "title": "Programa del curso",
-    "section": "Programa oficial",
-    "text": "Programa oficial\nEl documento oficial contiene la descripción completa del curso, competencias, contenidos, metodología, sistema de evaluación, programación de sesiones y bibliografía.\nAbrir programa completo en PDF →"
-  },
-  {
-    "objectID": "programa.html#estructura-general-del-curso",
-    "href": "programa.html#estructura-general-del-curso",
-    "title": "Programa del curso",
-    "section": "Estructura general del curso",
-    "text": "Estructura general del curso\n\nBloque I · Comprender y medir la economía\nMedición de la actividad económica, Producto Interno Bruto y lectura de los principales agregados macroeconómicos.\n\n\nBloque II · Explicar su funcionamiento\nConsumo, ahorro, inversión, fluctuaciones económicas, crecimiento y desarrollo.\n\n\nBloque III · Política económica y entorno\nInflación, dinero, tasas de interés, política monetaria, política fiscal, sector externo y tipo de cambio.\n\n\nBloque IV · Aplicación\nInterpretación del entorno macroeconómico y sus implicaciones para las decisiones económicas y los proyectos."
-  },
-  {
-    "objectID": "programa.html#recursos-del-curso",
-    "href": "programa.html#recursos-del-curso",
-    "title": "Programa del curso",
-    "section": "Recursos del curso",
-    "text": "Recursos del curso\nSesiones →\nLaboratorios →\nTareas →\nLecturas →"
-  },
-  {
-    "objectID": "docente.html",
-    "href": "docente.html",
-    "title": "Perfil docente",
-    "section": "",
-    "text": "MACROECONOMÍA · 200 FP\n\n\n\n\nDOCENTE DEL CURSO\n\n\n\nDocente titular\nEconomista egresado de la Facultad de Ciencias Económicas de la Universidad de San Carlos de Guatemala. Posee una Maestría en Administración Financiera, obtenida con distinción Magna Cum Laude en la Escuela de Estudios de Postgrado de la misma universidad, y cuenta con un Diplomado en Estadística para Investigadores, impartido por el Instituto Nacional de Estadística y la Dirección General de Investigación de la Universidad de San Carlos de Guatemala.\nActualmente cursa el Programa de Estudios Superiores en Banca Central, Mención en Economía y Finanzas Aplicadas, desarrollado por el Banco de Guatemala, el Centro de Estudios Monetarios Latinoamericanos (CEMLA) y la Universidad Rafael Landívar (URL). Asimismo, es candidato a Doctor en Desarrollo Sostenible en el Instituto de Desarrollo Sostenible de la Universidad Galileo.\nSu experiencia profesional se vincula con el análisis macroeconómico y la elaboración de estadísticas económicas, particularmente en el ámbito de las cuentas nacionales y la medición de la actividad económica.\nSu enfoque docente procura combinar una exposición pedagógica de la teoría económica con el rigor analítico y cuantitativo que caracteriza a la economía moderna, promoviendo que el estudiante no solo comprenda los conceptos, sino que desarrolle capacidad para interpretar fenómenos económicos y analizar evidencia empírica.\n\n\n\nMacroeconomía Cuentas nacionales Estadísticas macroeconómicas Política monetaria Econometría Desarrollo sostenible"
-  },
-  {
-    "objectID": "docente.html#msc.-paulo-augusto-garrido-grijalva",
-    "href": "docente.html#msc.-paulo-augusto-garrido-grijalva",
-    "title": "Perfil docente",
-    "section": "",
-    "text": "Docente titular\nEconomista egresado de la Facultad de Ciencias Económicas de la Universidad de San Carlos de Guatemala. Posee una Maestría en Administración Financiera, obtenida con distinción Magna Cum Laude en la Escuela de Estudios de Postgrado de la misma universidad, y cuenta con un Diplomado en Estadística para Investigadores, impartido por el Instituto Nacional de Estadística y la Dirección General de Investigación de la Universidad de San Carlos de Guatemala.\nActualmente cursa el Programa de Estudios Superiores en Banca Central, Mención en Economía y Finanzas Aplicadas, desarrollado por el Banco de Guatemala, el Centro de Estudios Monetarios Latinoamericanos (CEMLA) y la Universidad Rafael Landívar (URL). Asimismo, es candidato a Doctor en Desarrollo Sostenible en el Instituto de Desarrollo Sostenible de la Universidad Galileo.\nSu experiencia profesional se vincula con el análisis macroeconómico y la elaboración de estadísticas económicas, particularmente en el ámbito de las cuentas nacionales y la medición de la actividad económica.\nSu enfoque docente procura combinar una exposición pedagógica de la teoría económica con el rigor analítico y cuantitativo que caracteriza a la economía moderna, promoviendo que el estudiante no solo comprenda los conceptos, sino que desarrolle capacidad para interpretar fenómenos económicos y analizar evidencia empírica.\n\n\n\nMacroeconomía Cuentas nacionales Estadísticas macroeconómicas Política monetaria Econometría Desarrollo sostenible"
-  },
-  {
-    "objectID": "programa/programa.html",
-    "href": "programa/programa.html",
-    "title": "Programa del curso",
-    "section": "",
-    "text": "Curso: Macroeconomía\nCódigo: 200 FP\nPrograma: Maestría en Formulación y Evaluación de Proyectos\nUnidad académica: Escuela de Estudios de Postgrado · Facultad de Ciencias Económicas\nUniversidad: Universidad de San Carlos de Guatemala\nTrimestre: III · 2026"
-  },
-  {
-    "objectID": "programa/programa.html#información-general",
-    "href": "programa/programa.html#información-general",
-    "title": "Programa del curso",
-    "section": "",
-    "text": "Curso: Macroeconomía\nCódigo: 200 FP\nPrograma: Maestría en Formulación y Evaluación de Proyectos\nUnidad académica: Escuela de Estudios de Postgrado · Facultad de Ciencias Económicas\nUniversidad: Universidad de San Carlos de Guatemala\nTrimestre: III · 2026"
-  },
-  {
-    "objectID": "programa/programa.html#propósito-del-curso",
-    "href": "programa/programa.html#propósito-del-curso",
-    "title": "Programa del curso",
-    "section": "Propósito del curso",
-    "text": "Propósito del curso\nEl curso aborda el funcionamiento agregado de la economía y el análisis de las principales variables macroeconómicas que configuran el entorno en el cual se desarrollan las decisiones económicas y los proyectos de inversión.\nSe estudian, entre otros temas, la medición de la actividad económica, crecimiento y desarrollo, inflación, tasas de interés, política monetaria, política fiscal, sector externo y las relaciones entre el entorno macroeconómico y la formulación y evaluación de proyectos."
-  },
-  {
-    "objectID": "programa/programa.html#organización",
-    "href": "programa/programa.html#organización",
-    "title": "Programa del curso",
-    "section": "Organización",
-    "text": "Organización\nEl curso se desarrolla en 12 sesiones, combinando:\n\ndesarrollo conceptual;\nanálisis de información económica;\nejercicios de aplicación;\nlaboratorios;\nlecturas y abstracts;\nactividades de discusión;\npanel-foro;\nevaluación parcial;\nevaluación final."
-  },
-  {
-    "objectID": "programa/programa.html#programa-oficial",
-    "href": "programa/programa.html#programa-oficial",
-    "title": "Programa del curso",
-    "section": "Programa oficial",
-    "text": "Programa oficial\nEl documento oficial contiene la descripción completa del curso, competencias, contenidos, metodología, sistema de evaluación, programación de sesiones y bibliografía.\nAbrir programa completo en PDF →"
-  },
-  {
-    "objectID": "programa/programa.html#estructura-general-del-curso",
-    "href": "programa/programa.html#estructura-general-del-curso",
-    "title": "Programa del curso",
-    "section": "Estructura general del curso",
-    "text": "Estructura general del curso\n\nBloque I · Comprender y medir la economía\nMedición de la actividad económica, Producto Interno Bruto y lectura de los principales agregados macroeconómicos.\n\n\nBloque II · Explicar su funcionamiento\nConsumo, ahorro, inversión, fluctuaciones económicas, crecimiento y desarrollo.\n\n\nBloque III · Política económica y entorno\nInflación, dinero, tasas de interés, política monetaria, política fiscal, sector externo y tipo de cambio.\n\n\nBloque IV · Aplicación\nInterpretación del entorno macroeconómico y sus implicaciones para las decisiones económicas y los proyectos."
-  },
-  {
-    "objectID": "programa/programa.html#recursos-del-curso",
-    "href": "programa/programa.html#recursos-del-curso",
-    "title": "Programa del curso",
-    "section": "Recursos del curso",
-    "text": "Recursos del curso\nSesiones →\nLaboratorios →\nTareas →\nLecturas →"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#sesión-2",
-    "href": "presentaciones/sesion02/index.html#sesión-2",
-    "title": "Sesión 2",
-    "section": "Sesión 2",
-    "text": "Sesión 2\n\n  \n    Macroeconomía · 200 FP\n    02\n  \n\n  \n    Medición económica agregada\n    Del PIB al mercado del proyecto\n    Cómo transformar las cuentas nacionales en información útil para dimensionar la demanda potencial de un proyecto.\n    \n  \n\n  \n    \n      Maestría en Formulación y Evaluación de Proyectos\n      Escuela de Estudios de Postgrado · Facultad de Ciencias Económicas · USAC\n      \n        PIBCuentas nacionalesOferta-utilizaciónEstudio de mercado\n      \n    \n    \n      Msc. Paulo Augusto Garrido Grijalva\n      15 de agosto de 2026"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#punto-de-partida",
-    "href": "presentaciones/sesion02/index.html#punto-de-partida",
-    "title": "Sesión 2",
-    "section": "Punto de partida",
-    "text": "Punto de partida\n\n  Lectura de entrada\n  El PIB no es una fotografía neutral de la economía.\n  Es una construcción estadística: selecciona una frontera de producción, valora bienes y servicios, evita doble contabilización y organiza el circuito económico en cuentas coherentes.\n  Pregunta conductora: si quiero formular un proyecto de calzado, ¿qué puede decirme el PIB sobre mi mercado… y qué no puede decirme?\n\n\nAbra la sesión recuperando la lectura de Diane Coyle. No empiece definiendo PIB; empiece con la pregunta de medición. El objetivo pedagógico es que el estudiante entienda que medir la economía es construir un sistema de información para tomar decisiones."
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#ruta-de-la-sesión",
-    "href": "presentaciones/sesion02/index.html#ruta-de-la-sesión",
-    "title": "Sesión 2",
-    "section": "Ruta de la sesión",
-    "text": "Ruta de la sesión\n\n  Discusión del abstract: Diane Coyle y el problema de medir la economía\n  PIB como circuito: producción, ingreso y gasto\n  Ejercicio: una economía pequeña medida por tres enfoques\n  Cuentas Nacionales del Banguat como insumo para proyectos\n  Caso aplicado: mercado potencial para calzado\n  Cierre: del dato macroeconómico al supuesto financiero"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#activación-cuenta-o-no-cuenta-en-el-pib",
-    "href": "presentaciones/sesion02/index.html#activación-cuenta-o-no-cuenta-en-el-pib",
-    "title": "Sesión 2",
-    "section": "Activación: ¿cuenta o no cuenta en el PIB?",
-    "text": "Activación: ¿cuenta o no cuenta en el PIB?\n\nHaga clic en cada tarjeta después de escuchar dos o tres respuestas.\n\n\n  \n    Caso 1\n    Una empresa produce Q100,000 en zapatos nuevos.\n    Sí. Producción corriente de bienes finales o de bienes que entran al circuito productivo.\n  \n  \n    Caso 2\n    Una persona cocina para su familia en casa.\n    No usualmente. Queda fuera de la frontera convencional de producción de mercado.\n  \n  \n    Caso 3\n    La misma comida es preparada por un restaurante.\n    Sí. Ahora hay una transacción de mercado registrada.\n  \n  \n    Caso 4\n    Se revende un automóvil usado.\n    El bien no. Solo puede registrarse el servicio de intermediación/comisión.\n  \n  \n    Caso 5\n    Una empresa produce inventarios que aún no vende.\n    Sí. Se registra como variación de existencias.\n  \n  \n    Caso 6\n    Una aplicación gratuita mejora el bienestar de millones de usuarios.\n    Difícil. Ilustra límites de valoración de servicios digitales y bienestar."
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#discusión-del-abstract",
-    "href": "presentaciones/sesion02/index.html#discusión-del-abstract",
-    "title": "Sesión 2",
-    "section": "Discusión del abstract",
-    "text": "Discusión del abstract\n\n\nCoyle como provocación\nEl PIB mide producción, no bienestar.\nLa utilidad de la contabilidad nacional no está en decirnos si una sociedad “vive bien”, sino en ordenar cuantitativamente la producción, el ingreso y el gasto.\nEntonces: ¿por qué seguimos usando el PIB?\n\n\nPreguntas para participación\n\n¿Por qué surge la necesidad de medir la economía y qué problema intenta resolver una medida agregada como el PIB?\n¿Qué diferencia hay entre producción, ingreso y bienestar?\n¿Por qué creen que Coyle insiste en la historia del PIB para explicar qué significa este indicador actualmente?\n¿Qué error comete un formulador de proyectos si toma el PIB como “demanda automática”?\n\n\n\n\nSeleccione estudiantes al azar. Evite que solo resuman la lectura. Pídales posición: qué mide, qué no mide, y cómo puede inducir errores si se usa mecánicamente para proyectar demanda."
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#tesis-de-la-clase",
-    "href": "presentaciones/sesion02/index.html#tesis-de-la-clase",
-    "title": "Sesión 2",
-    "section": "Tesis de la clase",
-    "text": "Tesis de la clase\n\nPIB ≠ mercado del proyecto\nPero las cuentas utilizadas para construir el PIB contienen información crítica para estimar el tamaño, la estructura y la evolución de un mercado.\n\n  PIB→\n  Actividad→\n  Producto→\n  Demanda potencial"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#la-misma-economía-tres-cámaras",
-    "href": "presentaciones/sesion02/index.html#la-misma-economía-tres-cámaras",
-    "title": "Sesión 2",
-    "section": "La misma economía, tres cámaras",
-    "text": "La misma economía, tres cámaras\n\n\n🏭\nProducción\n¿Cuánto valor agregó cada actividad productiva?\nVBP − CI = VAB\n\n\n💵\nIngreso\n¿Cómo se distribuyó el ingreso generado por la producción?\nsalarios · excedente · impuestos\n\n\n🛒\nGasto\n¿Quién compró la producción final?\nC + I + G + X − M\n\n\n\n\\[\n\\boxed{\\text{Producción}=\\text{Ingreso}=\\text{Gasto}}\n\\]"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#enfoque-de-la-producción",
-    "href": "presentaciones/sesion02/index.html#enfoque-de-la-producción",
-    "title": "Sesión 2",
-    "section": "Enfoque de la producción",
-    "text": "Enfoque de la producción\n¿Cuánto valor nuevo genera cada actividad económica?\n\n\n\n\\[\nVAB_i = \\text{Producción}_i - \\text{Consumo intermedio}_i\n\\]\n\n\n\\[\nPIB = \\sum_i VAB_i + \\text{Impuestos netos sobre los productos}\n\\]\n\n\n\nLÓGICA\n\nNo sumamos todo lo producido\nA la producción de cada actividad le restamos los bienes y servicios que utilizó como insumos. Así evitamos contabilizar varias veces el mismo valor a lo largo de la cadena productiva.\n\nPregunta a clase\nSi el cuero vale Q100 y los zapatos fabricados con ese cuero se venden por Q300, ¿por qué sería incorrecto afirmar que esta cadena produjo Q400?"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#cadena-productiva-calzado",
-    "href": "presentaciones/sesion02/index.html#cadena-productiva-calzado",
-    "title": "Sesión 2",
-    "section": "Cadena productiva: calzado",
-    "text": "Cadena productiva: calzado\n\n  Cueroinsumo\n  →\n  Fábricamanufactura\n  →\n  Comerciodistribución\n  →\n  Consumidoruso final\n\n\nEl PIB evita la doble contabilización registrando el valor agregado en cada etapa, no el valor bruto acumulado de todas las transacciones."
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#enfoque-del-gasto",
-    "href": "presentaciones/sesion02/index.html#enfoque-del-gasto",
-    "title": "Sesión 2",
-    "section": "Enfoque del gasto",
-    "text": "Enfoque del gasto\n\n\nDemanda agregada\n¿Quién absorbe la producción final?\nEl enfoque del gasto organiza el PIB desde los usos finales de la producción: hogares, empresas, gobierno y sector externo.\n\n\n\\[\nPIB = C + I + G + (X-M)\n\\]\n\n\n\nCConsumo de los hogares\nIFormación bruta de capital y existencias\nGGasto de consumo del gobierno\nX − MExportaciones netas"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#enfoque-del-ingreso",
-    "href": "presentaciones/sesion02/index.html#enfoque-del-ingreso",
-    "title": "Sesión 2",
-    "section": "Enfoque del ingreso",
-    "text": "Enfoque del ingreso\n\n\nIdea central\nTodo valor agregado generado en la producción termina como ingreso para algún agente económico o como impuesto neto para el sector público.\n\n\n\\[\nPIB = RA + EBE + IM + T_n\n\\]\n\n\n\nRARemuneración de asalariados\nEBEExcedente bruto de explotación\nIMIngreso mixto\nTnImpuestos netos sobre producción/productos"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#ejercicio-1-producción",
-    "href": "presentaciones/sesion02/index.html#ejercicio-1-producción",
-    "title": "Sesión 2",
-    "section": "Ejercicio 1: producción",
-    "text": "Ejercicio 1: producción\n\n\nIngrese VBP y CI. El VAB se calcula automáticamente.\n\n\n\n\nActividad\nVBP\nCI\nVAB\n\n\n\n\nAgricultura\n\n\n80\n\n\nManufactura\n\n\n180\n\n\nComercio y servicios\n\n\n120\n\n\n\n\nImpuestos netos\nPIB por producción = Q 400 millones\n\n\nDiscusión\n¿Qué pasaría si se sumara el VBP de todas las actividades?\n¿Por qué ese resultado sobrestimaría la producción?"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#ejercicio-2-gasto",
-    "href": "presentaciones/sesion02/index.html#ejercicio-2-gasto",
-    "title": "Sesión 2",
-    "section": "Ejercicio 2: gasto",
-    "text": "Ejercicio 2: gasto\n\n\nConsumo de hogares \\(C\\)\nInversión \\(I\\)\nGasto público \\(G\\)\nExportaciones \\(X\\)\nImportaciones \\(M\\)\nPIB por gasto = Q 400 millones\n\n\n\n\\[\nPIB=C+I+G+X-M\n\\]\n\nNota didáctica: la inversión incluye formación de capital y variación de existencias."
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#ejercicio-3-ingreso",
-    "href": "presentaciones/sesion02/index.html#ejercicio-3-ingreso",
-    "title": "Sesión 2",
-    "section": "Ejercicio 3: ingreso",
-    "text": "Ejercicio 3: ingreso\n\n\nRemuneraciones\nExcedente bruto\nIngreso mixto\nImpuestos netos\nPIB por ingreso = Q 400 millones\n\n\nidea central\nSi el sistema estadístico es coherente, los tres enfoques convergen conceptualmente al mismo agregado.\nLas diferencias empíricas se manejan mediante conciliación estadística."
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#tres-caminos.-una-economía.-un-pib.",
-    "href": "presentaciones/sesion02/index.html#tres-caminos.-una-economía.-un-pib.",
-    "title": "Sesión 2",
-    "section": "Tres caminos. Una economía. Un PIB.",
-    "text": "Tres caminos. Una economía. Un PIB.\n\n\n  ProducciónVAB + impuestos\n  →\n  PIB\n  ←\n  GastoC + I + G + X − M\n\n\n  Ingresoremuneraciones + excedente + ingreso mixto + impuestos\n\nEl PIB es el resultado agregado. Para proyectos necesitamos descender hacia actividades, productos, territorio y estructura de demanda."
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#el-pib-es-la-punta-del-iceberg",
-    "href": "presentaciones/sesion02/index.html#el-pib-es-la-punta-del-iceberg",
-    "title": "Sesión 2",
-    "section": "El PIB es la punta del iceberg",
-    "text": "El PIB es la punta del iceberg\n\n\nDel agregado al proyecto\nEl verdadero valor para estudios de mercado está debajo del PIB.\nLa medición agregada se apoya en una arquitectura de cuentas que permite identificar actividades económicas, productos, oferta, utilización y relaciones intersectoriales.\n\n\nPreguntas del formulador\n\n¿Qué actividades crecen?\n¿Qué productos se producen o importan?\n¿Cuánto se consume internamente?\n¿Qué parte del mercado podría capturar el proyecto?"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#mapa-de-fuentes-banguat",
-    "href": "presentaciones/sesion02/index.html#mapa-de-fuentes-banguat",
-    "title": "Sesión 2",
-    "section": "Mapa de fuentes: Banguat",
-    "text": "Mapa de fuentes: Banguat\n\n\n📈\nPIB por actividad\nSirve para caracterizar el dinamismo macrosectorial: manufactura, comercio, construcción, servicios, etc.\n\n\n🧩\nEquilibrios oferta-utilización\nSirven para aproximar el tamaño observado de mercados por producto.\n\n\n🗺️\nPIB regional/departamental\nSirve para contextualizar territorio, poder económico relativo y concentración de actividad.\n\n\n\nPara un proyecto, el dato macroeconómico no sustituye el estudio de mercado; lo disciplina. Obliga a que los supuestos de venta sean consistentes con el tamaño real del mercado."
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#oferta-utilización-el-puente-hacia-el-mercado",
-    "href": "presentaciones/sesion02/index.html#oferta-utilización-el-puente-hacia-el-mercado",
-    "title": "Sesión 2",
-    "section": "Oferta-utilización: el puente hacia el mercado",
-    "text": "Oferta-utilización: el puente hacia el mercado\n\n\\[\n\\underbrace{P + M}_{\\text{Oferta}} = \\underbrace{CI + C + G + FBK + X}_{\\text{Utilización}}\n\\]\n\n\n  \n    Producción nacionalOferta interna\n    ImportacionesOferta externa\n  \n  \n    \n    Oferta total del productovalor disponible en la economía\n    \n  \n  \n    Consumo finalhogares/gobierno\n    Consumo intermedioempresas\n    Exportacionesresto del mundo"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#caso-conductor",
-    "href": "presentaciones/sesion02/index.html#caso-conductor",
-    "title": "Sesión 2",
-    "section": "Caso conductor",
-    "text": "Caso conductor\n\nProyecto hipotético\nUna planta de calzado en Guatemala\nLa pregunta del inversionista no es: “¿cuánto crece el PIB?”. La pregunta correcta es: “¿qué tan grande es el mercado relevante y qué participación debo capturar para que el proyecto sea viable?”."
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#mala-respuesta-vs.-buena-respuesta",
-    "href": "presentaciones/sesion02/index.html#mala-respuesta-vs.-buena-respuesta",
-    "title": "Sesión 2",
-    "section": "Mala respuesta vs. buena respuesta",
-    "text": "Mala respuesta vs. buena respuesta\n\n\nRespuesta débil\n“El PIB crece, por lo tanto habrá demanda para el proyecto”.\nProblema: confunde crecimiento agregado con mercado específico.\n\n\nRespuesta técnica\n“Estimemos el mercado observado del producto y evaluemos qué cuota necesita capturar el proyecto”.\nParte de Cuentas Nacionales, pero baja a producto, segmento, territorio y competencia."
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#estimación-inicial-mercado-doméstico-aparente",
-    "href": "presentaciones/sesion02/index.html#estimación-inicial-mercado-doméstico-aparente",
-    "title": "Sesión 2",
-    "section": "Estimación inicial: mercado doméstico aparente",
-    "text": "Estimación inicial: mercado doméstico aparente\n\n\nValores didácticos en millones de quetzales\nProducción nacional\nImportaciones\nExportaciones\nVentas esperadas del proyecto\n\n\n\nMercado doméstico aparente\nQ 2,800 millones\nProducción nacional + importaciones − exportaciones.\n\n\nParticipación implícita\n7.1 %\nVentas esperadas / mercado doméstico aparente."
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#la-pregunta-decisiva",
-    "href": "presentaciones/sesion02/index.html#la-pregunta-decisiva",
-    "title": "Sesión 2",
-    "section": "La pregunta decisiva",
-    "text": "La pregunta decisiva\n\n¿Es plausible que una empresa nueva capture 7.1 % del mercado nacional?\nLa respuesta ya no depende solo de macroeconomía. Depende de segmento, precio, canal de distribución, competencia, territorio, capacidad instalada y estrategia comercial."
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#del-mercado-nacional-al-mercado-del-proyecto",
-    "href": "presentaciones/sesion02/index.html#del-mercado-nacional-al-mercado-del-proyecto",
-    "title": "Sesión 2",
-    "section": "Del mercado nacional al mercado del proyecto",
-    "text": "Del mercado nacional al mercado del proyecto\n\n  Mercado nacionalcuentas nacionales\n  →\n  Mercado relevanteproducto/segmento\n  →\n  Mercado objetivoterritorio/canal\n  →\n  Demanda capturableventas del proyecto\n\n\n\\[\nD_{proyecto}=D_{macro}\\times s_{segmento}\\times s_{territorio}\\times s_{captura}\n\\]"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#simulador-de-demanda-del-proyecto",
-    "href": "presentaciones/sesion02/index.html#simulador-de-demanda-del-proyecto",
-    "title": "Sesión 2",
-    "section": "Simulador de demanda del proyecto",
-    "text": "Simulador de demanda del proyecto\n\n\nMercado baseQ 2,800 millones\nSegmento relevante35 %\nTerritorio inicial30 %\nCaptura esperada8.0 %\nCrecimiento del mercado0.0 %\n\n\nVentas potenciales del proyecto\nQ 23.5 millones\nEste número aún no es el flujo de caja: es el supuesto de demanda que luego alimenta ingresos, capacidad, costos y sensibilidad."
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#interpretación-del-simulador",
-    "href": "presentaciones/sesion02/index.html#interpretación-del-simulador",
-    "title": "Sesión 2",
-    "section": "Interpretación del simulador",
-    "text": "Interpretación del simulador\n\n\n1. Tamaño macro\nEl mercado observado pone un techo estadístico inicial. Evita supuestos de ventas desproporcionados.\n\n\n2. Segmentación\nNo todo el mercado de calzado es mercado del proyecto: tipo, precio, calidad, canal y consumidor importan.\n\n\n3. Captura\nLa cuota proyectada debe justificarse con competencia, estrategia comercial, capacidad y diferenciación.\n\n\nLa cuenta nacional aproxima demanda realizada. La demanda potencial requiere supuestos adicionales y validación de mercado."
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#actividad-en-grupos",
-    "href": "presentaciones/sesion02/index.html#actividad-en-grupos",
-    "title": "Sesión 2",
-    "section": "Actividad en grupos",
-    "text": "Actividad en grupos\n\n\nGrupo A\nDefienda que el proyecto sí podría alcanzar la participación propuesta.\n\n¿Qué evidencia necesitaría?\n¿Qué canales usaría?\n¿Qué segmento atacaría primero?\n\n\n\nGrupo B\nCuestione la plausibilidad del supuesto de ventas.\n\n¿Qué competencia existe?\n¿Qué barreras de entrada aparecen?\n¿Qué sensibilidad haría?"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#del-dato-al-flujo-de-caja",
-    "href": "presentaciones/sesion02/index.html#del-dato-al-flujo-de-caja",
-    "title": "Sesión 2",
-    "section": "Del dato al flujo de caja",
-    "text": "Del dato al flujo de caja\n\n  Cuentas Nacionales\n  →\n  Mercado potencial\n  →\n  Ventas estimadas\n  →\n  Ingresos\n  →\n  VAN / TIR\n\n\nUna proyección financiera empieza mucho antes del flujo de caja: empieza entendiendo correctamente la economía que genera la demanda."
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#cierre-vuelva-a-la-pregunta-inicial",
-    "href": "presentaciones/sesion02/index.html#cierre-vuelva-a-la-pregunta-inicial",
-    "title": "Sesión 2",
-    "section": "Cierre: vuelva a la pregunta inicial",
-    "text": "Cierre: vuelva a la pregunta inicial\n\nSi el PIB crece 4 %, ¿la demanda de mi proyecto crecerá 4 %?\n\nRevelar respuesta"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#para-la-próxima-sesión",
-    "href": "presentaciones/sesion02/index.html#para-la-próxima-sesión",
-    "title": "Sesión 2",
-    "section": "Para la próxima sesión",
-    "text": "Para la próxima sesión\n\n\nConexión\nDel PIB al consumo y la inversión\nLa próxima clase profundiza en los componentes de la demanda agregada que sostienen el mercado de los proyectos: consumo, ahorro, inversión y mercado de fondos prestables.\n\n\nPregunta de transición\n¿Qué cambia en la viabilidad de un proyecto si las familias consumen menos y el costo financiero de invertir aumenta?"
-  },
-  {
-    "objectID": "presentaciones/sesion02/index.html#apéndice-técnico-cómo-sustituir-el-ejemplo-por-datos-reales",
-    "href": "presentaciones/sesion02/index.html#apéndice-técnico-cómo-sustituir-el-ejemplo-por-datos-reales",
-    "title": "Sesión 2",
-    "section": "Apéndice técnico: cómo sustituir el ejemplo por datos reales",
-    "text": "Apéndice técnico: cómo sustituir el ejemplo por datos reales\n\nRuta sugerida\n\nDescargar del Banguat el equilibrio oferta-utilización o el COU del producto de interés.\nIdentificar producción nacional, importaciones y exportaciones del producto.\nCalcular mercado doméstico aparente: producción + importaciones − exportaciones.\nAjustar por segmento, territorio, canal y participación esperada.\nDocumentar supuestos y trasladarlos al flujo de caja.\n\n\nLos valores de calzado incluidos en esta presentación son didácticos. Sustitúyalos por las cifras oficiales correspondientes antes de usar el caso como estimación empírica."
-  },
-  {
     "objectID": "presentaciones/sesion04/sesion04_fluctuaciones_macro.html#antes-de-comenzar",
     "href": "presentaciones/sesion04/sesion04_fluctuaciones_macro.html#antes-de-comenzar",
     "title": "Sesión 4",
@@ -1043,6 +483,622 @@
     "text": "Cierre de la sesión\n\n\nIdea final\n\nLa macroeconomía no es un dato externo que se agrega al final del estudio.\nEs el entorno que puede alterar la demanda, los costos, el financiamiento y, por tanto, la viabilidad del proyecto.\n\n\nPróxima sesión: crecimiento y desarrollo económico."
   },
   {
+    "objectID": "presentaciones/sesion02/index.html#sesión-2",
+    "href": "presentaciones/sesion02/index.html#sesión-2",
+    "title": "Sesión 2",
+    "section": "Sesión 2",
+    "text": "Sesión 2\n\n  \n    Macroeconomía · 200 FP\n    02\n  \n\n  \n    Medición económica agregada\n    Del PIB al mercado del proyecto\n    Cómo transformar las cuentas nacionales en información útil para dimensionar la demanda potencial de un proyecto.\n    \n  \n\n  \n    \n      Maestría en Formulación y Evaluación de Proyectos\n      Escuela de Estudios de Postgrado · Facultad de Ciencias Económicas · USAC\n      \n        PIBCuentas nacionalesOferta-utilizaciónEstudio de mercado\n      \n    \n    \n      Msc. Paulo Augusto Garrido Grijalva\n      15 de agosto de 2026"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#punto-de-partida",
+    "href": "presentaciones/sesion02/index.html#punto-de-partida",
+    "title": "Sesión 2",
+    "section": "Punto de partida",
+    "text": "Punto de partida\n\n  Lectura de entrada\n  El PIB no es una fotografía neutral de la economía.\n  Es una construcción estadística: selecciona una frontera de producción, valora bienes y servicios, evita doble contabilización y organiza el circuito económico en cuentas coherentes.\n  Pregunta conductora: si quiero formular un proyecto de calzado, ¿qué puede decirme el PIB sobre mi mercado… y qué no puede decirme?\n\n\nAbra la sesión recuperando la lectura de Diane Coyle. No empiece definiendo PIB; empiece con la pregunta de medición. El objetivo pedagógico es que el estudiante entienda que medir la economía es construir un sistema de información para tomar decisiones."
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#ruta-de-la-sesión",
+    "href": "presentaciones/sesion02/index.html#ruta-de-la-sesión",
+    "title": "Sesión 2",
+    "section": "Ruta de la sesión",
+    "text": "Ruta de la sesión\n\n  Discusión del abstract: Diane Coyle y el problema de medir la economía\n  PIB como circuito: producción, ingreso y gasto\n  Ejercicio: una economía pequeña medida por tres enfoques\n  Cuentas Nacionales del Banguat como insumo para proyectos\n  Caso aplicado: mercado potencial para calzado\n  Cierre: del dato macroeconómico al supuesto financiero"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#activación-cuenta-o-no-cuenta-en-el-pib",
+    "href": "presentaciones/sesion02/index.html#activación-cuenta-o-no-cuenta-en-el-pib",
+    "title": "Sesión 2",
+    "section": "Activación: ¿cuenta o no cuenta en el PIB?",
+    "text": "Activación: ¿cuenta o no cuenta en el PIB?\n\nHaga clic en cada tarjeta después de escuchar dos o tres respuestas.\n\n\n  \n    Caso 1\n    Una empresa produce Q100,000 en zapatos nuevos.\n    Sí. Producción corriente de bienes finales o de bienes que entran al circuito productivo.\n  \n  \n    Caso 2\n    Una persona cocina para su familia en casa.\n    No usualmente. Queda fuera de la frontera convencional de producción de mercado.\n  \n  \n    Caso 3\n    La misma comida es preparada por un restaurante.\n    Sí. Ahora hay una transacción de mercado registrada.\n  \n  \n    Caso 4\n    Se revende un automóvil usado.\n    El bien no. Solo puede registrarse el servicio de intermediación/comisión.\n  \n  \n    Caso 5\n    Una empresa produce inventarios que aún no vende.\n    Sí. Se registra como variación de existencias.\n  \n  \n    Caso 6\n    Una aplicación gratuita mejora el bienestar de millones de usuarios.\n    Difícil. Ilustra límites de valoración de servicios digitales y bienestar."
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#discusión-del-abstract",
+    "href": "presentaciones/sesion02/index.html#discusión-del-abstract",
+    "title": "Sesión 2",
+    "section": "Discusión del abstract",
+    "text": "Discusión del abstract\n\n\nCoyle como provocación\nEl PIB mide producción, no bienestar.\nLa utilidad de la contabilidad nacional no está en decirnos si una sociedad “vive bien”, sino en ordenar cuantitativamente la producción, el ingreso y el gasto.\nEntonces: ¿por qué seguimos usando el PIB?\n\n\nPreguntas para participación\n\n¿Por qué surge la necesidad de medir la economía y qué problema intenta resolver una medida agregada como el PIB?\n¿Qué diferencia hay entre producción, ingreso y bienestar?\n¿Por qué creen que Coyle insiste en la historia del PIB para explicar qué significa este indicador actualmente?\n¿Qué error comete un formulador de proyectos si toma el PIB como “demanda automática”?\n\n\n\n\nSeleccione estudiantes al azar. Evite que solo resuman la lectura. Pídales posición: qué mide, qué no mide, y cómo puede inducir errores si se usa mecánicamente para proyectar demanda."
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#tesis-de-la-clase",
+    "href": "presentaciones/sesion02/index.html#tesis-de-la-clase",
+    "title": "Sesión 2",
+    "section": "Tesis de la clase",
+    "text": "Tesis de la clase\n\nPIB ≠ mercado del proyecto\nPero las cuentas utilizadas para construir el PIB contienen información crítica para estimar el tamaño, la estructura y la evolución de un mercado.\n\n  PIB→\n  Actividad→\n  Producto→\n  Demanda potencial"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#la-misma-economía-tres-cámaras",
+    "href": "presentaciones/sesion02/index.html#la-misma-economía-tres-cámaras",
+    "title": "Sesión 2",
+    "section": "La misma economía, tres cámaras",
+    "text": "La misma economía, tres cámaras\n\n\n🏭\nProducción\n¿Cuánto valor agregó cada actividad productiva?\nVBP − CI = VAB\n\n\n💵\nIngreso\n¿Cómo se distribuyó el ingreso generado por la producción?\nsalarios · excedente · impuestos\n\n\n🛒\nGasto\n¿Quién compró la producción final?\nC + I + G + X − M\n\n\n\n\\[\n\\boxed{\\text{Producción}=\\text{Ingreso}=\\text{Gasto}}\n\\]"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#enfoque-de-la-producción",
+    "href": "presentaciones/sesion02/index.html#enfoque-de-la-producción",
+    "title": "Sesión 2",
+    "section": "Enfoque de la producción",
+    "text": "Enfoque de la producción\n¿Cuánto valor nuevo genera cada actividad económica?\n\n\n\n\\[\nVAB_i = \\text{Producción}_i - \\text{Consumo intermedio}_i\n\\]\n\n\n\\[\nPIB = \\sum_i VAB_i + \\text{Impuestos netos sobre los productos}\n\\]\n\n\n\nLÓGICA\n\nNo sumamos todo lo producido\nA la producción de cada actividad le restamos los bienes y servicios que utilizó como insumos. Así evitamos contabilizar varias veces el mismo valor a lo largo de la cadena productiva.\n\nPregunta a clase\nSi el cuero vale Q100 y los zapatos fabricados con ese cuero se venden por Q300, ¿por qué sería incorrecto afirmar que esta cadena produjo Q400?"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#cadena-productiva-calzado",
+    "href": "presentaciones/sesion02/index.html#cadena-productiva-calzado",
+    "title": "Sesión 2",
+    "section": "Cadena productiva: calzado",
+    "text": "Cadena productiva: calzado\n\n  Cueroinsumo\n  →\n  Fábricamanufactura\n  →\n  Comerciodistribución\n  →\n  Consumidoruso final\n\n\nEl PIB evita la doble contabilización registrando el valor agregado en cada etapa, no el valor bruto acumulado de todas las transacciones."
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#enfoque-del-gasto",
+    "href": "presentaciones/sesion02/index.html#enfoque-del-gasto",
+    "title": "Sesión 2",
+    "section": "Enfoque del gasto",
+    "text": "Enfoque del gasto\n\n\nDemanda agregada\n¿Quién absorbe la producción final?\nEl enfoque del gasto organiza el PIB desde los usos finales de la producción: hogares, empresas, gobierno y sector externo.\n\n\n\\[\nPIB = C + I + G + (X-M)\n\\]\n\n\n\nCConsumo de los hogares\nIFormación bruta de capital y existencias\nGGasto de consumo del gobierno\nX − MExportaciones netas"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#enfoque-del-ingreso",
+    "href": "presentaciones/sesion02/index.html#enfoque-del-ingreso",
+    "title": "Sesión 2",
+    "section": "Enfoque del ingreso",
+    "text": "Enfoque del ingreso\n\n\nIdea central\nTodo valor agregado generado en la producción termina como ingreso para algún agente económico o como impuesto neto para el sector público.\n\n\n\\[\nPIB = RA + EBE + IM + T_n\n\\]\n\n\n\nRARemuneración de asalariados\nEBEExcedente bruto de explotación\nIMIngreso mixto\nTnImpuestos netos sobre producción/productos"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#ejercicio-1-producción",
+    "href": "presentaciones/sesion02/index.html#ejercicio-1-producción",
+    "title": "Sesión 2",
+    "section": "Ejercicio 1: producción",
+    "text": "Ejercicio 1: producción\n\n\nIngrese VBP y CI. El VAB se calcula automáticamente.\n\n\n\n\nActividad\nVBP\nCI\nVAB\n\n\n\n\nAgricultura\n\n\n80\n\n\nManufactura\n\n\n180\n\n\nComercio y servicios\n\n\n120\n\n\n\n\nImpuestos netos\nPIB por producción = Q 400 millones\n\n\nDiscusión\n¿Qué pasaría si se sumara el VBP de todas las actividades?\n¿Por qué ese resultado sobrestimaría la producción?"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#ejercicio-2-gasto",
+    "href": "presentaciones/sesion02/index.html#ejercicio-2-gasto",
+    "title": "Sesión 2",
+    "section": "Ejercicio 2: gasto",
+    "text": "Ejercicio 2: gasto\n\n\nConsumo de hogares \\(C\\)\nInversión \\(I\\)\nGasto público \\(G\\)\nExportaciones \\(X\\)\nImportaciones \\(M\\)\nPIB por gasto = Q 400 millones\n\n\n\n\\[\nPIB=C+I+G+X-M\n\\]\n\nNota didáctica: la inversión incluye formación de capital y variación de existencias."
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#ejercicio-3-ingreso",
+    "href": "presentaciones/sesion02/index.html#ejercicio-3-ingreso",
+    "title": "Sesión 2",
+    "section": "Ejercicio 3: ingreso",
+    "text": "Ejercicio 3: ingreso\n\n\nRemuneraciones\nExcedente bruto\nIngreso mixto\nImpuestos netos\nPIB por ingreso = Q 400 millones\n\n\nidea central\nSi el sistema estadístico es coherente, los tres enfoques convergen conceptualmente al mismo agregado.\nLas diferencias empíricas se manejan mediante conciliación estadística."
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#tres-caminos.-una-economía.-un-pib.",
+    "href": "presentaciones/sesion02/index.html#tres-caminos.-una-economía.-un-pib.",
+    "title": "Sesión 2",
+    "section": "Tres caminos. Una economía. Un PIB.",
+    "text": "Tres caminos. Una economía. Un PIB.\n\n\n  ProducciónVAB + impuestos\n  →\n  PIB\n  ←\n  GastoC + I + G + X − M\n\n\n  Ingresoremuneraciones + excedente + ingreso mixto + impuestos\n\nEl PIB es el resultado agregado. Para proyectos necesitamos descender hacia actividades, productos, territorio y estructura de demanda."
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#el-pib-es-la-punta-del-iceberg",
+    "href": "presentaciones/sesion02/index.html#el-pib-es-la-punta-del-iceberg",
+    "title": "Sesión 2",
+    "section": "El PIB es la punta del iceberg",
+    "text": "El PIB es la punta del iceberg\n\n\nDel agregado al proyecto\nEl verdadero valor para estudios de mercado está debajo del PIB.\nLa medición agregada se apoya en una arquitectura de cuentas que permite identificar actividades económicas, productos, oferta, utilización y relaciones intersectoriales.\n\n\nPreguntas del formulador\n\n¿Qué actividades crecen?\n¿Qué productos se producen o importan?\n¿Cuánto se consume internamente?\n¿Qué parte del mercado podría capturar el proyecto?"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#mapa-de-fuentes-banguat",
+    "href": "presentaciones/sesion02/index.html#mapa-de-fuentes-banguat",
+    "title": "Sesión 2",
+    "section": "Mapa de fuentes: Banguat",
+    "text": "Mapa de fuentes: Banguat\n\n\n📈\nPIB por actividad\nSirve para caracterizar el dinamismo macrosectorial: manufactura, comercio, construcción, servicios, etc.\n\n\n🧩\nEquilibrios oferta-utilización\nSirven para aproximar el tamaño observado de mercados por producto.\n\n\n🗺️\nPIB regional/departamental\nSirve para contextualizar territorio, poder económico relativo y concentración de actividad.\n\n\n\nPara un proyecto, el dato macroeconómico no sustituye el estudio de mercado; lo disciplina. Obliga a que los supuestos de venta sean consistentes con el tamaño real del mercado."
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#oferta-utilización-el-puente-hacia-el-mercado",
+    "href": "presentaciones/sesion02/index.html#oferta-utilización-el-puente-hacia-el-mercado",
+    "title": "Sesión 2",
+    "section": "Oferta-utilización: el puente hacia el mercado",
+    "text": "Oferta-utilización: el puente hacia el mercado\n\n\\[\n\\underbrace{P + M}_{\\text{Oferta}} = \\underbrace{CI + C + G + FBK + X}_{\\text{Utilización}}\n\\]\n\n\n  \n    Producción nacionalOferta interna\n    ImportacionesOferta externa\n  \n  \n    \n    Oferta total del productovalor disponible en la economía\n    \n  \n  \n    Consumo finalhogares/gobierno\n    Consumo intermedioempresas\n    Exportacionesresto del mundo"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#caso-conductor",
+    "href": "presentaciones/sesion02/index.html#caso-conductor",
+    "title": "Sesión 2",
+    "section": "Caso conductor",
+    "text": "Caso conductor\n\nProyecto hipotético\nUna planta de calzado en Guatemala\nLa pregunta del inversionista no es: “¿cuánto crece el PIB?”. La pregunta correcta es: “¿qué tan grande es el mercado relevante y qué participación debo capturar para que el proyecto sea viable?”."
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#mala-respuesta-vs.-buena-respuesta",
+    "href": "presentaciones/sesion02/index.html#mala-respuesta-vs.-buena-respuesta",
+    "title": "Sesión 2",
+    "section": "Mala respuesta vs. buena respuesta",
+    "text": "Mala respuesta vs. buena respuesta\n\n\nRespuesta débil\n“El PIB crece, por lo tanto habrá demanda para el proyecto”.\nProblema: confunde crecimiento agregado con mercado específico.\n\n\nRespuesta técnica\n“Estimemos el mercado observado del producto y evaluemos qué cuota necesita capturar el proyecto”.\nParte de Cuentas Nacionales, pero baja a producto, segmento, territorio y competencia."
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#estimación-inicial-mercado-doméstico-aparente",
+    "href": "presentaciones/sesion02/index.html#estimación-inicial-mercado-doméstico-aparente",
+    "title": "Sesión 2",
+    "section": "Estimación inicial: mercado doméstico aparente",
+    "text": "Estimación inicial: mercado doméstico aparente\n\n\nValores didácticos en millones de quetzales\nProducción nacional\nImportaciones\nExportaciones\nVentas esperadas del proyecto\n\n\n\nMercado doméstico aparente\nQ 2,800 millones\nProducción nacional + importaciones − exportaciones.\n\n\nParticipación implícita\n7.1 %\nVentas esperadas / mercado doméstico aparente."
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#la-pregunta-decisiva",
+    "href": "presentaciones/sesion02/index.html#la-pregunta-decisiva",
+    "title": "Sesión 2",
+    "section": "La pregunta decisiva",
+    "text": "La pregunta decisiva\n\n¿Es plausible que una empresa nueva capture 7.1 % del mercado nacional?\nLa respuesta ya no depende solo de macroeconomía. Depende de segmento, precio, canal de distribución, competencia, territorio, capacidad instalada y estrategia comercial."
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#del-mercado-nacional-al-mercado-del-proyecto",
+    "href": "presentaciones/sesion02/index.html#del-mercado-nacional-al-mercado-del-proyecto",
+    "title": "Sesión 2",
+    "section": "Del mercado nacional al mercado del proyecto",
+    "text": "Del mercado nacional al mercado del proyecto\n\n  Mercado nacionalcuentas nacionales\n  →\n  Mercado relevanteproducto/segmento\n  →\n  Mercado objetivoterritorio/canal\n  →\n  Demanda capturableventas del proyecto\n\n\n\\[\nD_{proyecto}=D_{macro}\\times s_{segmento}\\times s_{territorio}\\times s_{captura}\n\\]"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#simulador-de-demanda-del-proyecto",
+    "href": "presentaciones/sesion02/index.html#simulador-de-demanda-del-proyecto",
+    "title": "Sesión 2",
+    "section": "Simulador de demanda del proyecto",
+    "text": "Simulador de demanda del proyecto\n\n\nMercado baseQ 2,800 millones\nSegmento relevante35 %\nTerritorio inicial30 %\nCaptura esperada8.0 %\nCrecimiento del mercado0.0 %\n\n\nVentas potenciales del proyecto\nQ 23.5 millones\nEste número aún no es el flujo de caja: es el supuesto de demanda que luego alimenta ingresos, capacidad, costos y sensibilidad."
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#interpretación-del-simulador",
+    "href": "presentaciones/sesion02/index.html#interpretación-del-simulador",
+    "title": "Sesión 2",
+    "section": "Interpretación del simulador",
+    "text": "Interpretación del simulador\n\n\n1. Tamaño macro\nEl mercado observado pone un techo estadístico inicial. Evita supuestos de ventas desproporcionados.\n\n\n2. Segmentación\nNo todo el mercado de calzado es mercado del proyecto: tipo, precio, calidad, canal y consumidor importan.\n\n\n3. Captura\nLa cuota proyectada debe justificarse con competencia, estrategia comercial, capacidad y diferenciación.\n\n\nLa cuenta nacional aproxima demanda realizada. La demanda potencial requiere supuestos adicionales y validación de mercado."
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#actividad-en-grupos",
+    "href": "presentaciones/sesion02/index.html#actividad-en-grupos",
+    "title": "Sesión 2",
+    "section": "Actividad en grupos",
+    "text": "Actividad en grupos\n\n\nGrupo A\nDefienda que el proyecto sí podría alcanzar la participación propuesta.\n\n¿Qué evidencia necesitaría?\n¿Qué canales usaría?\n¿Qué segmento atacaría primero?\n\n\n\nGrupo B\nCuestione la plausibilidad del supuesto de ventas.\n\n¿Qué competencia existe?\n¿Qué barreras de entrada aparecen?\n¿Qué sensibilidad haría?"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#del-dato-al-flujo-de-caja",
+    "href": "presentaciones/sesion02/index.html#del-dato-al-flujo-de-caja",
+    "title": "Sesión 2",
+    "section": "Del dato al flujo de caja",
+    "text": "Del dato al flujo de caja\n\n  Cuentas Nacionales\n  →\n  Mercado potencial\n  →\n  Ventas estimadas\n  →\n  Ingresos\n  →\n  VAN / TIR\n\n\nUna proyección financiera empieza mucho antes del flujo de caja: empieza entendiendo correctamente la economía que genera la demanda."
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#cierre-vuelva-a-la-pregunta-inicial",
+    "href": "presentaciones/sesion02/index.html#cierre-vuelva-a-la-pregunta-inicial",
+    "title": "Sesión 2",
+    "section": "Cierre: vuelva a la pregunta inicial",
+    "text": "Cierre: vuelva a la pregunta inicial\n\nSi el PIB crece 4 %, ¿la demanda de mi proyecto crecerá 4 %?\n\nRevelar respuesta"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#para-la-próxima-sesión",
+    "href": "presentaciones/sesion02/index.html#para-la-próxima-sesión",
+    "title": "Sesión 2",
+    "section": "Para la próxima sesión",
+    "text": "Para la próxima sesión\n\n\nConexión\nDel PIB al consumo y la inversión\nLa próxima clase profundiza en los componentes de la demanda agregada que sostienen el mercado de los proyectos: consumo, ahorro, inversión y mercado de fondos prestables.\n\n\nPregunta de transición\n¿Qué cambia en la viabilidad de un proyecto si las familias consumen menos y el costo financiero de invertir aumenta?"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index.html#apéndice-técnico-cómo-sustituir-el-ejemplo-por-datos-reales",
+    "href": "presentaciones/sesion02/index.html#apéndice-técnico-cómo-sustituir-el-ejemplo-por-datos-reales",
+    "title": "Sesión 2",
+    "section": "Apéndice técnico: cómo sustituir el ejemplo por datos reales",
+    "text": "Apéndice técnico: cómo sustituir el ejemplo por datos reales\n\nRuta sugerida\n\nDescargar del Banguat el equilibrio oferta-utilización o el COU del producto de interés.\nIdentificar producción nacional, importaciones y exportaciones del producto.\nCalcular mercado doméstico aparente: producción + importaciones − exportaciones.\nAjustar por segmento, territorio, canal y participación esperada.\nDocumentar supuestos y trasladarlos al flujo de caja.\n\n\nLos valores de calzado incluidos en esta presentación son didácticos. Sustitúyalos por las cifras oficiales correspondientes antes de usar el caso como estimación empírica."
+  },
+  {
+    "objectID": "programa/programa.html",
+    "href": "programa/programa.html",
+    "title": "Programa del curso",
+    "section": "",
+    "text": "Curso: Macroeconomía\nCódigo: 200 FP\nPrograma: Maestría en Formulación y Evaluación de Proyectos\nUnidad académica: Escuela de Estudios de Postgrado · Facultad de Ciencias Económicas\nUniversidad: Universidad de San Carlos de Guatemala\nTrimestre: III · 2026"
+  },
+  {
+    "objectID": "programa/programa.html#información-general",
+    "href": "programa/programa.html#información-general",
+    "title": "Programa del curso",
+    "section": "",
+    "text": "Curso: Macroeconomía\nCódigo: 200 FP\nPrograma: Maestría en Formulación y Evaluación de Proyectos\nUnidad académica: Escuela de Estudios de Postgrado · Facultad de Ciencias Económicas\nUniversidad: Universidad de San Carlos de Guatemala\nTrimestre: III · 2026"
+  },
+  {
+    "objectID": "programa/programa.html#propósito-del-curso",
+    "href": "programa/programa.html#propósito-del-curso",
+    "title": "Programa del curso",
+    "section": "Propósito del curso",
+    "text": "Propósito del curso\nEl curso aborda el funcionamiento agregado de la economía y el análisis de las principales variables macroeconómicas que configuran el entorno en el cual se desarrollan las decisiones económicas y los proyectos de inversión.\nSe estudian, entre otros temas, la medición de la actividad económica, crecimiento y desarrollo, inflación, tasas de interés, política monetaria, política fiscal, sector externo y las relaciones entre el entorno macroeconómico y la formulación y evaluación de proyectos."
+  },
+  {
+    "objectID": "programa/programa.html#organización",
+    "href": "programa/programa.html#organización",
+    "title": "Programa del curso",
+    "section": "Organización",
+    "text": "Organización\nEl curso se desarrolla en 12 sesiones, combinando:\n\ndesarrollo conceptual;\nanálisis de información económica;\nejercicios de aplicación;\nlaboratorios;\nlecturas y abstracts;\nactividades de discusión;\npanel-foro;\nevaluación parcial;\nevaluación final."
+  },
+  {
+    "objectID": "programa/programa.html#programa-oficial",
+    "href": "programa/programa.html#programa-oficial",
+    "title": "Programa del curso",
+    "section": "Programa oficial",
+    "text": "Programa oficial\nEl documento oficial contiene la descripción completa del curso, competencias, contenidos, metodología, sistema de evaluación, programación de sesiones y bibliografía.\nAbrir programa completo en PDF →"
+  },
+  {
+    "objectID": "programa/programa.html#estructura-general-del-curso",
+    "href": "programa/programa.html#estructura-general-del-curso",
+    "title": "Programa del curso",
+    "section": "Estructura general del curso",
+    "text": "Estructura general del curso\n\nBloque I · Comprender y medir la economía\nMedición de la actividad económica, Producto Interno Bruto y lectura de los principales agregados macroeconómicos.\n\n\nBloque II · Explicar su funcionamiento\nConsumo, ahorro, inversión, fluctuaciones económicas, crecimiento y desarrollo.\n\n\nBloque III · Política económica y entorno\nInflación, dinero, tasas de interés, política monetaria, política fiscal, sector externo y tipo de cambio.\n\n\nBloque IV · Aplicación\nInterpretación del entorno macroeconómico y sus implicaciones para las decisiones económicas y los proyectos."
+  },
+  {
+    "objectID": "programa/programa.html#recursos-del-curso",
+    "href": "programa/programa.html#recursos-del-curso",
+    "title": "Programa del curso",
+    "section": "Recursos del curso",
+    "text": "Recursos del curso\nSesiones →\nLaboratorios →\nTareas →\nLecturas →"
+  },
+  {
+    "objectID": "docente.html",
+    "href": "docente.html",
+    "title": "Perfil docente",
+    "section": "",
+    "text": "MACROECONOMÍA · 200 FP\n\n\n\n\nDOCENTE DEL CURSO\n\n\n\nDocente titular\nEconomista egresado de la Facultad de Ciencias Económicas de la Universidad de San Carlos de Guatemala. Posee una Maestría en Administración Financiera, obtenida con distinción Magna Cum Laude en la Escuela de Estudios de Postgrado de la misma universidad, y cuenta con un Diplomado en Estadística para Investigadores, impartido por el Instituto Nacional de Estadística y la Dirección General de Investigación de la Universidad de San Carlos de Guatemala.\nActualmente cursa el Programa de Estudios Superiores en Banca Central, Mención en Economía y Finanzas Aplicadas, desarrollado por el Banco de Guatemala, el Centro de Estudios Monetarios Latinoamericanos (CEMLA) y la Universidad Rafael Landívar (URL). Asimismo, es candidato a Doctor en Desarrollo Sostenible en el Instituto de Desarrollo Sostenible de la Universidad Galileo.\nSu experiencia profesional se vincula con el análisis macroeconómico y la elaboración de estadísticas económicas, particularmente en el ámbito de las cuentas nacionales y la medición de la actividad económica.\nSu enfoque docente procura combinar una exposición pedagógica de la teoría económica con el rigor analítico y cuantitativo que caracteriza a la economía moderna, promoviendo que el estudiante no solo comprenda los conceptos, sino que desarrolle capacidad para interpretar fenómenos económicos y analizar evidencia empírica.\n\n\n\nMacroeconomía Cuentas nacionales Estadísticas macroeconómicas Política monetaria Econometría Desarrollo sostenible"
+  },
+  {
+    "objectID": "docente.html#msc.-paulo-augusto-garrido-grijalva",
+    "href": "docente.html#msc.-paulo-augusto-garrido-grijalva",
+    "title": "Perfil docente",
+    "section": "",
+    "text": "Docente titular\nEconomista egresado de la Facultad de Ciencias Económicas de la Universidad de San Carlos de Guatemala. Posee una Maestría en Administración Financiera, obtenida con distinción Magna Cum Laude en la Escuela de Estudios de Postgrado de la misma universidad, y cuenta con un Diplomado en Estadística para Investigadores, impartido por el Instituto Nacional de Estadística y la Dirección General de Investigación de la Universidad de San Carlos de Guatemala.\nActualmente cursa el Programa de Estudios Superiores en Banca Central, Mención en Economía y Finanzas Aplicadas, desarrollado por el Banco de Guatemala, el Centro de Estudios Monetarios Latinoamericanos (CEMLA) y la Universidad Rafael Landívar (URL). Asimismo, es candidato a Doctor en Desarrollo Sostenible en el Instituto de Desarrollo Sostenible de la Universidad Galileo.\nSu experiencia profesional se vincula con el análisis macroeconómico y la elaboración de estadísticas económicas, particularmente en el ámbito de las cuentas nacionales y la medición de la actividad económica.\nSu enfoque docente procura combinar una exposición pedagógica de la teoría económica con el rigor analítico y cuantitativo que caracteriza a la economía moderna, promoviendo que el estudiante no solo comprenda los conceptos, sino que desarrolle capacidad para interpretar fenómenos económicos y analizar evidencia empírica.\n\n\n\nMacroeconomía Cuentas nacionales Estadísticas macroeconómicas Política monetaria Econometría Desarrollo sostenible"
+  },
+  {
+    "objectID": "programa.html",
+    "href": "programa.html",
+    "title": "Programa del curso",
+    "section": "",
+    "text": "Curso: Macroeconomía\nCódigo: 200 FP\nPrograma: Maestría en Formulación y Evaluación de Proyectos\nUnidad académica: Escuela de Estudios de Postgrado · Facultad de Ciencias Económicas\nUniversidad: Universidad de San Carlos de Guatemala\nTrimestre: III · 2026"
+  },
+  {
+    "objectID": "programa.html#información-general",
+    "href": "programa.html#información-general",
+    "title": "Programa del curso",
+    "section": "",
+    "text": "Curso: Macroeconomía\nCódigo: 200 FP\nPrograma: Maestría en Formulación y Evaluación de Proyectos\nUnidad académica: Escuela de Estudios de Postgrado · Facultad de Ciencias Económicas\nUniversidad: Universidad de San Carlos de Guatemala\nTrimestre: III · 2026"
+  },
+  {
+    "objectID": "programa.html#propósito-del-curso",
+    "href": "programa.html#propósito-del-curso",
+    "title": "Programa del curso",
+    "section": "Propósito del curso",
+    "text": "Propósito del curso\nEl curso aborda el funcionamiento agregado de la economía y el análisis de las principales variables macroeconómicas que configuran el entorno en el cual se desarrollan las decisiones económicas y los proyectos de inversión.\nSe estudian, entre otros temas, la medición de la actividad económica, crecimiento y desarrollo, inflación, tasas de interés, política monetaria, política fiscal, sector externo y las relaciones entre el entorno macroeconómico y la formulación y evaluación de proyectos."
+  },
+  {
+    "objectID": "programa.html#organización",
+    "href": "programa.html#organización",
+    "title": "Programa del curso",
+    "section": "Organización",
+    "text": "Organización\nEl curso se desarrolla en 12 sesiones, combinando:\n\ndesarrollo conceptual;\nanálisis de información económica;\nejercicios de aplicación;\nlaboratorios;\nlecturas y abstracts;\nactividades de discusión;\npanel-foro;\nevaluación parcial;\nevaluación final."
+  },
+  {
+    "objectID": "programa.html#programa-oficial",
+    "href": "programa.html#programa-oficial",
+    "title": "Programa del curso",
+    "section": "Programa oficial",
+    "text": "Programa oficial\nEl documento oficial contiene la descripción completa del curso, competencias, contenidos, metodología, sistema de evaluación, programación de sesiones y bibliografía.\nAbrir programa completo en PDF →"
+  },
+  {
+    "objectID": "programa.html#estructura-general-del-curso",
+    "href": "programa.html#estructura-general-del-curso",
+    "title": "Programa del curso",
+    "section": "Estructura general del curso",
+    "text": "Estructura general del curso\n\nBloque I · Comprender y medir la economía\nMedición de la actividad económica, Producto Interno Bruto y lectura de los principales agregados macroeconómicos.\n\n\nBloque II · Explicar su funcionamiento\nConsumo, ahorro, inversión, fluctuaciones económicas, crecimiento y desarrollo.\n\n\nBloque III · Política económica y entorno\nInflación, dinero, tasas de interés, política monetaria, política fiscal, sector externo y tipo de cambio.\n\n\nBloque IV · Aplicación\nInterpretación del entorno macroeconómico y sus implicaciones para las decisiones económicas y los proyectos."
+  },
+  {
+    "objectID": "programa.html#recursos-del-curso",
+    "href": "programa.html#recursos-del-curso",
+    "title": "Programa del curso",
+    "section": "Recursos del curso",
+    "text": "Recursos del curso\nSesiones →\nLaboratorios →\nTareas →\nLecturas →"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Comprender la economía para tomar decisiones informadas",
+    "section": "",
+    "text": "MACROECONOMÍA · 200 FP\nCURSO 2026\n\n\n\nMAESTRÍA EN FORMULACIÓN Y EVALUACIÓN DE PROYECTOS\n\n\n\n\nMacroeconomía aplicada al análisis del entorno económico, la inversión y la formulación y evaluación de proyectos.\n\n\nExplorar sesiones →\nVer programa\n\n\n\n\nEscuela de Estudios de Postgrado\nFacultad de Ciencias Económicas · Universidad de San Carlos de Guatemala"
+  },
+  {
+    "objectID": "index.html#de-los-agregados-macroeconómicos-y-su-interpretación",
+    "href": "index.html#de-los-agregados-macroeconómicos-y-su-interpretación",
+    "title": "Comprender la economía para tomar decisiones informadas",
+    "section": "De los agregados macroeconómicos y su interpretación",
+    "text": "De los agregados macroeconómicos y su interpretación\nEl curso estudia cómo se mide y funciona una economía y cómo variables como producción, inflación, tasas de interés, tipo de cambio, política fiscal y sector externo configuran el entorno en el cual se toman decisiones económicas."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#objetivo-de-la-sesión",
+    "href": "presentaciones/sesion02/index2.html#objetivo-de-la-sesión",
+    "title": "Sesión 1",
+    "section": "Objetivo de la sesión",
+    "text": "Objetivo de la sesión\n\nConstruir una base algebraica sólida para trabajar después con ecuaciones, funciones y cálculo.\n\n\nHoy trabajaremos cinco ideas:\n\nnúmeros reales;\npropiedades algebraicas;\nexponentes;\nradicales;\nintervalos, valor absoluto y dominio."
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#por-qué-empezar-aquí",
+    "href": "presentaciones/sesion02/index2.html#por-qué-empezar-aquí",
+    "title": "Sesión 1",
+    "section": "¿Por qué empezar aquí?",
+    "text": "¿Por qué empezar aquí?\n\n\nEn cálculo aparecerán expresiones como:\n\\[\n\\lim_{x\\to 2}\\frac{x^2-4}{x-2}\n\\]\n\\[\n\\frac{f(x+h)-f(x)}{h}\n\\]\n\\[\n\\sqrt{x^2+2x+1}\n\\]\n\nPara resolverlas bien necesitamos:\n\nfactorizar;\nsimplificar;\ncuidar restricciones;\noperar con exponentes;\ninterpretar valor absoluto;\nescribir dominios correctamente."
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#regla-de-trabajo-del-curso",
+    "href": "presentaciones/sesion02/index2.html#regla-de-trabajo-del-curso",
+    "title": "Sesión 1",
+    "section": "Regla de trabajo del curso",
+    "text": "Regla de trabajo del curso\n\nNo buscamos sólo “llegar a la respuesta”.\n\n\nBuscamos poder responder:\n\n¿qué propiedad estoy usando?;\n¿el paso es válido?;\n¿hay restricciones de dominio?;\n¿puedo explicar la solución?"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#el-sistema-de-números-reales",
+    "href": "presentaciones/sesion02/index2.html#el-sistema-de-números-reales",
+    "title": "Sesión 1",
+    "section": "El sistema de números reales",
+    "text": "El sistema de números reales\n\n\\[\n\\mathbb{N}\\subset \\mathbb{Z}\\subset \\mathbb{Q}\\subset \\mathbb{R}\n\\]\n\n\n\n\nConjunto\nEjemplos\n\n\n\n\nNaturales\n\\(1,2,3,\\ldots\\)\n\n\nEnteros\n\\(\\ldots,-2,-1,0,1,2,\\ldots\\)\n\n\nRacionales\n\\(\\frac{3}{4}, -2, 0.25, 0.\\overline{3}\\)\n\n\nIrracionales\n\\(\\sqrt{2}, \\pi, e\\)\n\n\nReales\nracionales e irracionales"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#una-distinción-importante",
+    "href": "presentaciones/sesion02/index2.html#una-distinción-importante",
+    "title": "Sesión 1",
+    "section": "Una distinción importante",
+    "text": "Una distinción importante\n\n\nTodo racional puede escribirse como:\n\\[\n\\frac{p}{q},\\qquad p,q\\in\\mathbb{Z},\\quad q\\neq0.\n\\]\n\nUn irracional no puede escribirse como cociente de enteros.\nEjemplos:\n\\[\n\\sqrt{2},\\qquad \\pi.\n\\]"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#ejercicio-1-clasificar-números",
+    "href": "presentaciones/sesion02/index2.html#ejercicio-1-clasificar-números",
+    "title": "Sesión 1",
+    "section": "Ejercicio 1: clasificar números",
+    "text": "Ejercicio 1: clasificar números\nClasifique cada número en el conjunto más específico posible:\n\\[\n-5,\\qquad 0,\\qquad \\frac{7}{3},\\qquad \\sqrt{16},\\qquad \\sqrt{5},\\qquad 0.\\overline{12}\n\\]\n\nDiscusión esperada\n\n\\(\\sqrt{16}=4\\) es natural.\n\\(0.\\overline{12}\\) es racional.\n\\(\\sqrt{5}\\) es irracional."
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#propiedades-algebraicas-básicas",
+    "href": "presentaciones/sesion02/index2.html#propiedades-algebraicas-básicas",
+    "title": "Sesión 1",
+    "section": "Propiedades algebraicas básicas",
+    "text": "Propiedades algebraicas básicas\n\n\n\nPropiedad\nForma\n\n\n\n\nConmutativa\n\\(a+b=b+a\\), \\(ab=ba\\)\n\n\nAsociativa\n\\((a+b)+c=a+(b+c)\\)\n\n\nDistributiva\n\\(a(b+c)=ab+ac\\)\n\n\nIdentidad aditiva\n\\(a+0=a\\)\n\n\nIdentidad multiplicativa\n\\(a\\cdot 1=a\\)\n\n\nInverso multiplicativo\n\\(a\\cdot \\frac{1}{a}=1\\), \\(a\\neq0\\)"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#la-propiedad-distributiva",
+    "href": "presentaciones/sesion02/index2.html#la-propiedad-distributiva",
+    "title": "Sesión 1",
+    "section": "La propiedad distributiva",
+    "text": "La propiedad distributiva\n\nLa propiedad distributiva conecta suma y multiplicación.\n\n\\[\na(b+c)=ab+ac\n\\]\n\nEjemplo:\n\\[\n3(x+4)=3x+12.\n\\]\n\n\nError común:\n\\[\n3(x+4)\\neq 3x+4.\n\\]"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#ejercicio-2-simplificación",
+    "href": "presentaciones/sesion02/index2.html#ejercicio-2-simplificación",
+    "title": "Sesión 1",
+    "section": "Ejercicio 2: simplificación",
+    "text": "Ejercicio 2: simplificación\nSimplifique:\n\\[\n4(2x-3)-3(x+5)\n\\]\n\nSolución:\n\\[\n4(2x-3)-3(x+5)\n=8x-12-3x-15\n=5x-27.\n\\]"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#exponentes",
+    "href": "presentaciones/sesion02/index2.html#exponentes",
+    "title": "Sesión 1",
+    "section": "Exponentes",
+    "text": "Exponentes\nPara \\(a\\neq0\\):\n\\[\na^0=1\n\\]\n\\[\na^{-n}=\\frac{1}{a^n}\n\\]\n\\[\na^m a^n=a^{m+n}\n\\]\n\\[\n\\frac{a^m}{a^n}=a^{m-n}\n\\]\n\\[\n(a^m)^n=a^{mn}\n\\]"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#exponentes-error-frecuente",
+    "href": "presentaciones/sesion02/index2.html#exponentes-error-frecuente",
+    "title": "Sesión 1",
+    "section": "Exponentes: error frecuente",
+    "text": "Exponentes: error frecuente\n\n\nCorrecto:\n\\[\n(x^2)^3=x^6.\n\\]\n\\[\nx^2x^3=x^5.\n\\]\n\nIncorrecto:\n\\[\nx^2+x^3\\neq x^5.\n\\]\nLa ley de exponentes aplica a productos y cocientes, no a sumas."
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#ejercicio-3-exponentes",
+    "href": "presentaciones/sesion02/index2.html#ejercicio-3-exponentes",
+    "title": "Sesión 1",
+    "section": "Ejercicio 3: exponentes",
+    "text": "Ejercicio 3: exponentes\nSimplifique y escriba con exponentes positivos:\n\\[\n\\frac{a^{-2}b^5}{a^3b^{-1}}\n\\]\n\nSolución:\n\\[\n\\frac{a^{-2}b^5}{a^3b^{-1}}\n=\na^{-2-3}b^{5-(-1)}\n=\na^{-5}b^6\n=\n\\frac{b^6}{a^5}.\n\\]"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#exponentes-racionales",
+    "href": "presentaciones/sesion02/index2.html#exponentes-racionales",
+    "title": "Sesión 1",
+    "section": "Exponentes racionales",
+    "text": "Exponentes racionales\nLos radicales pueden escribirse como exponentes racionales:\n\\[\n\\sqrt[n]{a}=a^{1/n}\n\\]\n\\[\n\\sqrt[n]{a^m}=a^{m/n}\n\\]\nEjemplos:\n\\[\n\\sqrt{x}=x^{1/2}\n\\]\n\\[\n\\sqrt[3]{x^2}=x^{2/3}\n\\]"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#ejercicio-4-exponentes-racionales",
+    "href": "presentaciones/sesion02/index2.html#ejercicio-4-exponentes-racionales",
+    "title": "Sesión 1",
+    "section": "Ejercicio 4: exponentes racionales",
+    "text": "Ejercicio 4: exponentes racionales\nSimplifique:\n\\[\n16^{3/4}\n\\]\n\nPrimero:\n\\[\n16^{1/4}=2\n\\]\nporque\n\\[\n2^4=16.\n\\]\n\n\nEntonces:\n\\[\n16^{3/4}=(16^{1/4})^3=2^3=8.\n\\]"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#radicales",
+    "href": "presentaciones/sesion02/index2.html#radicales",
+    "title": "Sesión 1",
+    "section": "Radicales",
+    "text": "Radicales\n\nUn radical representa una raíz.\n\n\\[\n\\sqrt[n]{a}=b\n\\quad \\Longleftrightarrow \\quad\nb^n=a.\n\\]\n\nPero hay que tener cuidado con raíces pares de números negativos:\n\\[\n\\sqrt{-9}\n\\]\nno es un número real."
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#raíces-pares-e-impares",
+    "href": "presentaciones/sesion02/index2.html#raíces-pares-e-impares",
+    "title": "Sesión 1",
+    "section": "Raíces pares e impares",
+    "text": "Raíces pares e impares\n\n\n\nExpresión\n¿Es real?\nResultado\n\n\n\n\n\\(\\sqrt{9}\\)\nSí\n\\(3\\)\n\n\n\\(\\sqrt{-9}\\)\nNo\nno real\n\n\n\\(\\sqrt[3]{8}\\)\nSí\n\\(2\\)\n\n\n\\(\\sqrt[3]{-8}\\)\nSí\n\\(-2\\)"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#cuidado-central",
+    "href": "presentaciones/sesion02/index2.html#cuidado-central",
+    "title": "Sesión 1",
+    "section": "Cuidado central",
+    "text": "Cuidado central\n\nPara todo número real \\(x\\):\n\n\\[\n\\sqrt{x^2}=\\lvert x\\rvert\n\\]\n\nNo necesariamente:\n\\[\n\\sqrt{x^2}=x.\n\\]\n\n\nEjemplo: si \\(x=-3\\),\n\\[\n\\sqrt{(-3)^2}=\\sqrt{9}=3=\\lvert -3\\rvert.\n\\]"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#ejercicio-5-simplificar-radicales",
+    "href": "presentaciones/sesion02/index2.html#ejercicio-5-simplificar-radicales",
+    "title": "Sesión 1",
+    "section": "Ejercicio 5: simplificar radicales",
+    "text": "Ejercicio 5: simplificar radicales\nSimplifique:\n\\[\n\\sqrt{72}\n\\]\n\nFactorizamos:\n\\[\n72=36\\cdot 2.\n\\]\n\n\nEntonces:\n\\[\n\\sqrt{72}\n=\n\\sqrt{36\\cdot2}\n=\n6\\sqrt{2}.\n\\]"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#ejercicio-6-radical-con-variable",
+    "href": "presentaciones/sesion02/index2.html#ejercicio-6-radical-con-variable",
+    "title": "Sesión 1",
+    "section": "Ejercicio 6: radical con variable",
+    "text": "Ejercicio 6: radical con variable\nSimplifique, suponiendo \\(x&gt;0\\):\n\\[\n\\sqrt{50x^2}\n\\]\n\n\\[\n\\sqrt{50x^2}\n=\n\\sqrt{25\\cdot2\\cdot x^2}\n=\n5x\\sqrt{2}.\n\\]\n\n\nSi no se supone \\(x&gt;0\\):\n\\[\n\\sqrt{50x^2}=5\\lvert x\\rvert\\sqrt{2}.\n\\]"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#intervalos",
+    "href": "presentaciones/sesion02/index2.html#intervalos",
+    "title": "Sesión 1",
+    "section": "Intervalos",
+    "text": "Intervalos\n\n\n\nDesigualdad\nIntervalo\n\n\n\n\n\\(a&lt;x&lt;b\\)\n\\((a,b)\\)\n\n\n\\(a\\leq x\\leq b\\)\n\\([a,b]\\)\n\n\n\\(x&gt;a\\)\n\\((a,\\infty)\\)\n\n\n\\(x\\leq a\\)\n\\((-\\infty,a]\\)"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#valor-absoluto",
+    "href": "presentaciones/sesion02/index2.html#valor-absoluto",
+    "title": "Sesión 1",
+    "section": "Valor absoluto",
+    "text": "Valor absoluto\nEl valor absoluto mide distancia al cero:\n\\[\n\\lvert x\\rvert =\n\\begin{cases}\nx, & x\\geq 0,\\\\\n-x, & x&lt;0.\n\\end{cases}\n\\]\n\nPor eso:\n\\[\n\\lvert x\\rvert&lt;3\n\\]\nsignifica:\n\\[\n-3&lt;x&lt;3.\n\\]"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#ejercicio-7-valor-absoluto",
+    "href": "presentaciones/sesion02/index2.html#ejercicio-7-valor-absoluto",
+    "title": "Sesión 1",
+    "section": "Ejercicio 7: valor absoluto",
+    "text": "Ejercicio 7: valor absoluto\nResuelva:\n\\[\n\\lvert 2x-1\\rvert\\leq 5\n\\]\n\nEquivale a:\n\\[\n-5\\leq 2x-1\\leq 5.\n\\]\n\n\nSumamos 1:\n\\[\n-4\\leq 2x\\leq 6.\n\\]\n\n\nDividimos entre 2:\n\\[\n-2\\leq x\\leq 3.\n\\]\nSolución:\n\\[\n[-2,3].\n\\]"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#dominio-de-una-expresión",
+    "href": "presentaciones/sesion02/index2.html#dominio-de-una-expresión",
+    "title": "Sesión 1",
+    "section": "Dominio de una expresión",
+    "text": "Dominio de una expresión\n\nEl dominio es el conjunto de valores permitidos para la variable.\n\nRestricciones frecuentes:\n\nno dividir entre cero;\nno tomar raíz par de número negativo;\nno tomar logaritmo de número no positivo."
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#ejemplo-dominio",
+    "href": "presentaciones/sesion02/index2.html#ejemplo-dominio",
+    "title": "Sesión 1",
+    "section": "Ejemplo: dominio",
+    "text": "Ejemplo: dominio\nDetermine el dominio:\n\\[\n\\frac{1}{x-4}\n\\]\n\nRestricción:\n\\[\nx-4\\neq0.\n\\]\n\n\nEntonces:\n\\[\nx\\neq4.\n\\]\nDominio:\n\\[\n(-\\infty,4)\\cup(4,\\infty).\n\\]"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#ejercicio-8-dominio-con-raíz",
+    "href": "presentaciones/sesion02/index2.html#ejercicio-8-dominio-con-raíz",
+    "title": "Sesión 1",
+    "section": "Ejercicio 8: dominio con raíz",
+    "text": "Ejercicio 8: dominio con raíz\nDetermine el dominio:\n\\[\n\\sqrt{x+3}\n\\]\n\nLa expresión dentro de la raíz debe ser no negativa:\n\\[\nx+3\\geq0.\n\\]\n\n\nEntonces:\n\\[\nx\\geq-3.\n\\]\nDominio:\n\\[\n[-3,\\infty).\n\\]"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#ejercicio-9-dominio-combinado",
+    "href": "presentaciones/sesion02/index2.html#ejercicio-9-dominio-combinado",
+    "title": "Sesión 1",
+    "section": "Ejercicio 9: dominio combinado",
+    "text": "Ejercicio 9: dominio combinado\nDetermine el dominio:\n\\[\n\\frac{\\sqrt{x+1}}{x-3}\n\\]\n\nPor la raíz:\n\\[\nx+1\\geq0\n\\quad\\Rightarrow\\quad\nx\\geq -1.\n\\]\n\n\nPor el denominador:\n\\[\nx-3\\neq0\n\\quad\\Rightarrow\\quad\nx\\neq3.\n\\]\n\n\nDominio:\n\\[\n[-1,3)\\cup(3,\\infty).\n\\]"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#ejercicio-10-reto-de-cierre",
+    "href": "presentaciones/sesion02/index2.html#ejercicio-10-reto-de-cierre",
+    "title": "Sesión 1",
+    "section": "Ejercicio 10: reto de cierre",
+    "text": "Ejercicio 10: reto de cierre\nDetermine el dominio:\n\\[\n\\sqrt{\\frac{x-1}{x+2}}\n\\]\n\nNecesitamos:\n\\[\n\\frac{x-1}{x+2}\\geq0,\n\\qquad x\\neq -2.\n\\]\n\n\nPuntos críticos:\n\\[\nx=1,\\qquad x=-2.\n\\]\n\n\nSolución:\n\\[\n(-\\infty,-2)\\cup[1,\\infty).\n\\]"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#síntesis-de-la-sesión",
+    "href": "presentaciones/sesion02/index2.html#síntesis-de-la-sesión",
+    "title": "Sesión 1",
+    "section": "Síntesis de la sesión",
+    "text": "Síntesis de la sesión\nHoy trabajamos:\n\nnúmeros reales;\npropiedades algebraicas;\nexponentes;\nradicales;\nvalor absoluto;\nintervalos;\ndominio.\n\n\nLa idea central fue:\n\\[\n\\boxed{\\text{Toda operación algebraica debe respetar sus restricciones.}}\n\\]"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#tarea",
+    "href": "presentaciones/sesion02/index2.html#tarea",
+    "title": "Sesión 1",
+    "section": "Tarea",
+    "text": "Tarea\nRealizar la Hoja de ejercicios — Sesión 1.\n\nEntregar con procedimiento completo y respuestas justificadas.\n\nPriorizar:\n\nrestricciones de dominio;\nsimplificación correcta;\nuso adecuado de valor absoluto;\nexplicación de propiedades."
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#para-estudiar-mejor",
+    "href": "presentaciones/sesion02/index2.html#para-estudiar-mejor",
+    "title": "Sesión 1",
+    "section": "Para estudiar mejor",
+    "text": "Para estudiar mejor\nAntes de resolver cada ejercicio, preguntarse:\n\n¿qué tipo de expresión tengo?;\n¿hay raíces?;\n¿hay denominadores?;\n¿hay valor absoluto?;\n¿qué restricciones aparecen?;\n¿qué propiedad justifica mi paso?"
+  },
+  {
+    "objectID": "presentaciones/sesion02/index2.html#cierre",
+    "href": "presentaciones/sesion02/index2.html#cierre",
+    "title": "Sesión 1",
+    "section": "Cierre",
+    "text": "Cierre\n\nLa preparación matemática no empieza con cálculo.\n\n\nEmpieza con dominar el lenguaje algebraico que hace posible el cálculo."
+  },
+  {
+    "objectID": "sesiones/sesion05.html",
+    "href": "sesiones/sesion05.html",
+    "title": "Guía de repaso",
+    "section": "",
+    "text": "NotaPropósito\n\n\n\nEl examen parcial evaluará la comprensión de los conceptos trabajados durante las primeras sesiones y, especialmente, la capacidad de aplicarlos a situaciones vinculadas con la formulación y evaluación de proyectos.\nNo se espera únicamente memorizar definiciones o fórmulas. Es importante comprender qué representa cada variable, cómo se relacionan entre sí y qué información puede obtenerse de ellas para analizar un proyecto."
+  },
+  {
+    "objectID": "sesiones/sesion05.html#decisiones-económicas-y-entorno-del-proyecto",
+    "href": "sesiones/sesion05.html#decisiones-económicas-y-entorno-del-proyecto",
+    "title": "Guía de repaso",
+    "section": "1. Decisiones económicas y entorno del proyecto",
+    "text": "1. Decisiones económicas y entorno del proyecto\nRepase los conceptos básicos que permiten entender una decisión económica:\n\nescasez;\nelección;\ncosto de oportunidad;\nagentes económicos;\ndiferencia entre microeconomía y macroeconomía;\nfuncionamiento básico del flujo circular de la economía;\nrelación entre las decisiones de las empresas, los hogares y el entorno económico.\n\nDebe poder identificar estos conceptos dentro de un caso, no solamente definirlos."
+  },
+  {
+    "objectID": "sesiones/sesion05.html#medición-de-la-actividad-económica",
+    "href": "sesiones/sesion05.html#medición-de-la-actividad-económica",
+    "title": "Guía de repaso",
+    "section": "2. Medición de la actividad económica",
+    "text": "2. Medición de la actividad económica\nRepase la lógica de medición del Producto Interno Bruto y las principales relaciones estudiadas en clase.\nEn particular:\n\nqué mide y qué no mide el PIB;\nproducción y valor agregado;\nproblema de la doble contabilización;\nenfoque del gasto:\n\n\\[\nPIB = C + I + G + X - M\n\\]\n\ninterpretación de consumo, inversión, gasto público, exportaciones e importaciones;\npor qué las importaciones se restan en el cálculo del PIB;\ndiferencia entre una variable expresada en valores monetarios y una medida de volumen o cantidad.\n\nMás que recordar una fórmula, debe poder interpretar económicamente el resultado obtenido."
+  },
+  {
+    "objectID": "sesiones/sesion05.html#oferta-y-utilización",
+    "href": "sesiones/sesion05.html#oferta-y-utilización",
+    "title": "Guía de repaso",
+    "section": "3. Oferta y utilización",
+    "text": "3. Oferta y utilización\nRepase la estructura básica de un equilibrio de oferta y utilización y la relación:\n\\[\nOferta\\ total = Utilización\\ total\n\\]\nDebe reconocer el significado económico de partidas como:\n\nproducción;\nimportaciones;\noferta total;\nconsumo intermedio;\nconsumo final privado;\nvariación de existencias;\nexportaciones;\nutilización total.\n\nTambién debe ser capaz de determinar qué variable resulta pertinente según el tipo de proyecto y el comprador final del producto."
+  },
+  {
+    "objectID": "sesiones/sesion05.html#del-dato-macroeconómico-al-mercado-de-un-proyecto",
+    "href": "sesiones/sesion05.html#del-dato-macroeconómico-al-mercado-de-un-proyecto",
+    "title": "Guía de repaso",
+    "section": "4. Del dato macroeconómico al mercado de un proyecto",
+    "text": "4. Del dato macroeconómico al mercado de un proyecto\nRepase la lógica utilizada en el laboratorio para transformar información agregada en una primera aproximación al mercado de un proyecto.\nDebe distinguir entre:\n\nMercado nacional observado\nCorresponde al punto de partida obtenido de la información económica disponible.\n\n\nMercado relevante\nEs la parte del mercado nacional que corresponde al segmento específico que pretende atender el proyecto.\n\\[\nM_{relevante}\n=\nM_{nacional}\\times s_{segmento}\n\\]\n\n\nMercado objetivo\nConsidera, además, el territorio, los canales u otras restricciones que delimitan el mercado efectivamente accesible.\n\\[\nM_{objetivo}\n=\nM_{relevante}\\times s_{cobertura}\n\\]\n\n\nDemanda capturable\nRepresenta la parte del mercado objetivo que razonablemente podría captar el proyecto.\n\\[\nD_{proyecto}\n=\nM_{objetivo}\\times s_{captura}\n\\]\nDebe comprender que mercado nacional, mercado objetivo y ventas esperadas no son conceptos equivalentes."
+  },
+  {
+    "objectID": "sesiones/sesion05.html#de-valores-monetarios-a-unidades-físicas",
+    "href": "sesiones/sesion05.html#de-valores-monetarios-a-unidades-físicas",
+    "title": "Guía de repaso",
+    "section": "5. De valores monetarios a unidades físicas",
+    "text": "5. De valores monetarios a unidades físicas\nRepase cómo transformar una estimación monetaria de demanda en unidades físicas cuando se dispone de un precio esperado:\n\\[\nQ =\n\\frac{Ventas\\ potenciales}{Precio\\ unitario}\n\\]\nPreste atención a las unidades de medida. Si la información original está expresada en millones de quetzales, deberá realizar la conversión correspondiente antes de dividir entre el precio unitario."
+  },
+  {
+    "objectID": "sesiones/sesion05.html#mercado-y-capacidad-del-proyecto",
+    "href": "sesiones/sesion05.html#mercado-y-capacidad-del-proyecto",
+    "title": "Guía de repaso",
+    "section": "6. Mercado y capacidad del proyecto",
+    "text": "6. Mercado y capacidad del proyecto\nRepase la diferencia entre:\n\ndemanda estimada por el mercado;\ncapacidad máxima de producción;\nventas o producción factible.\n\nUna relación útil es:\n\\[\nQ_{factible}\n=\n\\min(Q_{demandada},Q_{capacidad})\n\\]\nDebe poder identificar cuándo la principal restricción para un proyecto proviene del mercado y cuándo proviene de su capacidad productiva."
+  },
+  {
+    "objectID": "sesiones/sesion05.html#qué-debería-poder-hacer-antes-del-examen",
+    "href": "sesiones/sesion05.html#qué-debería-poder-hacer-antes-del-examen",
+    "title": "Guía de repaso",
+    "section": "¿Qué debería poder hacer antes del examen?",
+    "text": "¿Qué debería poder hacer antes del examen?\nAl finalizar su repaso, debería poder:\n\nidentificar escasez, elección y costo de oportunidad dentro de una situación concreta;\ncalcular e interpretar el PIB a partir de información económica;\ninterpretar un equilibrio básico de oferta y utilización;\nseleccionar el dato adecuado para aproximar el mercado de un proyecto;\nconstruir una estimación de mercado nacional, relevante y objetivo;\nestimar ventas potenciales y cantidades demandadas;\ncomparar la demanda con la capacidad productiva;\nexplicar brevemente qué significan los resultados para una decisión de proyecto.\n\n\n\n\n\n\n\nTipRecomendación para estudiar\n\n\n\nRepase los ejercicios desarrollados en clase y el laboratorio “Del dato macroeconómico al mercado de un proyecto”.\nNo es necesario memorizar los valores numéricos utilizados en los ejercicios. Concéntrese en comprender la secuencia de análisis, las relaciones entre las variables y la interpretación económica de los resultados."
+  },
+  {
     "objectID": "sesiones/sesion01.html",
     "href": "sesiones/sesion01.html",
     "title": "Sesión 1",
@@ -1075,14 +1131,21 @@
     "href": "sesiones/index.html",
     "title": "Sesiones",
     "section": "",
-    "text": "Los materiales de cada sesión incluyen presentaciones, lecturas, ejercicios, laboratorios y actividades correspondientes al desarrollo del curso.\n\n\nIntroducción al análisis macroeconómico\nPrincipios económicos, escasez, elección, costo de oportunidad y una primera aproximación al funcionamiento agregado de la economía.\nVer sesión →\n\n\n\n\nMedición económica agregada\nProducto Interno Bruto, cuentas nacionales y medición de la actividad económica mediante los enfoques de producción, gasto e ingreso.\nVer sesión →\nVer presentación interactiva →\n\n\n\n\nOferta-utilización y dimensionamiento del mercado\nDe las cuentas nacionales al análisis del mercado: oferta, utilización y aplicación al estudio de demanda de un proyecto.\nVer sesión →\n\n\n\n\nPróxima sesión\nFluctuaciones económicas, oferta y demanda agregada.\nVer sesión →.\n\n\n\n\nPróxima sesión\nContenido disponible próximamente."
+    "text": "Los materiales de cada sesión incluyen presentaciones, lecturas, ejercicios, laboratorios y actividades correspondientes al desarrollo del curso.\n\n\nIntroducción al análisis macroeconómico\nPrincipios económicos, escasez, elección, costo de oportunidad y una primera aproximación al funcionamiento agregado de la economía.\nVer sesión →\n\n\n\n\nMedición económica agregada\nProducto Interno Bruto, cuentas nacionales y medición de la actividad económica mediante los enfoques de producción, gasto e ingreso.\nVer sesión →\nVer presentación interactiva →\n\n\n\n\nOferta-utilización y dimensionamiento del mercado\nDe las cuentas nacionales al análisis del mercado: oferta, utilización y aplicación al estudio de demanda de un proyecto.\nVer sesión →\n\n\n\n\nDinámica Económica\nFluctuaciones económicas, oferta y demanda agregada.\nVer sesión →.\n\n\n\n\nGuia examen parcial\n¿que deben de estudiar para prepararse par el examen parcial?"
   },
   {
     "objectID": "sesiones/index.html#programa-de-sesiones",
     "href": "sesiones/index.html#programa-de-sesiones",
     "title": "Sesiones",
     "section": "",
-    "text": "Los materiales de cada sesión incluyen presentaciones, lecturas, ejercicios, laboratorios y actividades correspondientes al desarrollo del curso.\n\n\nIntroducción al análisis macroeconómico\nPrincipios económicos, escasez, elección, costo de oportunidad y una primera aproximación al funcionamiento agregado de la economía.\nVer sesión →\n\n\n\n\nMedición económica agregada\nProducto Interno Bruto, cuentas nacionales y medición de la actividad económica mediante los enfoques de producción, gasto e ingreso.\nVer sesión →\nVer presentación interactiva →\n\n\n\n\nOferta-utilización y dimensionamiento del mercado\nDe las cuentas nacionales al análisis del mercado: oferta, utilización y aplicación al estudio de demanda de un proyecto.\nVer sesión →\n\n\n\n\nPróxima sesión\nFluctuaciones económicas, oferta y demanda agregada.\nVer sesión →.\n\n\n\n\nPróxima sesión\nContenido disponible próximamente."
+    "text": "Los materiales de cada sesión incluyen presentaciones, lecturas, ejercicios, laboratorios y actividades correspondientes al desarrollo del curso.\n\n\nIntroducción al análisis macroeconómico\nPrincipios económicos, escasez, elección, costo de oportunidad y una primera aproximación al funcionamiento agregado de la economía.\nVer sesión →\n\n\n\n\nMedición económica agregada\nProducto Interno Bruto, cuentas nacionales y medición de la actividad económica mediante los enfoques de producción, gasto e ingreso.\nVer sesión →\nVer presentación interactiva →\n\n\n\n\nOferta-utilización y dimensionamiento del mercado\nDe las cuentas nacionales al análisis del mercado: oferta, utilización y aplicación al estudio de demanda de un proyecto.\nVer sesión →\n\n\n\n\nDinámica Económica\nFluctuaciones económicas, oferta y demanda agregada.\nVer sesión →.\n\n\n\n\nGuia examen parcial\n¿que deben de estudiar para prepararse par el examen parcial?"
+  },
+  {
+    "objectID": "sesiones/index.html#ver-sesión-.",
+    "href": "sesiones/index.html#ver-sesión-.",
+    "title": "Sesiones",
+    "section": "Ver sesión →.",
+    "text": "Ver sesión →.\n\nSesión 06\nPróxima sesión\nContenido disponible próximamente."
   },
   {
     "objectID": "tareas/index.html",

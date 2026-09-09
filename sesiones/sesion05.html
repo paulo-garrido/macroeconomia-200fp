@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Sesiones – Macroeconomía · 200 FP</title>
+<title>Guía de repaso – Macroeconomía · 200 FP</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,11 +70,40 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -102,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Programa</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../sesiones/index.html" aria-current="page"> 
+    <a class="nav-link" href="../sesiones/index.html"> 
 <span class="menu-text">Sesiones</span></a>
   </li>  
   <li class="nav-item">
@@ -129,22 +158,22 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Sesiones</h1>
-<p class="subtitle lead">Macroeconomía · 200 FP</p>
+<h1 class="title">Guía de repaso</h1>
+<p class="subtitle lead">Examen Parcial · Macroeconomía 200 FP</p>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -156,53 +185,170 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="programa-de-sesiones" class="level2">
-<h2 class="anchored" data-anchor-id="programa-de-sesiones">Programa de sesiones</h2>
-<p>Los materiales de cada sesión incluyen presentaciones, lecturas, ejercicios, laboratorios y actividades correspondientes al desarrollo del curso.</p>
-<section id="sesión-01" class="level3">
-<h3 class="anchored" data-anchor-id="sesión-01">Sesión 01</h3>
-<p><strong>Introducción al análisis macroeconómico</strong></p>
-<p>Principios económicos, escasez, elección, costo de oportunidad y una primera aproximación al funcionamiento agregado de la economía.</p>
-<p><a href="../sesiones/sesion01.html">Ver sesión →</a></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span>Propósito
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>El examen parcial evaluará la comprensión de los conceptos trabajados durante las primeras sesiones y, especialmente, la capacidad de aplicarlos a situaciones vinculadas con la formulación y evaluación de proyectos.</p>
+<p>No se espera únicamente memorizar definiciones o fórmulas. Es importante comprender qué representa cada variable, cómo se relacionan entre sí y qué información puede obtenerse de ellas para analizar un proyecto.</p>
+</div>
+</div>
+<section id="decisiones-económicas-y-entorno-del-proyecto" class="level2">
+<h2 class="anchored" data-anchor-id="decisiones-económicas-y-entorno-del-proyecto">1. Decisiones económicas y entorno del proyecto</h2>
+<p>Repase los conceptos básicos que permiten entender una decisión económica:</p>
+<ul>
+<li>escasez;</li>
+<li>elección;</li>
+<li>costo de oportunidad;</li>
+<li>agentes económicos;</li>
+<li>diferencia entre microeconomía y macroeconomía;</li>
+<li>funcionamiento básico del flujo circular de la economía;</li>
+<li>relación entre las decisiones de las empresas, los hogares y el entorno económico.</li>
+</ul>
+<p>Debe poder identificar estos conceptos dentro de un caso, no solamente definirlos.</p>
 <hr>
 </section>
-<section id="sesión-02" class="level3">
-<h3 class="anchored" data-anchor-id="sesión-02">Sesión 02</h3>
-<p><strong>Medición económica agregada</strong></p>
-<p>Producto Interno Bruto, cuentas nacionales y medición de la actividad económica mediante los enfoques de producción, gasto e ingreso.</p>
-<p><a href="sesion02.html">Ver sesión →</a></p>
-<p><a href="../presentaciones/sesion02/index.html">Ver presentación interactiva →</a></p>
+<section id="medición-de-la-actividad-económica" class="level2">
+<h2 class="anchored" data-anchor-id="medición-de-la-actividad-económica">2. Medición de la actividad económica</h2>
+<p>Repase la lógica de medición del Producto Interno Bruto y las principales relaciones estudiadas en clase.</p>
+<p>En particular:</p>
+<ul>
+<li>qué mide y qué no mide el PIB;</li>
+<li>producción y valor agregado;</li>
+<li>problema de la doble contabilización;</li>
+<li>enfoque del gasto:</li>
+</ul>
+<p><span class="math display">\[
+PIB = C + I + G + X - M
+\]</span></p>
+<ul>
+<li>interpretación de consumo, inversión, gasto público, exportaciones e importaciones;</li>
+<li>por qué las importaciones se restan en el cálculo del PIB;</li>
+<li>diferencia entre una variable expresada en valores monetarios y una medida de volumen o cantidad.</li>
+</ul>
+<p>Más que recordar una fórmula, debe poder <strong>interpretar económicamente el resultado obtenido</strong>.</p>
 <hr>
 </section>
-<section id="sesión-03" class="level3">
-<h3 class="anchored" data-anchor-id="sesión-03">Sesión 03</h3>
-<p><strong>Oferta-utilización y dimensionamiento del mercado</strong></p>
-<p>De las cuentas nacionales al análisis del mercado: oferta, utilización y aplicación al estudio de demanda de un proyecto.</p>
-<p><a href="../sesiones/sesion03.html">Ver sesión →</a></p>
+<section id="oferta-y-utilización" class="level2">
+<h2 class="anchored" data-anchor-id="oferta-y-utilización">3. Oferta y utilización</h2>
+<p>Repase la estructura básica de un equilibrio de oferta y utilización y la relación:</p>
+<p><span class="math display">\[
+Oferta\ total = Utilización\ total
+\]</span></p>
+<p>Debe reconocer el significado económico de partidas como:</p>
+<ul>
+<li>producción;</li>
+<li>importaciones;</li>
+<li>oferta total;</li>
+<li>consumo intermedio;</li>
+<li>consumo final privado;</li>
+<li>variación de existencias;</li>
+<li>exportaciones;</li>
+<li>utilización total.</li>
+</ul>
+<p>También debe ser capaz de determinar <strong>qué variable resulta pertinente según el tipo de proyecto y el comprador final del producto</strong>.</p>
 <hr>
 </section>
-<section id="sesión-04" class="level3">
-<h3 class="anchored" data-anchor-id="sesión-04">Sesión 04</h3>
-<p><strong>Dinámica Económica</strong></p>
-<p>Fluctuaciones económicas, oferta y demanda agregada.</p>
-<p><a href="../sesiones/sesion04.html">Ver sesión →</a>.</p>
+<section id="del-dato-macroeconómico-al-mercado-de-un-proyecto" class="level2">
+<h2 class="anchored" data-anchor-id="del-dato-macroeconómico-al-mercado-de-un-proyecto">4. Del dato macroeconómico al mercado de un proyecto</h2>
+<p>Repase la lógica utilizada en el laboratorio para transformar información agregada en una primera aproximación al mercado de un proyecto.</p>
+<p>Debe distinguir entre:</p>
+<section id="mercado-nacional-observado" class="level3">
+<h3 class="anchored" data-anchor-id="mercado-nacional-observado">Mercado nacional observado</h3>
+<p>Corresponde al punto de partida obtenido de la información económica disponible.</p>
+</section>
+<section id="mercado-relevante" class="level3">
+<h3 class="anchored" data-anchor-id="mercado-relevante">Mercado relevante</h3>
+<p>Es la parte del mercado nacional que corresponde al segmento específico que pretende atender el proyecto.</p>
+<p><span class="math display">\[
+M_{relevante}
+=
+M_{nacional}\times s_{segmento}
+\]</span></p>
+</section>
+<section id="mercado-objetivo" class="level3">
+<h3 class="anchored" data-anchor-id="mercado-objetivo">Mercado objetivo</h3>
+<p>Considera, además, el territorio, los canales u otras restricciones que delimitan el mercado efectivamente accesible.</p>
+<p><span class="math display">\[
+M_{objetivo}
+=
+M_{relevante}\times s_{cobertura}
+\]</span></p>
+</section>
+<section id="demanda-capturable" class="level3">
+<h3 class="anchored" data-anchor-id="demanda-capturable">Demanda capturable</h3>
+<p>Representa la parte del mercado objetivo que razonablemente podría captar el proyecto.</p>
+<p><span class="math display">\[
+D_{proyecto}
+=
+M_{objetivo}\times s_{captura}
+\]</span></p>
+<p>Debe comprender que <strong>mercado nacional, mercado objetivo y ventas esperadas no son conceptos equivalentes</strong>.</p>
 <hr>
 </section>
-<section id="sesión-05" class="level3">
-<h3 class="anchored" data-anchor-id="sesión-05">Sesión 05</h3>
-<p><strong>Guia examen parcial</strong></p>
-<p>¿que deben de estudiar para prepararse par el examen parcial?</p>
 </section>
+<section id="de-valores-monetarios-a-unidades-físicas" class="level2">
+<h2 class="anchored" data-anchor-id="de-valores-monetarios-a-unidades-físicas">5. De valores monetarios a unidades físicas</h2>
+<p>Repase cómo transformar una estimación monetaria de demanda en unidades físicas cuando se dispone de un precio esperado:</p>
+<p><span class="math display">\[
+Q =
+\frac{Ventas\ potenciales}{Precio\ unitario}
+\]</span></p>
+<p>Preste atención a las unidades de medida. Si la información original está expresada en millones de quetzales, deberá realizar la conversión correspondiente antes de dividir entre el precio unitario.</p>
+<hr>
 </section>
-<section id="ver-sesión-." class="level2">
-<h2 class="anchored" data-anchor-id="ver-sesión-."><a href="../sesiones/sesion05.html">Ver sesión →</a>.</h2>
-<section id="sesión-06" class="level3">
-<h3 class="anchored" data-anchor-id="sesión-06">Sesión 06</h3>
-<p><strong>Próxima sesión</strong></p>
-<p>Contenido disponible próximamente.</p>
+<section id="mercado-y-capacidad-del-proyecto" class="level2">
+<h2 class="anchored" data-anchor-id="mercado-y-capacidad-del-proyecto">6. Mercado y capacidad del proyecto</h2>
+<p>Repase la diferencia entre:</p>
+<ul>
+<li>demanda estimada por el mercado;</li>
+<li>capacidad máxima de producción;</li>
+<li>ventas o producción factible.</li>
+</ul>
+<p>Una relación útil es:</p>
+<p><span class="math display">\[
+Q_{factible}
+=
+\min(Q_{demandada},Q_{capacidad})
+\]</span></p>
+<p>Debe poder identificar cuándo la principal restricción para un proyecto proviene del mercado y cuándo proviene de su capacidad productiva.</p>
+<hr>
+</section>
+<section id="qué-debería-poder-hacer-antes-del-examen" class="level2">
+<h2 class="anchored" data-anchor-id="qué-debería-poder-hacer-antes-del-examen">¿Qué debería poder hacer antes del examen?</h2>
+<p>Al finalizar su repaso, debería poder:</p>
+<ol type="1">
+<li>identificar escasez, elección y costo de oportunidad dentro de una situación concreta;</li>
+<li>calcular e interpretar el PIB a partir de información económica;</li>
+<li>interpretar un equilibrio básico de oferta y utilización;</li>
+<li>seleccionar el dato adecuado para aproximar el mercado de un proyecto;</li>
+<li>construir una estimación de mercado nacional, relevante y objetivo;</li>
+<li>estimar ventas potenciales y cantidades demandadas;</li>
+<li>comparar la demanda con la capacidad productiva;</li>
+<li>explicar brevemente qué significan los resultados para una decisión de proyecto.</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Recomendación para estudiar
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Repase los ejercicios desarrollados en clase y el laboratorio “Del dato macroeconómico al mercado de un proyecto”.</p>
+<p>No es necesario memorizar los valores numéricos utilizados en los ejercicios. Concéntrese en comprender la secuencia de análisis, las relaciones entre las variables y la interpretación económica de los resultados.</p>
+</div>
+</div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
