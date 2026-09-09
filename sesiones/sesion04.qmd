@@ -86,7 +86,7 @@ PRESENTACIÓN
 
 Presentación interactiva para analizar el equilibrio de corto plazo y distinguir cómo diferentes choques de oferta y demanda afectan la producción, los precios y las perspectivas de un proyecto.
 
-[Ver presentación →](../presentaciones/Sesion04/sesion04_fluctuaciones_macro.html)
+[Ver presentación →](../presentaciones/sesion04/sesion04_fluctuaciones_macro.html)
 
 :::
 
