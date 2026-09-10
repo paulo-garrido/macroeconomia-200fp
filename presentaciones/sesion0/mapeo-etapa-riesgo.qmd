@@ -27,7 +27,6 @@ format:
     help: true
     menu: false
     title-slide: false
-    include-after-body: assets/interactions.html
     embed-resources: true
     self-contained-math: false
 execute:
@@ -38,6 +37,65 @@ execute:
 
 ```{=html}
 <p class="eyebrow">COMPETENCIAS DE EMPRENDIMIENTO · GUATEMALA</p><h1>El capital sigue<br>al <em>riesgo.</em></h1><p class="subtitle">Mapeo de etapa y riesgo en tres startups</p><div class="cover-bottom"><span>Stefani Villeda<br>Paulo Garrido</span><span>Validación / Escalamiento / Repago</span></div>
+<div class="presentation-resources" aria-hidden="true">
+  <img id="fase-img-1" src="assets/fase-1.jpeg" alt="Referencia A: capital temprano">
+  <img id="fase-img-2" src="assets/fase-2.jpeg" alt="Referencia B: capital de riesgo">
+  <img id="fase-img-3" src="assets/fase-3.jpeg" alt="Referencia C: banca y mercados">
+</div>
+<style>
+.presentation-resources {
+  display: none !important;
+}
+.reference-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 2.2rem;
+  background: rgba(0, 0, 0, 0.88);
+}
+.reference-modal.is-open {
+  display: flex;
+}
+.reference-modal__panel {
+  position: relative;
+  width: min(1120px, 92vw);
+  max-height: 88vh;
+  padding: 1.1rem;
+  border: 1px solid rgba(255,255,255,.18);
+  border-radius: 14px;
+  background: #111a22;
+  box-shadow: 0 20px 60px rgba(0,0,0,.45);
+}
+.reference-modal__panel img {
+  display: block;
+  width: 100%;
+  max-height: 76vh;
+  object-fit: contain;
+  border-radius: 8px;
+}
+.reference-modal__close {
+  position: absolute;
+  top: .55rem;
+  right: .65rem;
+  z-index: 2;
+  padding: .35rem .65rem;
+  border: 1px solid rgba(255,255,255,.35);
+  border-radius: 7px;
+  background: #17232d;
+  color: #f6f3eb;
+  font-size: .48em;
+  font-weight: 700;
+  cursor: pointer;
+}
+.reference-modal__caption {
+  margin: .55rem .2rem 0;
+  color: #c9d0d6;
+  font-size: .42em;
+}
+</style>
 ```
 
 
@@ -51,7 +109,7 @@ execute:
 ## {#cadena .standard}
 
 ```{=html}
-<p class="eyebrow">02 / CADENA DE FINANCIAMIENTO</p><h2>Tres lógicas de capital</h2><div class="phase-tabs" role="group" aria-label="Seleccionar fase"><button data-phase="0" aria-pressed="true">A · Validación</button><button data-phase="1" aria-pressed="false">B · Escalamiento</button><button data-phase="2" aria-pressed="false">C · Repago</button></div><div class="phase-body" aria-live="polite"><div><p class="big-letter" id="phase-letter">A</p></div><div><h3 id="phase-title">Capital temprano</h3><p id="phase-logic">El capital permite probar el MVP y conseguir tracción inicial, sin colateral sustancial.</p><p class="muted" id="phase-tools">Bootstrapping · Friends & Family · Ángeles</p><button class="text-button" id="phase-image" data-image="assets/fase-1.jpeg">Ver lámina original ↗</button></div></div>
+<p class="eyebrow">02 / CADENA DE FINANCIAMIENTO</p><h2>Tres lógicas de capital</h2><div class="phase-tabs" role="group" aria-label="Seleccionar fase"><button data-phase="0" aria-pressed="true">A · Validación</button><button data-phase="1" aria-pressed="false">B · Escalamiento</button><button data-phase="2" aria-pressed="false">C · Repago</button></div><div class="phase-body" aria-live="polite"><div><p class="big-letter" id="phase-letter">A</p></div><div><h3 id="phase-title">Capital temprano</h3><p id="phase-logic">El capital permite probar el MVP y conseguir tracción inicial, sin colateral sustancial.</p><p class="muted" id="phase-tools">Bootstrapping · Friends & Family · Ángeles</p><button class="text-button" id="phase-image" data-image-id="fase-img-1">Ver lámina original ↗</button></div></div>
 ```
 
 
@@ -84,7 +142,7 @@ execute:
 
 <p class="slide-intro">
 Ambos instrumentos permiten financiar hoy a la startup y vincular al inversionista
-con participación futura. La diferencia en esta etapa, es que la nota convertible suele incorporar vencimiento , mientras que
+con participación futura. La diferencia relevante en esta etapa es que la nota convertible suele incorporar vencimiento, mientras que
 <strong>el SAFE estándar no</strong>.
 </p>
 
@@ -133,9 +191,9 @@ con participación futura. La diferencia en esta etapa, es que la nota convertib
 </div>
 
 <div class="clean-takeaway">
-  <span class="takeaway-label">¿cual es la decisión?</span>
+  <span class="takeaway-label">¿Cuál es la decisión?</span>
   <span class="takeaway-text">
-    A la luz de la naturaleza de los insturmentos elegimos <strong>SAFE</strong> porque permite financiar el crecimiento del SaaS
+    A la luz de la naturaleza de los instrumentos, elegimos <strong>SAFE</strong> porque permite financiar el crecimiento del SaaS
     sin introducir una presión de vencimiento mientras la empresa todavía debe
     demostrar que su escalamiento es repetible y sostenible.
   </span>
@@ -191,4 +249,232 @@ con participación futura. La diferencia en esta etapa, es que la nota convertib
 <p class="eyebrow">CONCLUSIÓN</p><h2 class="closing-title">La estructura del capital<br>debe corresponder<br>al riesgo que financia.</h2><div class="closing-line"><span>Validar</span><span>Escalar</span><span>Repagar</span></div><p class="subtitle">Elegir bien exige explicar quién asume el riesgo<br>y cómo espera recuperar su dinero.</p>
 ```
 
+
+```{=html}
+<script>
+(() => {
+  "use strict";
+
+  const phases = [
+    {
+      letter: "A",
+      title: "Capital temprano",
+      logic: "El capital permite probar el MVP y conseguir tracción inicial, sin colateral sustancial.",
+      tools: "Bootstrapping · Friends & Family · Ángeles",
+      imageId: "fase-img-1",
+      caption: "Referencia A · Capital temprano"
+    },
+    {
+      letter: "B",
+      title: "Capital de riesgo (VC)",
+      logic: "El capital financia el escalamiento y tolera pérdidas operativas mientras exista una hipótesis creíble de crecimiento.",
+      tools: "SAFE · Notas convertibles · Serie A/B · Venture Debt",
+      imageId: "fase-img-2",
+      caption: "Referencia B · Capital de riesgo"
+    },
+    {
+      letter: "C",
+      title: "Banca y mercados",
+      logic: "El financiamiento se apoya en flujos de caja previsibles, capacidad de repago y, cuando corresponde, colateral.",
+      tools: "Crédito tradicional · Banca de Desarrollo · IPO",
+      imageId: "fase-img-3",
+      caption: "Referencia C · Banca y mercados"
+    }
+  ];
+
+  let currentPhase = 0;
+
+  function initPhaseTabs() {
+    const buttons = document.querySelectorAll(".phase-tabs button[data-phase]");
+    const letter = document.getElementById("phase-letter");
+    const title = document.getElementById("phase-title");
+    const logic = document.getElementById("phase-logic");
+    const tools = document.getElementById("phase-tools");
+    const imageButton = document.getElementById("phase-image");
+
+    if (!buttons.length || !letter || !title || !logic || !tools || !imageButton) return;
+
+    function setPhase(index) {
+      const phase = phases[index];
+      if (!phase) return;
+
+      currentPhase = index;
+      letter.textContent = phase.letter;
+      title.textContent = phase.title;
+      logic.textContent = phase.logic;
+      tools.textContent = phase.tools;
+      imageButton.dataset.imageId = phase.imageId;
+
+      buttons.forEach((button) => {
+        button.setAttribute(
+          "aria-pressed",
+          String(Number(button.dataset.phase) === index)
+        );
+      });
+    }
+
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => {
+        setPhase(Number(button.dataset.phase));
+      });
+    });
+
+    setPhase(0);
+  }
+
+  function buildModal() {
+    let modal = document.getElementById("reference-modal");
+    if (modal) return modal;
+
+    modal = document.createElement("div");
+    modal.id = "reference-modal";
+    modal.className = "reference-modal";
+    modal.setAttribute("role", "dialog");
+    modal.setAttribute("aria-modal", "true");
+    modal.setAttribute("aria-label", "Lámina original");
+
+    modal.innerHTML = `
+      <div class="reference-modal__panel">
+        <button type="button" class="reference-modal__close" aria-label="Cerrar">Cerrar ×</button>
+        <img alt="">
+        <p class="reference-modal__caption"></p>
+      </div>
+    `;
+
+    document.body.appendChild(modal);
+
+    const close = () => modal.classList.remove("is-open");
+
+    modal.querySelector(".reference-modal__close").addEventListener("click", close);
+    modal.addEventListener("click", (event) => {
+      if (event.target === modal) close();
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && modal.classList.contains("is-open")) {
+        event.preventDefault();
+        event.stopPropagation();
+        close();
+      }
+    }, true);
+
+    return modal;
+  }
+
+  function initReferenceModal() {
+    const trigger = document.getElementById("phase-image");
+    if (!trigger) return;
+
+    const modal = buildModal();
+    const modalImage = modal.querySelector("img");
+    const caption = modal.querySelector(".reference-modal__caption");
+
+    trigger.addEventListener("click", (event) => {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+
+      const phase = phases[currentPhase];
+      const embeddedImage = document.getElementById(
+        trigger.dataset.imageId || phase.imageId
+      );
+
+      if (!embeddedImage || !embeddedImage.src) {
+        alert("No fue posible cargar la lámina de referencia.");
+        return;
+      }
+
+      modalImage.src = embeddedImage.src;
+      modalImage.alt = embeddedImage.alt || phase.caption;
+      caption.textContent = phase.caption;
+      modal.classList.add("is-open");
+    }, true);
+  }
+
+  function initStressTest() {
+    const slider = document.getElementById("shock");
+    const value = document.getElementById("shock-value");
+    const coverage = document.getElementById("coverage");
+    const message = document.getElementById("coverage-message");
+    const reset = document.getElementById("reset-shock");
+
+    if (!slider || !value || !coverage || !message) return;
+
+    const baseCash = 150;
+    const debtService = 100;
+
+    function update() {
+      const shock = Number(slider.value);
+      const cash = baseCash * (1 - shock / 100);
+      const ratio = cash / debtService;
+      const difference = cash - debtService;
+
+      value.textContent = `${shock}%`;
+      coverage.textContent = `${ratio.toFixed(2)}×`;
+
+      if (difference > 0.001) {
+        message.textContent =
+          `La caja excede el servicio de deuda en US$${difference.toFixed(0)} mil.`;
+      } else if (Math.abs(difference) <= 0.001) {
+        message.textContent =
+          "La caja cubre exactamente el servicio anual de deuda.";
+      } else {
+        message.textContent =
+          `La caja sería insuficiente en US$${Math.abs(difference).toFixed(0)} mil.`;
+      }
+    }
+
+    slider.addEventListener("input", update);
+
+    if (reset) {
+      reset.addEventListener("click", () => {
+        slider.value = 0;
+        update();
+      });
+    }
+
+    update();
+  }
+
+  function initQuiz() {
+    const options = document.querySelectorAll(".quiz-options button[data-answer]");
+    const feedback = document.getElementById("quiz-feedback");
+    if (!options.length || !feedback) return;
+
+    options.forEach((button) => {
+      button.addEventListener("click", () => {
+        const revise = button.dataset.answer === "no";
+
+        options.forEach((item) => {
+          item.setAttribute(
+            "aria-pressed",
+            String(item === button)
+          );
+        });
+
+        if (revise) {
+          feedback.textContent =
+            "Revisaría la estructura: el proyecto deja de generar caja a tiempo para atender la deuda, por lo que cambió el riesgo de repago.";
+        } else {
+          feedback.textContent =
+            "Mantener el crédito exigiría justificar cómo se cubrirán los pagos durante los tres años sin caja de la nueva línea.";
+        }
+      });
+    });
+  }
+
+  function init() {
+    initPhaseTabs();
+    initReferenceModal();
+    initStressTest();
+    initQuiz();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init, { once: true });
+  } else {
+    init();
+  }
+})();
+</script>
+```
 

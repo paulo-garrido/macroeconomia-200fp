@@ -270,3 +270,7 @@ Y añadiría estas clases a tu CSS:
 .takeaway-text strong {
   color: #d7ff63;
 }
+
+.presentation-resources {
+  display: none !important;
+}
