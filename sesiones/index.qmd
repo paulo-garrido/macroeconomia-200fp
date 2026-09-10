@@ -65,7 +65,7 @@ Fluctuaciones económicas, oferta y demanda agregada.
 
 ### Sesión 06
 
-**Próxima sesión**
+Emprendimiento
 
 [Ver sesión →](sesion0.qmd).
 
