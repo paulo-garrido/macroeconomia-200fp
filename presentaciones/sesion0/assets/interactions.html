@@ -1,0 +1,25 @@
+<dialog class="image-dialog" id="reference-dialog" aria-label="Lámina original de clase"><button type="button" id="close-reference">Cerrar ×</button><img id="reference-image" alt="Cadena de financiación en el ciclo de vida del emprendimiento"></dialog>
+<script>
+(function(){
+ const phases=[
+ ['A','Capital temprano','El capital permite probar el MVP y conseguir tracción inicial, sin colateral sustancial.','Bootstrapping · Friends & Family · Ángeles'],
+ ['B','Capital de riesgo (VC)','El capital financia una hipótesis de escala rápida y acepta pérdidas operativas a cambio de potencial de valorización.','SAFE · Notas convertibles · Serie A/B · Venture Debt'],
+ ['C','Banca & Mercados','Para elegir crédito, importan la caja y el repago. La referencia también incluye IPO, con requisitos y lógica accionaria distintos.','Crédito tradicional · Banca de Desarrollo · IPO']];
+ document.querySelectorAll('[data-phase]').forEach(btn=>btn.addEventListener('click',()=>{
+ const n=Number(btn.dataset.phase),p=phases[n];
+ document.querySelectorAll('[data-phase]').forEach(b=>b.setAttribute('aria-pressed',String(b===btn)));
+ ['phase-letter','phase-title','phase-logic','phase-tools'].forEach((id,i)=>document.getElementById(id).textContent=p[i]);
+ document.getElementById('phase-image').dataset.image='assets/fase-'+(n+1)+'.jpeg';
+ }));
+ const modal=document.getElementById('reference-dialog');let lastFocus;
+ document.querySelectorAll('[data-image]').forEach(btn=>btn.addEventListener('click',()=>{lastFocus=btn;document.getElementById('reference-image').src=btn.dataset.image;modal.showModal();}));
+ document.getElementById('close-reference').addEventListener('click',()=>modal.close());
+ modal.addEventListener('click',e=>{if(e.target===modal)modal.close();});
+ modal.addEventListener('close',()=>lastFocus?.focus());
+ modal.addEventListener('keydown',e=>e.stopPropagation());
+ const slider=document.getElementById('shock');
+ function update(){const fall=Number(slider.value),cash=150*(1-fall/100),ratio=cash/100,delta=Math.abs(cash-100);document.getElementById('shock-value').textContent=fall+'%';document.getElementById('coverage').textContent=(Math.round((ratio+Number.EPSILON)*100)/100).toFixed(2)+'×';document.getElementById('coverage').style.color=ratio<1?'var(--coral)':'var(--lime)';document.getElementById('coverage-message').textContent=ratio>1?'La caja excede el servicio de deuda en US$'+Number(delta.toFixed(1))+' mil.':ratio<1?'Faltan US$'+Number(delta.toFixed(1))+' mil para cubrir el servicio de deuda.':'La caja cubre exactamente la deuda; no queda holgura.';}
+ slider.addEventListener('input',update);slider.addEventListener('keydown',e=>e.stopPropagation());document.getElementById('reset-shock').addEventListener('click',()=>{slider.value=0;update();});
+ document.querySelectorAll('[data-answer]').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('[data-answer]').forEach(b=>b.setAttribute('aria-pressed',String(b===btn)));document.getElementById('quiz-feedback').textContent=btn.dataset.answer==='no'?'Sí: el calendario de pagos supera la caja disponible. Conviene revisar monto, plazos, ejecución por etapas o capital accionario.':'La rentabilidad no basta: con esa caja, el crédito propuesto no es sostenible. La estructura debe revisarse antes de asumir la obligación.';}));
+})();
+</script>

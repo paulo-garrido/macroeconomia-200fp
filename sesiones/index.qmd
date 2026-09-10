@@ -67,4 +67,6 @@ Fluctuaciones económicas, oferta y demanda agregada.
 
 **Próxima sesión**
 
+[Ver sesión →](sesion0.qmd).
+
 Contenido disponible próximamente.

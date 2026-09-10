@@ -1,0 +1,194 @@
+---
+pagetitle: "El capital sigue al riesgo"
+author: "Stefani Villeda · Paulo Garrido"
+lang: es
+format:
+  revealjs:
+    theme: dark
+    css: assets/theme.css
+    width: 1280
+    height: 720
+    margin: 0.05
+    center: false
+    transition: fade
+    transition-speed: fast
+    background-transition: fade
+    slide-number: c/t
+    show-slide-number: all
+    controls: true
+    controls-layout: edges
+    progress: true
+    hash: true
+    history: true
+    overview: true
+    touch: true
+    navigation-mode: linear
+    keyboard: true
+    help: true
+    menu: false
+    title-slide: false
+    include-after-body: assets/interactions.html
+    embed-resources: true
+    self-contained-math: false
+execute:
+  enabled: false
+---
+
+## {#inicio .cover}
+
+```{=html}
+<p class="eyebrow">COMPETENCIAS DE EMPRENDIMIENTO · GUATEMALA</p><h1>El capital sigue<br>al <em>riesgo.</em></h1><p class="subtitle">Mapeo de etapa y riesgo en tres startups</p><div class="cover-bottom"><span>Stefani Villeda<br>Paulo Garrido</span><span>Validación / Escalamiento / Repago</span></div>
+```
+
+
+## {#criterio .standard}
+
+```{=html}
+<p class="eyebrow">01 / CRITERIO</p><h2>¿Qué debe financiar<br>el siguiente aporte?</h2><div class="sequence"><div><span>01</span><h3>Etapa</h3><p>La evidencia disponible</p></div><div><span>02</span><h3>Riesgo</h3><p>Lo que falta demostrar</p></div><div><span>03</span><h3>Instrumento</h3><p>Las obligaciones asumidas</p></div><div><span>04</span><h3>Actor</h3><p>Quién tolera ese riesgo</p></div></div><p class="takeaway">El sector da contexto. La incertidumbre orienta la decisión.</p><p class="muted">Supuestos de nuestro análisis: MVP en Fintech, expansión en SaaS y caja previsible para financiar la expansión de AgriTech.</p>
+```
+
+
+## {#cadena .standard}
+
+```{=html}
+<p class="eyebrow">02 / CADENA DE FINANCIAMIENTO</p><h2>Tres lógicas de capital</h2><div class="phase-tabs" role="group" aria-label="Seleccionar fase"><button data-phase="0" aria-pressed="true">A · Validación</button><button data-phase="1" aria-pressed="false">B · Escalamiento</button><button data-phase="2" aria-pressed="false">C · Repago</button></div><div class="phase-body" aria-live="polite"><div><p class="big-letter" id="phase-letter">A</p></div><div><h3 id="phase-title">Capital temprano</h3><p id="phase-logic">El capital permite probar el MVP y conseguir tracción inicial, sin colateral sustancial.</p><p class="muted" id="phase-tools">Bootstrapping · Friends & Family · Ángeles</p><button class="text-button" id="phase-image" data-image="assets/fase-1.jpeg">Ver lámina original ↗</button></div></div>
+```
+
+
+## {#fintech .standard}
+
+```{=html}
+<p class="eyebrow">03 / FINTECH · REFERENCIA A</p><h2>Un MVP todavía<br>debe probar su mercado</h2><div class="decision-layout"><div class="fact"><strong>0</strong><span>ingresos reportados</span><p>MVP desarrollado.<br>Objetivo: validar adopción y pago.</p></div><div class="decision"><p class="label">INSTRUMENTO PROPUESTO</p><h3>Participación accionaria<br>en una ronda temprana</h3><p><b>Actor:</b> ángel con experiencia en Fintech.</p><p>Acepta perder el capital a cambio del potencial de valorización; puede aportar criterio comercial y sectorial.</p></div></div><p class="takeaway">El capital financia aprendizaje antes de exigir repago.</p>
+```
+
+
+## {#fintech-riesgos .standard}
+
+```{=html}
+<p class="eyebrow">FINTECH / DOS PERSPECTIVAS</p><h2>El riesgo dominante es<br>la validación</h2><div class="risk-columns"><div><h3>La startup asume</h3><p><b>Dilución y control</b><br>Ceder participación temprano puede limitar decisiones.</p><p><b>Caja y nuevas rondas</b><br>El dinero puede agotarse antes de validar.</p><p><b>Cumplimiento y operación</b><br>Adaptar el producto puede elevar costos.</p></div><div><h3>El financiador asume</h3><p><b>Adopción y monetización</b><br>Un MVP funcional puede no encontrar clientes.</p><p><b>Pérdida del capital</b><br>No hay flujos demostrados; no se acreditan garantías.</p><p><b>Tecnología y regulación</b><br>Fallas, seguridad o restricciones pueden frenar el modelo.</p></div></div><p class="takeaway">Hito siguiente: adopción, retención y disposición a pagar.</p>
+```
+
+
+## {#saas .standard}
+
+```{=html}
+<p class="eyebrow">04 / SAAS · REFERENCIA B</p><h2>Hay tracción.<br>Falta demostrar escala.</h2><div class="decision-layout"><div class="fact"><strong>US$20k</strong><span>ingreso mensual recurrente</span><p>US$240k anualizados si el MRR<br>se mantiene. No es un pronóstico.</p></div><div class="decision"><p class="label">INSTRUMENTO PROPUESTO</p><h3>SAFE</h3><p><b>Actor:</b> fondo VC de etapa temprana.</p><p>Financia expansión con conversión futura a acciones y tolera pérdidas si existe una hipótesis creíble de crecimiento.</p></div></div><p class="takeaway">El MRR es una señal; la retención y la economía unitaria la ponen a prueba.</p>
+```
+
+
+## {#safe .standard}
+```{=html}
+<p class="eyebrow">SAAS / ELECCIÓN DEL INSTRUMENTO</p>
+
+<h2>Por qué elegimos SAFE</h2>
+
+<p class="slide-intro">
+Ambos instrumentos permiten financiar hoy a la startup y vincular al inversionista
+con participación futura. La diferencia en esta etapa, es que la nota convertible suele incorporar vencimiento , mientras que
+<strong>el SAFE estándar no</strong>.
+</p>
+
+<div class="clean-compare">
+
+  <div class="clean-card clean-safe">
+    <h3>SAFE estándar</h3>
+    <p class="flow">Capital hoy para tener equity futuro</p>
+
+    <div class="clean-row">
+      <span class="row-label">Naturaleza</span>
+      <span>Derecho contractual a recibir acciones en una ronda futura.</span>
+    </div>
+
+    <div class="clean-row">
+      <span class="row-label">Interés y vencimiento</span>
+      <span><strong>No devenga intereses</strong> y <strong>no tiene vencimiento</strong>.</span>
+    </div>
+
+    <div class="clean-row">
+      <span class="row-label">Implicación</span>
+      <span>El costo principal para los fundadores es la dilución futura.</span>
+    </div>
+  </div>
+
+  <div class="clean-card clean-note">
+    <h3>Nota convertible</h3>
+    <p class="flow">Deuda hoy para posible equity futuro</p>
+
+    <div class="clean-row">
+      <span class="row-label">Naturaleza</span>
+      <span>Deuda que posteriormente puede convertirse en acciones.</span>
+    </div>
+
+    <div class="clean-row">
+      <span class="row-label">Interés y vencimiento</span>
+      <span>Suele devengar intereses y tener una fecha de vencimiento.</span>
+    </div>
+
+    <div class="clean-row">
+      <span class="row-label">Implicación</span>
+      <span>A la dilución futura se añade presión financiera si el instrumento vence.</span>
+    </div>
+  </div>
+
+</div>
+
+<div class="clean-takeaway">
+  <span class="takeaway-label">¿cual es la decisión?</span>
+  <span class="takeaway-text">
+    A la luz de la naturaleza de los insturmentos elegimos <strong>SAFE</strong> porque permite financiar el crecimiento del SaaS
+    sin introducir una presión de vencimiento mientras la empresa todavía debe
+    demostrar que su escalamiento es repetible y sostenible.
+  </span>
+</div>
+```
+
+
+## {#saas-riesgos .standard}
+
+```{=html}
+<p class="eyebrow">SAAS / DOS PERSPECTIVAS</p><h2>El riesgo dominante es<br>la escalabilidad</h2><div class="risk-columns"><div><h3>La startup asume</h3><p><b>Dilución futura</b><br>La conversión y nuevas rondas reducen participación.</p><p><b>Crecimiento y caja</b><br>Expandirse puede elevar el consumo mensual de efectivo.</p><p><b>Dependencia de capital</b><br>Una ronda posterior puede llegar tarde o a menor valoración.</p></div><div><h3>El financiador asume</h3><p><b>Retención y concentración</b><br>El ingreso puede depender de clientes que abandonan.</p><p><b>Economía unitaria</b><br>Captar clientes puede costar más de lo que aportan.</p><p><b>Escala y salida</b><br>La empresa puede crecer menos de lo necesario para el fondo.</p></div></div><p class="takeaway">Hito siguiente: crecimiento repetible con retención y márgenes sostenibles.</p>
+```
+
+
+## {#agritech .standard}
+
+```{=html}
+<p class="eyebrow">05 / AGRITECH · REFERENCIA C</p><h2>La caja permite evaluar<br>una obligación de pago</h2><div class="decision-layout"><div class="fact word"><strong>Rentable</strong><span>flujos previsibles</span><p>Busca nuevos mercados<br>o nuevas líneas de producto.</p></div><div class="decision"><p class="label">INSTRUMENTO PROPUESTO</p><h3>Crédito a plazo</h3><p><b>Actor:</b> banco comercial; banca de desarrollo si cumple sus criterios.</p><p>Financia expansión preservando participación, siempre que la caja soporte intereses y amortizaciones.</p></div></div><p class="takeaway">La rentabilidad orienta; la capacidad de pago decide.</p>
+```
+
+
+## {#agritech-riesgos .standard}
+
+```{=html}
+<p class="eyebrow">AGRITECH / DOS PERSPECTIVAS</p><h2>El riesgo dominante es<br>el repago de la expansión</h2><div class="risk-columns"><div><h3>La startup asume</h3><p><b>Pagos obligatorios</b><br>La deuda se paga aunque la expansión se retrase.</p><p><b>Garantías y restricciones</b><br>Puede comprometer activos y aceptar límites contractuales.</p><p><b>Exposición operativa</b><br>Clima, precios o logística pueden reducir caja.</p></div><div><h3>El financiador asume</h3><p><b>Incumplimiento</b><br>La caja puede no alcanzar para capital e intereses.</p><p><b>Ejecución y concentración</b><br>Nuevos mercados o pocos compradores elevan exposición.</p><p><b>Recuperación</b><br>Las garantías pueden perder valor o ser difíciles de realizar.</p></div></div><p class="takeaway">Condición: conservar capacidad de pago en escenarios adversos.</p>
+```
+
+
+## {#prueba-caja .standard}
+
+```{=html}
+<p class="eyebrow">AGRITECH / EXPLORACIÓN</p><h2>¿Cuánto deterioro<br>puede absorber la caja?</h2><p class="intro">Ejemplificación del riesgo: caja disponible de US$150 mil y servicio anual de deuda de US$100 mil.</p><div class="stress-layout"><div><label for="shock">Caída de caja: <output id="shock-value">0%</output></label><input id="shock" type="range" min="0" max="60" value="0" step="5"><p class="muted">Mueve el control para explorar el margen de pago.</p><button class="text-button" id="reset-shock">Restablecer ejemplo</button></div><div class="ratio"><strong id="coverage">1.50×</strong><span>cobertura del servicio de deuda</span><p id="coverage-message" aria-live="polite">La caja excede el servicio de deuda en US$50 mil.</p></div></div>
+```
+
+
+## {#sintesis .standard}
+
+```{=html}
+<p class="eyebrow">06 / SÍNTESIS</p><h2>La misma regla, tres decisiones diferentes</h2><table class="summary-table"><thead><tr><th>Caso / etapa</th><th>Riesgo dominante</th><th>Instrumento</th><th>Actor</th></tr></thead><tbody><tr><td><b>Fintech</b><small>Validación · A</small></td><td>Adopción y pago</td><td>Participación accionaria</td><td>Ángel sectorial</td></tr><tr><td><b>SaaS</b><small>Escalamiento · B</small></td><td>Escala repetible</td><td>SAFE</td><td>VC temprano</td></tr><tr><td><b>AgriTech</b><small>Expansión · C</small></td><td>Repago y ejecución</td><td>Crédito a plazo</td><td>Banco</td></tr></tbody></table><p class="takeaway">Cada elección depende de evidencia adicional y de los términos del financiamiento.</p>
+```
+
+
+## {#decision .standard}
+
+```{=html}
+<p class="eyebrow">07 / DISCUSIÓN</p><h2>¿Mantendrías el crédito?</h2><p class="question">Supongamos un escenario adicional: la AgriTech sigue siendo rentable, pero su nueva línea tardará tres años en generar caja y el negocio actual no alcanza para pagar la deuda.</p><div class="quiz-options"><button data-answer="no">Revisaría la estructura</button><button data-answer="yes">Mantendría el crédito</button></div><div id="quiz-feedback" aria-live="polite" class="quiz-feedback">Selecciona una respuesta y defiende qué riesgo cambió.</div>
+```
+
+
+## {#cierre .closing}
+
+```{=html}
+<p class="eyebrow">CONCLUSIÓN</p><h2 class="closing-title">La estructura del capital<br>debe corresponder<br>al riesgo que financia.</h2><div class="closing-line"><span>Validar</span><span>Escalar</span><span>Repagar</span></div><p class="subtitle">Elegir bien exige explicar quién asume el riesgo<br>y cómo espera recuperar su dinero.</p>
+```
+
+

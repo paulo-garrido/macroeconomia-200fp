@@ -1,0 +1,25 @@
+---
+title: "Sesión 0"
+subtitle: "comepetencias emprendedoras"
+toc: false
+page-layout: full
+---
+
+::: {.session-hero}
+
+::: {.session-number}
+SESIÓN 0
+:::
+
+PRESENTACIÓN
+:::
+
+### Emprendimiento
+
+Ejercicio de clase
+
+[Ver presentación →](../presentaciones/sesion0/mapeo-etapa-riesgo.html)
+
+:::
+
+
