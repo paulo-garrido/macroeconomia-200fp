@@ -14,25 +14,46 @@
     "text": "Los laboratorios están diseñados para aplicar los conceptos desarrollados en clase mediante ejercicios de cálculo, interpretación y uso de información económica oficial.\n\n\n\nMedición económica agregada\nAplicación de los conceptos de medición del PIB y uso de información estadística del Banco de Guatemala.\nEl laboratorio permite trabajar con:\n\ncuentas nacionales;\nequilibrio oferta-utilización;\ninterpretación de información económica;\nestimación y análisis de magnitudes agregadas.\n\nVer laboratorio PDF →\nDescargar Excel de trabajo →\n\n\n\n\nLos nuevos laboratorios se incorporarán a esta sección conforme avance el curso."
   },
   {
-    "objectID": "lecturas/index.html",
-    "href": "lecturas/index.html",
-    "title": "Lecturas",
+    "objectID": "AGENTS.html",
+    "href": "AGENTS.html",
+    "title": "Macroeconomía 200 FP",
     "section": "",
-    "text": "Esta sección reúne los textos, capítulos, artículos e informes que complementan las sesiones del curso.\nLas lecturas buscan ampliar la discusión desarrollada en clase y fortalecer la capacidad de los estudiantes para interpretar, sintetizar y discutir argumentos económicos.\n\n\n\nEste documento orienta en líneas generales lo que un estudiante debe de considerar al escribir sus abstract, articulos, ensayos, considerando el nivel profesional requerido.\nVer criterios para elaborar abstracts →"
+    "text": "Este repositorio administra el curso Macroeconomía 200 FP de la Maestría en Formulación y Evaluación de Proyectos.\n\n\n\nNo modificar la estructura de evaluación sin autorización del docente.\nMantener todas las presentaciones y páginas en Quarto.\nConservar la identidad visual institucional del curso.\nAntes de publicar el sitio:\n\nejecutar quarto render;\ncomprobar enlaces;\nverificar recursos;\ncomprobar que no existan errores de RevealJS.\n\nNunca publicar información individual de estudiantes.\n\n\n\n\nLas evaluaciones deben calificarse utilizando exclusivamente la rúbrica correspondiente en evaluaciones/rubricas/.\nNunca modificar una nota sin indicar: - estudiante; - actividad; - criterio; - puntuación; - justificación.\nEl resultado debe incluir: - nota por criterio; - nota total; - comentario breve; - aspectos a mejorar.\nNo penalizar aspectos que no estén contemplados en la rúbrica.\n\n\n\nAntes de modificar una sesión: 1. revisar sesiones anteriores; 2. conservar diseño y estructura; 3. verificar navegación; 4. ejecutar el sitio localmente; 5. reportar los archivos modificados.\nNunca hacer push directamente sin comprobar primero el render."
   },
   {
-    "objectID": "lecturas/index.html#lecturas-del-curso",
-    "href": "lecturas/index.html#lecturas-del-curso",
-    "title": "Lecturas",
+    "objectID": "AGENTS.html#reglas-generales",
+    "href": "AGENTS.html#reglas-generales",
+    "title": "Macroeconomía 200 FP",
     "section": "",
-    "text": "Esta sección reúne los textos, capítulos, artículos e informes que complementan las sesiones del curso.\nLas lecturas buscan ampliar la discusión desarrollada en clase y fortalecer la capacidad de los estudiantes para interpretar, sintetizar y discutir argumentos económicos.\n\n\n\nEste documento orienta en líneas generales lo que un estudiante debe de considerar al escribir sus abstract, articulos, ensayos, considerando el nivel profesional requerido.\nVer criterios para elaborar abstracts →"
+    "text": "No modificar la estructura de evaluación sin autorización del docente.\nMantener todas las presentaciones y páginas en Quarto.\nConservar la identidad visual institucional del curso.\nAntes de publicar el sitio:\n\nejecutar quarto render;\ncomprobar enlaces;\nverificar recursos;\ncomprobar que no existan errores de RevealJS.\n\nNunca publicar información individual de estudiantes."
   },
   {
-    "objectID": "lecturas/index.html#diane-coyle-gdp-a-brief-but-affectionate-history",
-    "href": "lecturas/index.html#diane-coyle-gdp-a-brief-but-affectionate-history",
-    "title": "Lecturas",
-    "section": "Diane Coyle · GDP: A Brief but Affectionate History",
-    "text": "Diane Coyle · GDP: A Brief but Affectionate History\nCapítulo 1\nEl capítulo introduce el Producto Interno Bruto no solamente como una medida estadística, sino como una construcción histórica que refleja determinadas formas de entender y representar la actividad económica.\nLa lectura sirve como punto de partida para discutir preguntas como:\n\n¿qué pretende medir el PIB?;\n¿por qué surgió la necesidad de medir la producción de una economía?;\n¿qué actividades quedan dentro y fuera de la medición?;\n¿qué limitaciones existen al utilizar el PIB como indicador del desempeño económico?\n\n\n\nActividad asociada\nElabore el abstract asignado a partir del capítulo.\nEl documento debe identificar:\n\nel argumento central de la autora;\nlas principales ideas desarrolladas;\nla relevancia del texto para comprender la medición económica;\nuna reflexión o interrogante derivada de la lectura.\n\n\nDisponibilidad de la lectura: consulte el material proporcionado por el docente a través de Classroom.\n\n\n\nPróximas lecturas\nLas lecturas correspondientes a las siguientes sesiones se incorporarán progresivamente a esta sección."
+    "objectID": "AGENTS.html#calificación",
+    "href": "AGENTS.html#calificación",
+    "title": "Macroeconomía 200 FP",
+    "section": "",
+    "text": "Las evaluaciones deben calificarse utilizando exclusivamente la rúbrica correspondiente en evaluaciones/rubricas/.\nNunca modificar una nota sin indicar: - estudiante; - actividad; - criterio; - puntuación; - justificación.\nEl resultado debe incluir: - nota por criterio; - nota total; - comentario breve; - aspectos a mejorar.\nNo penalizar aspectos que no estén contemplados en la rúbrica."
+  },
+  {
+    "objectID": "AGENTS.html#sitio-web",
+    "href": "AGENTS.html#sitio-web",
+    "title": "Macroeconomía 200 FP",
+    "section": "",
+    "text": "Antes de modificar una sesión: 1. revisar sesiones anteriores; 2. conservar diseño y estructura; 3. verificar navegación; 4. ejecutar el sitio localmente; 5. reportar los archivos modificados.\nNunca hacer push directamente sin comprobar primero el render."
+  },
+  {
+    "objectID": "tareas/index.html",
+    "href": "tareas/index.html",
+    "title": "Tareas",
+    "section": "",
+    "text": "En esta sección se publican las tareas del curso, junto con sus instrucciones y los archivos de trabajo necesarios para su desarrollo.\n\n\n\nMedición del Producto Interno Bruto\nLa actividad busca consolidar la comprensión de los tres enfoques de medición del PIB y fortalecer la interpretación económica de los resultados.\nLa tarea incluye cinco ejercicios:\n\nPIB por el enfoque de la producción.\nPIB por el enfoque del gasto.\nPIB por el enfoque del ingreso.\nIntegración de los tres enfoques de medición.\nAnálisis del PIB de Guatemala por actividad económica, utilizando información oficial del Banco de Guatemala.\n\n\n\nVer instrucciones de la tarea →\nDescargar formato Excel →\n\n\n\n\n\nLa tarea debe desarrollarse utilizando el formato de Excel proporcionado.\nSe evaluará tanto la correcta resolución de los ejercicios como la interpretación económica de los resultados.\n\n\n\n\nLas nuevas actividades se incorporarán a esta sección conforme avance el curso."
+  },
+  {
+    "objectID": "tareas/index.html#actividades-evaluadas",
+    "href": "tareas/index.html#actividades-evaluadas",
+    "title": "Tareas",
+    "section": "",
+    "text": "En esta sección se publican las tareas del curso, junto con sus instrucciones y los archivos de trabajo necesarios para su desarrollo.\n\n\n\nMedición del Producto Interno Bruto\nLa actividad busca consolidar la comprensión de los tres enfoques de medición del PIB y fortalecer la interpretación económica de los resultados.\nLa tarea incluye cinco ejercicios:\n\nPIB por el enfoque de la producción.\nPIB por el enfoque del gasto.\nPIB por el enfoque del ingreso.\nIntegración de los tres enfoques de medición.\nAnálisis del PIB de Guatemala por actividad económica, utilizando información oficial del Banco de Guatemala.\n\n\n\nVer instrucciones de la tarea →\nDescargar formato Excel →\n\n\n\n\n\nLa tarea debe desarrollarse utilizando el formato de Excel proporcionado.\nSe evaluará tanto la correcta resolución de los ejercicios como la interpretación económica de los resultados.\n\n\n\n\nLas nuevas actividades se incorporarán a esta sección conforme avance el curso."
   },
   {
     "objectID": "sesiones/sesion02.html",
@@ -481,6 +502,41 @@
     "title": "Sesión 4",
     "section": "Cierre de la sesión",
     "text": "Cierre de la sesión\n\n\nIdea final\n\nLa macroeconomía no es un dato externo que se agrega al final del estudio.\nEs el entorno que puede alterar la demanda, los costos, el financiamiento y, por tanto, la viabilidad del proyecto.\n\n\nPróxima sesión: crecimiento y desarrollo económico."
+  },
+  {
+    "objectID": "presentaciones/sesion0/LEEME.html",
+    "href": "presentaciones/sesion0/LEEME.html",
+    "title": "El capital sigue al riesgo",
+    "section": "",
+    "text": "Presentación editable en Quarto, con 14 diapositivas en español. Tiempo orientativo: 12–15 minutos, más discusión.\n\n\nAbre mapeo-etapa-riesgo.html en Chrome, Edge o Firefox. Mantén la carpeta assets junto al HTML para abrir las tres láminas originales. La presentación y sus interacciones funcionan sin conexión; los enlaces a Y Combinator requieren Internet. Los PDF de respaldo se abren desde la carpeta hermana Tareas incluida en el paquete.\n\nFlechas derecha e izquierda: avanzar y regresar.\nEsc: vista general de las diapositivas.\nF: pantalla completa.\n?: ayuda del navegador de diapositivas.\n\nEn la diapositiva 3, selecciona A, B o C y abre la lámina de clase. En la 11, mueve el control para explorar la caída de caja. En la 13, selecciona una respuesta para abrir la discusión.\n\n\n\n\nmapeo-etapa-riesgo.qmd: contenido.\nassets/theme.css: tipografía, colores y composición.\nassets/interactions.html: comportamiento de fases, imágenes, simulación y pregunta.\nassets/fase-1.jpeg, fase-2.jpeg, fase-3.jpeg: imágenes originales completas.\n\nPara regenerar desde la raíz del proyecto:\nquarto render presentacion/mapeo-etapa-riesgo.qmd\nEl HTML contiene los estilos y las bibliotecas de la presentación. Las láminas que se abren con botones se mantienen como archivos locales.\n\n\n\nSe usan las instrucciones de la tarea, el análisis previo de Stefani Villeda y Paulo Garrido y las tres imágenes de clase. Las diapositivas distinguen el instrumento de su financiador: participación accionaria / ángel; SAFE / VC temprano; crédito a plazo / banco. La diferencia entre SAFE y nota convertible se apoya en documentación de Y Combinator, enlazada en la presentación.\nLas recomendaciones se condicionan a los datos disponibles. No se inventan montos, valoraciones, garantías o métricas de los casos. Los valores del simulador son supuestos didácticos explícitos y la pregunta de discusión introduce un escenario hipotético adicional.\n\n\n\n\nPortada.\nCriterio etapa → riesgo → instrumento → actor.\nCadena de financiamiento interactiva. 4–5. Fintech: propuesta y riesgos de ambas partes. 6–8. SaaS: propuesta, precisión SAFE/nota y riesgos. 9–10. AgriTech: propuesta y riesgos.\nPrueba de caja interactiva.\nComparación transversal.\nDiscusión con respuesta interactiva.\nConclusión.\n\nSe retiraron los pies de referencia, las notas del expositor y la diapositiva de fuentes. La documentación técnica del SAFE permanece identificada aquí: https://www.ycombinator.com/documents/ . Los documentos de trabajo propios no se presentan como material entregado por la profesora."
+  },
+  {
+    "objectID": "presentaciones/sesion0/LEEME.html#abrir-y-presentar",
+    "href": "presentaciones/sesion0/LEEME.html#abrir-y-presentar",
+    "title": "El capital sigue al riesgo",
+    "section": "",
+    "text": "Abre mapeo-etapa-riesgo.html en Chrome, Edge o Firefox. Mantén la carpeta assets junto al HTML para abrir las tres láminas originales. La presentación y sus interacciones funcionan sin conexión; los enlaces a Y Combinator requieren Internet. Los PDF de respaldo se abren desde la carpeta hermana Tareas incluida en el paquete.\n\nFlechas derecha e izquierda: avanzar y regresar.\nEsc: vista general de las diapositivas.\nF: pantalla completa.\n?: ayuda del navegador de diapositivas.\n\nEn la diapositiva 3, selecciona A, B o C y abre la lámina de clase. En la 11, mueve el control para explorar la caída de caja. En la 13, selecciona una respuesta para abrir la discusión."
+  },
+  {
+    "objectID": "presentaciones/sesion0/LEEME.html#editar",
+    "href": "presentaciones/sesion0/LEEME.html#editar",
+    "title": "El capital sigue al riesgo",
+    "section": "",
+    "text": "mapeo-etapa-riesgo.qmd: contenido.\nassets/theme.css: tipografía, colores y composición.\nassets/interactions.html: comportamiento de fases, imágenes, simulación y pregunta.\nassets/fase-1.jpeg, fase-2.jpeg, fase-3.jpeg: imágenes originales completas.\n\nPara regenerar desde la raíz del proyecto:\nquarto render presentacion/mapeo-etapa-riesgo.qmd\nEl HTML contiene los estilos y las bibliotecas de la presentación. Las láminas que se abren con botones se mantienen como archivos locales."
+  },
+  {
+    "objectID": "presentaciones/sesion0/LEEME.html#base-académica",
+    "href": "presentaciones/sesion0/LEEME.html#base-académica",
+    "title": "El capital sigue al riesgo",
+    "section": "",
+    "text": "Se usan las instrucciones de la tarea, el análisis previo de Stefani Villeda y Paulo Garrido y las tres imágenes de clase. Las diapositivas distinguen el instrumento de su financiador: participación accionaria / ángel; SAFE / VC temprano; crédito a plazo / banco. La diferencia entre SAFE y nota convertible se apoya en documentación de Y Combinator, enlazada en la presentación.\nLas recomendaciones se condicionan a los datos disponibles. No se inventan montos, valoraciones, garantías o métricas de los casos. Los valores del simulador son supuestos didácticos explícitos y la pregunta de discusión introduce un escenario hipotético adicional."
+  },
+  {
+    "objectID": "presentaciones/sesion0/LEEME.html#orden-narrativo",
+    "href": "presentaciones/sesion0/LEEME.html#orden-narrativo",
+    "title": "El capital sigue al riesgo",
+    "section": "",
+    "text": "Portada.\nCriterio etapa → riesgo → instrumento → actor.\nCadena de financiamiento interactiva. 4–5. Fintech: propuesta y riesgos de ambas partes. 6–8. SaaS: propuesta, precisión SAFE/nota y riesgos. 9–10. AgriTech: propuesta y riesgos.\nPrueba de caja interactiva.\nComparación transversal.\nDiscusión con respuesta interactiva.\nConclusión.\n\nSe retiraron los pies de referencia, las notas del expositor y la diapositiva de fuentes. La documentación técnica del SAFE permanece identificada aquí: https://www.ycombinator.com/documents/ . Los documentos de trabajo propios no se presentan como material entregado por la profesora."
   },
   {
     "objectID": "presentaciones/sesion02/index.html#sesión-2",
@@ -1043,6 +1099,104 @@
     "text": "Cierre\n\nLa preparación matemática no empieza con cálculo.\n\n\nEmpieza con dominar el lenguaje algebraico que hace posible el cálculo."
   },
   {
+    "objectID": "presentaciones/sesion0/mapeo-etapa-riesgo.html#inicio",
+    "href": "presentaciones/sesion0/mapeo-etapa-riesgo.html#inicio",
+    "title": "Macroeconomía · 200 FP",
+    "section": "",
+    "text": "COMPETENCIAS DE EMPRENDIMIENTO · GUATEMALAEl capital sigueal riesgo.Mapeo de etapa y riesgo en tres startupsStefani VilledaPaulo GarridoValidación / Escalamiento / Repago"
+  },
+  {
+    "objectID": "presentaciones/sesion0/mapeo-etapa-riesgo.html#criterio",
+    "href": "presentaciones/sesion0/mapeo-etapa-riesgo.html#criterio",
+    "title": "Macroeconomía · 200 FP",
+    "section": "",
+    "text": "01 / CRITERIO¿Qué debe financiarel siguiente aporte?01EtapaLa evidencia disponible02RiesgoLo que falta demostrar03InstrumentoLas obligaciones asumidas04ActorQuién tolera ese riesgoEl sector da contexto. La incertidumbre orienta la decisión.Supuestos de nuestro análisis: MVP en Fintech, expansión en SaaS y caja previsible para financiar la expansión de AgriTech."
+  },
+  {
+    "objectID": "presentaciones/sesion0/mapeo-etapa-riesgo.html#cadena",
+    "href": "presentaciones/sesion0/mapeo-etapa-riesgo.html#cadena",
+    "title": "Macroeconomía · 200 FP",
+    "section": "",
+    "text": "02 / CADENA DE FINANCIAMIENTOTres lógicas de capitalA · ValidaciónB · EscalamientoC · RepagoACapital tempranoEl capital permite probar el MVP y conseguir tracción inicial, sin colateral sustancial.Bootstrapping · Friends & Family · ÁngelesVer lámina original ↗"
+  },
+  {
+    "objectID": "presentaciones/sesion0/mapeo-etapa-riesgo.html#fintech",
+    "href": "presentaciones/sesion0/mapeo-etapa-riesgo.html#fintech",
+    "title": "Macroeconomía · 200 FP",
+    "section": "",
+    "text": "03 / FINTECH · REFERENCIA AUn MVP todavíadebe probar su mercado0ingresos reportadosMVP desarrollado.Objetivo: validar adopción y pago.INSTRUMENTO PROPUESTOParticipación accionariaen una ronda tempranaActor: ángel con experiencia en Fintech.Acepta perder el capital a cambio del potencial de valorización; puede aportar criterio comercial y sectorial.El capital financia aprendizaje antes de exigir repago."
+  },
+  {
+    "objectID": "presentaciones/sesion0/mapeo-etapa-riesgo.html#fintech-riesgos",
+    "href": "presentaciones/sesion0/mapeo-etapa-riesgo.html#fintech-riesgos",
+    "title": "Macroeconomía · 200 FP",
+    "section": "",
+    "text": "FINTECH / DOS PERSPECTIVASEl riesgo dominante esla validaciónLa startup asumeDilución y controlCeder participación temprano puede limitar decisiones.Caja y nuevas rondasEl dinero puede agotarse antes de validar.Cumplimiento y operaciónAdaptar el producto puede elevar costos.El financiador asumeAdopción y monetizaciónUn MVP funcional puede no encontrar clientes.Pérdida del capitalNo hay flujos demostrados; no se acreditan garantías.Tecnología y regulaciónFallas, seguridad o restricciones pueden frenar el modelo.Hito siguiente: adopción, retención y disposición a pagar."
+  },
+  {
+    "objectID": "presentaciones/sesion0/mapeo-etapa-riesgo.html#saas",
+    "href": "presentaciones/sesion0/mapeo-etapa-riesgo.html#saas",
+    "title": "Macroeconomía · 200 FP",
+    "section": "",
+    "text": "04 / SAAS · REFERENCIA BHay tracción.Falta demostrar escala.US$20kingreso mensual recurrenteUS$240k anualizados si el MRRse mantiene. No es un pronóstico.INSTRUMENTO PROPUESTOSAFEActor: fondo VC de etapa temprana.Financia expansión con conversión futura a acciones y tolera pérdidas si existe una hipótesis creíble de crecimiento.El MRR es una señal; la retención y la economía unitaria la ponen a prueba."
+  },
+  {
+    "objectID": "presentaciones/sesion0/mapeo-etapa-riesgo.html#safe",
+    "href": "presentaciones/sesion0/mapeo-etapa-riesgo.html#safe",
+    "title": "Macroeconomía · 200 FP",
+    "section": "",
+    "text": "SAAS / ELECCIÓN DEL INSTRUMENTO\n\nPor qué elegimos SAFE\n\n\nAmbos instrumentos permiten financiar hoy a la startup y vincular al inversionista\ncon participación futura. La diferencia en esta etapa, es que la nota convertible suele incorporar vencimiento , mientras que\nel SAFE estándar no.\n\n\n\n\n  \n    SAFE estándar\n    Capital hoy para tener equity futuro\n\n    \n      Naturaleza\n      Derecho contractual a recibir acciones en una ronda futura.\n    \n\n    \n      Interés y vencimiento\n      No devenga intereses y no tiene vencimiento.\n    \n\n    \n      Implicación\n      El costo principal para los fundadores es la dilución futura.\n    \n  \n\n  \n    Nota convertible\n    Deuda hoy para posible equity futuro\n\n    \n      Naturaleza\n      Deuda que posteriormente puede convertirse en acciones.\n    \n\n    \n      Interés y vencimiento\n      Suele devengar intereses y tener una fecha de vencimiento.\n    \n\n    \n      Implicación\n      A la dilución futura se añade presión financiera si el instrumento vence.\n    \n  \n\n\n\n\n  ¿cual es la decisión?\n  \n    A la luz de la naturaleza de los insturmentos elegimos SAFE porque permite financiar el crecimiento del SaaS\n    sin introducir una presión de vencimiento mientras la empresa todavía debe\n    demostrar que su escalamiento es repetible y sostenible."
+  },
+  {
+    "objectID": "presentaciones/sesion0/mapeo-etapa-riesgo.html#saas-riesgos",
+    "href": "presentaciones/sesion0/mapeo-etapa-riesgo.html#saas-riesgos",
+    "title": "Macroeconomía · 200 FP",
+    "section": "",
+    "text": "SAAS / DOS PERSPECTIVASEl riesgo dominante esla escalabilidadLa startup asumeDilución futuraLa conversión y nuevas rondas reducen participación.Crecimiento y cajaExpandirse puede elevar el consumo mensual de efectivo.Dependencia de capitalUna ronda posterior puede llegar tarde o a menor valoración.El financiador asumeRetención y concentraciónEl ingreso puede depender de clientes que abandonan.Economía unitariaCaptar clientes puede costar más de lo que aportan.Escala y salidaLa empresa puede crecer menos de lo necesario para el fondo.Hito siguiente: crecimiento repetible con retención y márgenes sostenibles."
+  },
+  {
+    "objectID": "presentaciones/sesion0/mapeo-etapa-riesgo.html#agritech",
+    "href": "presentaciones/sesion0/mapeo-etapa-riesgo.html#agritech",
+    "title": "Macroeconomía · 200 FP",
+    "section": "",
+    "text": "05 / AGRITECH · REFERENCIA CLa caja permite evaluaruna obligación de pagoRentableflujos previsiblesBusca nuevos mercadoso nuevas líneas de producto.INSTRUMENTO PROPUESTOCrédito a plazoActor: banco comercial; banca de desarrollo si cumple sus criterios.Financia expansión preservando participación, siempre que la caja soporte intereses y amortizaciones.La rentabilidad orienta; la capacidad de pago decide."
+  },
+  {
+    "objectID": "presentaciones/sesion0/mapeo-etapa-riesgo.html#agritech-riesgos",
+    "href": "presentaciones/sesion0/mapeo-etapa-riesgo.html#agritech-riesgos",
+    "title": "Macroeconomía · 200 FP",
+    "section": "",
+    "text": "AGRITECH / DOS PERSPECTIVASEl riesgo dominante esel repago de la expansiónLa startup asumePagos obligatoriosLa deuda se paga aunque la expansión se retrase.Garantías y restriccionesPuede comprometer activos y aceptar límites contractuales.Exposición operativaClima, precios o logística pueden reducir caja.El financiador asumeIncumplimientoLa caja puede no alcanzar para capital e intereses.Ejecución y concentraciónNuevos mercados o pocos compradores elevan exposición.RecuperaciónLas garantías pueden perder valor o ser difíciles de realizar.Condición: conservar capacidad de pago en escenarios adversos."
+  },
+  {
+    "objectID": "presentaciones/sesion0/mapeo-etapa-riesgo.html#prueba-caja",
+    "href": "presentaciones/sesion0/mapeo-etapa-riesgo.html#prueba-caja",
+    "title": "Macroeconomía · 200 FP",
+    "section": "",
+    "text": "AGRITECH / EXPLORACIÓN¿Cuánto deterioropuede absorber la caja?Ejemplificación del riesgo: caja disponible de US$150 mil y servicio anual de deuda de US$100 mil.Caída de caja: 0%Mueve el control para explorar el margen de pago.Restablecer ejemplo1.50×cobertura del servicio de deudaLa caja excede el servicio de deuda en US$50 mil."
+  },
+  {
+    "objectID": "presentaciones/sesion0/mapeo-etapa-riesgo.html#sintesis",
+    "href": "presentaciones/sesion0/mapeo-etapa-riesgo.html#sintesis",
+    "title": "Macroeconomía · 200 FP",
+    "section": "",
+    "text": "06 / SÍNTESISLa misma regla, tres decisiones diferentes\n\n\n\nCaso / etapa\nRiesgo dominante\nInstrumento\nActor\n\n\n\n\nFintechValidación · A\nAdopción y pago\nParticipación accionaria\nÁngel sectorial\n\n\nSaaSEscalamiento · B\nEscala repetible\nSAFE\nVC temprano\n\n\nAgriTechExpansión · C\nRepago y ejecución\nCrédito a plazo\nBanco\n\n\n\nCada elección depende de evidencia adicional y de los términos del financiamiento."
+  },
+  {
+    "objectID": "presentaciones/sesion0/mapeo-etapa-riesgo.html#decision",
+    "href": "presentaciones/sesion0/mapeo-etapa-riesgo.html#decision",
+    "title": "Macroeconomía · 200 FP",
+    "section": "",
+    "text": "07 / DISCUSIÓN¿Mantendrías el crédito?Supongamos un escenario adicional: la AgriTech sigue siendo rentable, pero su nueva línea tardará tres años en generar caja y el negocio actual no alcanza para pagar la deuda.Revisaría la estructuraMantendría el créditoSelecciona una respuesta y defiende qué riesgo cambió."
+  },
+  {
+    "objectID": "presentaciones/sesion0/mapeo-etapa-riesgo.html#cierre",
+    "href": "presentaciones/sesion0/mapeo-etapa-riesgo.html#cierre",
+    "title": "Macroeconomía · 200 FP",
+    "section": "",
+    "text": "CONCLUSIÓNLa estructura del capitaldebe corresponderal riesgo que financia.ValidarEscalarRepagarElegir bien exige explicar quién asume el riesgoy cómo espera recuperar su dinero."
+  },
+  {
     "objectID": "sesiones/sesion05.html",
     "href": "sesiones/sesion05.html",
     "title": "Guía de repaso",
@@ -1145,20 +1299,34 @@
     "href": "sesiones/index.html#ver-sesión-.",
     "title": "Sesiones",
     "section": "Ver sesión →.",
-    "text": "Ver sesión →.\n\nSesión 06\nPróxima sesión\nContenido disponible próximamente."
+    "text": "Ver sesión →.\n\nSesión 06\nPróxima sesión\nVer sesión →.\nContenido disponible próximamente."
   },
   {
-    "objectID": "tareas/index.html",
-    "href": "tareas/index.html",
-    "title": "Tareas",
+    "objectID": "sesiones/sesion0.html",
+    "href": "sesiones/sesion0.html",
+    "title": "Sesión 0",
     "section": "",
-    "text": "En esta sección se publican las tareas del curso, junto con sus instrucciones y los archivos de trabajo necesarios para su desarrollo.\n\n\n\nMedición del Producto Interno Bruto\nLa actividad busca consolidar la comprensión de los tres enfoques de medición del PIB y fortalecer la interpretación económica de los resultados.\nLa tarea incluye cinco ejercicios:\n\nPIB por el enfoque de la producción.\nPIB por el enfoque del gasto.\nPIB por el enfoque del ingreso.\nIntegración de los tres enfoques de medición.\nAnálisis del PIB de Guatemala por actividad económica, utilizando información oficial del Banco de Guatemala.\n\n\n\nVer instrucciones de la tarea →\nDescargar formato Excel →\n\n\n\n\n\nLa tarea debe desarrollarse utilizando el formato de Excel proporcionado.\nSe evaluará tanto la correcta resolución de los ejercicios como la interpretación económica de los resultados.\n\n\n\n\nLas nuevas actividades se incorporarán a esta sección conforme avance el curso."
+    "text": "SESIÓN 0\n\nPRESENTACIÓN\n\n\nEmprendimiento\nEjercicio de clase\nVer presentación →\n:::"
   },
   {
-    "objectID": "tareas/index.html#actividades-evaluadas",
-    "href": "tareas/index.html#actividades-evaluadas",
-    "title": "Tareas",
+    "objectID": "lecturas/index.html",
+    "href": "lecturas/index.html",
+    "title": "Lecturas",
     "section": "",
-    "text": "En esta sección se publican las tareas del curso, junto con sus instrucciones y los archivos de trabajo necesarios para su desarrollo.\n\n\n\nMedición del Producto Interno Bruto\nLa actividad busca consolidar la comprensión de los tres enfoques de medición del PIB y fortalecer la interpretación económica de los resultados.\nLa tarea incluye cinco ejercicios:\n\nPIB por el enfoque de la producción.\nPIB por el enfoque del gasto.\nPIB por el enfoque del ingreso.\nIntegración de los tres enfoques de medición.\nAnálisis del PIB de Guatemala por actividad económica, utilizando información oficial del Banco de Guatemala.\n\n\n\nVer instrucciones de la tarea →\nDescargar formato Excel →\n\n\n\n\n\nLa tarea debe desarrollarse utilizando el formato de Excel proporcionado.\nSe evaluará tanto la correcta resolución de los ejercicios como la interpretación económica de los resultados.\n\n\n\n\nLas nuevas actividades se incorporarán a esta sección conforme avance el curso."
+    "text": "Esta sección reúne los textos, capítulos, artículos e informes que complementan las sesiones del curso.\nLas lecturas buscan ampliar la discusión desarrollada en clase y fortalecer la capacidad de los estudiantes para interpretar, sintetizar y discutir argumentos económicos.\n\n\n\nEste documento orienta en líneas generales lo que un estudiante debe de considerar al escribir sus abstract, articulos, ensayos, considerando el nivel profesional requerido.\nVer criterios para elaborar abstracts →"
+  },
+  {
+    "objectID": "lecturas/index.html#lecturas-del-curso",
+    "href": "lecturas/index.html#lecturas-del-curso",
+    "title": "Lecturas",
+    "section": "",
+    "text": "Esta sección reúne los textos, capítulos, artículos e informes que complementan las sesiones del curso.\nLas lecturas buscan ampliar la discusión desarrollada en clase y fortalecer la capacidad de los estudiantes para interpretar, sintetizar y discutir argumentos económicos.\n\n\n\nEste documento orienta en líneas generales lo que un estudiante debe de considerar al escribir sus abstract, articulos, ensayos, considerando el nivel profesional requerido.\nVer criterios para elaborar abstracts →"
+  },
+  {
+    "objectID": "lecturas/index.html#diane-coyle-gdp-a-brief-but-affectionate-history",
+    "href": "lecturas/index.html#diane-coyle-gdp-a-brief-but-affectionate-history",
+    "title": "Lecturas",
+    "section": "Diane Coyle · GDP: A Brief but Affectionate History",
+    "text": "Diane Coyle · GDP: A Brief but Affectionate History\nCapítulo 1\nEl capítulo introduce el Producto Interno Bruto no solamente como una medida estadística, sino como una construcción histórica que refleja determinadas formas de entender y representar la actividad económica.\nLa lectura sirve como punto de partida para discutir preguntas como:\n\n¿qué pretende medir el PIB?;\n¿por qué surgió la necesidad de medir la producción de una economía?;\n¿qué actividades quedan dentro y fuera de la medición?;\n¿qué limitaciones existen al utilizar el PIB como indicador del desempeño económico?\n\n\n\nActividad asociada\nElabore el abstract asignado a partir del capítulo.\nEl documento debe identificar:\n\nel argumento central de la autora;\nlas principales ideas desarrolladas;\nla relevancia del texto para comprender la medición económica;\nuna reflexión o interrogante derivada de la lectura.\n\n\nDisponibilidad de la lectura: consulte el material proporcionado por el docente a través de Classroom.\n\n\n\nPróximas lecturas\nLas lecturas correspondientes a las siguientes sesiones se incorporarán progresivamente a esta sección."
   }
 ]
