@@ -115,9 +115,9 @@ Los casos incluyen:
 
 Cada grupo deberá identificar el choque, modificar los supuestos pertinentes y comparar el VAN del escenario base con el VAN bajo condiciones adversas.
 
-[ver laboratorio PDF →](../laboratorios/Sesion06/laboratorio_shocks_macroeconomicos_van.pdf)
+[ver laboratorio PDF →](../laboratorios/sesion06/laboratorio_shocks_macroeconomicos_van.pdf)
 
-[descargar excel laboratorio →](../laboratorios/Sesion06/laboratorio_shocks_macroeconomicos_van.xlsx)
+[descargar excel laboratorio →](../laboratorios/sesion06/laboratorio_shocks_macroeconomicos_van.xlsx)
 :::
 
 ::: {.material-card}
