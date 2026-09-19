@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Sesiones – Macroeconomía · 200 FP</title>
+<title>Sesión 6 – Macroeconomía · 200 FP</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,11 +70,40 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -102,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Programa</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../sesiones/index.html" aria-current="page"> 
+    <a class="nav-link" href="../sesiones/index.html"> 
 <span class="menu-text">Sesiones</span></a>
   </li>  
   <li class="nav-item">
@@ -129,22 +158,22 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Sesiones</h1>
-<p class="subtitle lead">Macroeconomía · 200 FP</p>
+<h1 class="title">Sesión 6</h1>
+<p class="subtitle lead">Choques macroeconómicos, sensibilidad y VAN del proyecto</p>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -156,58 +185,344 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="programa-de-sesiones" class="level2">
-<h2 class="anchored" data-anchor-id="programa-de-sesiones">Programa de sesiones</h2>
-<p>Los materiales de cada sesión incluyen presentaciones, lecturas, ejercicios, laboratorios y actividades correspondientes al desarrollo del curso.</p>
-<section id="sesión-01" class="level3">
-<h3 class="anchored" data-anchor-id="sesión-01">Sesión 01</h3>
-<p><strong>Introducción al análisis macroeconómico</strong></p>
-<p>Principios económicos, escasez, elección, costo de oportunidad y una primera aproximación al funcionamiento agregado de la economía.</p>
-<p><a href="../sesiones/sesion01.html">Ver sesión →</a></p>
-<hr>
+<div class="session-hero">
+<div class="session-number">
+<p>SESIÓN 06</p>
+</div>
+<section id="del-choque-macroeconómico-al-van-del-proyecto" class="level1">
+<h1>Del choque macroeconómico al VAN del proyecto</h1>
+<div class="session-lead">
+<p>¿Cómo se transforma un cambio en el entorno macroeconómico en menores ventas, mayores costos, cambios en la ocupación o un mayor costo de capital?</p>
+</div>
+<div class="session-meta">
+<p><strong>Macroeconomía · 200 FP</strong></p>
+<p>Maestría en Formulación y Evaluación de Proyectos</p>
+</div>
 </section>
-<section id="sesión-02" class="level3">
-<h3 class="anchored" data-anchor-id="sesión-02">Sesión 02</h3>
-<p><strong>Medición económica agregada</strong></p>
-<p>Producto Interno Bruto, cuentas nacionales y medición de la actividad económica mediante los enfoques de producción, gasto e ingreso.</p>
-<p><a href="sesion02.html">Ver sesión →</a></p>
-<p><a href="../presentaciones/sesion02/index.html">Ver presentación interactiva →</a></p>
-<hr>
+</div>
+<div class="session-main-resource">
+<div class="session-main-copy">
+<div class="session-eyebrow orange">
+<p>CONTINUACIÓN DE FLUCTUACIONES ECONÓMICAS</p>
+</div>
+<section id="del-modelo-oada-a-la-evaluación-del-proyecto" class="level2">
+<h2 class="anchored" data-anchor-id="del-modelo-oada-a-la-evaluación-del-proyecto">Del modelo OA–DA a la evaluación del proyecto</h2>
+<p>La sesión retoma el análisis iniciado en la <strong>Sesión 04</strong> sobre fluctuaciones económicas, oferta agregada y demanda agregada.</p>
+<p>El punto de partida será completar la interpretación de los principales choques macroeconómicos y, posteriormente, trasladar sus efectos hacia variables concretas de un proyecto de inversión.</p>
+<p>La secuencia de análisis será:</p>
+<p><span class="math display">\[
+\text{Choque macroeconómico}
+\rightarrow
+\text{Producción y precios}
+\rightarrow
+\text{Variables del proyecto}
+\rightarrow
+\text{Flujo de efectivo}
+\rightarrow
+\text{VAN}
+\]</span></p>
+<p>El objetivo es comprender que un cambio en el entorno macroeconómico no afecta directamente al VAN: primero modifica alguno de los supuestos sobre los cuales fue formulado el proyecto.</p>
 </section>
-<section id="sesión-03" class="level3">
-<h3 class="anchored" data-anchor-id="sesión-03">Sesión 03</h3>
-<p><strong>Oferta-utilización y dimensionamiento del mercado</strong></p>
-<p>De las cuentas nacionales al análisis del mercado: oferta, utilización y aplicación al estudio de demanda de un proyecto.</p>
-<p><a href="../sesiones/sesion03.html">Ver sesión →</a></p>
-<hr>
+</div>
+<section id="contenido-central" class="level3 session-main-side">
+<h3 class="anchored" data-anchor-id="contenido-central">Contenido central</h3>
+<ul>
+<li>Repaso de oferta y demanda agregada.</li>
+<li>Choques positivos y negativos de demanda.</li>
+<li>Choques favorables y adversos de oferta.</li>
+<li>Producción, precios e inflación.</li>
+<li>Canales de transmisión hacia los proyectos.</li>
+<li>Volumen de ventas.</li>
+<li>Precios y tarifas.</li>
+<li>Ocupación.</li>
+<li>Costos variables y costos fijos.</li>
+<li>Costo de capital.</li>
+<li>Flujo de efectivo.</li>
+<li>Sensibilidad y VAN.</li>
+</ul>
 </section>
-<section id="sesión-04" class="level3">
-<h3 class="anchored" data-anchor-id="sesión-04">Sesión 04</h3>
-<p><strong>Dinámica Económica</strong></p>
-<p>Fluctuaciones económicas, oferta y demanda agregada.</p>
-<p><a href="../sesiones/sesion04.html">Ver sesión →</a>.</p>
-<hr>
+</div>
+<div class="session-materials">
+<div class="material-card">
+<div class="material-label">
+<p>PRESENTACIÓN</p>
+</div>
+<section id="fluctuaciones-económicas-y-riesgo-para-los-proyectos" class="level3">
+<h3 class="anchored" data-anchor-id="fluctuaciones-económicas-y-riesgo-para-los-proyectos">Fluctuaciones económicas y riesgo para los proyectos</h3>
+<p>Se continuará utilizando la presentación de la Sesión 04 para completar el análisis de choques de demanda y oferta y su transmisión hacia las decisiones de inversión.</p>
+<p><a href="../presentaciones/sesion04/sesion04_fluctuaciones_macro.html">Continuar presentación →</a></p>
 </section>
-<section id="sesión-05" class="level3">
-<h3 class="anchored" data-anchor-id="sesión-05">Sesión 05</h3>
-<p><strong>Guia examen parcial</strong></p>
-<p>¿que deben de estudiar para prepararse par el examen parcial?</p>
+</div>
+<div class="material-card">
+<div class="material-label">
+<p>LABORATORIO EN CLASE</p>
+</div>
+<section id="choques-macroeconómicos-y-viabilidad-de-proyectos" class="level3">
+<h3 class="anchored" data-anchor-id="choques-macroeconómicos-y-viabilidad-de-proyectos">Choques macroeconómicos y viabilidad de proyectos</h3>
+<p>Los estudiantes trabajarán en grupos con diferentes tipos de proyectos y analizarán cómo un choque macroeconómico modifica sus flujos de efectivo y el VAN.</p>
+<p>Los casos incluyen:</p>
+<ul>
+<li>proyecto hotelero;</li>
+<li>planta agroindustrial;</li>
+<li>bienes de consumo;</li>
+<li>proyecto de generación solar.</li>
+</ul>
+<p>Cada grupo deberá identificar el choque, modificar los supuestos pertinentes y comparar el VAN del escenario base con el VAN bajo condiciones adversas.</p>
+<p><a href="../laboratorios/Sesion06/laboratorio_shocks_macroeconomicos_van.pdf">ver laboratorio PDF →</a></p>
+<p><a href="../laboratorios/Sesion06/laboratorio_shocks_macroeconomicos_van.xlsx">descargar excel laboratorio →</a></p>
+</section>
+</div>
+<div class="material-card">
+<div class="material-label">
+
+</div>
+<div class="session-callout">
+<div class="session-eyebrow">
+<p>IDEA CENTRAL</p>
+</div>
+<section id="el-van-cambia-porque-cambian-los-supuestos-del-proyecto" class="level2">
+<h2 class="anchored" data-anchor-id="el-van-cambia-porque-cambian-los-supuestos-del-proyecto">El VAN cambia porque cambian los supuestos del proyecto</h2>
+<p>Un choque macroeconómico no aparece directamente dentro de la fórmula del VAN.</p>
+<p>Su efecto ocurre mediante variables concretas:</p>
+<p><span class="math display">\[
+\text{Entorno macroeconómico}
+\rightarrow
+\begin{cases}
+\text{Ventas} \\
+\text{Precios} \\
+\text{Ocupación} \\
+\text{Costos} \\
+\text{Tasa de descuento}
+\end{cases}
+\rightarrow
+\text{Flujo de efectivo}
+\rightarrow
+\text{VAN}
+\]</span></p>
+<p>Por ello, una evaluación financiera robusta requiere comprender primero <strong>qué variable económica está siendo afectada y por qué mecanismo</strong>.</p>
+</section>
+</div>
+<div class="session-eyebrow">
+<p>CUATRO CANALES DE TRANSMISIÓN</p>
+</div>
+<section id="cómo-puede-llegar-un-shock-al-proyecto" class="level2">
+<h2 class="anchored" data-anchor-id="cómo-puede-llegar-un-shock-al-proyecto">¿Cómo puede llegar un shock al proyecto?</h2>
+<div class="session-materials">
+<section id="demanda" class="level3 material-card">
+<h3 class="anchored" data-anchor-id="demanda">Demanda</h3>
+<p>Una desaceleración económica puede modificar:</p>
+<ul>
+<li>volumen vendido;</li>
+<li>ocupación;</li>
+<li>número de clientes;</li>
+<li>utilización de capacidad;</li>
+<li>ritmo de crecimiento de los ingresos.</li>
+</ul>
+</section>
+<section id="precios" class="level3 material-card">
+<h3 class="anchored" data-anchor-id="precios">Precios</h3>
+<p>Una empresa puede enfrentar:</p>
+<ul>
+<li>necesidad de ofrecer descuentos;</li>
+<li>menor capacidad de trasladar costos;</li>
+<li>caída de tarifas;</li>
+<li>reducción del margen por unidad.</li>
+</ul>
+</section>
+<section id="costos" class="level3 material-card">
+<h3 class="anchored" data-anchor-id="costos">Costos</h3>
+<p>Un choque adverso de oferta puede incrementar:</p>
+<ul>
+<li>materias primas;</li>
+<li>energía;</li>
+<li>transporte;</li>
+<li>costos logísticos;</li>
+<li>mantenimiento.</li>
+</ul>
+</section>
+<section id="financiamiento" class="level3 material-card">
+<h3 class="anchored" data-anchor-id="financiamiento">Financiamiento</h3>
+<p>Un endurecimiento de las condiciones financieras puede elevar:</p>
+<ul>
+<li>tasas de interés;</li>
+<li>costo de capital;</li>
+<li>tasa de descuento;</li>
+<li>servicio de deuda;</li>
+<li>exigencia de rentabilidad.</li>
+</ul>
+</section>
+</div>
+<div class="session-callout">
+<div class="session-eyebrow orange">
+<p>UNA DISTINCIÓN IMPORTANTE</p>
+</div>
+<section id="no-todos-los-proyectos-reaccionan-igual-ante-el-mismo-entorno" class="level2">
+<h2 class="anchored" data-anchor-id="no-todos-los-proyectos-reaccionan-igual-ante-el-mismo-entorno">No todos los proyectos reaccionan igual ante el mismo entorno</h2>
+<p>La vulnerabilidad depende de la estructura económica del proyecto.</p>
+<p>Un hotel puede ser especialmente sensible a la <strong>ocupación</strong>.</p>
+<p>Una planta industrial puede ser más sensible al <strong>costo de sus insumos</strong>.</p>
+<p>Un producto de consumo puede verse afectado simultáneamente por una caída en <strong>volumen y precio</strong>.</p>
+<p>Un proyecto intensivo en capital puede mantener sus flujos operativos pero perder valor si aumenta la <strong>tasa de descuento</strong>.</p>
+</section>
+</div>
+<div class="session-eyebrow">
+<p>LABORATORIO</p>
+</div>
+</section>
+<section id="cuatro-proyectos-cuatro-mecanismos" class="level2">
+<h2 class="anchored" data-anchor-id="cuatro-proyectos-cuatro-mecanismos">Cuatro proyectos, cuatro mecanismos</h2>
+<p>Cada grupo analizará un proyecto diferente.</p>
+<section id="grupo-1-hotel" class="level3">
+<h3 class="anchored" data-anchor-id="grupo-1-hotel">Grupo 1 · Hotel</h3>
+<p>El shock afecta principalmente:</p>
+<p><span class="math display">\[
+\text{Actividad económica}
+\rightarrow
+\text{Turismo}
+\rightarrow
+\text{Ocupación y tarifa}
+\rightarrow
+\text{Ingresos}
+\rightarrow
+VAN
+\]</span></p>
+</section>
+<section id="grupo-2-planta-agroindustrial" class="level3">
+<h3 class="anchored" data-anchor-id="grupo-2-planta-agroindustrial">Grupo 2 · Planta agroindustrial</h3>
+<p>El shock afecta:</p>
+<p><span class="math display">\[
+\text{Costos internacionales}
+\rightarrow
+\text{Costo variable}
+\rightarrow
+\text{Margen}
+\rightarrow
+\text{Flujo}
+\rightarrow
+VAN
+\]</span></p>
+</section>
+<section id="grupo-3-bienes-de-consumo" class="level3">
+<h3 class="anchored" data-anchor-id="grupo-3-bienes-de-consumo">Grupo 3 · Bienes de consumo</h3>
+<p>La desaceleración afecta simultáneamente:</p>
+<p><span class="math display">\[
+\text{Ingreso de hogares}
+\rightarrow
+\text{Volumen y precio}
+\rightarrow
+\text{Ventas}
+\rightarrow
+VAN
+\]</span></p>
+</section>
+<section id="grupo-4-proyecto-solar" class="level3">
+<h3 class="anchored">Grupo 4 · Proyecto solar</h3>
+<p>El canal es diferente:</p>
+<p><span class="math display">\[
+\text{Tasas de interés}
+\rightarrow
+\text{Costo de capital}
+\rightarrow
+\text{Tasa de descuento}
+\rightarrow
+VAN
+\]</span></p>
+<div class="session-callout">
+<div class="session-eyebrow">
+<p>PREGUNTA DE TRABAJO</p>
+</div>
+<section id="qué-explica-la-pérdida-de-valor" class="level2">
+<h2 class="anchored" data-anchor-id="qué-explica-la-pérdida-de-valor">¿Qué explica la pérdida de valor?</h2>
+<p>El objetivo del laboratorio no será únicamente obtener dos VAN.</p>
+<p>Cada grupo deberá identificar:</p>
+<ol type="1">
+<li>cuál es el choque macroeconómico;</li>
+<li>si afecta principalmente la oferta, la demanda o las condiciones financieras;</li>
+<li>qué variable del proyecto cambia primero;</li>
+<li>cómo se modifica el flujo de efectivo;</li>
+<li>cuánto cambia el VAN;</li>
+<li>qué variable explica la mayor parte de la pérdida de valor;</li>
+<li>qué decisión podría tomar el formulador para reducir esa vulnerabilidad.</li>
+</ol>
+</section>
+</div>
+<div class="session-eyebrow">
+<p>APLICACIÓN A PROYECTOS</p>
+</div>
 </section>
 </section>
-<section id="ver-sesión-." class="level2">
-<h2 class="anchored" data-anchor-id="ver-sesión-."><a href="../sesiones/sesion05.html">Ver sesión →</a>.</h2>
-<section id="sesión-06" class="level3">
-<h3 class="anchored" data-anchor-id="sesión-06">Sesión 06</h3>
-<p>Choques macroeconómicos, sensibilidad y VAN del proyecto</p>
-<p><a href="../sesiones/sesion06.html">Ver sesión →</a>.</p>
+<section id="del-escenario-base-al-análisis-de-sensibilidad" class="level2">
+<h2 class="anchored" data-anchor-id="del-escenario-base-al-análisis-de-sensibilidad">Del escenario base al análisis de sensibilidad</h2>
+<p>La evaluación de un proyecto no debería limitarse a una única trayectoria esperada.</p>
+<p>El escenario base representa una combinación de supuestos sobre:</p>
+<ul>
+<li>demanda;</li>
+<li>precios;</li>
+<li>costos;</li>
+<li>utilización de capacidad;</li>
+<li>financiamiento;</li>
+<li>condiciones macroeconómicas.</li>
+</ul>
+<p>El análisis de sensibilidad permite preguntar:</p>
+<blockquote class="blockquote">
+<p><strong>¿Qué ocurre con la viabilidad del proyecto si algunos de estos supuestos dejan de cumplirse?</strong></p>
+</blockquote>
+<p>La utilidad del ejercicio no consiste únicamente en observar si el VAN permanece positivo o se vuelve negativo, sino en identificar <strong>qué supuesto determina la vulnerabilidad del proyecto</strong>.</p>
+<div class="session-eyebrow">
+<p>DISCUSIÓN FINAL</p>
+</div>
 </section>
-<section id="sesión-07" class="level3">
-<h3 class="anchored" data-anchor-id="sesión-07">Sesión 07</h3>
-<p>Contenido disponible próximamente.</p>
+<section id="comparar-proyectos" class="level2">
+<h2 class="anchored" data-anchor-id="comparar-proyectos">Comparar proyectos</h2>
+<p>Al finalizar el laboratorio se compararán los resultados obtenidos por los cuatro grupos.</p>
+<p>La discusión buscará responder:</p>
+<ul>
+<li>¿qué proyecto perdió más valor?</li>
+<li>¿qué variable explica esa pérdida?</li>
+<li>¿qué proyectos tienen mayor exposición a costos fijos?</li>
+<li>¿cuáles pueden ajustar precios?</li>
+<li>¿cuáles dependen principalmente del volumen vendido?</li>
+<li>¿qué proyecto es más sensible al costo de capital?</li>
+</ul>
+<p>El propósito no será determinar cuál proyecto es “mejor”, sino comprender que <strong>la exposición macroeconómica depende de la estructura económica y financiera de cada proyecto</strong>.</p>
+<div class="session-callout">
+<div class="session-eyebrow orange">
+<p>PARA RECORDAR</p>
+</div>
+<section id="la-sensibilidad-comienza-antes-de-excel" class="level2">
+<h2 class="anchored" data-anchor-id="la-sensibilidad-comienza-antes-de-excel">La sensibilidad comienza antes de Excel</h2>
+<p>Modificar una celda no constituye por sí mismo un análisis de riesgo.</p>
+<p>Primero debe existir una explicación económica:</p>
+<p><span class="math display">\[
+\text{Shock}
+\rightarrow
+\text{Mecanismo de transmisión}
+\rightarrow
+\text{Variable afectada}
+\rightarrow
+\text{Flujo de efectivo}
+\rightarrow
+\text{VAN}
+\]</span></p>
+<p>Solo después tiene sentido construir escenarios y modificar los supuestos financieros.</p>
+</section>
+</div>
+<div class="attendance-card">
+<div class="session-eyebrow orange">
+<p>ASISTENCIA</p>
+</div>
+<section id="registro-de-asistencia" class="level2">
+<h2 class="anchored" data-anchor-id="registro-de-asistencia">Registro de asistencia</h2>
+<p>Registre su asistencia correspondiente a la <strong>Sesión 06</strong>.</p>
+<p>El formulario registra automáticamente la fecha y hora de envío. Complete correctamente su carné, nombre y el código de asistencia indicado durante la sesión.</p>
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfj3CT9kTzVRnLW000dwj3_kfSfsu0q3rqh-c4v6pKlmb0o7w/viewform?usp=pp_url&amp;entry.981962467=Sesi%C3%B3n+06" class="course-btn primary" target="_blank">Registrar asistencia →</a></p>
+</section>
+</div>
 
 
 </section>
-</section>
+</div>
+</div>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

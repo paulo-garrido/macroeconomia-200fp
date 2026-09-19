@@ -1,32 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://paulo-garrido.github.io/macroeconomia-200fp/laboratorios/index.html</loc>
-    <lastmod>2026-08-29T05:15:46.991Z</lastmod>
+    <loc>https://paulo-garrido.github.io/macroeconomia-200fp/lecturas/index.html</loc>
+    <lastmod>2026-08-26T00:20:51.006Z</lastmod>
   </url>
   <url>
-    <loc>https://paulo-garrido.github.io/macroeconomia-200fp/AGENTS.html</loc>
-    <lastmod>2026-09-09T18:42:52.992Z</lastmod>
+    <loc>https://paulo-garrido.github.io/macroeconomia-200fp/sesiones/sesion0.html</loc>
+    <lastmod>2026-09-10T04:04:49.584Z</lastmod>
   </url>
   <url>
-    <loc>https://paulo-garrido.github.io/macroeconomia-200fp/tareas/index.html</loc>
-    <lastmod>2026-08-26T00:20:51.009Z</lastmod>
+    <loc>https://paulo-garrido.github.io/macroeconomia-200fp/sesiones/index.html</loc>
+    <lastmod>2026-09-19T00:25:59.532Z</lastmod>
   </url>
   <url>
-    <loc>https://paulo-garrido.github.io/macroeconomia-200fp/sesiones/sesion02.html</loc>
-    <lastmod>2026-08-29T05:50:25.462Z</lastmod>
+    <loc>https://paulo-garrido.github.io/macroeconomia-200fp/sesiones/sesion01.html</loc>
+    <lastmod>2026-08-26T02:38:37.985Z</lastmod>
   </url>
   <url>
-    <loc>https://paulo-garrido.github.io/macroeconomia-200fp/sesiones/sesion03.html</loc>
-    <lastmod>2026-08-29T05:49:04.526Z</lastmod>
-  </url>
-  <url>
-    <loc>https://paulo-garrido.github.io/macroeconomia-200fp/sesiones/sesion04.html</loc>
-    <lastmod>2026-09-09T04:09:51.818Z</lastmod>
+    <loc>https://paulo-garrido.github.io/macroeconomia-200fp/sesiones/sesion05.html</loc>
+    <lastmod>2026-09-09T03:50:58.030Z</lastmod>
   </url>
   <url>
     <loc>https://paulo-garrido.github.io/macroeconomia-200fp/presentaciones/sesion04/sesion04_fluctuaciones_macro.html</loc>
-    <lastmod>2026-09-05T15:00:20.966Z</lastmod>
+    <lastmod>2026-09-19T00:30:18.330Z</lastmod>
   </url>
   <url>
     <loc>https://paulo-garrido.github.io/macroeconomia-200fp/presentaciones/sesion0/LEEME.html</loc>
@@ -65,23 +61,31 @@
     <lastmod>2026-09-10T04:40:45.321Z</lastmod>
   </url>
   <url>
-    <loc>https://paulo-garrido.github.io/macroeconomia-200fp/sesiones/sesion05.html</loc>
-    <lastmod>2026-09-09T03:50:58.030Z</lastmod>
+    <loc>https://paulo-garrido.github.io/macroeconomia-200fp/sesiones/sesion06.html</loc>
+    <lastmod>2026-09-19T00:29:26.516Z</lastmod>
   </url>
   <url>
-    <loc>https://paulo-garrido.github.io/macroeconomia-200fp/sesiones/sesion01.html</loc>
-    <lastmod>2026-08-26T02:38:37.985Z</lastmod>
+    <loc>https://paulo-garrido.github.io/macroeconomia-200fp/sesiones/sesion04.html</loc>
+    <lastmod>2026-09-09T04:09:51.818Z</lastmod>
   </url>
   <url>
-    <loc>https://paulo-garrido.github.io/macroeconomia-200fp/sesiones/index.html</loc>
-    <lastmod>2026-09-10T04:18:31.391Z</lastmod>
+    <loc>https://paulo-garrido.github.io/macroeconomia-200fp/sesiones/sesion03.html</loc>
+    <lastmod>2026-08-29T05:49:04.526Z</lastmod>
   </url>
   <url>
-    <loc>https://paulo-garrido.github.io/macroeconomia-200fp/sesiones/sesion0.html</loc>
-    <lastmod>2026-09-10T04:04:49.584Z</lastmod>
+    <loc>https://paulo-garrido.github.io/macroeconomia-200fp/sesiones/sesion02.html</loc>
+    <lastmod>2026-08-29T05:50:25.462Z</lastmod>
   </url>
   <url>
-    <loc>https://paulo-garrido.github.io/macroeconomia-200fp/lecturas/index.html</loc>
-    <lastmod>2026-08-26T00:20:51.006Z</lastmod>
+    <loc>https://paulo-garrido.github.io/macroeconomia-200fp/tareas/index.html</loc>
+    <lastmod>2026-08-26T00:20:51.009Z</lastmod>
+  </url>
+  <url>
+    <loc>https://paulo-garrido.github.io/macroeconomia-200fp/AGENTS.html</loc>
+    <lastmod>2026-09-09T18:42:52.992Z</lastmod>
+  </url>
+  <url>
+    <loc>https://paulo-garrido.github.io/macroeconomia-200fp/laboratorios/index.html</loc>
+    <lastmod>2026-09-19T00:19:07.352Z</lastmod>
   </url>
 </urlset>

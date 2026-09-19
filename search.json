@@ -1,185 +1,136 @@
 [
   {
-    "objectID": "laboratorios/index.html",
-    "href": "laboratorios/index.html",
-    "title": "Laboratorios",
+    "objectID": "lecturas/index.html",
+    "href": "lecturas/index.html",
+    "title": "Lecturas",
     "section": "",
-    "text": "Los laboratorios están diseñados para aplicar los conceptos desarrollados en clase mediante ejercicios de cálculo, interpretación y uso de información económica oficial.\n\n\n\nMedición económica agregada\nAplicación de los conceptos de medición del PIB y uso de información estadística del Banco de Guatemala.\nEl laboratorio permite trabajar con:\n\ncuentas nacionales;\nequilibrio oferta-utilización;\ninterpretación de información económica;\nestimación y análisis de magnitudes agregadas.\n\nVer laboratorio PDF →\nDescargar Excel de trabajo →\n\n\n\n\nLos nuevos laboratorios se incorporarán a esta sección conforme avance el curso."
+    "text": "Esta sección reúne los textos, capítulos, artículos e informes que complementan las sesiones del curso.\nLas lecturas buscan ampliar la discusión desarrollada en clase y fortalecer la capacidad de los estudiantes para interpretar, sintetizar y discutir argumentos económicos.\n\n\n\nEste documento orienta en líneas generales lo que un estudiante debe de considerar al escribir sus abstract, articulos, ensayos, considerando el nivel profesional requerido.\nVer criterios para elaborar abstracts →"
   },
   {
-    "objectID": "laboratorios/index.html#laboratorios-del-curso",
-    "href": "laboratorios/index.html#laboratorios-del-curso",
-    "title": "Laboratorios",
+    "objectID": "lecturas/index.html#lecturas-del-curso",
+    "href": "lecturas/index.html#lecturas-del-curso",
+    "title": "Lecturas",
     "section": "",
-    "text": "Los laboratorios están diseñados para aplicar los conceptos desarrollados en clase mediante ejercicios de cálculo, interpretación y uso de información económica oficial.\n\n\n\nMedición económica agregada\nAplicación de los conceptos de medición del PIB y uso de información estadística del Banco de Guatemala.\nEl laboratorio permite trabajar con:\n\ncuentas nacionales;\nequilibrio oferta-utilización;\ninterpretación de información económica;\nestimación y análisis de magnitudes agregadas.\n\nVer laboratorio PDF →\nDescargar Excel de trabajo →\n\n\n\n\nLos nuevos laboratorios se incorporarán a esta sección conforme avance el curso."
+    "text": "Esta sección reúne los textos, capítulos, artículos e informes que complementan las sesiones del curso.\nLas lecturas buscan ampliar la discusión desarrollada en clase y fortalecer la capacidad de los estudiantes para interpretar, sintetizar y discutir argumentos económicos.\n\n\n\nEste documento orienta en líneas generales lo que un estudiante debe de considerar al escribir sus abstract, articulos, ensayos, considerando el nivel profesional requerido.\nVer criterios para elaborar abstracts →"
   },
   {
-    "objectID": "AGENTS.html",
-    "href": "AGENTS.html",
-    "title": "Macroeconomía 200 FP",
+    "objectID": "lecturas/index.html#diane-coyle-gdp-a-brief-but-affectionate-history",
+    "href": "lecturas/index.html#diane-coyle-gdp-a-brief-but-affectionate-history",
+    "title": "Lecturas",
+    "section": "Diane Coyle · GDP: A Brief but Affectionate History",
+    "text": "Diane Coyle · GDP: A Brief but Affectionate History\nCapítulo 1\nEl capítulo introduce el Producto Interno Bruto no solamente como una medida estadística, sino como una construcción histórica que refleja determinadas formas de entender y representar la actividad económica.\nLa lectura sirve como punto de partida para discutir preguntas como:\n\n¿qué pretende medir el PIB?;\n¿por qué surgió la necesidad de medir la producción de una economía?;\n¿qué actividades quedan dentro y fuera de la medición?;\n¿qué limitaciones existen al utilizar el PIB como indicador del desempeño económico?\n\n\n\nActividad asociada\nElabore el abstract asignado a partir del capítulo.\nEl documento debe identificar:\n\nel argumento central de la autora;\nlas principales ideas desarrolladas;\nla relevancia del texto para comprender la medición económica;\nuna reflexión o interrogante derivada de la lectura.\n\n\nDisponibilidad de la lectura: consulte el material proporcionado por el docente a través de Classroom.\n\n\n\nPróximas lecturas\nLas lecturas correspondientes a las siguientes sesiones se incorporarán progresivamente a esta sección."
+  },
+  {
+    "objectID": "sesiones/sesion0.html",
+    "href": "sesiones/sesion0.html",
+    "title": "Sesión 0",
     "section": "",
-    "text": "Este repositorio administra el curso Macroeconomía 200 FP de la Maestría en Formulación y Evaluación de Proyectos.\n\n\n\nNo modificar la estructura de evaluación sin autorización del docente.\nMantener todas las presentaciones y páginas en Quarto.\nConservar la identidad visual institucional del curso.\nAntes de publicar el sitio:\n\nejecutar quarto render;\ncomprobar enlaces;\nverificar recursos;\ncomprobar que no existan errores de RevealJS.\n\nNunca publicar información individual de estudiantes.\n\n\n\n\nLas evaluaciones deben calificarse utilizando exclusivamente la rúbrica correspondiente en evaluaciones/rubricas/.\nNunca modificar una nota sin indicar: - estudiante; - actividad; - criterio; - puntuación; - justificación.\nEl resultado debe incluir: - nota por criterio; - nota total; - comentario breve; - aspectos a mejorar.\nNo penalizar aspectos que no estén contemplados en la rúbrica.\n\n\n\nAntes de modificar una sesión: 1. revisar sesiones anteriores; 2. conservar diseño y estructura; 3. verificar navegación; 4. ejecutar el sitio localmente; 5. reportar los archivos modificados.\nNunca hacer push directamente sin comprobar primero el render."
+    "text": "SESIÓN 0\n\nPRESENTACIÓN\n\n\nEmprendimiento\nEjercicio de clase\nVer presentación →\n:::"
   },
   {
-    "objectID": "AGENTS.html#reglas-generales",
-    "href": "AGENTS.html#reglas-generales",
-    "title": "Macroeconomía 200 FP",
+    "objectID": "sesiones/index.html",
+    "href": "sesiones/index.html",
+    "title": "Sesiones",
     "section": "",
-    "text": "No modificar la estructura de evaluación sin autorización del docente.\nMantener todas las presentaciones y páginas en Quarto.\nConservar la identidad visual institucional del curso.\nAntes de publicar el sitio:\n\nejecutar quarto render;\ncomprobar enlaces;\nverificar recursos;\ncomprobar que no existan errores de RevealJS.\n\nNunca publicar información individual de estudiantes."
+    "text": "Los materiales de cada sesión incluyen presentaciones, lecturas, ejercicios, laboratorios y actividades correspondientes al desarrollo del curso.\n\n\nIntroducción al análisis macroeconómico\nPrincipios económicos, escasez, elección, costo de oportunidad y una primera aproximación al funcionamiento agregado de la economía.\nVer sesión →\n\n\n\n\nMedición económica agregada\nProducto Interno Bruto, cuentas nacionales y medición de la actividad económica mediante los enfoques de producción, gasto e ingreso.\nVer sesión →\nVer presentación interactiva →\n\n\n\n\nOferta-utilización y dimensionamiento del mercado\nDe las cuentas nacionales al análisis del mercado: oferta, utilización y aplicación al estudio de demanda de un proyecto.\nVer sesión →\n\n\n\n\nDinámica Económica\nFluctuaciones económicas, oferta y demanda agregada.\nVer sesión →.\n\n\n\n\nGuia examen parcial\n¿que deben de estudiar para prepararse par el examen parcial?"
   },
   {
-    "objectID": "AGENTS.html#calificación",
-    "href": "AGENTS.html#calificación",
-    "title": "Macroeconomía 200 FP",
+    "objectID": "sesiones/index.html#programa-de-sesiones",
+    "href": "sesiones/index.html#programa-de-sesiones",
+    "title": "Sesiones",
     "section": "",
-    "text": "Las evaluaciones deben calificarse utilizando exclusivamente la rúbrica correspondiente en evaluaciones/rubricas/.\nNunca modificar una nota sin indicar: - estudiante; - actividad; - criterio; - puntuación; - justificación.\nEl resultado debe incluir: - nota por criterio; - nota total; - comentario breve; - aspectos a mejorar.\nNo penalizar aspectos que no estén contemplados en la rúbrica."
+    "text": "Los materiales de cada sesión incluyen presentaciones, lecturas, ejercicios, laboratorios y actividades correspondientes al desarrollo del curso.\n\n\nIntroducción al análisis macroeconómico\nPrincipios económicos, escasez, elección, costo de oportunidad y una primera aproximación al funcionamiento agregado de la economía.\nVer sesión →\n\n\n\n\nMedición económica agregada\nProducto Interno Bruto, cuentas nacionales y medición de la actividad económica mediante los enfoques de producción, gasto e ingreso.\nVer sesión →\nVer presentación interactiva →\n\n\n\n\nOferta-utilización y dimensionamiento del mercado\nDe las cuentas nacionales al análisis del mercado: oferta, utilización y aplicación al estudio de demanda de un proyecto.\nVer sesión →\n\n\n\n\nDinámica Económica\nFluctuaciones económicas, oferta y demanda agregada.\nVer sesión →.\n\n\n\n\nGuia examen parcial\n¿que deben de estudiar para prepararse par el examen parcial?"
   },
   {
-    "objectID": "AGENTS.html#sitio-web",
-    "href": "AGENTS.html#sitio-web",
-    "title": "Macroeconomía 200 FP",
+    "objectID": "sesiones/index.html#ver-sesión-.",
+    "href": "sesiones/index.html#ver-sesión-.",
+    "title": "Sesiones",
+    "section": "Ver sesión →.",
+    "text": "Ver sesión →.\n\nSesión 06\nChoques macroeconómicos, sensibilidad y VAN del proyecto\nVer sesión →.\n\n\nSesión 07\nContenido disponible próximamente."
+  },
+  {
+    "objectID": "sesiones/sesion01.html",
+    "href": "sesiones/sesion01.html",
+    "title": "Sesión 1",
     "section": "",
-    "text": "Antes de modificar una sesión: 1. revisar sesiones anteriores; 2. conservar diseño y estructura; 3. verificar navegación; 4. ejecutar el sitio localmente; 5. reportar los archivos modificados.\nNunca hacer push directamente sin comprobar primero el render."
+    "text": "SESIÓN 01\n\n\n\n\nConceptos fundamentales para comprender cómo los economistas analizan la escasez, la elección, el costo de oportunidad y el funcionamiento general de una economía.\n\n\nMacroeconomía · 200 FP\nMaestría en Formulación y Evaluación de Proyectos"
   },
   {
-    "objectID": "tareas/index.html",
-    "href": "tareas/index.html",
-    "title": "Tareas",
+    "objectID": "sesiones/sesion01.html#presentación-de-clase",
+    "href": "sesiones/sesion01.html#presentación-de-clase",
+    "title": "Sesión 1",
+    "section": "Presentación de clase",
+    "text": "Presentación de clase\nLa sesión introduce los conceptos económicos fundamentales que servirán como base para el desarrollo posterior del curso.\nVer presentación PDF →"
+  },
+  {
+    "objectID": "sesiones/sesion01.html#toda-decisión-económica-implica-una-elección",
+    "href": "sesiones/sesion01.html#toda-decisión-económica-implica-una-elección",
+    "title": "Sesión 1",
+    "section": "Toda decisión económica implica una elección",
+    "text": "Toda decisión económica implica una elección\nLos recursos son limitados mientras que las necesidades y objetivos son múltiples. Por ello, la economía estudia cómo los individuos, las empresas y las sociedades toman decisiones frente a restricciones y alternativas."
+  },
+  {
+    "objectID": "sesiones/sesion01.html#recursos-de-la-sesión",
+    "href": "sesiones/sesion01.html#recursos-de-la-sesión",
+    "title": "Sesión 1",
+    "section": "Recursos de la sesión",
+    "text": "Recursos de la sesión\nLos materiales complementarios y actividades correspondientes a esta sesión estarán disponibles en esta página conforme sean requeridos."
+  },
+  {
+    "objectID": "sesiones/sesion05.html",
+    "href": "sesiones/sesion05.html",
+    "title": "Guía de repaso",
     "section": "",
-    "text": "En esta sección se publican las tareas del curso, junto con sus instrucciones y los archivos de trabajo necesarios para su desarrollo.\n\n\n\nMedición del Producto Interno Bruto\nLa actividad busca consolidar la comprensión de los tres enfoques de medición del PIB y fortalecer la interpretación económica de los resultados.\nLa tarea incluye cinco ejercicios:\n\nPIB por el enfoque de la producción.\nPIB por el enfoque del gasto.\nPIB por el enfoque del ingreso.\nIntegración de los tres enfoques de medición.\nAnálisis del PIB de Guatemala por actividad económica, utilizando información oficial del Banco de Guatemala.\n\n\n\nVer instrucciones de la tarea →\nDescargar formato Excel →\n\n\n\n\n\nLa tarea debe desarrollarse utilizando el formato de Excel proporcionado.\nSe evaluará tanto la correcta resolución de los ejercicios como la interpretación económica de los resultados.\n\n\n\n\nLas nuevas actividades se incorporarán a esta sección conforme avance el curso."
+    "text": "NotaPropósito\n\n\n\nEl examen parcial evaluará la comprensión de los conceptos trabajados durante las primeras sesiones y, especialmente, la capacidad de aplicarlos a situaciones vinculadas con la formulación y evaluación de proyectos.\nNo se espera únicamente memorizar definiciones o fórmulas. Es importante comprender qué representa cada variable, cómo se relacionan entre sí y qué información puede obtenerse de ellas para analizar un proyecto."
   },
   {
-    "objectID": "tareas/index.html#actividades-evaluadas",
-    "href": "tareas/index.html#actividades-evaluadas",
-    "title": "Tareas",
-    "section": "",
-    "text": "En esta sección se publican las tareas del curso, junto con sus instrucciones y los archivos de trabajo necesarios para su desarrollo.\n\n\n\nMedición del Producto Interno Bruto\nLa actividad busca consolidar la comprensión de los tres enfoques de medición del PIB y fortalecer la interpretación económica de los resultados.\nLa tarea incluye cinco ejercicios:\n\nPIB por el enfoque de la producción.\nPIB por el enfoque del gasto.\nPIB por el enfoque del ingreso.\nIntegración de los tres enfoques de medición.\nAnálisis del PIB de Guatemala por actividad económica, utilizando información oficial del Banco de Guatemala.\n\n\n\nVer instrucciones de la tarea →\nDescargar formato Excel →\n\n\n\n\n\nLa tarea debe desarrollarse utilizando el formato de Excel proporcionado.\nSe evaluará tanto la correcta resolución de los ejercicios como la interpretación económica de los resultados.\n\n\n\n\nLas nuevas actividades se incorporarán a esta sección conforme avance el curso."
+    "objectID": "sesiones/sesion05.html#decisiones-económicas-y-entorno-del-proyecto",
+    "href": "sesiones/sesion05.html#decisiones-económicas-y-entorno-del-proyecto",
+    "title": "Guía de repaso",
+    "section": "1. Decisiones económicas y entorno del proyecto",
+    "text": "1. Decisiones económicas y entorno del proyecto\nRepase los conceptos básicos que permiten entender una decisión económica:\n\nescasez;\nelección;\ncosto de oportunidad;\nagentes económicos;\ndiferencia entre microeconomía y macroeconomía;\nfuncionamiento básico del flujo circular de la economía;\nrelación entre las decisiones de las empresas, los hogares y el entorno económico.\n\nDebe poder identificar estos conceptos dentro de un caso, no solamente definirlos."
   },
   {
-    "objectID": "sesiones/sesion02.html",
-    "href": "sesiones/sesion02.html",
-    "title": "Sesión 2",
-    "section": "",
-    "text": "SESIÓN 02\n\n\n\n\nDel Producto Interno Bruto a la comprensión de cómo se mide la actividad económica mediante los enfoques de producción, gasto e ingreso.\n\n\nMacroeconomía · 200 FP\nMaestría en Formulación y Evaluación de Proyectos"
+    "objectID": "sesiones/sesion05.html#medición-de-la-actividad-económica",
+    "href": "sesiones/sesion05.html#medición-de-la-actividad-económica",
+    "title": "Guía de repaso",
+    "section": "2. Medición de la actividad económica",
+    "text": "2. Medición de la actividad económica\nRepase la lógica de medición del Producto Interno Bruto y las principales relaciones estudiadas en clase.\nEn particular:\n\nqué mide y qué no mide el PIB;\nproducción y valor agregado;\nproblema de la doble contabilización;\nenfoque del gasto:\n\n\\[\nPIB = C + I + G + X - M\n\\]\n\ninterpretación de consumo, inversión, gasto público, exportaciones e importaciones;\npor qué las importaciones se restan en el cálculo del PIB;\ndiferencia entre una variable expresada en valores monetarios y una medida de volumen o cantidad.\n\nMás que recordar una fórmula, debe poder interpretar económicamente el resultado obtenido."
   },
   {
-    "objectID": "sesiones/sesion02.html#lectura-y-abstract",
-    "href": "sesiones/sesion02.html#lectura-y-abstract",
-    "title": "Sesión 2",
-    "section": "Lectura y abstract",
-    "text": "Lectura y abstract\nDiane Coyle\nGDP: A Brief but Affectionate History\nCapítulo 1\nLa sesión inicia con una discusión del abstract elaborado a partir de esta lectura. Algunos estudiantes serán seleccionados para responder preguntas y discutir las ideas centrales del capítulo."
+    "objectID": "sesiones/sesion05.html#oferta-y-utilización",
+    "href": "sesiones/sesion05.html#oferta-y-utilización",
+    "title": "Guía de repaso",
+    "section": "3. Oferta y utilización",
+    "text": "3. Oferta y utilización\nRepase la estructura básica de un equilibrio de oferta y utilización y la relación:\n\\[\nOferta\\ total = Utilización\\ total\n\\]\nDebe reconocer el significado económico de partidas como:\n\nproducción;\nimportaciones;\noferta total;\nconsumo intermedio;\nconsumo final privado;\nvariación de existencias;\nexportaciones;\nutilización total.\n\nTambién debe ser capaz de determinar qué variable resulta pertinente según el tipo de proyecto y el comprador final del producto."
   },
   {
-    "objectID": "sesiones/sesion02.html#presentación-interactiva",
-    "href": "sesiones/sesion02.html#presentación-interactiva",
-    "title": "Sesión 2",
-    "section": "Presentación interactiva",
-    "text": "Presentación interactiva\nLa presentación aborda:\n\nqué mide y qué no mide el PIB;\nel enfoque de la producción;\nel enfoque del gasto;\nel enfoque del ingreso;\nla equivalencia entre los tres métodos;\nejercicios de cálculo e interpretación.\n\nAbrir presentación interactiva →"
+    "objectID": "sesiones/sesion05.html#del-dato-macroeconómico-al-mercado-de-un-proyecto",
+    "href": "sesiones/sesion05.html#del-dato-macroeconómico-al-mercado-de-un-proyecto",
+    "title": "Guía de repaso",
+    "section": "4. Del dato macroeconómico al mercado de un proyecto",
+    "text": "4. Del dato macroeconómico al mercado de un proyecto\nRepase la lógica utilizada en el laboratorio para transformar información agregada en una primera aproximación al mercado de un proyecto.\nDebe distinguir entre:\n\nMercado nacional observado\nCorresponde al punto de partida obtenido de la información económica disponible.\n\n\nMercado relevante\nEs la parte del mercado nacional que corresponde al segmento específico que pretende atender el proyecto.\n\\[\nM_{relevante}\n=\nM_{nacional}\\times s_{segmento}\n\\]\n\n\nMercado objetivo\nConsidera, además, el territorio, los canales u otras restricciones que delimitan el mercado efectivamente accesible.\n\\[\nM_{objetivo}\n=\nM_{relevante}\\times s_{cobertura}\n\\]\n\n\nDemanda capturable\nRepresenta la parte del mercado objetivo que razonablemente podría captar el proyecto.\n\\[\nD_{proyecto}\n=\nM_{objetivo}\\times s_{captura}\n\\]\nDebe comprender que mercado nacional, mercado objetivo y ventas esperadas no son conceptos equivalentes."
   },
   {
-    "objectID": "sesiones/sesion02.html#tres-enfoques-una-misma-economía",
-    "href": "sesiones/sesion02.html#tres-enfoques-una-misma-economía",
-    "title": "Sesión 2",
-    "section": "Tres enfoques, una misma economía",
-    "text": "Tres enfoques, una misma economía\nEl PIB puede observarse desde tres perspectivas distintas:\n\nProducción: cuánto valor nuevo se genera.\nGasto: quién adquiere la producción final.\nIngreso: cómo se distribuye el ingreso generado.\n\n[ PIB_{} = PIB_{} = PIB_{} ]"
+    "objectID": "sesiones/sesion05.html#de-valores-monetarios-a-unidades-físicas",
+    "href": "sesiones/sesion05.html#de-valores-monetarios-a-unidades-físicas",
+    "title": "Guía de repaso",
+    "section": "5. De valores monetarios a unidades físicas",
+    "text": "5. De valores monetarios a unidades físicas\nRepase cómo transformar una estimación monetaria de demanda en unidades físicas cuando se dispone de un precio esperado:\n\\[\nQ =\n\\frac{Ventas\\ potenciales}{Precio\\ unitario}\n\\]\nPreste atención a las unidades de medida. Si la información original está expresada en millones de quetzales, deberá realizar la conversión correspondiente antes de dividir entre el precio unitario."
   },
   {
-    "objectID": "sesiones/sesion02.html#información-oficial",
-    "href": "sesiones/sesion02.html#información-oficial",
-    "title": "Sesión 2",
-    "section": "Información oficial",
-    "text": "Información oficial\nDurante la sesión se utilizan estadísticas del Banco de Guatemala, particularmente información de cuentas nacionales y equilibrios de oferta y utilización."
+    "objectID": "sesiones/sesion05.html#mercado-y-capacidad-del-proyecto",
+    "href": "sesiones/sesion05.html#mercado-y-capacidad-del-proyecto",
+    "title": "Guía de repaso",
+    "section": "6. Mercado y capacidad del proyecto",
+    "text": "6. Mercado y capacidad del proyecto\nRepase la diferencia entre:\n\ndemanda estimada por el mercado;\ncapacidad máxima de producción;\nventas o producción factible.\n\nUna relación útil es:\n\\[\nQ_{factible}\n=\n\\min(Q_{demandada},Q_{capacidad})\n\\]\nDebe poder identificar cuándo la principal restricción para un proyecto proviene del mercado y cuándo proviene de su capacidad productiva."
   },
   {
-    "objectID": "sesiones/sesion02.html#registro-de-asistencia",
-    "href": "sesiones/sesion02.html#registro-de-asistencia",
-    "title": "Sesión 2",
-    "section": "Registro de asistencia",
-    "text": "Registro de asistencia\nRegistre su asistencia correspondiente a la Sesión 02.\nEl formulario registra automáticamente la fecha y hora de envío. Complete correctamente su carné, nombre y el código de asistencia indicado durante la sesión.\nRegistrar asistencia →"
-  },
-  {
-    "objectID": "sesiones/sesion03.html",
-    "href": "sesiones/sesion03.html",
-    "title": "Sesión 3",
-    "section": "",
-    "text": "SESIÓN 03\n\n\n\n\nDe las cuentas nacionales a una primera aproximación del tamaño y estructura del mercado relevante para un proyecto.\n\n\nMacroeconomía · 200 FP\nMaestría en Formulación y Evaluación de Proyectos"
-  },
-  {
-    "objectID": "sesiones/sesion03.html#oferta-utilización-el-puente-hacia-el-mercado",
-    "href": "sesiones/sesion03.html#oferta-utilización-el-puente-hacia-el-mercado",
-    "title": "Sesión 3",
-    "section": "Oferta-utilización: el puente hacia el mercado",
-    "text": "Oferta-utilización: el puente hacia el mercado\nLa sesión retoma la discusión sobre la medición económica y profundiza en la relación entre la oferta de bienes y servicios y sus distintos usos dentro de la economía.\n\\[\nP + M = CI + C + G + FBK + X\n\\]\nA partir de esta identidad se analiza cómo la información de cuentas nacionales puede utilizarse como referencia para dimensionar mercados y evaluar la consistencia de los supuestos de demanda de un proyecto."
-  },
-  {
-    "objectID": "sesiones/sesion03.html#el-pib-no-es-el-mercado-del-proyecto",
-    "href": "sesiones/sesion03.html#el-pib-no-es-el-mercado-del-proyecto",
-    "title": "Sesión 3",
-    "section": "El PIB no es el mercado del proyecto",
-    "text": "El PIB no es el mercado del proyecto\nLas cuentas nacionales permiten establecer un marco cuantitativo para comprender el tamaño y estructura de una economía. Sin embargo, el mercado específico de un proyecto requiere descender desde el agregado hacia el producto, el territorio, el segmento y la competencia."
-  },
-  {
-    "objectID": "sesiones/sesion03.html#información-oficial",
-    "href": "sesiones/sesion03.html#información-oficial",
-    "title": "Sesión 3",
-    "section": "Información oficial",
-    "text": "Información oficial\nDurante la sesión se utilizan estadísticas del Banco de Guatemala, particularmente información de cuentas nacionales y equilibrios de oferta y utilización.\n\n\nASISTENCIA\n\n\nRegistro de asistencia\nRegistre su asistencia correspondiente a la Sesión 03.\nEl formulario registra automáticamente la fecha y hora de envío. Complete correctamente su carné, nombre y el código de asistencia indicado durante la sesión.\nRegistrar asistencia →"
-  },
-  {
-    "objectID": "sesiones/sesion03.html#registro-de-asistencia",
-    "href": "sesiones/sesion03.html#registro-de-asistencia",
-    "title": "Sesión 3",
-    "section": "Registro de asistencia",
-    "text": "Registro de asistencia\nRegistre su asistencia correspondiente a la Sesión 03.\nEl formulario registra automáticamente la fecha y hora de envío. Complete correctamente su carné, nombre y el código de asistencia indicado durante la sesión.\nRegistrar asistencia →"
-  },
-  {
-    "objectID": "sesiones/sesion04.html",
-    "href": "sesiones/sesion04.html",
-    "title": "Sesión 4",
-    "section": "",
-    "text": "SESIÓN 04\n\n\n\n\n¿Cómo cambia la viabilidad de un proyecto cuando la economía entra en expansión, recesión o enfrenta un choque de costos?\n\n\nMacroeconomía · 200 FP\nMaestría en Formulación y Evaluación de Proyectos"
-  },
-  {
-    "objectID": "sesiones/sesion04.html#oferta-y-demanda-agregada",
-    "href": "sesiones/sesion04.html#oferta-y-demanda-agregada",
-    "title": "Sesión 4",
-    "section": "Oferta y demanda agregada",
-    "text": "Oferta y demanda agregada\nLa sesión introduce el análisis de las fluctuaciones económicas de corto plazo mediante el modelo de oferta y demanda agregada.\nEl objetivo no es solamente estudiar por qué cambia la producción de una economía, sino identificar cómo distintos choques macroeconómicos pueden transmitirse hacia las variables fundamentales de un proyecto:\n\\[\n\\text{Choque macroeconómico}\n\\rightarrow\n\\text{Producción y precios}\n\\rightarrow\n\\text{Ventas, costos y financiamiento}\n\\rightarrow\n\\text{Flujo de caja}\n\\]\nA partir de este marco se analizan expansiones, recesiones y choques de costos, así como sus posibles efectos sobre la formulación y evaluación de proyectos de inversión."
-  },
-  {
-    "objectID": "sesiones/sesion04.html#la-macroeconomía-modifica-los-supuestos-del-proyecto",
-    "href": "sesiones/sesion04.html#la-macroeconomía-modifica-los-supuestos-del-proyecto",
-    "title": "Sesión 4",
-    "section": "La macroeconomía modifica los supuestos del proyecto",
-    "text": "La macroeconomía modifica los supuestos del proyecto\nUn proyecto puede ser técnicamente viable y financieramente rentable bajo determinadas condiciones iniciales. Sin embargo, esas condiciones pueden cambiar.\nUna recesión puede reducir la demanda esperada; un choque de oferta puede incrementar los costos; y un deterioro de las condiciones financieras puede elevar el costo del financiamiento.\nPor ello, comprender las fluctuaciones económicas permite construir escenarios más realistas de ingresos, costos y riesgo."
-  },
-  {
-    "objectID": "sesiones/sesion04.html#qué-variables-debemos-observar",
-    "href": "sesiones/sesion04.html#qué-variables-debemos-observar",
-    "title": "Sesión 4",
-    "section": "¿Qué variables debemos observar?",
-    "text": "¿Qué variables debemos observar?\nAnte un cambio en el entorno macroeconómico, el evaluador debe preguntarse qué parte del proyecto puede verse afectada:\n\n\nIngresos\nCambios en el ingreso de los hogares, la actividad económica o la confianza pueden modificar:\n\ndemanda esperada;\nvolumen de ventas;\nocupación;\nritmo de crecimiento del mercado.\n\n\n\nCostos\nLos choques de oferta pueden modificar:\n\nmaterias primas;\nenergía;\ntransporte;\nsalarios;\ncostos logísticos.\n\n\n\nFinanciamiento\nEl entorno económico también puede modificar:\n\ndisponibilidad de crédito;\ntasas de interés;\ncosto de capital;\nservicio de la deuda;\nliquidez del proyecto.\n\n\n\n\nFUENTES Y RECURSOS"
-  },
-  {
-    "objectID": "sesiones/sesion04.html#información-macroeconómica",
-    "href": "sesiones/sesion04.html#información-macroeconómica",
-    "title": "Sesión 4",
-    "section": "Información macroeconómica",
-    "text": "Información macroeconómica\nDurante la sesión se utilizarán ejemplos y estadísticas para interpretar el comportamiento de la actividad económica, los precios y las condiciones generales del entorno.\nEntre las principales fuentes de referencia se encuentran:\n\nBanco de Guatemala: actividad económica, cuentas nacionales y política monetaria.\nInstituto Nacional de Estadística: precios e indicadores económicos.\nFondo Monetario Internacional y Banco Mundial: perspectivas y entorno económico internacional.\n\nEl propósito será utilizar esta información como insumo para la construcción de escenarios relevantes para los proyectos.\n\n\nPARA RECORDAR\n\n\nNo todos los choques afectan de la misma manera\nUn choque negativo de demanda agregada suele manifestarse principalmente mediante una reducción de la actividad económica y de las ventas.\nUn choque adverso de oferta agregada, en cambio, puede combinar menor producción con mayores precios y costos.\nPara un proyecto, distinguir entre ambos mecanismos es fundamental para determinar qué supuestos deben modificarse en el flujo de caja.\n\n\n\n\nASISTENCIA\n\n\nRegistro de asistencia\nRegistre su asistencia correspondiente a la Sesión 04.\nEl formulario registra automáticamente la fecha y hora de envío. Complete correctamente su carné, nombre y el código de asistencia indicado durante la sesión.\nRegistrar asistencia →"
-  },
-  {
-    "objectID": "sesiones/sesion04.html#no-todos-los-choques-afectan-de-la-misma-manera",
-    "href": "sesiones/sesion04.html#no-todos-los-choques-afectan-de-la-misma-manera",
-    "title": "Sesión 4",
-    "section": "No todos los choques afectan de la misma manera",
-    "text": "No todos los choques afectan de la misma manera\nUn choque negativo de demanda agregada suele manifestarse principalmente mediante una reducción de la actividad económica y de las ventas.\nUn choque adverso de oferta agregada, en cambio, puede combinar menor producción con mayores precios y costos.\nPara un proyecto, distinguir entre ambos mecanismos es fundamental para determinar qué supuestos deben modificarse en el flujo de caja."
-  },
-  {
-    "objectID": "sesiones/sesion04.html#registro-de-asistencia",
-    "href": "sesiones/sesion04.html#registro-de-asistencia",
-    "title": "Sesión 4",
-    "section": "Registro de asistencia",
-    "text": "Registro de asistencia\nRegistre su asistencia correspondiente a la Sesión 04.\nEl formulario registra automáticamente la fecha y hora de envío. Complete correctamente su carné, nombre y el código de asistencia indicado durante la sesión.\nRegistrar asistencia →"
+    "objectID": "sesiones/sesion05.html#qué-debería-poder-hacer-antes-del-examen",
+    "href": "sesiones/sesion05.html#qué-debería-poder-hacer-antes-del-examen",
+    "title": "Guía de repaso",
+    "section": "¿Qué debería poder hacer antes del examen?",
+    "text": "¿Qué debería poder hacer antes del examen?\nAl finalizar su repaso, debería poder:\n\nidentificar escasez, elección y costo de oportunidad dentro de una situación concreta;\ncalcular e interpretar el PIB a partir de información económica;\ninterpretar un equilibrio básico de oferta y utilización;\nseleccionar el dato adecuado para aproximar el mercado de un proyecto;\nconstruir una estimación de mercado nacional, relevante y objetivo;\nestimar ventas potenciales y cantidades demandadas;\ncomparar la demanda con la capacidad productiva;\nexplicar brevemente qué significan los resultados para una decisión de proyecto.\n\n\n\n\n\n\n\nTipRecomendación para estudiar\n\n\n\nRepase los ejercicios desarrollados en clase y el laboratorio “Del dato macroeconómico al mercado de un proyecto”.\nNo es necesario memorizar los valores numéricos utilizados en los ejercicios. Concéntrese en comprender la secuencia de análisis, las relaciones entre las variables y la interpretación económica de los resultados."
   },
   {
     "objectID": "presentaciones/sesion04/sesion04_fluctuaciones_macro.html#antes-de-comenzar",
@@ -378,11 +329,11 @@
     "text": "Caso 2 · Edificio residencial\nAplicación guiada 6 minutos\nDurante la construcción ocurre:\n\nacero +18%,\ncemento +12%,\ncombustible +20%,\nretrasos de importación.\n\nEl precio de preventa ya fue acordado con parte de los compradores.\n\n\n¿Qué tipo de choque domina?\n\n¿Qué parte del flujo de caja cambia?\n\n¿Puede el proyecto trasladar el aumento de costos al cliente?\n\n¿Qué riesgo aparece si el financiamiento ya estaba estructurado?\n\n\n\nLectura: shock de OA adverso → costos de inversión y capital de trabajo ↑ → margen ↓ → necesidad de financiamiento adicional → VAN y TIR ↓."
   },
   {
-    "objectID": "presentaciones/sesion04/sesion04_fluctuaciones_macro.html#el-concepto-clave-descalce",
-    "href": "presentaciones/sesion04/sesion04_fluctuaciones_macro.html#el-concepto-clave-descalce",
+    "objectID": "presentaciones/sesion04/sesion04_fluctuaciones_macro.html#el-concepto-central-descalce",
+    "href": "presentaciones/sesion04/sesion04_fluctuaciones_macro.html#el-concepto-central-descalce",
     "title": "Sesión 4",
-    "section": "El concepto clave: descalce",
-    "text": "El concepto clave: descalce\n\n\nUn proyecto puede tener ingresos y costos que reaccionan de forma distinta\n\nEjemplo: precios de venta fijos + costos variables indexados = riesgo de margen.\n\n\nEso obliga a preguntar, desde la formulación:\n\n¿qué costos son fijos y cuáles variables?\n¿qué contratos permiten ajuste?\n¿qué insumos dependen del exterior?\n¿qué reservas de contingencia existen?"
+    "section": "El concepto central: descalce",
+    "text": "El concepto central: descalce\n\n\nUn proyecto puede tener ingresos y costos que reaccionan de forma distinta\n\nEjemplo: precios de venta fijos + costos variables indexados = riesgo de margen.\n\n\nEso obliga a preguntar, desde la formulación:\n\n¿qué costos son fijos y cuáles variables?\n¿qué contratos permiten ajuste?\n¿qué insumos dependen del exterior?\n¿qué reservas de contingencia existen?"
   },
   {
     "objectID": "presentaciones/sesion04/sesion04_fluctuaciones_macro.html#el-modelo-como-mapa-para-no-confundir-el-origen-del-problema",
@@ -448,60 +399,11 @@
     "text": "Diagnosticar un shock y traducirlo a una decisión de proyecto"
   },
   {
-    "objectID": "presentaciones/sesion04/sesion04_fluctuaciones_macro.html#laboratorio-el-shock-llega-después",
-    "href": "presentaciones/sesion04/sesion04_fluctuaciones_macro.html#laboratorio-el-shock-llega-después",
-    "title": "Sesión 4",
-    "section": "Laboratorio · “El shock llega después”",
-    "text": "Laboratorio · “El shock llega después”\nTrabajo en grupos de 3–4 20 minutos\nCada grupo elige un proyecto:\n\nhotel,\nedificio de apartamentos,\nplanta agroindustrial,\nparque solar,\ncentro logístico.\n\nY recibe un shock:\n\ncaída de remesas;\n\npetróleo +30%;\n\nexpansión fuerte del gasto público;\n\ntasas de interés +250 puntos básicos."
-  },
-  {
-    "objectID": "presentaciones/sesion04/sesion04_fluctuaciones_macro.html#matriz-de-trabajo",
-    "href": "presentaciones/sesion04/sesion04_fluctuaciones_macro.html#matriz-de-trabajo",
-    "title": "Sesión 4",
-    "section": "Matriz de trabajo",
-    "text": "Matriz de trabajo\nCompleten esta secuencia:\n\n\n\n\n\n\n\nPaso\nPregunta\n\n\n\n\n1. Diagnóstico\n¿Es un shock de DA, OA o mixto?\n\n\n2. Macro\n¿Qué pasa con producción y precios?\n\n\n3. Canal\n¿Cómo llega al proyecto?\n\n\n4. Flujo\n¿Qué rubro cambia primero: ingresos, costos o financiamiento?\n\n\n5. Indicador\n¿Qué ocurre probablemente con VAN/TIR?\n\n\n6. Respuesta\n¿Qué decisión de gestión recomendarían?\n\n\n\n\nNo basta escribir “sube” o “baja”. El grupo debe explicar el mecanismo causal."
-  },
-  {
-    "objectID": "presentaciones/sesion04/sesion04_fluctuaciones_macro.html#una-regla-para-la-presentación-de-cada-grupo",
-    "href": "presentaciones/sesion04/sesion04_fluctuaciones_macro.html#una-regla-para-la-presentación-de-cada-grupo",
-    "title": "Sesión 4",
-    "section": "Una regla para la presentación de cada grupo",
-    "text": "Una regla para la presentación de cada grupo\n2 minutos por grupo\n\n\n\n1 · Diagnóstico\n\n“Este es principalmente un shock de…”\n\n\n\n2 · Transmisión\n\n“Llega al proyecto por…”\n\n\n\n3 · Decisión\n\n“Recomendamos revisar…”"
-  },
-  {
-    "objectID": "presentaciones/sesion04/sesion04_fluctuaciones_macro.html#de-la-macroeconomía-a-la-decisión-de-inversión",
-    "href": "presentaciones/sesion04/sesion04_fluctuaciones_macro.html#de-la-macroeconomía-a-la-decisión-de-inversión",
-    "title": "Sesión 4",
-    "section": "De la macroeconomía a la decisión de inversión",
-    "text": "De la macroeconomía a la decisión de inversión"
-  },
-  {
-    "objectID": "presentaciones/sesion04/sesion04_fluctuaciones_macro.html#lo-esencial-de-la-sesión",
-    "href": "presentaciones/sesion04/sesion04_fluctuaciones_macro.html#lo-esencial-de-la-sesión",
-    "title": "Sesión 4",
-    "section": "Lo esencial de la sesión",
-    "text": "Lo esencial de la sesión\n\n\n\nDemanda agregada\n\nExplica shocks asociados al gasto total y su efecto sobre actividad y precios.\n\n\n\nOferta agregada\n\nExplica shocks asociados a costos y capacidad productiva.\n\n\n\nRiesgo macroeconómico\n\nEl mismo proyecto puede enfrentar simultáneamente ventas ↓, costos ↑ y crédito más caro.\n\n\n\nEvaluación\n\nLos shocks deben convertirse en escenarios y sensibilidades del flujo de caja."
-  },
-  {
     "objectID": "presentaciones/sesion04/sesion04_fluctuaciones_macro.html#preguntas-de-cierre",
     "href": "presentaciones/sesion04/sesion04_fluctuaciones_macro.html#preguntas-de-cierre",
     "title": "Sesión 4",
     "section": "Preguntas de cierre",
     "text": "Preguntas de cierre\n\n\n¿Qué diferencia esencial existe entre un shock de DA y uno de OA?\n\n¿Por qué una caída del PIB no basta para diagnosticar el riesgo del proyecto?\n\n¿Qué shock sería más difícil de manejar para un proyecto con precios de venta fijos?\n\n¿Cuál supuesto del flujo de caja revisarían primero ante una recesión?"
-  },
-  {
-    "objectID": "presentaciones/sesion04/sesion04_fluctuaciones_macro.html#exit-ticket",
-    "href": "presentaciones/sesion04/sesion04_fluctuaciones_macro.html#exit-ticket",
-    "title": "Sesión 4",
-    "section": "Exit ticket",
-    "text": "Exit ticket\nEn una frase completen:\n\n\n\nHoy entendí que…\n\n\n\n\nEn un proyecto debo vigilar…\n\n\n\n\nLa duda que todavía tengo es…"
-  },
-  {
-    "objectID": "presentaciones/sesion04/sesion04_fluctuaciones_macro.html#cierre-de-la-sesión",
-    "href": "presentaciones/sesion04/sesion04_fluctuaciones_macro.html#cierre-de-la-sesión",
-    "title": "Sesión 4",
-    "section": "Cierre de la sesión",
-    "text": "Cierre de la sesión\n\n\nIdea final\n\nLa macroeconomía no es un dato externo que se agrega al final del estudio.\nEs el entorno que puede alterar la demanda, los costos, el financiamiento y, por tanto, la viabilidad del proyecto.\n\n\nPróxima sesión: crecimiento y desarrollo económico."
   },
   {
     "objectID": "presentaciones/sesion0/LEEME.html",
@@ -1197,136 +1099,262 @@
     "text": "CONCLUSIÓNLa estructura del capitaldebe corresponderal riesgo que financia.ValidarEscalarRepagarElegir bien exige explicar quién asume el riesgoy cómo espera recuperar su dinero."
   },
   {
-    "objectID": "sesiones/sesion05.html",
-    "href": "sesiones/sesion05.html",
-    "title": "Guía de repaso",
+    "objectID": "sesiones/sesion06.html",
+    "href": "sesiones/sesion06.html",
+    "title": "Sesión 6",
     "section": "",
-    "text": "NotaPropósito\n\n\n\nEl examen parcial evaluará la comprensión de los conceptos trabajados durante las primeras sesiones y, especialmente, la capacidad de aplicarlos a situaciones vinculadas con la formulación y evaluación de proyectos.\nNo se espera únicamente memorizar definiciones o fórmulas. Es importante comprender qué representa cada variable, cómo se relacionan entre sí y qué información puede obtenerse de ellas para analizar un proyecto."
+    "text": "SESIÓN 06\n\n\n\n\n¿Cómo se transforma un cambio en el entorno macroeconómico en menores ventas, mayores costos, cambios en la ocupación o un mayor costo de capital?\n\n\nMacroeconomía · 200 FP\nMaestría en Formulación y Evaluación de Proyectos"
   },
   {
-    "objectID": "sesiones/sesion05.html#decisiones-económicas-y-entorno-del-proyecto",
-    "href": "sesiones/sesion05.html#decisiones-económicas-y-entorno-del-proyecto",
-    "title": "Guía de repaso",
-    "section": "1. Decisiones económicas y entorno del proyecto",
-    "text": "1. Decisiones económicas y entorno del proyecto\nRepase los conceptos básicos que permiten entender una decisión económica:\n\nescasez;\nelección;\ncosto de oportunidad;\nagentes económicos;\ndiferencia entre microeconomía y macroeconomía;\nfuncionamiento básico del flujo circular de la economía;\nrelación entre las decisiones de las empresas, los hogares y el entorno económico.\n\nDebe poder identificar estos conceptos dentro de un caso, no solamente definirlos."
+    "objectID": "sesiones/sesion06.html#del-modelo-oada-a-la-evaluación-del-proyecto",
+    "href": "sesiones/sesion06.html#del-modelo-oada-a-la-evaluación-del-proyecto",
+    "title": "Sesión 6",
+    "section": "Del modelo OA–DA a la evaluación del proyecto",
+    "text": "Del modelo OA–DA a la evaluación del proyecto\nLa sesión retoma el análisis iniciado en la Sesión 04 sobre fluctuaciones económicas, oferta agregada y demanda agregada.\nEl punto de partida será completar la interpretación de los principales choques macroeconómicos y, posteriormente, trasladar sus efectos hacia variables concretas de un proyecto de inversión.\nLa secuencia de análisis será:\n\\[\n\\text{Choque macroeconómico}\n\\rightarrow\n\\text{Producción y precios}\n\\rightarrow\n\\text{Variables del proyecto}\n\\rightarrow\n\\text{Flujo de efectivo}\n\\rightarrow\n\\text{VAN}\n\\]\nEl objetivo es comprender que un cambio en el entorno macroeconómico no afecta directamente al VAN: primero modifica alguno de los supuestos sobre los cuales fue formulado el proyecto."
   },
   {
-    "objectID": "sesiones/sesion05.html#medición-de-la-actividad-económica",
-    "href": "sesiones/sesion05.html#medición-de-la-actividad-económica",
-    "title": "Guía de repaso",
-    "section": "2. Medición de la actividad económica",
-    "text": "2. Medición de la actividad económica\nRepase la lógica de medición del Producto Interno Bruto y las principales relaciones estudiadas en clase.\nEn particular:\n\nqué mide y qué no mide el PIB;\nproducción y valor agregado;\nproblema de la doble contabilización;\nenfoque del gasto:\n\n\\[\nPIB = C + I + G + X - M\n\\]\n\ninterpretación de consumo, inversión, gasto público, exportaciones e importaciones;\npor qué las importaciones se restan en el cálculo del PIB;\ndiferencia entre una variable expresada en valores monetarios y una medida de volumen o cantidad.\n\nMás que recordar una fórmula, debe poder interpretar económicamente el resultado obtenido."
+    "objectID": "sesiones/sesion06.html#el-van-cambia-porque-cambian-los-supuestos-del-proyecto",
+    "href": "sesiones/sesion06.html#el-van-cambia-porque-cambian-los-supuestos-del-proyecto",
+    "title": "Sesión 6",
+    "section": "El VAN cambia porque cambian los supuestos del proyecto",
+    "text": "El VAN cambia porque cambian los supuestos del proyecto\nUn choque macroeconómico no aparece directamente dentro de la fórmula del VAN.\nSu efecto ocurre mediante variables concretas:\n\\[\n\\text{Entorno macroeconómico}\n\\rightarrow\n\\begin{cases}\n\\text{Ventas} \\\\\n\\text{Precios} \\\\\n\\text{Ocupación} \\\\\n\\text{Costos} \\\\\n\\text{Tasa de descuento}\n\\end{cases}\n\\rightarrow\n\\text{Flujo de efectivo}\n\\rightarrow\n\\text{VAN}\n\\]\nPor ello, una evaluación financiera robusta requiere comprender primero qué variable económica está siendo afectada y por qué mecanismo."
   },
   {
-    "objectID": "sesiones/sesion05.html#oferta-y-utilización",
-    "href": "sesiones/sesion05.html#oferta-y-utilización",
-    "title": "Guía de repaso",
-    "section": "3. Oferta y utilización",
-    "text": "3. Oferta y utilización\nRepase la estructura básica de un equilibrio de oferta y utilización y la relación:\n\\[\nOferta\\ total = Utilización\\ total\n\\]\nDebe reconocer el significado económico de partidas como:\n\nproducción;\nimportaciones;\noferta total;\nconsumo intermedio;\nconsumo final privado;\nvariación de existencias;\nexportaciones;\nutilización total.\n\nTambién debe ser capaz de determinar qué variable resulta pertinente según el tipo de proyecto y el comprador final del producto."
+    "objectID": "sesiones/sesion06.html#cómo-puede-llegar-un-shock-al-proyecto",
+    "href": "sesiones/sesion06.html#cómo-puede-llegar-un-shock-al-proyecto",
+    "title": "Sesión 6",
+    "section": "¿Cómo puede llegar un shock al proyecto?",
+    "text": "¿Cómo puede llegar un shock al proyecto?\n\n\nDemanda\nUna desaceleración económica puede modificar:\n\nvolumen vendido;\nocupación;\nnúmero de clientes;\nutilización de capacidad;\nritmo de crecimiento de los ingresos.\n\n\n\nPrecios\nUna empresa puede enfrentar:\n\nnecesidad de ofrecer descuentos;\nmenor capacidad de trasladar costos;\ncaída de tarifas;\nreducción del margen por unidad.\n\n\n\nCostos\nUn choque adverso de oferta puede incrementar:\n\nmaterias primas;\nenergía;\ntransporte;\ncostos logísticos;\nmantenimiento.\n\n\n\nFinanciamiento\nUn endurecimiento de las condiciones financieras puede elevar:\n\ntasas de interés;\ncosto de capital;\ntasa de descuento;\nservicio de deuda;\nexigencia de rentabilidad.\n\n\n\n\n\nUNA DISTINCIÓN IMPORTANTE\n\n\nNo todos los proyectos reaccionan igual ante el mismo entorno\nLa vulnerabilidad depende de la estructura económica del proyecto.\nUn hotel puede ser especialmente sensible a la ocupación.\nUna planta industrial puede ser más sensible al costo de sus insumos.\nUn producto de consumo puede verse afectado simultáneamente por una caída en volumen y precio.\nUn proyecto intensivo en capital puede mantener sus flujos operativos pero perder valor si aumenta la tasa de descuento.\n\n\n\nLABORATORIO"
   },
   {
-    "objectID": "sesiones/sesion05.html#del-dato-macroeconómico-al-mercado-de-un-proyecto",
-    "href": "sesiones/sesion05.html#del-dato-macroeconómico-al-mercado-de-un-proyecto",
-    "title": "Guía de repaso",
-    "section": "4. Del dato macroeconómico al mercado de un proyecto",
-    "text": "4. Del dato macroeconómico al mercado de un proyecto\nRepase la lógica utilizada en el laboratorio para transformar información agregada en una primera aproximación al mercado de un proyecto.\nDebe distinguir entre:\n\nMercado nacional observado\nCorresponde al punto de partida obtenido de la información económica disponible.\n\n\nMercado relevante\nEs la parte del mercado nacional que corresponde al segmento específico que pretende atender el proyecto.\n\\[\nM_{relevante}\n=\nM_{nacional}\\times s_{segmento}\n\\]\n\n\nMercado objetivo\nConsidera, además, el territorio, los canales u otras restricciones que delimitan el mercado efectivamente accesible.\n\\[\nM_{objetivo}\n=\nM_{relevante}\\times s_{cobertura}\n\\]\n\n\nDemanda capturable\nRepresenta la parte del mercado objetivo que razonablemente podría captar el proyecto.\n\\[\nD_{proyecto}\n=\nM_{objetivo}\\times s_{captura}\n\\]\nDebe comprender que mercado nacional, mercado objetivo y ventas esperadas no son conceptos equivalentes."
+    "objectID": "sesiones/sesion06.html#no-todos-los-proyectos-reaccionan-igual-ante-el-mismo-entorno",
+    "href": "sesiones/sesion06.html#no-todos-los-proyectos-reaccionan-igual-ante-el-mismo-entorno",
+    "title": "Sesión 6",
+    "section": "No todos los proyectos reaccionan igual ante el mismo entorno",
+    "text": "No todos los proyectos reaccionan igual ante el mismo entorno\nLa vulnerabilidad depende de la estructura económica del proyecto.\nUn hotel puede ser especialmente sensible a la ocupación.\nUna planta industrial puede ser más sensible al costo de sus insumos.\nUn producto de consumo puede verse afectado simultáneamente por una caída en volumen y precio.\nUn proyecto intensivo en capital puede mantener sus flujos operativos pero perder valor si aumenta la tasa de descuento."
   },
   {
-    "objectID": "sesiones/sesion05.html#de-valores-monetarios-a-unidades-físicas",
-    "href": "sesiones/sesion05.html#de-valores-monetarios-a-unidades-físicas",
-    "title": "Guía de repaso",
-    "section": "5. De valores monetarios a unidades físicas",
-    "text": "5. De valores monetarios a unidades físicas\nRepase cómo transformar una estimación monetaria de demanda en unidades físicas cuando se dispone de un precio esperado:\n\\[\nQ =\n\\frac{Ventas\\ potenciales}{Precio\\ unitario}\n\\]\nPreste atención a las unidades de medida. Si la información original está expresada en millones de quetzales, deberá realizar la conversión correspondiente antes de dividir entre el precio unitario."
+    "objectID": "sesiones/sesion06.html#cuatro-proyectos-cuatro-mecanismos",
+    "href": "sesiones/sesion06.html#cuatro-proyectos-cuatro-mecanismos",
+    "title": "Sesión 6",
+    "section": "Cuatro proyectos, cuatro mecanismos",
+    "text": "Cuatro proyectos, cuatro mecanismos\nCada grupo analizará un proyecto diferente.\n\nGrupo 1 · Hotel\nEl shock afecta principalmente:\n\\[\n\\text{Actividad económica}\n\\rightarrow\n\\text{Turismo}\n\\rightarrow\n\\text{Ocupación y tarifa}\n\\rightarrow\n\\text{Ingresos}\n\\rightarrow\nVAN\n\\]\n\n\nGrupo 2 · Planta agroindustrial\nEl shock afecta:\n\\[\n\\text{Costos internacionales}\n\\rightarrow\n\\text{Costo variable}\n\\rightarrow\n\\text{Margen}\n\\rightarrow\n\\text{Flujo}\n\\rightarrow\nVAN\n\\]\n\n\nGrupo 3 · Bienes de consumo\nLa desaceleración afecta simultáneamente:\n\\[\n\\text{Ingreso de hogares}\n\\rightarrow\n\\text{Volumen y precio}\n\\rightarrow\n\\text{Ventas}\n\\rightarrow\nVAN\n\\]\n\n\nGrupo 4 · Proyecto solar\nEl canal es diferente:\n\\[\n\\text{Tasas de interés}\n\\rightarrow\n\\text{Costo de capital}\n\\rightarrow\n\\text{Tasa de descuento}\n\\rightarrow\nVAN\n\\]\n\n\nPREGUNTA DE TRABAJO\n\n\n¿Qué explica la pérdida de valor?\nEl objetivo del laboratorio no será únicamente obtener dos VAN.\nCada grupo deberá identificar:\n\ncuál es el choque macroeconómico;\nsi afecta principalmente la oferta, la demanda o las condiciones financieras;\nqué variable del proyecto cambia primero;\ncómo se modifica el flujo de efectivo;\ncuánto cambia el VAN;\nqué variable explica la mayor parte de la pérdida de valor;\nqué decisión podría tomar el formulador para reducir esa vulnerabilidad.\n\n\n\n\nAPLICACIÓN A PROYECTOS"
   },
   {
-    "objectID": "sesiones/sesion05.html#mercado-y-capacidad-del-proyecto",
-    "href": "sesiones/sesion05.html#mercado-y-capacidad-del-proyecto",
-    "title": "Guía de repaso",
-    "section": "6. Mercado y capacidad del proyecto",
-    "text": "6. Mercado y capacidad del proyecto\nRepase la diferencia entre:\n\ndemanda estimada por el mercado;\ncapacidad máxima de producción;\nventas o producción factible.\n\nUna relación útil es:\n\\[\nQ_{factible}\n=\n\\min(Q_{demandada},Q_{capacidad})\n\\]\nDebe poder identificar cuándo la principal restricción para un proyecto proviene del mercado y cuándo proviene de su capacidad productiva."
+    "objectID": "sesiones/sesion06.html#qué-explica-la-pérdida-de-valor",
+    "href": "sesiones/sesion06.html#qué-explica-la-pérdida-de-valor",
+    "title": "Sesión 6",
+    "section": "¿Qué explica la pérdida de valor?",
+    "text": "¿Qué explica la pérdida de valor?\nEl objetivo del laboratorio no será únicamente obtener dos VAN.\nCada grupo deberá identificar:\n\ncuál es el choque macroeconómico;\nsi afecta principalmente la oferta, la demanda o las condiciones financieras;\nqué variable del proyecto cambia primero;\ncómo se modifica el flujo de efectivo;\ncuánto cambia el VAN;\nqué variable explica la mayor parte de la pérdida de valor;\nqué decisión podría tomar el formulador para reducir esa vulnerabilidad."
   },
   {
-    "objectID": "sesiones/sesion05.html#qué-debería-poder-hacer-antes-del-examen",
-    "href": "sesiones/sesion05.html#qué-debería-poder-hacer-antes-del-examen",
-    "title": "Guía de repaso",
-    "section": "¿Qué debería poder hacer antes del examen?",
-    "text": "¿Qué debería poder hacer antes del examen?\nAl finalizar su repaso, debería poder:\n\nidentificar escasez, elección y costo de oportunidad dentro de una situación concreta;\ncalcular e interpretar el PIB a partir de información económica;\ninterpretar un equilibrio básico de oferta y utilización;\nseleccionar el dato adecuado para aproximar el mercado de un proyecto;\nconstruir una estimación de mercado nacional, relevante y objetivo;\nestimar ventas potenciales y cantidades demandadas;\ncomparar la demanda con la capacidad productiva;\nexplicar brevemente qué significan los resultados para una decisión de proyecto.\n\n\n\n\n\n\n\nTipRecomendación para estudiar\n\n\n\nRepase los ejercicios desarrollados en clase y el laboratorio “Del dato macroeconómico al mercado de un proyecto”.\nNo es necesario memorizar los valores numéricos utilizados en los ejercicios. Concéntrese en comprender la secuencia de análisis, las relaciones entre las variables y la interpretación económica de los resultados."
+    "objectID": "sesiones/sesion06.html#del-escenario-base-al-análisis-de-sensibilidad",
+    "href": "sesiones/sesion06.html#del-escenario-base-al-análisis-de-sensibilidad",
+    "title": "Sesión 6",
+    "section": "Del escenario base al análisis de sensibilidad",
+    "text": "Del escenario base al análisis de sensibilidad\nLa evaluación de un proyecto no debería limitarse a una única trayectoria esperada.\nEl escenario base representa una combinación de supuestos sobre:\n\ndemanda;\nprecios;\ncostos;\nutilización de capacidad;\nfinanciamiento;\ncondiciones macroeconómicas.\n\nEl análisis de sensibilidad permite preguntar:\n\n¿Qué ocurre con la viabilidad del proyecto si algunos de estos supuestos dejan de cumplirse?\n\nLa utilidad del ejercicio no consiste únicamente en observar si el VAN permanece positivo o se vuelve negativo, sino en identificar qué supuesto determina la vulnerabilidad del proyecto.\n\nDISCUSIÓN FINAL"
   },
   {
-    "objectID": "sesiones/sesion01.html",
-    "href": "sesiones/sesion01.html",
-    "title": "Sesión 1",
+    "objectID": "sesiones/sesion06.html#comparar-proyectos",
+    "href": "sesiones/sesion06.html#comparar-proyectos",
+    "title": "Sesión 6",
+    "section": "Comparar proyectos",
+    "text": "Comparar proyectos\nAl finalizar el laboratorio se compararán los resultados obtenidos por los cuatro grupos.\nLa discusión buscará responder:\n\n¿qué proyecto perdió más valor?\n¿qué variable explica esa pérdida?\n¿qué proyectos tienen mayor exposición a costos fijos?\n¿cuáles pueden ajustar precios?\n¿cuáles dependen principalmente del volumen vendido?\n¿qué proyecto es más sensible al costo de capital?\n\nEl propósito no será determinar cuál proyecto es “mejor”, sino comprender que la exposición macroeconómica depende de la estructura económica y financiera de cada proyecto.\n\n\nPARA RECORDAR\n\n\nLa sensibilidad comienza antes de Excel\nModificar una celda no constituye por sí mismo un análisis de riesgo.\nPrimero debe existir una explicación económica:\n\\[\n\\text{Shock}\n\\rightarrow\n\\text{Mecanismo de transmisión}\n\\rightarrow\n\\text{Variable afectada}\n\\rightarrow\n\\text{Flujo de efectivo}\n\\rightarrow\n\\text{VAN}\n\\]\nSolo después tiene sentido construir escenarios y modificar los supuestos financieros.\n\n\n\n\nASISTENCIA\n\n\nRegistro de asistencia\nRegistre su asistencia correspondiente a la Sesión 06.\nEl formulario registra automáticamente la fecha y hora de envío. Complete correctamente su carné, nombre y el código de asistencia indicado durante la sesión.\nRegistrar asistencia →"
+  },
+  {
+    "objectID": "sesiones/sesion06.html#la-sensibilidad-comienza-antes-de-excel",
+    "href": "sesiones/sesion06.html#la-sensibilidad-comienza-antes-de-excel",
+    "title": "Sesión 6",
+    "section": "La sensibilidad comienza antes de Excel",
+    "text": "La sensibilidad comienza antes de Excel\nModificar una celda no constituye por sí mismo un análisis de riesgo.\nPrimero debe existir una explicación económica:\n\\[\n\\text{Shock}\n\\rightarrow\n\\text{Mecanismo de transmisión}\n\\rightarrow\n\\text{Variable afectada}\n\\rightarrow\n\\text{Flujo de efectivo}\n\\rightarrow\n\\text{VAN}\n\\]\nSolo después tiene sentido construir escenarios y modificar los supuestos financieros."
+  },
+  {
+    "objectID": "sesiones/sesion06.html#registro-de-asistencia",
+    "href": "sesiones/sesion06.html#registro-de-asistencia",
+    "title": "Sesión 6",
+    "section": "Registro de asistencia",
+    "text": "Registro de asistencia\nRegistre su asistencia correspondiente a la Sesión 06.\nEl formulario registra automáticamente la fecha y hora de envío. Complete correctamente su carné, nombre y el código de asistencia indicado durante la sesión.\nRegistrar asistencia →"
+  },
+  {
+    "objectID": "sesiones/sesion04.html",
+    "href": "sesiones/sesion04.html",
+    "title": "Sesión 4",
     "section": "",
-    "text": "SESIÓN 01\n\n\n\n\nConceptos fundamentales para comprender cómo los economistas analizan la escasez, la elección, el costo de oportunidad y el funcionamiento general de una economía.\n\n\nMacroeconomía · 200 FP\nMaestría en Formulación y Evaluación de Proyectos"
+    "text": "SESIÓN 04\n\n\n\n\n¿Cómo cambia la viabilidad de un proyecto cuando la economía entra en expansión, recesión o enfrenta un choque de costos?\n\n\nMacroeconomía · 200 FP\nMaestría en Formulación y Evaluación de Proyectos"
   },
   {
-    "objectID": "sesiones/sesion01.html#presentación-de-clase",
-    "href": "sesiones/sesion01.html#presentación-de-clase",
-    "title": "Sesión 1",
-    "section": "Presentación de clase",
-    "text": "Presentación de clase\nLa sesión introduce los conceptos económicos fundamentales que servirán como base para el desarrollo posterior del curso.\nVer presentación PDF →"
+    "objectID": "sesiones/sesion04.html#oferta-y-demanda-agregada",
+    "href": "sesiones/sesion04.html#oferta-y-demanda-agregada",
+    "title": "Sesión 4",
+    "section": "Oferta y demanda agregada",
+    "text": "Oferta y demanda agregada\nLa sesión introduce el análisis de las fluctuaciones económicas de corto plazo mediante el modelo de oferta y demanda agregada.\nEl objetivo no es solamente estudiar por qué cambia la producción de una economía, sino identificar cómo distintos choques macroeconómicos pueden transmitirse hacia las variables fundamentales de un proyecto:\n\\[\n\\text{Choque macroeconómico}\n\\rightarrow\n\\text{Producción y precios}\n\\rightarrow\n\\text{Ventas, costos y financiamiento}\n\\rightarrow\n\\text{Flujo de caja}\n\\]\nA partir de este marco se analizan expansiones, recesiones y choques de costos, así como sus posibles efectos sobre la formulación y evaluación de proyectos de inversión."
   },
   {
-    "objectID": "sesiones/sesion01.html#toda-decisión-económica-implica-una-elección",
-    "href": "sesiones/sesion01.html#toda-decisión-económica-implica-una-elección",
-    "title": "Sesión 1",
-    "section": "Toda decisión económica implica una elección",
-    "text": "Toda decisión económica implica una elección\nLos recursos son limitados mientras que las necesidades y objetivos son múltiples. Por ello, la economía estudia cómo los individuos, las empresas y las sociedades toman decisiones frente a restricciones y alternativas."
+    "objectID": "sesiones/sesion04.html#la-macroeconomía-modifica-los-supuestos-del-proyecto",
+    "href": "sesiones/sesion04.html#la-macroeconomía-modifica-los-supuestos-del-proyecto",
+    "title": "Sesión 4",
+    "section": "La macroeconomía modifica los supuestos del proyecto",
+    "text": "La macroeconomía modifica los supuestos del proyecto\nUn proyecto puede ser técnicamente viable y financieramente rentable bajo determinadas condiciones iniciales. Sin embargo, esas condiciones pueden cambiar.\nUna recesión puede reducir la demanda esperada; un choque de oferta puede incrementar los costos; y un deterioro de las condiciones financieras puede elevar el costo del financiamiento.\nPor ello, comprender las fluctuaciones económicas permite construir escenarios más realistas de ingresos, costos y riesgo."
   },
   {
-    "objectID": "sesiones/sesion01.html#recursos-de-la-sesión",
-    "href": "sesiones/sesion01.html#recursos-de-la-sesión",
-    "title": "Sesión 1",
-    "section": "Recursos de la sesión",
-    "text": "Recursos de la sesión\nLos materiales complementarios y actividades correspondientes a esta sesión estarán disponibles en esta página conforme sean requeridos."
+    "objectID": "sesiones/sesion04.html#qué-variables-debemos-observar",
+    "href": "sesiones/sesion04.html#qué-variables-debemos-observar",
+    "title": "Sesión 4",
+    "section": "¿Qué variables debemos observar?",
+    "text": "¿Qué variables debemos observar?\nAnte un cambio en el entorno macroeconómico, el evaluador debe preguntarse qué parte del proyecto puede verse afectada:\n\n\nIngresos\nCambios en el ingreso de los hogares, la actividad económica o la confianza pueden modificar:\n\ndemanda esperada;\nvolumen de ventas;\nocupación;\nritmo de crecimiento del mercado.\n\n\n\nCostos\nLos choques de oferta pueden modificar:\n\nmaterias primas;\nenergía;\ntransporte;\nsalarios;\ncostos logísticos.\n\n\n\nFinanciamiento\nEl entorno económico también puede modificar:\n\ndisponibilidad de crédito;\ntasas de interés;\ncosto de capital;\nservicio de la deuda;\nliquidez del proyecto.\n\n\n\n\nFUENTES Y RECURSOS"
   },
   {
-    "objectID": "sesiones/index.html",
-    "href": "sesiones/index.html",
-    "title": "Sesiones",
+    "objectID": "sesiones/sesion04.html#información-macroeconómica",
+    "href": "sesiones/sesion04.html#información-macroeconómica",
+    "title": "Sesión 4",
+    "section": "Información macroeconómica",
+    "text": "Información macroeconómica\nDurante la sesión se utilizarán ejemplos y estadísticas para interpretar el comportamiento de la actividad económica, los precios y las condiciones generales del entorno.\nEntre las principales fuentes de referencia se encuentran:\n\nBanco de Guatemala: actividad económica, cuentas nacionales y política monetaria.\nInstituto Nacional de Estadística: precios e indicadores económicos.\nFondo Monetario Internacional y Banco Mundial: perspectivas y entorno económico internacional.\n\nEl propósito será utilizar esta información como insumo para la construcción de escenarios relevantes para los proyectos.\n\n\nPARA RECORDAR\n\n\nNo todos los choques afectan de la misma manera\nUn choque negativo de demanda agregada suele manifestarse principalmente mediante una reducción de la actividad económica y de las ventas.\nUn choque adverso de oferta agregada, en cambio, puede combinar menor producción con mayores precios y costos.\nPara un proyecto, distinguir entre ambos mecanismos es fundamental para determinar qué supuestos deben modificarse en el flujo de caja.\n\n\n\n\nASISTENCIA\n\n\nRegistro de asistencia\nRegistre su asistencia correspondiente a la Sesión 04.\nEl formulario registra automáticamente la fecha y hora de envío. Complete correctamente su carné, nombre y el código de asistencia indicado durante la sesión.\nRegistrar asistencia →"
+  },
+  {
+    "objectID": "sesiones/sesion04.html#no-todos-los-choques-afectan-de-la-misma-manera",
+    "href": "sesiones/sesion04.html#no-todos-los-choques-afectan-de-la-misma-manera",
+    "title": "Sesión 4",
+    "section": "No todos los choques afectan de la misma manera",
+    "text": "No todos los choques afectan de la misma manera\nUn choque negativo de demanda agregada suele manifestarse principalmente mediante una reducción de la actividad económica y de las ventas.\nUn choque adverso de oferta agregada, en cambio, puede combinar menor producción con mayores precios y costos.\nPara un proyecto, distinguir entre ambos mecanismos es fundamental para determinar qué supuestos deben modificarse en el flujo de caja."
+  },
+  {
+    "objectID": "sesiones/sesion04.html#registro-de-asistencia",
+    "href": "sesiones/sesion04.html#registro-de-asistencia",
+    "title": "Sesión 4",
+    "section": "Registro de asistencia",
+    "text": "Registro de asistencia\nRegistre su asistencia correspondiente a la Sesión 04.\nEl formulario registra automáticamente la fecha y hora de envío. Complete correctamente su carné, nombre y el código de asistencia indicado durante la sesión.\nRegistrar asistencia →"
+  },
+  {
+    "objectID": "sesiones/sesion03.html",
+    "href": "sesiones/sesion03.html",
+    "title": "Sesión 3",
     "section": "",
-    "text": "Los materiales de cada sesión incluyen presentaciones, lecturas, ejercicios, laboratorios y actividades correspondientes al desarrollo del curso.\n\n\nIntroducción al análisis macroeconómico\nPrincipios económicos, escasez, elección, costo de oportunidad y una primera aproximación al funcionamiento agregado de la economía.\nVer sesión →\n\n\n\n\nMedición económica agregada\nProducto Interno Bruto, cuentas nacionales y medición de la actividad económica mediante los enfoques de producción, gasto e ingreso.\nVer sesión →\nVer presentación interactiva →\n\n\n\n\nOferta-utilización y dimensionamiento del mercado\nDe las cuentas nacionales al análisis del mercado: oferta, utilización y aplicación al estudio de demanda de un proyecto.\nVer sesión →\n\n\n\n\nDinámica Económica\nFluctuaciones económicas, oferta y demanda agregada.\nVer sesión →.\n\n\n\n\nGuia examen parcial\n¿que deben de estudiar para prepararse par el examen parcial?"
+    "text": "SESIÓN 03\n\n\n\n\nDe las cuentas nacionales a una primera aproximación del tamaño y estructura del mercado relevante para un proyecto.\n\n\nMacroeconomía · 200 FP\nMaestría en Formulación y Evaluación de Proyectos"
   },
   {
-    "objectID": "sesiones/index.html#programa-de-sesiones",
-    "href": "sesiones/index.html#programa-de-sesiones",
-    "title": "Sesiones",
+    "objectID": "sesiones/sesion03.html#oferta-utilización-el-puente-hacia-el-mercado",
+    "href": "sesiones/sesion03.html#oferta-utilización-el-puente-hacia-el-mercado",
+    "title": "Sesión 3",
+    "section": "Oferta-utilización: el puente hacia el mercado",
+    "text": "Oferta-utilización: el puente hacia el mercado\nLa sesión retoma la discusión sobre la medición económica y profundiza en la relación entre la oferta de bienes y servicios y sus distintos usos dentro de la economía.\n\\[\nP + M = CI + C + G + FBK + X\n\\]\nA partir de esta identidad se analiza cómo la información de cuentas nacionales puede utilizarse como referencia para dimensionar mercados y evaluar la consistencia de los supuestos de demanda de un proyecto."
+  },
+  {
+    "objectID": "sesiones/sesion03.html#el-pib-no-es-el-mercado-del-proyecto",
+    "href": "sesiones/sesion03.html#el-pib-no-es-el-mercado-del-proyecto",
+    "title": "Sesión 3",
+    "section": "El PIB no es el mercado del proyecto",
+    "text": "El PIB no es el mercado del proyecto\nLas cuentas nacionales permiten establecer un marco cuantitativo para comprender el tamaño y estructura de una economía. Sin embargo, el mercado específico de un proyecto requiere descender desde el agregado hacia el producto, el territorio, el segmento y la competencia."
+  },
+  {
+    "objectID": "sesiones/sesion03.html#información-oficial",
+    "href": "sesiones/sesion03.html#información-oficial",
+    "title": "Sesión 3",
+    "section": "Información oficial",
+    "text": "Información oficial\nDurante la sesión se utilizan estadísticas del Banco de Guatemala, particularmente información de cuentas nacionales y equilibrios de oferta y utilización.\n\n\nASISTENCIA\n\n\nRegistro de asistencia\nRegistre su asistencia correspondiente a la Sesión 03.\nEl formulario registra automáticamente la fecha y hora de envío. Complete correctamente su carné, nombre y el código de asistencia indicado durante la sesión.\nRegistrar asistencia →"
+  },
+  {
+    "objectID": "sesiones/sesion03.html#registro-de-asistencia",
+    "href": "sesiones/sesion03.html#registro-de-asistencia",
+    "title": "Sesión 3",
+    "section": "Registro de asistencia",
+    "text": "Registro de asistencia\nRegistre su asistencia correspondiente a la Sesión 03.\nEl formulario registra automáticamente la fecha y hora de envío. Complete correctamente su carné, nombre y el código de asistencia indicado durante la sesión.\nRegistrar asistencia →"
+  },
+  {
+    "objectID": "sesiones/sesion02.html",
+    "href": "sesiones/sesion02.html",
+    "title": "Sesión 2",
     "section": "",
-    "text": "Los materiales de cada sesión incluyen presentaciones, lecturas, ejercicios, laboratorios y actividades correspondientes al desarrollo del curso.\n\n\nIntroducción al análisis macroeconómico\nPrincipios económicos, escasez, elección, costo de oportunidad y una primera aproximación al funcionamiento agregado de la economía.\nVer sesión →\n\n\n\n\nMedición económica agregada\nProducto Interno Bruto, cuentas nacionales y medición de la actividad económica mediante los enfoques de producción, gasto e ingreso.\nVer sesión →\nVer presentación interactiva →\n\n\n\n\nOferta-utilización y dimensionamiento del mercado\nDe las cuentas nacionales al análisis del mercado: oferta, utilización y aplicación al estudio de demanda de un proyecto.\nVer sesión →\n\n\n\n\nDinámica Económica\nFluctuaciones económicas, oferta y demanda agregada.\nVer sesión →.\n\n\n\n\nGuia examen parcial\n¿que deben de estudiar para prepararse par el examen parcial?"
+    "text": "SESIÓN 02\n\n\n\n\nDel Producto Interno Bruto a la comprensión de cómo se mide la actividad económica mediante los enfoques de producción, gasto e ingreso.\n\n\nMacroeconomía · 200 FP\nMaestría en Formulación y Evaluación de Proyectos"
   },
   {
-    "objectID": "sesiones/index.html#ver-sesión-.",
-    "href": "sesiones/index.html#ver-sesión-.",
-    "title": "Sesiones",
-    "section": "Ver sesión →.",
-    "text": "Ver sesión →.\n\nSesión 06\nEmprendimiento\nVer sesión →.\nContenido disponible próximamente."
+    "objectID": "sesiones/sesion02.html#lectura-y-abstract",
+    "href": "sesiones/sesion02.html#lectura-y-abstract",
+    "title": "Sesión 2",
+    "section": "Lectura y abstract",
+    "text": "Lectura y abstract\nDiane Coyle\nGDP: A Brief but Affectionate History\nCapítulo 1\nLa sesión inicia con una discusión del abstract elaborado a partir de esta lectura. Algunos estudiantes serán seleccionados para responder preguntas y discutir las ideas centrales del capítulo."
   },
   {
-    "objectID": "sesiones/sesion0.html",
-    "href": "sesiones/sesion0.html",
-    "title": "Sesión 0",
+    "objectID": "sesiones/sesion02.html#presentación-interactiva",
+    "href": "sesiones/sesion02.html#presentación-interactiva",
+    "title": "Sesión 2",
+    "section": "Presentación interactiva",
+    "text": "Presentación interactiva\nLa presentación aborda:\n\nqué mide y qué no mide el PIB;\nel enfoque de la producción;\nel enfoque del gasto;\nel enfoque del ingreso;\nla equivalencia entre los tres métodos;\nejercicios de cálculo e interpretación.\n\nAbrir presentación interactiva →"
+  },
+  {
+    "objectID": "sesiones/sesion02.html#tres-enfoques-una-misma-economía",
+    "href": "sesiones/sesion02.html#tres-enfoques-una-misma-economía",
+    "title": "Sesión 2",
+    "section": "Tres enfoques, una misma economía",
+    "text": "Tres enfoques, una misma economía\nEl PIB puede observarse desde tres perspectivas distintas:\n\nProducción: cuánto valor nuevo se genera.\nGasto: quién adquiere la producción final.\nIngreso: cómo se distribuye el ingreso generado.\n\n[ PIB_{} = PIB_{} = PIB_{} ]"
+  },
+  {
+    "objectID": "sesiones/sesion02.html#información-oficial",
+    "href": "sesiones/sesion02.html#información-oficial",
+    "title": "Sesión 2",
+    "section": "Información oficial",
+    "text": "Información oficial\nDurante la sesión se utilizan estadísticas del Banco de Guatemala, particularmente información de cuentas nacionales y equilibrios de oferta y utilización."
+  },
+  {
+    "objectID": "sesiones/sesion02.html#registro-de-asistencia",
+    "href": "sesiones/sesion02.html#registro-de-asistencia",
+    "title": "Sesión 2",
+    "section": "Registro de asistencia",
+    "text": "Registro de asistencia\nRegistre su asistencia correspondiente a la Sesión 02.\nEl formulario registra automáticamente la fecha y hora de envío. Complete correctamente su carné, nombre y el código de asistencia indicado durante la sesión.\nRegistrar asistencia →"
+  },
+  {
+    "objectID": "tareas/index.html",
+    "href": "tareas/index.html",
+    "title": "Tareas",
     "section": "",
-    "text": "SESIÓN 0\n\nPRESENTACIÓN\n\n\nEmprendimiento\nEjercicio de clase\nVer presentación →\n:::"
+    "text": "En esta sección se publican las tareas del curso, junto con sus instrucciones y los archivos de trabajo necesarios para su desarrollo.\n\n\n\nMedición del Producto Interno Bruto\nLa actividad busca consolidar la comprensión de los tres enfoques de medición del PIB y fortalecer la interpretación económica de los resultados.\nLa tarea incluye cinco ejercicios:\n\nPIB por el enfoque de la producción.\nPIB por el enfoque del gasto.\nPIB por el enfoque del ingreso.\nIntegración de los tres enfoques de medición.\nAnálisis del PIB de Guatemala por actividad económica, utilizando información oficial del Banco de Guatemala.\n\n\n\nVer instrucciones de la tarea →\nDescargar formato Excel →\n\n\n\n\n\nLa tarea debe desarrollarse utilizando el formato de Excel proporcionado.\nSe evaluará tanto la correcta resolución de los ejercicios como la interpretación económica de los resultados.\n\n\n\n\nLas nuevas actividades se incorporarán a esta sección conforme avance el curso."
   },
   {
-    "objectID": "lecturas/index.html",
-    "href": "lecturas/index.html",
-    "title": "Lecturas",
+    "objectID": "tareas/index.html#actividades-evaluadas",
+    "href": "tareas/index.html#actividades-evaluadas",
+    "title": "Tareas",
     "section": "",
-    "text": "Esta sección reúne los textos, capítulos, artículos e informes que complementan las sesiones del curso.\nLas lecturas buscan ampliar la discusión desarrollada en clase y fortalecer la capacidad de los estudiantes para interpretar, sintetizar y discutir argumentos económicos.\n\n\n\nEste documento orienta en líneas generales lo que un estudiante debe de considerar al escribir sus abstract, articulos, ensayos, considerando el nivel profesional requerido.\nVer criterios para elaborar abstracts →"
+    "text": "En esta sección se publican las tareas del curso, junto con sus instrucciones y los archivos de trabajo necesarios para su desarrollo.\n\n\n\nMedición del Producto Interno Bruto\nLa actividad busca consolidar la comprensión de los tres enfoques de medición del PIB y fortalecer la interpretación económica de los resultados.\nLa tarea incluye cinco ejercicios:\n\nPIB por el enfoque de la producción.\nPIB por el enfoque del gasto.\nPIB por el enfoque del ingreso.\nIntegración de los tres enfoques de medición.\nAnálisis del PIB de Guatemala por actividad económica, utilizando información oficial del Banco de Guatemala.\n\n\n\nVer instrucciones de la tarea →\nDescargar formato Excel →\n\n\n\n\n\nLa tarea debe desarrollarse utilizando el formato de Excel proporcionado.\nSe evaluará tanto la correcta resolución de los ejercicios como la interpretación económica de los resultados.\n\n\n\n\nLas nuevas actividades se incorporarán a esta sección conforme avance el curso."
   },
   {
-    "objectID": "lecturas/index.html#lecturas-del-curso",
-    "href": "lecturas/index.html#lecturas-del-curso",
-    "title": "Lecturas",
+    "objectID": "AGENTS.html",
+    "href": "AGENTS.html",
+    "title": "Macroeconomía 200 FP",
     "section": "",
-    "text": "Esta sección reúne los textos, capítulos, artículos e informes que complementan las sesiones del curso.\nLas lecturas buscan ampliar la discusión desarrollada en clase y fortalecer la capacidad de los estudiantes para interpretar, sintetizar y discutir argumentos económicos.\n\n\n\nEste documento orienta en líneas generales lo que un estudiante debe de considerar al escribir sus abstract, articulos, ensayos, considerando el nivel profesional requerido.\nVer criterios para elaborar abstracts →"
+    "text": "Este repositorio administra el curso Macroeconomía 200 FP de la Maestría en Formulación y Evaluación de Proyectos.\n\n\n\nNo modificar la estructura de evaluación sin autorización del docente.\nMantener todas las presentaciones y páginas en Quarto.\nConservar la identidad visual institucional del curso.\nAntes de publicar el sitio:\n\nejecutar quarto render;\ncomprobar enlaces;\nverificar recursos;\ncomprobar que no existan errores de RevealJS.\n\nNunca publicar información individual de estudiantes.\n\n\n\n\nLas evaluaciones deben calificarse utilizando exclusivamente la rúbrica correspondiente en evaluaciones/rubricas/.\nNunca modificar una nota sin indicar: - estudiante; - actividad; - criterio; - puntuación; - justificación.\nEl resultado debe incluir: - nota por criterio; - nota total; - comentario breve; - aspectos a mejorar.\nNo penalizar aspectos que no estén contemplados en la rúbrica.\n\n\n\nAntes de modificar una sesión: 1. revisar sesiones anteriores; 2. conservar diseño y estructura; 3. verificar navegación; 4. ejecutar el sitio localmente; 5. reportar los archivos modificados.\nNunca hacer push directamente sin comprobar primero el render."
   },
   {
-    "objectID": "lecturas/index.html#diane-coyle-gdp-a-brief-but-affectionate-history",
-    "href": "lecturas/index.html#diane-coyle-gdp-a-brief-but-affectionate-history",
-    "title": "Lecturas",
-    "section": "Diane Coyle · GDP: A Brief but Affectionate History",
-    "text": "Diane Coyle · GDP: A Brief but Affectionate History\nCapítulo 1\nEl capítulo introduce el Producto Interno Bruto no solamente como una medida estadística, sino como una construcción histórica que refleja determinadas formas de entender y representar la actividad económica.\nLa lectura sirve como punto de partida para discutir preguntas como:\n\n¿qué pretende medir el PIB?;\n¿por qué surgió la necesidad de medir la producción de una economía?;\n¿qué actividades quedan dentro y fuera de la medición?;\n¿qué limitaciones existen al utilizar el PIB como indicador del desempeño económico?\n\n\n\nActividad asociada\nElabore el abstract asignado a partir del capítulo.\nEl documento debe identificar:\n\nel argumento central de la autora;\nlas principales ideas desarrolladas;\nla relevancia del texto para comprender la medición económica;\nuna reflexión o interrogante derivada de la lectura.\n\n\nDisponibilidad de la lectura: consulte el material proporcionado por el docente a través de Classroom.\n\n\n\nPróximas lecturas\nLas lecturas correspondientes a las siguientes sesiones se incorporarán progresivamente a esta sección."
+    "objectID": "AGENTS.html#reglas-generales",
+    "href": "AGENTS.html#reglas-generales",
+    "title": "Macroeconomía 200 FP",
+    "section": "",
+    "text": "No modificar la estructura de evaluación sin autorización del docente.\nMantener todas las presentaciones y páginas en Quarto.\nConservar la identidad visual institucional del curso.\nAntes de publicar el sitio:\n\nejecutar quarto render;\ncomprobar enlaces;\nverificar recursos;\ncomprobar que no existan errores de RevealJS.\n\nNunca publicar información individual de estudiantes."
+  },
+  {
+    "objectID": "AGENTS.html#calificación",
+    "href": "AGENTS.html#calificación",
+    "title": "Macroeconomía 200 FP",
+    "section": "",
+    "text": "Las evaluaciones deben calificarse utilizando exclusivamente la rúbrica correspondiente en evaluaciones/rubricas/.\nNunca modificar una nota sin indicar: - estudiante; - actividad; - criterio; - puntuación; - justificación.\nEl resultado debe incluir: - nota por criterio; - nota total; - comentario breve; - aspectos a mejorar.\nNo penalizar aspectos que no estén contemplados en la rúbrica."
+  },
+  {
+    "objectID": "AGENTS.html#sitio-web",
+    "href": "AGENTS.html#sitio-web",
+    "title": "Macroeconomía 200 FP",
+    "section": "",
+    "text": "Antes de modificar una sesión: 1. revisar sesiones anteriores; 2. conservar diseño y estructura; 3. verificar navegación; 4. ejecutar el sitio localmente; 5. reportar los archivos modificados.\nNunca hacer push directamente sin comprobar primero el render."
+  },
+  {
+    "objectID": "laboratorios/index.html",
+    "href": "laboratorios/index.html",
+    "title": "Laboratorios",
+    "section": "",
+    "text": "Los laboratorios están diseñados para aplicar los conceptos desarrollados en clase mediante ejercicios de cálculo, interpretación y uso de información económica oficial.\n\n\n\nMedición económica agregada\nAplicación de los conceptos de medición del PIB y uso de información estadística del Banco de Guatemala.\nEl laboratorio permite trabajar con:\n\ncuentas nacionales;\nequilibrio oferta-utilización;\ninterpretación de información económica;\nestimación y análisis de magnitudes agregadas.\n\nVer laboratorio PDF →\nDescargar Excel de trabajo →\n\n\n\n\nShocks macroeconómicos y su incidencia en la evaluación de proyectos\nAnálisis de los shocks macroeconómicos y su incidencia en la evaluación y formulación de proyectos.\nEl laboratorio trabajar en grupos y sigue:\n\nOferta agregada y demanda agregada;\nshocks financieros;\nEvaluación financiera de proyectos;\n\nVer laboratorio PDF →\nDescargar Excel de trabajo →\n\n\n\n\nLos nuevos laboratorios se incorporarán a esta sección conforme avance el curso."
+  },
+  {
+    "objectID": "laboratorios/index.html#laboratorios-del-curso",
+    "href": "laboratorios/index.html#laboratorios-del-curso",
+    "title": "Laboratorios",
+    "section": "",
+    "text": "Los laboratorios están diseñados para aplicar los conceptos desarrollados en clase mediante ejercicios de cálculo, interpretación y uso de información económica oficial.\n\n\n\nMedición económica agregada\nAplicación de los conceptos de medición del PIB y uso de información estadística del Banco de Guatemala.\nEl laboratorio permite trabajar con:\n\ncuentas nacionales;\nequilibrio oferta-utilización;\ninterpretación de información económica;\nestimación y análisis de magnitudes agregadas.\n\nVer laboratorio PDF →\nDescargar Excel de trabajo →\n\n\n\n\nShocks macroeconómicos y su incidencia en la evaluación de proyectos\nAnálisis de los shocks macroeconómicos y su incidencia en la evaluación y formulación de proyectos.\nEl laboratorio trabajar en grupos y sigue:\n\nOferta agregada y demanda agregada;\nshocks financieros;\nEvaluación financiera de proyectos;\n\nVer laboratorio PDF →\nDescargar Excel de trabajo →\n\n\n\n\nLos nuevos laboratorios se incorporarán a esta sección conforme avance el curso."
   }
 ]
