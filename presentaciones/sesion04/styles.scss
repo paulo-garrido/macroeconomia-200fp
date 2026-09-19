@@ -410,3 +410,39 @@ $code-block-border-color: #d7dee9;
 @media (max-width: 900px) {
   .cards-3, .cards-4 { grid-template-columns: repeat(2, 1fr); }
 }
+.back-to-session {
+  position: fixed;
+  top: 18px;
+  right: 24px;
+  z-index: 9999;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+
+  padding: 0.45rem 0.8rem;
+
+  background: rgba(255, 255, 255, 0.92);
+  color: #123b6d;
+
+  border: 1px solid rgba(18, 59, 109, 0.18);
+  border-radius: 999px;
+
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-decoration: none;
+
+  box-shadow: 0 4px 14px rgba(18, 59, 109, 0.10);
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.back-to-session:hover {
+  background: #123b6d;
+  color: white;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(18, 59, 109, 0.18);
+}

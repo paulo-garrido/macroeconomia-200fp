@@ -1,0 +1,390 @@
+---
+title: "Laboratorio de aplicación"
+subtitle: "Choques macroeconómicos y viabilidad de proyectos"
+author: "Macroeconomía · 200 FP"
+format:
+  pdf:
+    documentclass: article
+    papersize: letter
+    fontsize: 11pt
+    geometry:
+      - top=2.0cm
+      - bottom=2.0cm
+      - left=2.2cm
+      - right=2.2cm
+    number-sections: false
+    toc: false
+    colorlinks: false
+lang: es
+header-includes:
+  - \usepackage{booktabs}
+  - \usepackage{array}
+  - \usepackage{longtable}
+  - \usepackage{enumitem}
+  - \setlist[itemize]{noitemsep,topsep=3pt}
+  - \setlist[enumerate]{noitemsep,topsep=3pt}
+---
+
+\begin{center}
+\textbf{Universidad de San Carlos de Guatemala}\\
+Facultad de Ciencias Económicas · Escuela de Estudios de Postgrado\\
+Maestría en Formulación y Evaluación de Proyectos
+\end{center}
+
+\vspace{0.35cm}
+
+| **Curso** | Macroeconomía · 200 FP |
+|---|---|
+| **Actividad** | Laboratorio III |
+| **Tema** | Choques macroeconómicos y viabilidad de proyectos |
+| **Modalidad** | Trabajo grupal |
+| **Catedrático** | Msc. Paulo Augusto Garrido Grijalva |
+
+\vspace{0.2cm}
+
+::: {.callout-note title="Propósito del laboratorio"}
+Analizar cómo un choque macroeconómico puede modificar los supuestos de un proyecto y, por esa vía, alterar sus flujos de efectivo y su Valor Actual Neto (VAN).
+
+El objetivo es identificar con claridad la cadena de transmisión entre el entorno macroeconómico y la viabilidad de un proyecto.
+:::
+
+# Pregunta central
+
+> *¿Cómo puede un mismo deterioro del entorno macroeconómico afectar de forma distinta a proyectos con estructuras de ingresos, costos y financiamiento diferentes?*
+
+# La lógica del ejercicio
+
+Todos los grupos seguirán la misma secuencia:
+
+$$
+\text{Choque macroeconómico}
+\rightarrow
+\text{DA ó OA ó condiciones financieras}
+\rightarrow
+\text{variable del proyecto}
+\rightarrow
+\text{flujo de efectivo}
+\rightarrow
+\text{VAN}
+$$
+
+Cada grupo trabajará un proyecto distinto. El archivo Excel proporcionado por el docente contendrá la estructura de cálculo y los datos correspondientes.
+
+## VAN del proyecto
+
+Para todos los casos se utilizará (horizonte de 5 años):
+
+$$
+VAN=
+-I_0+
+\sum_{t=1}^{5}
+\frac{FC_t}{(1+r)^t}
++
+\frac{VR}{(1+r)^5}
+$$
+
+donde:
+
+- $I_0$: inversión inicial;
+- $FC_t$: flujo neto del proyecto en el año \(t\);
+- $r$: tasa de descuento;
+- $VR$: valor residual al final del año 5.
+
+Para este laboratorio, el flujo se trabajará de manera simplificada:
+
+$$
+FC_t=
+Ingresos_t
+-
+Costos\ variables_t
+-
+Costos\ fijos_t
+-
+Mantenimiento_t
+$$
+
+::: {.callout-tip title="Importante"}
+No se incorporarán impuestos, depreciaciones, capital de trabajo detallado ni estructura de deuda. El propósito es aislar el efecto del **choque macroeconómico** sobre las variables económicas del proyecto.
+:::
+
+# Instrucciones generales
+
+Cada grupo deberá:
+
+1. construir el flujo de efectivo del **escenario base**;
+2. calcular el **VAN base**;
+3. identificar el tipo de choque que recibe el proyecto;
+4. modificar únicamente las variables afectadas por el choque;
+5. recalcular el flujo de efectivo y el **VAN bajo shock**;
+6. medir el cambio absoluto y porcentual del VAN;
+7. identificar qué canal explica la mayor pérdida de valor;
+8. formular una recomendación ejecutiva breve.
+
+\newpage
+
+# Grupo 1 · Proyecto hotelero
+
+## Contexto
+
+Un grupo de inversionistas evalúa operar un hotel de escala media orientado a turismo regional y viajes de negocios.
+
+### Escenario base
+
+| Variable | Dato |
+|---|---:|
+| Habitaciones disponibles | 60 |
+| Ocupación promedio | 65 % |
+| Tarifa promedio por noche | Q650 |
+| Costo variable por habitación ocupada | Q170 |
+| Costos fijos anuales | Q2.6 millones |
+| Mantenimiento anual | Q0.2 millones |
+| Inversión inicial | Q12.0 millones |
+| Valor residual en año 5 | Q3.0 millones |
+| Tasa de descuento | 10 % |
+
+El ingreso anual se calcula como:
+
+$$
+Ingresos_t=
+Habitaciones
+\times
+365
+\times
+Ocupacion_t
+\times
+Tarifa_t
+$$
+
+y el costo variable como:
+
+$$
+CV_t=
+Habitaciones
+\times
+365
+\times
+Ocupacion_t
+\times
+CV_{hab}
+$$
+
+## Choque macroeconómico
+
+Una desaceleración regional reduce los viajes y el turismo durante los primeros años del proyecto.
+
+| Año | Ocupación | Tarifa respecto al escenario base |
+|---|---:|---:|
+| 1 | 50 % | -8 % |
+| 2 | 50 % | -8 % |
+| 3 | 58 % | -4 % |
+| 4 | 65 % | Base |
+| 5 | 65 % | Base |
+
+### Preguntas de análisis
+
+1. ¿El choque se origina principalmente por el lado de la demanda agregada o de la oferta agregada?
+2. ¿Qué variable del proyecto reacciona primero?
+3. ¿Cuál es el VAN del escenario base?
+4. ¿Cuál es el VAN bajo el escenario de shock?
+5. ¿Qué parte de la caída del VAN proviene de la menor ocupación y qué parte de la menor tarifa?
+6. ¿Por qué los costos fijos hacen al proyecto más vulnerable ante una caída de demanda?
+
+\newpage
+
+# Grupo 2 · Planta agroindustrial
+
+## Contexto
+
+Una empresa evalúa instalar una planta de procesamiento de alimentos para abastecer el mercado nacional.
+
+### Escenario base
+
+| Variable | Dato |
+|---|---:|
+| Unidades vendidas por año | 500,000 |
+| Precio por unidad | Q42 |
+| Costo variable por unidad | Q23 |
+| Costos fijos anuales | Q4.0 millones |
+| Mantenimiento anual | Q0.5 millones |
+| Inversión inicial | Q15.0 millones |
+| Valor residual en año 5 | Q3.0 millones |
+| Tasa de descuento | 10 % |
+
+El flujo anual simplificado se obtiene mediante:
+
+$$
+FC_t=
+Q_t(P_t-CVu_t)
+-
+CF_t
+-
+M_t
+$$
+
+## Choque macroeconómico
+
+Un incremento internacional en combustibles, empaques y transporte eleva el costo variable unitario.
+
+| Año | Variación del costo variable unitario |
+|---|---:|
+| 1 | +20 % |
+| 2 | +20 % |
+| 3 | +20 % |
+| 4 | +5 % |
+| 5 | Base |
+
+La empresa no puede trasladar inicialmente el incremento de costos al precio de venta.
+
+### Preguntas de análisis
+
+1. ¿Este choque afecta principalmente la oferta agregada o la demanda agregada?
+2. ¿Cuál es el canal de transmisión desde el shock hacia el flujo del proyecto?
+3. ¿Cuál es el VAN base?
+4. ¿Cuál es el VAN bajo shock?
+5. ¿Qué ocurre con el margen unitario?
+6. ¿Cómo cambiaría el resultado si la empresa pudiera trasladar parcialmente el incremento de costos al precio?
+
+\newpage
+
+# Grupo 3 · Proyecto de bienes de consumo
+
+## Contexto
+
+Una empresa evalúa introducir al mercado una línea de bienes de consumo dirigida principalmente a hogares urbanos.
+
+### Escenario base
+
+| Variable | Dato |
+|---|---:|
+| Unidades vendidas por año | 300,000 |
+| Precio unitario | Q60 |
+| Costo variable unitario | Q32 |
+| Costos fijos anuales | Q4.5 millones |
+| Mantenimiento anual | Q0.3 millones |
+| Inversión inicial | Q12.0 millones |
+| Valor residual en año 5 | Q2.5 millones |
+| Tasa de descuento | 10 % |
+
+## Choque macroeconómico
+
+Una desaceleración del ingreso de los hogares reduce el volumen vendido y obliga a la empresa a realizar descuentos de precio.
+
+| Año | Volumen respecto al base | Precio respecto al base |
+|---|---:|---:|
+| 1 | -20 % | -5 % |
+| 2 | -15 % | -5 % |
+| 3 | -8 % | -2 % |
+| 4 | Base | Base |
+| 5 | Base | Base |
+
+### Preguntas de análisis
+
+1. ¿Qué tipo de choque domina?
+2. ¿Cuál es la diferencia entre el efecto sobre volumen y el efecto sobre precio?
+3. ¿Cuál es el VAN base?
+4. ¿Cuál es el VAN bajo shock?
+5. Calcule el VAN modificando solamente el volumen.
+6. Calcule el VAN modificando solamente el precio.
+7. ¿Cuál de los dos canales explica la mayor pérdida de valor?
+
+\newpage
+
+# Grupo 4 · Proyecto de generación solar
+
+## Contexto
+
+Un inversionista evalúa un proyecto de generación solar con ingresos relativamente estables y contratos de venta previamente definidos.
+
+### Escenario base
+
+| Variable | Dato |
+|---|---:|
+| Inversión inicial | Q20.0 millones |
+| Flujo anual esperado | Q5.5 millones |
+| Horizonte | 5 años |
+| Valor residual en año 5 | Q4.0 millones |
+| Tasa de descuento | 9 % |
+
+## Choque macroeconómico
+
+Las condiciones financieras se endurecen y el costo de capital requerido para proyectos de este tipo aumenta.
+
+| Escenario | Tasa de descuento |
+|---|---:|
+| Base | 9.0 % |
+| Shock financiero | 12.5 % |
+
+Los flujos operativos esperados no cambian.
+
+### Preguntas de análisis
+
+1. ¿Por qué este shock puede reducir el VAN aunque los flujos de efectivo no cambien?
+2. ¿Cuál es el VAN base?
+3. ¿Cuál es el VAN con la nueva tasa de descuento?
+4. ¿Cuál es la pérdida absoluta y porcentual de valor?
+5. ¿Qué diferencia existe entre este caso y los otros tres?
+6. ¿Qué variable macroeconómica debería monitorearse con mayor atención?
+
+# Matriz común de resultados
+
+Cada grupo deberá completar en Excel una tabla como la siguiente:
+
+| Escenario | VAN |
+|---|---:|
+| Escenario base | |
+| Shock canal 1 | |
+| Shock canal 2 | |
+| Shock completo | |
+
+Cuando el caso tenga un único canal directo, utilice únicamente las filas pertinentes.
+
+## Medición del impacto
+
+Calcule:
+
+$$
+\Delta VAN
+=
+VAN_{shock}
+-
+VAN_{base}
+$$
+
+y:
+
+$$
+\%\Delta VAN
+=
+\frac{VAN_{shock}-VAN_{base}}
+{VAN_{base}}
+\times100
+$$
+
+# Discusión final
+
+Cada grupo dispondrá de aproximadamente 3 minutos para presentar sus resultados.
+
+La presentación deberá responder:
+
+1. **Diagnóstico:** ¿qué tipo de shock recibió el proyecto?
+2. **Transmisión:** ¿por qué canal llegó al flujo de efectivo?
+3. **Resultado:** ¿cuánto cambió el VAN?
+4. **Vulnerabilidad:** ¿qué variable explica la mayor pérdida de valor?
+5. **Decisión:** ¿qué debería revisar o gestionar prioritariamente el formulador?
+
+::: {.callout-important title="Idea final"}
+El riesgo macroeconómico no entra al proyecto de una única forma.
+
+Puede reducir ventas, aumentar costos, disminuir ocupación, presionar precios o elevar el costo de capital. La evaluación de proyectos debe traducir esos cambios en escenarios explícitos y observar cómo alteran el flujo de efectivo y el VAN.
+:::
+
+# Entregable
+
+Cada grupo deberá entregar:
+
+- el archivo Excel con el escenario base y el escenario bajo shock;
+- las fórmulas utilizadas;
+- la matriz de resultados;
+- una recomendación ejecutiva de máximo 150 palabras.
+
+El archivo deberá identificarse con el número de grupo (integrantes) y el tipo de proyecto asignado.

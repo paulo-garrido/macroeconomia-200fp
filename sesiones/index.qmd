@@ -65,8 +65,10 @@ Fluctuaciones económicas, oferta y demanda agregada.
 
 ### Sesión 06
 
-Emprendimiento
+Choques macroeconómicos, sensibilidad y VAN del proyecto
 
-[Ver sesión →](sesion0.qmd).
+[Ver sesión →](sesion06.qmd).
+
+### Sesión 07
 
 Contenido disponible próximamente.

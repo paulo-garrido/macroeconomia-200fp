@@ -13,7 +13,6 @@ format:
     center: false
     overview: true
     smaller: true
-    embed-resources: true
     width: 1600
     height: 900
     margin: 0.07
@@ -23,6 +22,7 @@ format:
     pdf-separate-fragments: false
     slide-level: 2
     lang: es
+    include-after-body: back-button.html
 ---
 
 ## Antes de comenzar {.no-border}
@@ -712,7 +712,7 @@ El precio de preventa ya fue acordado con parte de los compradores.
 
 ---
 
-## El concepto clave: descalce
+## El concepto central: descalce
 
 ::: {.hero-box}
 <div class="mini-heading">Un proyecto puede tener ingresos y costos que reaccionan de forma distinta</div>
@@ -879,101 +879,6 @@ La evaluación robusta pregunta: **¿el proyecto sigue siendo viable bajo un esc
 
 ---
 
-## Laboratorio · “El shock llega después”
-
-<span class="activity-title">Trabajo en grupos de 3–4</span> <span class="timer">20 minutos</span>
-
-Cada grupo elige **un proyecto**:
-
-- hotel,
-- edificio de apartamentos,
-- planta agroindustrial,
-- parque solar,
-- centro logístico.
-
-Y recibe **un shock**:
-
-1. caída de remesas;  
-2. petróleo +30%;  
-3. expansión fuerte del gasto público;  
-4. tasas de interés +250 puntos básicos.
-
----
-
-## Matriz de trabajo
-
-Completen esta secuencia:
-
-| Paso | Pregunta |
-|---|---|
-| **1. Diagnóstico** | ¿Es un shock de DA, OA o mixto? |
-| **2. Macro** | ¿Qué pasa con producción y precios? |
-| **3. Canal** | ¿Cómo llega al proyecto? |
-| **4. Flujo** | ¿Qué rubro cambia primero: ingresos, costos o financiamiento? |
-| **5. Indicador** | ¿Qué ocurre probablemente con VAN/TIR? |
-| **6. Respuesta** | ¿Qué decisión de gestión recomendarían? |
-
-::: {.fragment .insight-box}
-No basta escribir “sube” o “baja”. El grupo debe explicar **el mecanismo causal**.
-:::
-
----
-
-## Una regla para la presentación de cada grupo
-
-<span class="timer">2 minutos por grupo</span>
-
-::: {.cards-3}
-::: {.card}
-<div class="mini-heading">1 · Diagnóstico</div>
-“Este es principalmente un shock de…”
-:::
-
-::: {.card}
-<div class="mini-heading">2 · Transmisión</div>
-“Llega al proyecto por…”
-:::
-
-::: {.card}
-<div class="mini-heading">3 · Decisión</div>
-“Recomendamos revisar…”
-:::
-:::
-
-# 10 · Cierre {.section-slide}
-
-<span class="section-kicker">Bloque 10</span>
-
-## De la macroeconomía a la decisión de inversión
-
----
-
-## Lo esencial de la sesión
-
-::: {.cards-2}
-::: {.card .card-demand}
-<div class="mini-heading">Demanda agregada</div>
-Explica shocks asociados al **gasto total** y su efecto sobre actividad y precios.
-:::
-
-::: {.card .card-supply}
-<div class="mini-heading">Oferta agregada</div>
-Explica shocks asociados a **costos y capacidad productiva**.
-:::
-
-::: {.card .card-risk}
-<div class="mini-heading">Riesgo macroeconómico</div>
-El mismo proyecto puede enfrentar simultáneamente **ventas ↓, costos ↑ y crédito más caro**.
-:::
-
-::: {.card .card-project}
-<div class="mini-heading">Evaluación</div>
-Los shocks deben convertirse en **escenarios y sensibilidades del flujo de caja**.
-:::
-:::
-
----
-
 ## Preguntas de cierre
 
 ::: {.question-box}
@@ -984,36 +889,6 @@ Los shocks deben convertirse en **escenarios y sensibilidades del flujo de caja*
 :::
 
 ---
-
-## Exit ticket
-
-En una frase completen:
-
-::: {.cards-3}
-::: {.card}
-<div class="mini-heading">Hoy entendí que…</div>
-:::
-
-::: {.card}
-<div class="mini-heading">En un proyecto debo vigilar…</div>
-:::
-
-::: {.card}
-<div class="mini-heading">La duda que todavía tengo es…</div>
-:::
-:::
-
----
-
-## Cierre de la sesión {.no-border}
-
-::: {.hero-box}
-<div class="mini-heading">Idea final</div>
-
-**La macroeconomía no es un dato externo que se agrega al final del estudio.**
-
-Es el entorno que puede alterar la demanda, los costos, el financiamiento y, por tanto, la **viabilidad del proyecto**.
-:::
 
 ::: {.centered .small}
 **Próxima sesión:** crecimiento y desarrollo económico.

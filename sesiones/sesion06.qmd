@@ -1,0 +1,439 @@
+---
+title: "Sesión 6"
+subtitle: "Choques macroeconómicos, sensibilidad y VAN del proyecto"
+toc: false
+page-layout: full
+---
+
+::: {.session-hero}
+
+::: {.session-number}
+SESIÓN 06
+:::
+
+# Del choque macroeconómico al VAN del proyecto
+
+::: {.session-lead}
+¿Cómo se transforma un cambio en el entorno macroeconómico en menores ventas, mayores costos, cambios en la ocupación o un mayor costo de capital?
+:::
+
+::: {.session-meta}
+**Macroeconomía · 200 FP**
+
+Maestría en Formulación y Evaluación de Proyectos
+:::
+
+:::
+
+
+::: {.session-main-resource}
+
+::: {.session-main-copy}
+
+::: {.session-eyebrow .orange}
+CONTINUACIÓN DE FLUCTUACIONES ECONÓMICAS
+:::
+
+## Del modelo OA–DA a la evaluación del proyecto
+
+La sesión retoma el análisis iniciado en la **Sesión 04** sobre fluctuaciones económicas, oferta agregada y demanda agregada.
+
+El punto de partida será completar la interpretación de los principales choques macroeconómicos y, posteriormente, trasladar sus efectos hacia variables concretas de un proyecto de inversión.
+
+La secuencia de análisis será:
+
+$$
+\text{Choque macroeconómico}
+\rightarrow
+\text{Producción y precios}
+\rightarrow
+\text{Variables del proyecto}
+\rightarrow
+\text{Flujo de efectivo}
+\rightarrow
+\text{VAN}
+$$
+
+El objetivo es comprender que un cambio en el entorno macroeconómico no afecta directamente al VAN: primero modifica alguno de los supuestos sobre los cuales fue formulado el proyecto.
+
+:::
+
+::: {.session-main-side}
+
+### Contenido central
+
+- Repaso de oferta y demanda agregada.
+- Choques positivos y negativos de demanda.
+- Choques favorables y adversos de oferta.
+- Producción, precios e inflación.
+- Canales de transmisión hacia los proyectos.
+- Volumen de ventas.
+- Precios y tarifas.
+- Ocupación.
+- Costos variables y costos fijos.
+- Costo de capital.
+- Flujo de efectivo.
+- Sensibilidad y VAN.
+
+:::
+
+:::
+
+
+::: {.session-materials}
+
+::: {.material-card}
+
+::: {.material-label}
+PRESENTACIÓN
+:::
+
+### Fluctuaciones económicas y riesgo para los proyectos
+
+Se continuará utilizando la presentación de la Sesión 04 para completar el análisis de choques de demanda y oferta y su transmisión hacia las decisiones de inversión.
+
+[Continuar presentación →](../presentaciones/sesion04/sesion04_fluctuaciones_macro.html)
+
+:::
+
+::: {.material-card}
+
+::: {.material-label}
+LABORATORIO EN CLASE
+:::
+
+### Choques macroeconómicos y viabilidad de proyectos
+
+Los estudiantes trabajarán en grupos con diferentes tipos de proyectos y analizarán cómo un choque macroeconómico modifica sus flujos de efectivo y el VAN.
+
+Los casos incluyen:
+
+- proyecto hotelero;
+- planta agroindustrial;
+- bienes de consumo;
+- proyecto de generación solar.
+
+Cada grupo deberá identificar el choque, modificar los supuestos pertinentes y comparar el VAN del escenario base con el VAN bajo condiciones adversas.
+
+[ver laboratorio PDF →](../laboratorios/Sesion06/laboratorio_shocks_macroeconomicos_van.pdf)
+
+[descargar excel laboratorio →](../laboratorios/Sesion06/laboratorio_shocks_macroeconomicos_van.xlsx)
+:::
+
+::: {.material-card}
+
+::: {.material-label}
+
+:::
+
+
+::: {.session-callout}
+
+::: {.session-eyebrow}
+IDEA CENTRAL
+:::
+
+## El VAN cambia porque cambian los supuestos del proyecto
+
+Un choque macroeconómico no aparece directamente dentro de la fórmula del VAN.
+
+Su efecto ocurre mediante variables concretas:
+
+$$
+\text{Entorno macroeconómico}
+\rightarrow
+\begin{cases}
+\text{Ventas} \\
+\text{Precios} \\
+\text{Ocupación} \\
+\text{Costos} \\
+\text{Tasa de descuento}
+\end{cases}
+\rightarrow
+\text{Flujo de efectivo}
+\rightarrow
+\text{VAN}
+$$
+
+Por ello, una evaluación financiera robusta requiere comprender primero **qué variable económica está siendo afectada y por qué mecanismo**.
+
+:::
+
+
+::: {.session-eyebrow}
+
+CUATRO CANALES DE TRANSMISIÓN
+
+:::
+
+## ¿Cómo puede llegar un shock al proyecto?
+
+::: {.session-materials}
+
+::: {.material-card}
+
+### Demanda
+
+Una desaceleración económica puede modificar:
+
+- volumen vendido;
+- ocupación;
+- número de clientes;
+- utilización de capacidad;
+- ritmo de crecimiento de los ingresos.
+
+:::
+
+::: {.material-card}
+
+### Precios
+
+Una empresa puede enfrentar:
+
+- necesidad de ofrecer descuentos;
+- menor capacidad de trasladar costos;
+- caída de tarifas;
+- reducción del margen por unidad.
+
+:::
+
+::: {.material-card}
+
+### Costos
+
+Un choque adverso de oferta puede incrementar:
+
+- materias primas;
+- energía;
+- transporte;
+- costos logísticos;
+- mantenimiento.
+
+:::
+
+::: {.material-card}
+
+### Financiamiento
+
+Un endurecimiento de las condiciones financieras puede elevar:
+
+- tasas de interés;
+- costo de capital;
+- tasa de descuento;
+- servicio de deuda;
+- exigencia de rentabilidad.
+
+:::
+
+:::
+
+
+::: {.session-callout}
+
+::: {.session-eyebrow .orange}
+UNA DISTINCIÓN IMPORTANTE
+:::
+
+## No todos los proyectos reaccionan igual ante el mismo entorno
+
+La vulnerabilidad depende de la estructura económica del proyecto.
+
+Un hotel puede ser especialmente sensible a la **ocupación**.
+
+Una planta industrial puede ser más sensible al **costo de sus insumos**.
+
+Un producto de consumo puede verse afectado simultáneamente por una caída en **volumen y precio**.
+
+Un proyecto intensivo en capital puede mantener sus flujos operativos pero perder valor si aumenta la **tasa de descuento**.
+
+:::
+
+
+::: {.session-eyebrow}
+
+LABORATORIO
+
+:::
+
+## Cuatro proyectos, cuatro mecanismos
+
+Cada grupo analizará un proyecto diferente.
+
+### Grupo 1 · Hotel
+
+El shock afecta principalmente:
+
+$$
+\text{Actividad económica}
+\rightarrow
+\text{Turismo}
+\rightarrow
+\text{Ocupación y tarifa}
+\rightarrow
+\text{Ingresos}
+\rightarrow
+VAN
+$$
+
+### Grupo 2 · Planta agroindustrial
+
+El shock afecta:
+
+$$
+\text{Costos internacionales}
+\rightarrow
+\text{Costo variable}
+\rightarrow
+\text{Margen}
+\rightarrow
+\text{Flujo}
+\rightarrow
+VAN
+$$
+
+### Grupo 3 · Bienes de consumo
+
+La desaceleración afecta simultáneamente:
+
+$$
+\text{Ingreso de hogares}
+\rightarrow
+\text{Volumen y precio}
+\rightarrow
+\text{Ventas}
+\rightarrow
+VAN
+$$
+
+### Grupo 4 · Proyecto solar
+
+El canal es diferente:
+
+$$
+\text{Tasas de interés}
+\rightarrow
+\text{Costo de capital}
+\rightarrow
+\text{Tasa de descuento}
+\rightarrow
+VAN
+$$
+
+
+::: {.session-callout}
+
+::: {.session-eyebrow}
+PREGUNTA DE TRABAJO
+:::
+
+## ¿Qué explica la pérdida de valor?
+
+El objetivo del laboratorio no será únicamente obtener dos VAN.
+
+Cada grupo deberá identificar:
+
+1. cuál es el choque macroeconómico;
+2. si afecta principalmente la oferta, la demanda o las condiciones financieras;
+3. qué variable del proyecto cambia primero;
+4. cómo se modifica el flujo de efectivo;
+5. cuánto cambia el VAN;
+6. qué variable explica la mayor parte de la pérdida de valor;
+7. qué decisión podría tomar el formulador para reducir esa vulnerabilidad.
+
+:::
+
+
+::: {.session-eyebrow}
+
+APLICACIÓN A PROYECTOS
+
+:::
+
+## Del escenario base al análisis de sensibilidad
+
+La evaluación de un proyecto no debería limitarse a una única trayectoria esperada.
+
+El escenario base representa una combinación de supuestos sobre:
+
+- demanda;
+- precios;
+- costos;
+- utilización de capacidad;
+- financiamiento;
+- condiciones macroeconómicas.
+
+El análisis de sensibilidad permite preguntar:
+
+> **¿Qué ocurre con la viabilidad del proyecto si algunos de estos supuestos dejan de cumplirse?**
+
+La utilidad del ejercicio no consiste únicamente en observar si el VAN permanece positivo o se vuelve negativo, sino en identificar **qué supuesto determina la vulnerabilidad del proyecto**.
+
+
+::: {.session-eyebrow}
+
+DISCUSIÓN FINAL
+
+:::
+
+## Comparar proyectos
+
+Al finalizar el laboratorio se compararán los resultados obtenidos por los cuatro grupos.
+
+La discusión buscará responder:
+
+- ¿qué proyecto perdió más valor?
+- ¿qué variable explica esa pérdida?
+- ¿qué proyectos tienen mayor exposición a costos fijos?
+- ¿cuáles pueden ajustar precios?
+- ¿cuáles dependen principalmente del volumen vendido?
+- ¿qué proyecto es más sensible al costo de capital?
+
+El propósito no será determinar cuál proyecto es “mejor”, sino comprender que **la exposición macroeconómica depende de la estructura económica y financiera de cada proyecto**.
+
+
+::: {.session-callout}
+
+::: {.session-eyebrow .orange}
+PARA RECORDAR
+:::
+
+## La sensibilidad comienza antes de Excel
+
+Modificar una celda no constituye por sí mismo un análisis de riesgo.
+
+Primero debe existir una explicación económica:
+
+$$
+\text{Shock}
+\rightarrow
+\text{Mecanismo de transmisión}
+\rightarrow
+\text{Variable afectada}
+\rightarrow
+\text{Flujo de efectivo}
+\rightarrow
+\text{VAN}
+$$
+
+Solo después tiene sentido construir escenarios y modificar los supuestos financieros.
+
+:::
+
+
+::: {.attendance-card}
+
+::: {.session-eyebrow .orange}
+
+ASISTENCIA
+
+:::
+
+## Registro de asistencia
+
+Registre su asistencia correspondiente a la **Sesión 06**.
+
+El formulario registra automáticamente la fecha y hora de envío. Complete correctamente su carné, nombre y el código de asistencia indicado durante la sesión.
+
+[Registrar asistencia →](https://docs.google.com/forms/d/e/1FAIpQLSfj3CT9kTzVRnLW000dwj3_kfSfsu0q3rqh-c4v6pKlmb0o7w/viewform?usp=pp_url&entry.981962467=Sesi%C3%B3n+06){.course-btn .primary target="_blank"}
+
+:::
