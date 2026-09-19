@@ -1,0 +1,299 @@
+---
+title: "Actividad de reposición (sesión 07)"
+subtitle: "Crecimiento y desarrollo económico: una lectura de Guatemala a partir de evidencia"
+author: "Macroeconomía · 200 FP"
+format:
+  pdf:
+    documentclass: article
+    papersize: letter
+    fontsize: 11pt
+    geometry:
+      - top=2.0cm
+      - bottom=2.0cm
+      - left=2.2cm
+      - right=2.2cm
+    number-sections: false
+    toc: false
+    colorlinks: true
+    linkcolor: black
+    urlcolor: black
+lang: es
+header-includes:
+  - \usepackage{booktabs}
+  - \usepackage{array}
+  - \usepackage{longtable}
+  - \usepackage{enumitem}
+  - \setlist[itemize]{noitemsep,topsep=3pt}
+  - \setlist[enumerate]{noitemsep,topsep=3pt}
+---
+
+\begin{center}
+\textbf{Universidad de San Carlos de Guatemala}\\
+Facultad de Ciencias Económicas · Escuela de Estudios de Postgrado\\
+Maestría en Formulación y Evaluación de Proyectos
+\end{center}
+
+\vspace{0.35cm}
+
+| **Curso** | Macroeconomía · 200 FP |
+|---|---|
+| **Actividad** | Panel de evidencia |
+| **Tema** | Crecimiento y desarrollo económico |
+| **Modalidad** | Trabajo y presentación grupal |
+| **Ponderación** | 10 puntos netos|
+| **Catedrático** | Msc. Paulo Augusto Garrido Grijalva |
+
+\vspace{0.2cm}
+
+# Planteamiento
+
+Durante buena parte del análisis macroeconómico, el crecimiento del producto ocupa un lugar central, en virtud de que  una economía que produce más dispone --en principio-- de una base material más amplia para elevar el ingreso, financiar inversión y ampliar el consumo; sin embargo, esa relación no es automática. El crecimiento puede coexistir con pobreza persistente, desigualdad, empleo de baja productividad, rezagos educativos o presiones crecientes sobre los recursos naturales.
+
+Guatemala ofrece un terreno lamentablemente adecuado para examinar esa diferencia. El Banco de Guatemala reportó un crecimiento real de 3.7% en 2024 y una estimación de cierre de 4.1% para 2025; al mismo tiempo, la ENCOVI 2023 estimó que 56.0% de la población se encontraba en condición de pobreza, mientras que el Informe sobre Desarrollo Humano 2025 reportó para Guatemala un IDH de 0.662. La evidencia laboral también muestra una estructura heterogénea: en 2025 la informalidad fue considerablemente mayor en el área rural que en el dominio urbano metropolitano. Más recientemente, la publicación del Sistema de Contabilidad Ambiental y Económica (SCAE) amplió la posibilidad de relacionar crecimiento, producción y uso de recursos naturales.
+
+El propósito de la actividad es utilizarlas como punto de partida para una pregunta que transversaliza la realidad nacional:
+
+> **Guatemala ha crecido, pero ¿en qué medida ese crecimiento se ha traducido en desarrollo?**
+
+# Objetivo de la actividad
+
+El ejercicio busca distinguir, a partir de evidencia empírica, entre crecimiento económico y desarrollo económico, evitando tratarlos como conceptos equivalentes.
+
+Cada grupo deberá construir un argumento sustentado en datos, reconocer las limitaciones de los indicadores utilizados y explicar por qué la dimensión analizada resulta pertinente para la formulación y evaluación de proyectos.No se espera una exposición descriptiva de cifras. La tarea consiste en identificar una relación, formular una interpretación y sostenerla con evidencia.
+
+# Modalidad de trabajo: panel de evidencia
+
+La clase se organizará alrededor de cuatro grupos. Cada grupo abordará una dimensión distinta del desarrollo y responderá una pregunta común desde su propia evidencia.
+
+La presentación tendrá una duración máxima de 7 minutos y deberá utilizar tres diapositivas:
+
+1. **La evidencia.** Uno o dos gráficos construidos por el grupo a partir de fuentes oficiales.
+2. **La interpretación.** Qué relación muestran los datos entre crecimiento y la dimensión estudiada.
+3. **La implicación para proyectos.** Por qué ese resultado importa para quien formula o evalúa una inversión.
+
+Después de cada exposición, otro grupo actuará como contraparte y dispondrá de aproximadamente 2 minutos para formular una objeción, señalar una limitación o plantear una pregunta a partir de la evidencia presentada.
+
+La discusión deberá mantener una regla sencilla: una afirmación empírica debe poder rastrearse a una fuente y una conclusión debe guardar relación con los datos mostrados.
+
+# Criterios comunes para el uso de datos
+
+Siempre que la disponibilidad estadística lo permita, se trabajará con un horizonte suficientemente amplio para observar tendencias y no únicamente variaciones de un año. Como referencia, puede utilizarse el período **2014-2025**, aunque cada grupo deberá ajustar las fechas de acuerdo con las series disponibles.
+
+Los grupos deberán:
+
+- utilizar  fuentes oficiales o de organismos internacionales reconocidos;
+- distinguir entre cifras nominales y reales cuando corresponda;
+- identificar si el indicador es un nivel, una tasa, una proporción o un índice;
+- indicar el año o período al que corresponde cada dato;
+- registrar la fuente debajo de cada gráfico;
+- utilizar un máximo de dos gráficos centrales.
+
+# Grupo 1 · Crecimiento, pobreza y desigualdad
+
+## Pregunta de trabajo
+
+> **¿Hasta qué punto el crecimiento económico de Guatemala se ha traducido en una reducción de la pobreza y en una mejora de la distribución del bienestar?**
+
+El grupo deberá contrastar la evolución de la actividad económica con indicadores de pobreza y, cuando sea posible, desigualdad. La discusión no debe asumir que un aumento del PIB beneficia de forma homogénea a toda la población.
+
+### Evidencia mínima
+
+- crecimiento del PIB real;
+- PIB real o ingreso por habitante;
+- incidencia de pobreza total y pobreza extrema;
+- desigualdad del ingreso o del consumo, si se dispone de una medida comparable;
+- al menos una desagregación territorial o urbano-rural.
+
+La ENCOVI 2023 constituye un punto de referencia relevante: estimó una incidencia de pobreza total de 56.0%, frente a 59.3% reportado para 2014. La comparación, sin embargo, debe acompañarse de una revisión de las notas metodológicas y del contexto económico de cada período.
+
+### Preguntas para orientar el análisis
+
+- ¿Puede una economía crecer sin reducir la pobreza al mismo ritmo?
+- ¿Qué revela el PIB per cápita que no revela el PIB total?
+- ¿Por qué el promedio nacional puede ocultar diferencias territoriales?
+- ¿Qué implicación tendría esta evidencia para estimar demanda, capacidad de pago o focalización de un proyecto?
+
+### Fuentes sugeridas
+
+- Banco de Guatemala: Cuentas Nacionales y PIB.
+- Instituto Nacional de Estadística: ENCOVI 2023.
+- Banco Mundial: indicadores de pobreza, ingreso y desigualdad.
+
+# Grupo 2 · Crecimiento y desarrollo humano
+
+## Pregunta de trabajo
+
+> **¿Un mayor ingreso por habitante es suficiente para afirmar que una sociedad se está desarrollando?**
+
+El grupo deberá examinar la relación entre crecimiento, ingreso y capacidades humanas. El punto central es distinguir entre disponer de mayores recursos económicos y transformar esos recursos en educación, salud y posibilidades efectivas de elección.
+
+### Evidencia mínima
+
+- PIB o ingreso por habitante;
+- Índice de Desarrollo Humano;
+- esperanza de vida;
+- indicadores de educación utilizados en el IDH;
+- una dimensión adicional que el grupo considere pertinente.
+
+El Informe sobre Desarrollo Humano 2025 reporta para Guatemala un IDH de **0.662**, ubicado en la posición 137 de la clasificación presentada en ese informe. El dato debe interpretarse junto con sus componentes y no como un ranking aislado.
+
+### Preguntas para orientar el análisis
+
+- ¿Por qué dos economías con ingresos similares pueden presentar niveles distintos de desarrollo humano?
+- ¿Qué dimensiones incorpora el IDH que no aparecen en el PIB?
+- ¿Qué pierde el análisis si el desarrollo se reduce al ingreso monetario?
+- ¿Cómo pueden los rezagos en educación y salud modificar la productividad y la viabilidad de un proyecto?
+
+### Fuentes sugeridas
+
+- Programa de las Naciones Unidas para el Desarrollo: Human Development Reports.
+- Banco Mundial: World Development Indicators.
+- Instituto Nacional de Estadística.
+- Banco de Guatemala.
+
+# Grupo 3 · Crecimiento, empleo e informalidad
+
+## Pregunta de trabajo
+
+> **¿Puede hablarse de desarrollo cuando la economía crece, pero una parte importante del empleo permanece en condiciones de informalidad?**
+
+El grupo deberá analizar el mercado laboral no únicamente desde la tasa de desempleo. La atención debe dirigirse a la calidad y productividad del empleo, su heterogeneidad territorial y las implicaciones que tiene para el ingreso de los hogares.
+
+### Evidencia mínima
+
+- crecimiento económico;
+- tasa de ocupación o desempleo;
+- tasa de informalidad;
+- ingreso laboral, cuando la información lo permita;
+- comparación entre dominios geográficos.
+
+La ENEIC mostró en 2025 diferencias marcadas en informalidad entre territorios. Hacia el cuarto trimestre, la tasa se situó alrededor de 44.3% en el dominio urbano metropolitano, 65.0% en el resto urbano y 77.3% en el área rural nacional.
+
+### Preguntas para orientar el análisis
+
+- ¿Por qué una tasa de desempleo baja no garantiza un mercado laboral de alta calidad?
+- ¿Qué relación puede existir entre informalidad, productividad e ingreso?
+- ¿Qué diferencias aparecen entre el área metropolitana y el área rural?
+- ¿Cómo incide la estructura laboral sobre la demanda de un proyecto, la disponibilidad de talento o la capacidad de pago?
+
+### Fuentes sugeridas
+
+- Instituto Nacional de Estadística: ENEIC.
+- Organización Internacional del Trabajo.
+- Banco Mundial.
+- Banco de Guatemala.
+
+# Grupo 4 · Crecimiento y sostenibilidad
+
+## Pregunta de trabajo
+
+> **¿Todo crecimiento de la producción representa una mejora sostenible del bienestar?**
+
+El grupo deberá introducir una dimensión que la medición convencional del PIB no pretende resolver: la relación entre actividad económica, uso de recursos naturales y presiones ambientales.
+
+El Sistema de Contabilidad Ambiental y Económica del Banco de Guatemala permite analizar de forma integrada información sobre bosque, agua, energía y emisiones al aire, residuos y flujo de materiales, con series para 2013-2024.
+
+### Evidencia mínima
+
+El grupo seleccionará **una** de las cuentas ambientales y construirá un análisis sencillo que relacione:
+
+- evolución del PIB real;
+- uso o consumo de un recurso;
+- generación de residuos o emisiones, cuando corresponda;
+- algún indicador de intensidad o eficiencia que pueda construirse con los datos disponibles.
+
+Una relación posible es:
+
+$$
+\text{Intensidad del recurso}
+=
+\frac{\text{Uso del recurso}}
+{\text{PIB real}}
+$$
+
+El objetivo no es elaborar una evaluación ambiental completa, sino determinar si el crecimiento observado ha estado acompañado por un uso proporcionalmente mayor, menor o similar de determinados recursos.
+
+### Preguntas para orientar el análisis
+
+- ¿Puede aumentar el PIB mientras se deteriora una base de recursos necesaria para producir en el futuro?
+- ¿Qué significa que el uso de un recurso crezca más lentamente que el PIB?
+- ¿Por qué las Cuentas Ambientales complementan, pero no sustituyen, al PIB?
+- ¿Cómo debería incorporarse esta dimensión en un proyecto intensivo en agua, energía o materiales?
+
+### Fuentes sugeridas
+
+- Banco de Guatemala: Sistema de Contabilidad Ambiental y Económica.
+- Banco de Guatemala: Cuentas Nacionales.
+- Banco Mundial y CEPAL, como fuentes complementarias.
+
+# Contrapartes y debate
+
+Para evitar exposiciones independientes, cada grupo deberá escuchar con especial atención a otro equipo:
+
+| Grupo que presenta | Grupo contraparte |
+|---|---|
+| Grupo 1 | Grupo 2 |
+| Grupo 2 | Grupo 3 |
+| Grupo 3 | Grupo 4 |
+| Grupo 4 | Grupo 1 |
+
+La contraparte no deberá resumir lo presentado. Su intervención debe cumplir al menos una de las siguientes funciones:
+
+- realizar preguntas de especial interés para ampliar el análsis.
+- señalar una limitación de la serie o del indicador;
+- proponer una interpretación alternativa;
+- Exponer casos concretos, empiricos o experiencias relacionadas con el tema objeto de análisis.
+
+# Cierre aplicado a proyectos
+
+La discusión deberá concluir trasladando el problema hacia la formulación y evaluación de proyectos.
+
+Suponga que un departamento presenta crecimiento económico, pero mantiene pobreza elevada, informalidad laboral, rezagos educativos y acceso limitado a determinados servicios.
+
+La pregunta final será:
+
+> **¿Qué cambiaría en la formulación de un proyecto si el diagnóstico utilizara únicamente el crecimiento del PIB frente a un diagnóstico más amplio de desarrollo?**
+
+La respuesta deberá considerar, entre otros aspectos, demanda efectiva, capacidad de pago, disponibilidad de capital humano, infraestructura, vulnerabilidad social, impactos distributivos y sostenibilidad.
+
+# Producto esperado
+
+Cada grupo deberá presentar:
+
+1. tres diapositivas;
+2. uno o dos gráficos elaborados por el grupo;
+3. una conclusión central expresada en no más de tres oraciones;
+4. la relación entre sus resultados y la formulación o evaluación de proyectos;
+5. las fuentes utilizadas, con enlace o referencia completa.
+
+No se requiere un ensayo adicional. La calidad de la actividad dependerá de la selección de evidencia, la consistencia de la interpretación y la capacidad de sostener el argumento durante el panel.
+
+# Criterios de valoración
+
+| Criterio | Ponderación |
+|---|---:|
+| Calidad y pertinencia de la evidencia | 30 % |
+| Interpretación económica | 30 % |
+| Capacidad de discusión y respuesta | 20 % |
+| Vinculación con formulación y evaluación de proyectos | 20 % |
+
+# Fuentes de referencia
+
+**Banco de Guatemala.** Cuentas Nacionales y Producto Interno Bruto.  
+<https://banguat.gob.gt/page/cuadros-estadisticos-resumidos>
+
+**Banco de Guatemala.** Sistema de Contabilidad Ambiental y Económica (SCAE).  
+<https://banguat.gob.gt/page/el-banco-de-guatemala-presenta-el-sistema-de-contabilidad-ambiental-y-economica-scae>
+
+**Instituto Nacional de Estadística.** Encuesta Nacional de Condiciones de Vida 2023.  
+<https://www.ine.gob.gt/2024/08/21/el-ine-presenta-cifras-de-pobreza-en-guatemala/>
+
+**Instituto Nacional de Estadística.** Encuesta Nacional de Empleo e Ingresos Continua.  
+<https://www.ine.gob.gt/encuesta-nacional-de-empleo-e-ingresos/>
+
+**Programa de las Naciones Unidas para el Desarrollo.** Human Development Report 2025.  
+<https://hdr.undp.org/system/files/documents/global-report-document/hdr2025overviewen.pdf>
+
+::: {.callout-note title="Nota metodológica"}
+Cuando dos fuentes presenten cifras diferentes para un mismo fenómeno, el grupo deberá revisar antes de comparar: período de referencia, definición del indicador, cobertura geográfica, unidad de medida y metodología de estimación. Una diferencia de cifras no implica necesariamente una contradicción estadística.
+:::
