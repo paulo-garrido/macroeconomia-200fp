@@ -251,7 +251,7 @@ El objetivo no será encontrar un indicador que sustituya al PIB, sino comprende
 
 Incluye las preguntas de trabajo, evidencia mínima, fuentes sugeridas, contrapartes y criterios de valoración.
 
-[Ver actividad →](../../tareas/sesion07/actividad_reposicion_crecimiento_desarrollo.pdf){target="_blank"}
+[Ver actividad →](../tareas/sesion07/actividad_reposicion_crecimiento_desarrollo.pdf){target="_blank"}
 :::
 
 ::: {.resource-card}
