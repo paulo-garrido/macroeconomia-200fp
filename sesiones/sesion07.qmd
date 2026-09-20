@@ -46,7 +46,7 @@ En esta sesión cambiaremos la dinámica habitual de clase. La discusión partir
 
 ::: {.session-main-action}
 
-[Descargar guía del panel](../../tareas/sesion07/actividad_reposicion_crecimiento_desarrollo.pdf){.btn .btn-primary target="_blank"}
+[Descargar guía del panel](../tareas/sesion07/actividad_reposicion_crecimiento_desarrollo.pdf){.btn .btn-primary target="_blank"}
 
 :::
 
