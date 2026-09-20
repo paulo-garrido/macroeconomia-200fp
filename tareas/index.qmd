@@ -30,13 +30,52 @@ La tarea incluye cinco ejercicios:
 
 [Descargar formato Excel →](sesion02/tarea-medicion-pib.xlsx){.course-btn .download-btn}
 
----
-
-### Entrega
+#### Entrega
 
 La tarea debe desarrollarse utilizando el formato de Excel proporcionado.
 
 Se evaluará tanto la **correcta resolución de los ejercicios** como la **interpretación económica de los resultados**.
+
+---
+
+### Tarea 02
+
+**Crecimiento y desarrollo económico: una lectura de Guatemala a partir de evidencia**
+
+Esta actividad propone examinar una pregunta central del curso:
+
+> **Guatemala ha crecido, pero ¿en qué medida ese crecimiento se ha traducido en desarrollo?**
+
+El trabajo se realizará mediante un **panel de evidencia**. Cada grupo analizará una dimensión específica del desarrollo económico:
+
+1. **Crecimiento, pobreza y desigualdad**.
+2. **Crecimiento y desarrollo humano**.
+3. **Crecimiento, empleo e informalidad**.
+4. **Crecimiento y sostenibilidad**.
+
+El análisis deberá apoyarse en información estadística, interpretar la relación encontrada y explicar por qué sus resultados son relevantes para la **formulación y evaluación de proyectos**.
+
+#### Producto esperado
+
+Cada grupo deberá preparar:
+
+- **tres diapositivas**;
+- uno o dos gráficos elaborados por el grupo;
+- una conclusión central;
+- la vinculación de los resultados con proyectos;
+- las fuentes utilizadas.
+
+La presentación tendrá una duración máxima de **7 minutos**, seguida de la intervención del grupo contraparte.
+
+#### Archivo
+
+[Ver instrucciones de la tarea →](sesion07/actividad_reposicion_crecimiento_desarrollo.pdf){.course-btn .primary}
+
+#### Entrega y participación
+
+La actividad corresponde a un trabajo y presentación **grupal** y tiene una valoración de **10 puntos**.
+
+Además de la exposición, cada grupo participará como contraparte de otro equipo, formulando preguntas, señalando limitaciones de la evidencia o proponiendo interpretaciones alternativas.
 
 ---
 

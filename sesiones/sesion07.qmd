@@ -1,0 +1,288 @@
+---
+title: "Sesión 7"
+subtitle: "Crecimiento y desarrollo económico: evidencia para Guatemala"
+toc: false
+page-layout: full
+---
+
+::: {.session-hero}
+
+::: {.session-number}
+SESIÓN 07
+:::
+
+# Crecimiento y desarrollo económico
+
+::: {.session-lead}
+Una lectura de Guatemala a partir de evidencia: crecimiento económico y desarrollo no son necesariamente equivalentes.
+:::
+
+::: {.session-meta}
+**Macroeconomía · 200 FP**
+
+Maestría en Formulación y Evaluación de Proyectos
+:::
+
+:::
+
+
+::: {.session-main-resource}
+
+::: {.session-main-copy}
+
+::: {.session-eyebrow .orange}
+PANEL DE EVIDENCIA
+:::
+
+## Guatemala ha crecido, pero ¿en qué medida ese crecimiento se ha traducido en desarrollo?
+
+El producto interno bruto permite observar cuánto produce una economía, pero no responde por sí solo cómo se distribuyen sus resultados, qué ocurre con las capacidades de las personas, qué tipo de empleo se genera o qué presión ejerce la producción sobre los recursos naturales.
+
+En esta sesión cambiaremos la dinámica habitual de clase. La discusión partirá de **evidencia construida por los grupos** y de una pregunta común:
+
+> **¿Qué vemos cuando dejamos de observar únicamente cuánto crece la economía y preguntamos qué ocurre con las condiciones de vida?**
+
+:::
+
+::: {.session-main-action}
+
+[Descargar guía del panel](../../tareas/sesion07/actividad_reposicion_crecimiento_desarrollo.pdf){.btn .btn-primary target="_blank"}
+
+:::
+
+:::
+
+
+## Cuatro miradas sobre una misma economía
+
+::: {.session-grid}
+
+::: {.session-card}
+### 01 · Pobreza y desigualdad
+
+**¿El crecimiento ha llegado a los hogares?**
+
+El grupo contrastará la evolución de la actividad económica con pobreza, ingreso por habitante y diferencias distributivas o territoriales.
+
+**Pregunta para proyectos:**  
+¿qué nos dice esta evidencia sobre demanda efectiva, capacidad de pago y focalización?
+:::
+
+
+::: {.session-card}
+### 02 · Desarrollo humano
+
+**¿Más ingreso significa necesariamente más desarrollo?**
+
+La discusión incorporará educación, salud y capacidades humanas para observar aquello que el PIB no pretende medir.
+
+**Pregunta para proyectos:**  
+¿cómo afectan estos rezagos la productividad, la disponibilidad de talento y los resultados esperados?
+:::
+
+
+::: {.session-card}
+### 03 · Empleo e informalidad
+
+**¿Qué tipo de empleo acompaña al crecimiento?**
+
+El análisis irá más allá del desempleo para observar informalidad, ingreso laboral y heterogeneidad territorial.
+
+**Pregunta para proyectos:**  
+¿qué implicaciones tiene la estructura laboral sobre costos, demanda, productividad y capital humano?
+:::
+
+
+::: {.session-card}
+### 04 · Sostenibilidad
+
+**¿Todo aumento de la producción puede sostenerse en el tiempo?**
+
+El grupo relacionará el crecimiento del PIB con el uso de recursos, residuos, emisiones o indicadores de intensidad ambiental.
+
+**Pregunta para proyectos:**  
+¿qué riesgos aparecen cuando una inversión depende intensivamente de agua, energía o materiales?
+:::
+
+:::
+
+
+## La dinámica del panel
+
+::: {.process-grid}
+
+::: {.process-step}
+<span class="step-number">1</span>
+
+### Evidencia
+
+Cada grupo dispondrá de **7 minutos** y un máximo de **tres diapositivas**.
+
+El punto de partida serán uno o dos gráficos construidos por el grupo a partir de **fuentes oficiales o de organismos internacionales reconocidos**.
+:::
+
+
+::: {.process-step}
+<span class="step-number">2</span>
+
+### Interpretación
+
+No se trata de enumerar cifras.
+
+El grupo deberá identificar una relación, explicar qué puede inferirse de ella y reconocer qué no permiten concluir los datos.
+:::
+
+
+::: {.process-step}
+<span class="step-number">3</span>
+
+### Contraparte
+
+Después de cada presentación, otro grupo dispondrá de aproximadamente **2 minutos** para cuestionar la evidencia, señalar una limitación o plantear una interpretación alternativa.
+:::
+
+
+::: {.process-step}
+<span class="step-number">4</span>
+
+### Proyecto
+
+La discusión debe terminar fuera del gráfico:
+
+**¿qué cambia en una decisión de inversión cuando incorporamos esta dimensión al diagnóstico?**
+:::
+
+:::
+
+
+## El orden de la discusión
+
+| Presenta | Contraparte | Dimensión |
+|---|---|---|
+| **Grupo 1** | Grupo 2 | Crecimiento, pobreza y desigualdad |
+| **Grupo 2** | Grupo 3 | Crecimiento y desarrollo humano |
+| **Grupo 3** | Grupo 4 | Crecimiento, empleo e informalidad |
+| **Grupo 4** | Grupo 1 | Crecimiento y sostenibilidad |
+
+
+::: {.session-quote}
+
+### Una regla para toda la sesión
+
+**Una afirmación empírica debe poder rastrearse a una fuente; una conclusión debe guardar relación con la evidencia mostrada.**
+
+:::
+
+
+## Del indicador al proyecto
+
+::: {.session-transition}
+
+Supongamos que un territorio muestra crecimiento económico, pero mantiene pobreza elevada, informalidad laboral, rezagos educativos y restricciones en el acceso a servicios.
+
+### Si sabemos que el PIB de este territorio está creciendo, ¿qué información adicional necesitaríamos antes de evaluar su entorno para un proyecto?
+
+:::
+
+El diagnóstico utilizado en la formulación de un proyecto puede modificar decisiones sobre:
+
+::: {.concept-grid}
+
+::: {.concept-item}
+**Demanda efectiva**
+
+No solo cuántas personas existen, sino qué capacidad tienen para convertir una necesidad en demanda.
+:::
+
+::: {.concept-item}
+**Capital humano**
+
+Disponibilidad, productividad y costo de la fuerza laboral que necesitará el proyecto.
+:::
+
+::: {.concept-item}
+**Localización**
+
+Las diferencias territoriales pueden modificar mercado, infraestructura, costos y condiciones de operación.
+:::
+
+::: {.concept-item}
+**Riesgo**
+
+Pobreza, informalidad o vulnerabilidad ambiental pueden convertirse en variables relevantes del flujo esperado.
+:::
+
+::: {.concept-item}
+**Impacto**
+
+Un proyecto puede ser financieramente viable y producir efectos distributivos muy distintos según dónde y cómo se ejecute.
+:::
+
+::: {.concept-item}
+**Sostenibilidad**
+
+El uso de recursos puede condicionar costos futuros, continuidad operativa y viabilidad de largo plazo.
+:::
+
+:::
+
+
+## Pregunta de cierre
+
+::: {.session-closing}
+
+### ¿Qué cambiaría en la formulación de un proyecto si el diagnóstico utilizara únicamente el crecimiento del PIB frente a un diagnóstico más amplio de desarrollo?
+
+Al finalizar el panel, regresaremos a esta pregunta.
+
+El objetivo no será encontrar un indicador que sustituya al PIB, sino comprender **qué información necesitamos agregar antes de tomar una decisión de inversión**.
+
+:::
+
+
+## Material de la sesión
+
+::: {.resource-grid}
+
+::: {.resource-card}
+### Panel de evidencia
+
+**Crecimiento y desarrollo económico: una lectura de Guatemala a partir de evidencia**
+
+Incluye las preguntas de trabajo, evidencia mínima, fuentes sugeridas, contrapartes y criterios de valoración.
+
+[Ver actividad →](../../tareas/sesion07/actividad_reposicion_crecimiento_desarrollo.pdf){target="_blank"}
+:::
+
+::: {.resource-card}
+### Fuentes principales
+
+- Banco de Guatemala
+- Instituto Nacional de Estadística
+- PNUD
+- Banco Mundial
+- OIT
+- CEPAL
+
+Los grupos deberán documentar la fuente y el período correspondiente de cada cifra utilizada.
+:::
+
+:::
+
+::: {.attendance-card}
+
+::: {.session-eyebrow .orange}
+
+ASISTENCIA
+
+:::
+
+## Registro de asistencia
+
+Registre su asistencia correspondiente a la **Sesión 07**.
+
+El formulario registra automáticamente la fecha y hora de envío. Complete correctamente su carné, nombre y el código de asistencia indicado durante la sesión.
+
+[Registrar asistencia →](https://docs.google.com/forms/d/e/1FAIpQLSfj3CT9kTzVRnLW000dwj3_kfSfsu0q3rqh-c4v6pKlmb0o7w/viewform?usp=pp_url&entry.981962467=Sesi%C3%B3n+06){.course-btn .primary target="_blank"}
+
+:::
