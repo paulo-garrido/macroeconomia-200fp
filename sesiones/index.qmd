@@ -77,4 +77,8 @@ Crecimiento y desarrollo económico: evidencia para Guatemala
 
 ### Sesión 09
 
-Contenido disponible próximamente.
+**Dinero, inflación y valores del proyecto**
+
+Funciones del dinero, sistema bancario, inflación, tasas nominales y reales y transmisión de la política monetaria hacia los proyectos.
+
+[Ver sesión →](sesion09.qmd)

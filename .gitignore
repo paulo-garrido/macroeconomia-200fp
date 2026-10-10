@@ -8,3 +8,6 @@ _site/
 
 /.quarto/
 **/*.quarto_ipynb
+
+# Material exclusivo del docente
+/administracion_privada/

@@ -1,0 +1,57 @@
+---
+title: "Sesión 9"
+subtitle: "Dinero, inflación y valores del proyecto"
+toc: false
+page-layout: full
+---
+
+::: {.session-hero}
+::: {.session-number}
+SESIÓN 09
+:::
+
+# ¿Cómo afectan el dinero y la inflación a los valores del proyecto?
+
+::: {.session-lead}
+De las funciones del dinero y el sistema bancario a los precios, contratos, tasas y flujos de caja de una inversión.
+:::
+
+**Macroeconomía · 200 FP**  
+Maestría en Formulación y Evaluación de Proyectos · USAC
+:::
+
+::: {.session-main-resource}
+::: {.session-main-copy}
+## Presentación de clase
+
+Funciones y oferta de dinero, bancos y banco central, teoría cuantitativa, inflación esperada y no esperada, tasas nominales y reales, tasa líder y transmisión hacia proyectos.
+
+[Abrir presentación](../presentaciones/sesion09/sesion09_dinero_inflacion.qmd){.course-btn .primary}
+:::
+
+::: {.session-main-side}
+### Pregunta conductora
+
+¿Vender más quetzales significa ganar más?
+
+Analizaremos una planta de alimentos y discutiremos cómo cambian su margen, valor y capacidad de pago.
+:::
+:::
+
+::: {.session-materials}
+::: {.material-card}
+## Laboratorio en Excel
+
+Cuatro experimentos: escenario base, sorpresa de costos, ajuste comercial y crédito fijo frente a variable.
+
+[Ver guía](../laboratorios/sesion09/laboratorio_dinero_inflacion.qmd)
+
+[Descargar Excel](../laboratorios/sesion09/laboratorio_dinero_inflacion.xlsx)
+:::
+:::
+
+::: {.session-callout}
+## Una valoración consistente
+
+Los flujos nominales y reales deben producir el mismo VAN cuando las tasas y el deflactor corresponden al mismo escenario. La liquidez para pagar deuda requiere, además, revisar el calendario de pagos.
+:::

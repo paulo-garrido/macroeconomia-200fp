@@ -1,0 +1,88 @@
+---
+title: "Laboratorio · Dinero, inflación y valor del proyecto"
+subtitle: "Sesión 09 · Macroeconomía 200 FP"
+format: html
+---
+
+## Propósito
+
+Analizar cómo los ajustes de precios y costos afectan el VAN, comprobar la consistencia nominal-real y distinguir el valor del proyecto de su capacidad de pago.
+
+[Descargar archivo Excel](laboratorio_dinero_inflacion.xlsx){.course-btn .primary}
+
+## Caso: planta de alimentos
+
+Todos los valores son **supuestos académicos**, expresados en quetzales. La inversión inicial de Q2,400,000 ocurre en el año 0. La planta vende 100,000 unidades anuales durante cinco años. El precio inicial es Q30 y el costo variable Q18 por unidad. Los costos fijos iniciales son Q400,000 anuales. La rentabilidad real requerida es 8% y la inflación esperada al evaluar es 4%.
+
+El flujo simplificado corresponde a cobros menos pagos operativos al cierre de cada año. No incluye impuestos, capital de trabajo, reposición ni valor residual. El ejercicio permite aislar mecanismos, pero no sustituye una evaluación financiera completa.
+
+## Organización y tiempo
+
+Trabajo grupal de 45 minutos. Antes de cada cambio, escriban una predicción. Modifiquen únicamente las entradas amarillas y revisen las fórmulas. No hay ponderación nueva asignada a esta actividad.
+
+## Experimento 1 · Escenario base (8 minutos)
+
+En `Proyecto`, mantengan en 4% las trayectorias de inflación general, precios, costo variable y costos fijos para los cinco años.
+
+1. Expliquen cómo se obtiene la tasa nominal de 12.32%.
+2. Registren VAN nominal, VAN real equivalente y flujo del año 1.
+3. Comprueben que la diferencia entre ambos VAN es aproximadamente cero.
+4. ¿Por qué el flujo nominal crece aunque el volumen permanezca constante?
+
+## Experimento 2 · Sorpresa de costos (10 minutos)
+
+Cambien las tasas de los años 1 y 2, columnas C y D:
+
+| Entrada | Tasa anual |
+|---|---:|
+| Inflación general | 8% |
+| Ajuste de precio de venta | 4% |
+| Aumento del costo variable | 10% |
+| Aumento de costos fijos | 8% |
+
+Desde el año 3, mantengan las tasas de ajuste en 4%. La rentabilidad nominal requerida permanece en 12.32% para aislar el canal operativo.
+
+1. Comparen el VAN con el base y calculen el cambio absoluto.
+2. ¿Qué ocurre con el margen unitario?
+3. ¿Por qué volver a una tasa de 4% no devuelve los costos a su nivel base?
+4. La igualdad nominal-real se conserva usando el factor real acumulado equivalente. Expliquen por qué no corresponde descontar estos flujos reales automáticamente al 8% original.
+
+## Experimento 3 · Respuesta comercial (8 minutos)
+
+Sobre el experimento 2, aumenten a 8% el ajuste del precio en los años 1 y 2. Mantengan las demás entradas.
+
+1. ¿Cuánto valor recupera el proyecto?
+2. ¿Qué supuesto comercial permite esa recuperación?
+3. ¿Qué evidencia pedirían para mantener constantes las 100,000 unidades vendidas después del ajuste de precio?
+
+## Experimento 4 · Crédito y transmisión (9 minutos)
+
+En `Credito`, el préstamo es Q1,200,000 y se amortiza en partes iguales durante cinco años. La tasa base es 10%. Un aumento supuesto de 2 puntos porcentuales de la tasa líder se transmite en 50% a un préstamo variable. Es una relación didáctica, no una estimación empírica.
+
+1. Comparen el control C9 en 0 (tasa fija) y 1 (variable).
+2. Expliquen por qué la tasa variable aplicada llega a 11%, no a 12%.
+3. Comparen servicio de deuda, cobertura y efectivo después de deuda en el año 1.
+4. ¿Por qué este control no cambia el VAN de `Proyecto`? El modelo separa el flujo antes de deuda de la capacidad de pago. No estima VAN del accionista ni recalcula el costo de capital.
+5. Prueben una transmisión de 0% y de 100%. Restablezcan 50% para la discusión.
+
+## Registro y recomendación (10 minutos)
+
+Copien cada resultado **como valor** en la tabla de `Actividades` antes de pasar al siguiente experimento. La tabla conserva capturas del trabajo del grupo, mientras las hojas de cálculo muestran el experimento activo.
+
+Entregable: el Excel con fórmulas y registro completo, acompañado de una recomendación de hasta 150 palabras. Incluyan dos resultados numéricos, una medida concreta y un supuesto que requiera validación. Presenten sus conclusiones en tres minutos.
+
+## Método de valoración
+
+$$i=(1+r)(1+\pi^e)-1$$
+
+$$FC_t=Q_t(P_t-CVu_t)-CF_t$$
+
+El índice general acumula la inflación de cada año. El flujo real divide el nominal entre ese índice. El factor de descuento real equivalente divide el factor nominal acumulado entre el mismo índice. De esta manera, ambos valores presentes coinciden incluso con inflación variable.
+
+## Fuentes conceptuales
+
+- [Banco de Guatemala: tasa líder](https://banguat.gob.gt/page/tasa-de-interes-lider-de-politica-monetaria).
+- [FMI: inflación y poder adquisitivo](https://www.imf.org/en/publications/fandd/issues/series/back-to-basics/inflation).
+- [Bank of England: creación de dinero bancario](https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy).
+
+[Volver a sesión 09](../../sesiones/sesion09.qmd)

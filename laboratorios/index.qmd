@@ -49,6 +49,14 @@ El laboratorio trabajar en grupos y sigue:
 ---
 
 
+### Sesión 09 · Dinero, inflación y valor del proyecto
+
+Cuatro experimentos en Excel sobre precios, costos, valoración nominal-real y capacidad de pago de deuda.
+
+[Ver guía](sesion09/laboratorio_dinero_inflacion.qmd)
+
+[Descargar Excel](sesion09/laboratorio_dinero_inflacion.xlsx)
+
 ### Próximos laboratorios
 
 Los nuevos laboratorios se incorporarán a esta sección conforme avance el curso.
