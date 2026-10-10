@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.24">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Laboratorio · Dinero, inflación y valor del proyecto – Macroeconomía · 200 FP</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-fafba0143cbede8068b4876193dc6447.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No se han encontrado resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../assets/css/styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Macroeconomía · 200 FP</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Inicio</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../programa.html"> 
+<span class="menu-text">Programa</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../sesiones/index.html"> 
+<span class="menu-text">Sesiones</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../laboratorios/index.html"> 
+<span class="menu-text">Laboratorios</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../tareas/index.html"> 
+<span class="menu-text">Tareas</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../lecturas/index.html"> 
+<span class="menu-text">Lecturas</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../docente.html"> 
+<span class="menu-text">Docente</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+  <li><a href="#propósito" id="toc-propósito" class="nav-link active" data-scroll-target="#propósito">Propósito</a></li>
+  <li><a href="#caso-planta-de-alimentos" id="toc-caso-planta-de-alimentos" class="nav-link" data-scroll-target="#caso-planta-de-alimentos">Caso: planta de alimentos</a></li>
+  <li><a href="#organización-y-tiempo" id="toc-organización-y-tiempo" class="nav-link" data-scroll-target="#organización-y-tiempo">Organización y tiempo</a></li>
+  <li><a href="#experimento-1-escenario-base-8-minutos" id="toc-experimento-1-escenario-base-8-minutos" class="nav-link" data-scroll-target="#experimento-1-escenario-base-8-minutos">Experimento 1 · Escenario base (8 minutos)</a></li>
+  <li><a href="#experimento-2-sorpresa-de-costos-10-minutos" id="toc-experimento-2-sorpresa-de-costos-10-minutos" class="nav-link" data-scroll-target="#experimento-2-sorpresa-de-costos-10-minutos">Experimento 2 · Sorpresa de costos (10 minutos)</a></li>
+  <li><a href="#experimento-3-respuesta-comercial-8-minutos" id="toc-experimento-3-respuesta-comercial-8-minutos" class="nav-link" data-scroll-target="#experimento-3-respuesta-comercial-8-minutos">Experimento 3 · Respuesta comercial (8 minutos)</a></li>
+  <li><a href="#experimento-4-crédito-y-transmisión-9-minutos" id="toc-experimento-4-crédito-y-transmisión-9-minutos" class="nav-link" data-scroll-target="#experimento-4-crédito-y-transmisión-9-minutos">Experimento 4 · Crédito y transmisión (9 minutos)</a></li>
+  <li><a href="#registro-y-recomendación-10-minutos" id="toc-registro-y-recomendación-10-minutos" class="nav-link" data-scroll-target="#registro-y-recomendación-10-minutos">Registro y recomendación (10 minutos)</a></li>
+  <li><a href="#método-de-valoración" id="toc-método-de-valoración" class="nav-link" data-scroll-target="#método-de-valoración">Método de valoración</a></li>
+  <li><a href="#fuentes-conceptuales" id="toc-fuentes-conceptuales" class="nav-link" data-scroll-target="#fuentes-conceptuales">Fuentes conceptuales</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Laboratorio · Dinero, inflación y valor del proyecto</h1>
+<p class="subtitle lead">Sesión 09 · Macroeconomía 200 FP</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="propósito" class="level2">
+<h2 class="anchored" data-anchor-id="propósito">Propósito</h2>
+<p>Analizar cómo los ajustes de precios y costos afectan el VAN, comprobar la consistencia nominal-real y distinguir el valor del proyecto de su capacidad de pago.</p>
+<p><a href="laboratorio_dinero_inflacion.xlsx" class="course-btn primary">Descargar archivo Excel</a></p>
+</section>
+<section id="caso-planta-de-alimentos" class="level2">
+<h2 class="anchored" data-anchor-id="caso-planta-de-alimentos">Caso: planta de alimentos</h2>
+<p>Todos los valores son <strong>supuestos académicos</strong>, expresados en quetzales. La inversión inicial de Q2,400,000 ocurre en el año 0. La planta vende 100,000 unidades anuales durante cinco años. El precio inicial es Q30 y el costo variable Q18 por unidad. Los costos fijos iniciales son Q400,000 anuales. La rentabilidad real requerida es 8% y la inflación esperada al evaluar es 4%.</p>
+<p>El flujo simplificado corresponde a cobros menos pagos operativos al cierre de cada año. No incluye impuestos, capital de trabajo, reposición ni valor residual. El ejercicio permite aislar mecanismos, pero no sustituye una evaluación financiera completa.</p>
+</section>
+<section id="organización-y-tiempo" class="level2">
+<h2 class="anchored" data-anchor-id="organización-y-tiempo">Organización y tiempo</h2>
+<p>Trabajo grupal de 45 minutos. Antes de cada cambio, escriban una predicción. Modifiquen únicamente las entradas amarillas y revisen las fórmulas. No hay ponderación nueva asignada a esta actividad.</p>
+</section>
+<section id="experimento-1-escenario-base-8-minutos" class="level2">
+<h2 class="anchored" data-anchor-id="experimento-1-escenario-base-8-minutos">Experimento 1 · Escenario base (8 minutos)</h2>
+<p>En <code>Proyecto</code>, mantengan en 4% las trayectorias de inflación general, precios, costo variable y costos fijos para los cinco años.</p>
+<ol type="1">
+<li>Expliquen cómo se obtiene la tasa nominal de 12.32%.</li>
+<li>Registren VAN nominal, VAN real equivalente y flujo del año 1.</li>
+<li>Comprueben que la diferencia entre ambos VAN es aproximadamente cero.</li>
+<li>¿Por qué el flujo nominal crece aunque el volumen permanezca constante?</li>
+</ol>
+</section>
+<section id="experimento-2-sorpresa-de-costos-10-minutos" class="level2">
+<h2 class="anchored" data-anchor-id="experimento-2-sorpresa-de-costos-10-minutos">Experimento 2 · Sorpresa de costos (10 minutos)</h2>
+<p>Cambien las tasas de los años 1 y 2, columnas C y D:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Entrada</th>
+<th style="text-align: right;">Tasa anual</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Inflación general</td>
+<td style="text-align: right;">8%</td>
+</tr>
+<tr class="even">
+<td>Ajuste de precio de venta</td>
+<td style="text-align: right;">4%</td>
+</tr>
+<tr class="odd">
+<td>Aumento del costo variable</td>
+<td style="text-align: right;">10%</td>
+</tr>
+<tr class="even">
+<td>Aumento de costos fijos</td>
+<td style="text-align: right;">8%</td>
+</tr>
+</tbody>
+</table>
+<p>Desde el año 3, mantengan las tasas de ajuste en 4%. La rentabilidad nominal requerida permanece en 12.32% para aislar el canal operativo.</p>
+<ol type="1">
+<li>Comparen el VAN con el base y calculen el cambio absoluto.</li>
+<li>¿Qué ocurre con el margen unitario?</li>
+<li>¿Por qué volver a una tasa de 4% no devuelve los costos a su nivel base?</li>
+<li>La igualdad nominal-real se conserva usando el factor real acumulado equivalente. Expliquen por qué no corresponde descontar estos flujos reales automáticamente al 8% original.</li>
+</ol>
+</section>
+<section id="experimento-3-respuesta-comercial-8-minutos" class="level2">
+<h2 class="anchored" data-anchor-id="experimento-3-respuesta-comercial-8-minutos">Experimento 3 · Respuesta comercial (8 minutos)</h2>
+<p>Sobre el experimento 2, aumenten a 8% el ajuste del precio en los años 1 y 2. Mantengan las demás entradas.</p>
+<ol type="1">
+<li>¿Cuánto valor recupera el proyecto?</li>
+<li>¿Qué supuesto comercial permite esa recuperación?</li>
+<li>¿Qué evidencia pedirían para mantener constantes las 100,000 unidades vendidas después del ajuste de precio?</li>
+</ol>
+</section>
+<section id="experimento-4-crédito-y-transmisión-9-minutos" class="level2">
+<h2 class="anchored" data-anchor-id="experimento-4-crédito-y-transmisión-9-minutos">Experimento 4 · Crédito y transmisión (9 minutos)</h2>
+<p>En <code>Credito</code>, el préstamo es Q1,200,000 y se amortiza en partes iguales durante cinco años. La tasa base es 10%. Un aumento supuesto de 2 puntos porcentuales de la tasa líder se transmite en 50% a un préstamo variable. Es una relación didáctica, no una estimación empírica.</p>
+<ol type="1">
+<li>Comparen el control C9 en 0 (tasa fija) y 1 (variable).</li>
+<li>Expliquen por qué la tasa variable aplicada llega a 11%, no a 12%.</li>
+<li>Comparen servicio de deuda, cobertura y efectivo después de deuda en el año 1.</li>
+<li>¿Por qué este control no cambia el VAN de <code>Proyecto</code>? El modelo separa el flujo antes de deuda de la capacidad de pago. No estima VAN del accionista ni recalcula el costo de capital.</li>
+<li>Prueben una transmisión de 0% y de 100%. Restablezcan 50% para la discusión.</li>
+</ol>
+</section>
+<section id="registro-y-recomendación-10-minutos" class="level2">
+<h2 class="anchored" data-anchor-id="registro-y-recomendación-10-minutos">Registro y recomendación (10 minutos)</h2>
+<p>Copien cada resultado <strong>como valor</strong> en la tabla de <code>Actividades</code> antes de pasar al siguiente experimento. La tabla conserva capturas del trabajo del grupo, mientras las hojas de cálculo muestran el experimento activo.</p>
+<p>Entregable: el Excel con fórmulas y registro completo, acompañado de una recomendación de hasta 150 palabras. Incluyan dos resultados numéricos, una medida concreta y un supuesto que requiera validación. Presenten sus conclusiones en tres minutos.</p>
+</section>
+<section id="método-de-valoración" class="level2">
+<h2 class="anchored" data-anchor-id="método-de-valoración">Método de valoración</h2>
+<p><span class="math display">\[i=(1+r)(1+\pi^e)-1\]</span></p>
+<p><span class="math display">\[FC_t=Q_t(P_t-CVu_t)-CF_t\]</span></p>
+<p>El índice general acumula la inflación de cada año. El flujo real divide el nominal entre ese índice. El factor de descuento real equivalente divide el factor nominal acumulado entre el mismo índice. De esta manera, ambos valores presentes coinciden incluso con inflación variable.</p>
+</section>
+<section id="fuentes-conceptuales" class="level2">
+<h2 class="anchored" data-anchor-id="fuentes-conceptuales">Fuentes conceptuales</h2>
+<ul>
+<li><a href="https://banguat.gob.gt/page/tasa-de-interes-lider-de-politica-monetaria">Banco de Guatemala: tasa líder</a>.</li>
+<li><a href="https://www.imf.org/en/publications/fandd/issues/series/back-to-basics/inflation">FMI: inflación y poder adquisitivo</a>.</li>
+<li><a href="https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy">Bank of England: creación de dinero bancario</a>.</li>
+</ul>
+<p><a href="../../sesiones/sesion09.html">Volver a sesión 09</a></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiado");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiado");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p><strong>Macroeconomía · 200 FP</strong><br>
+Maestría en Formulación y Evaluación de Proyectos</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Escuela de Estudios de Postgrado<br>
+Facultad de Ciencias Económicas · USAC</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

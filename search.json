@@ -1351,27 +1351,6 @@
     "text": "Recursos de la sesión\nLos materiales complementarios y actividades correspondientes a esta sesión estarán disponibles en esta página conforme sean requeridos."
   },
   {
-    "objectID": "sesiones/index.html",
-    "href": "sesiones/index.html",
-    "title": "Sesiones",
-    "section": "",
-    "text": "Los materiales de cada sesión incluyen presentaciones, lecturas, ejercicios, laboratorios y actividades correspondientes al desarrollo del curso.\n\n\nIntroducción al análisis macroeconómico\nPrincipios económicos, escasez, elección, costo de oportunidad y una primera aproximación al funcionamiento agregado de la economía.\nVer sesión →\n\n\n\n\nMedición económica agregada\nProducto Interno Bruto, cuentas nacionales y medición de la actividad económica mediante los enfoques de producción, gasto e ingreso.\nVer sesión →\nVer presentación interactiva →\n\n\n\n\nOferta-utilización y dimensionamiento del mercado\nDe las cuentas nacionales al análisis del mercado: oferta, utilización y aplicación al estudio de demanda de un proyecto.\nVer sesión →\n\n\n\n\nDinámica Económica\nFluctuaciones económicas, oferta y demanda agregada.\nVer sesión →.\n\n\n\n\nGuia examen parcial\n¿que deben de estudiar para prepararse par el examen parcial?"
-  },
-  {
-    "objectID": "sesiones/index.html#programa-de-sesiones",
-    "href": "sesiones/index.html#programa-de-sesiones",
-    "title": "Sesiones",
-    "section": "",
-    "text": "Los materiales de cada sesión incluyen presentaciones, lecturas, ejercicios, laboratorios y actividades correspondientes al desarrollo del curso.\n\n\nIntroducción al análisis macroeconómico\nPrincipios económicos, escasez, elección, costo de oportunidad y una primera aproximación al funcionamiento agregado de la economía.\nVer sesión →\n\n\n\n\nMedición económica agregada\nProducto Interno Bruto, cuentas nacionales y medición de la actividad económica mediante los enfoques de producción, gasto e ingreso.\nVer sesión →\nVer presentación interactiva →\n\n\n\n\nOferta-utilización y dimensionamiento del mercado\nDe las cuentas nacionales al análisis del mercado: oferta, utilización y aplicación al estudio de demanda de un proyecto.\nVer sesión →\n\n\n\n\nDinámica Económica\nFluctuaciones económicas, oferta y demanda agregada.\nVer sesión →.\n\n\n\n\nGuia examen parcial\n¿que deben de estudiar para prepararse par el examen parcial?"
-  },
-  {
-    "objectID": "sesiones/index.html#ver-sesión-.",
-    "href": "sesiones/index.html#ver-sesión-.",
-    "title": "Sesiones",
-    "section": "Ver sesión →.",
-    "text": "Ver sesión →.\n\nSesión 06\nChoques macroeconómicos, sensibilidad y VAN del proyecto\nVer sesión →.\n\n\nSesión 07\nCrecimiento y desarrollo económico: evidencia para Guatemala\nVer sesión →.\n\n\nSesión 09\nContenido disponible próximamente."
-  },
-  {
     "objectID": "sesiones/sesion0.html",
     "href": "sesiones/sesion0.html",
     "title": "Sesión 0",
@@ -1407,17 +1386,402 @@
     "text": "Antes de modificar una sesión: 1. revisar sesiones anteriores; 2. conservar diseño y estructura; 3. verificar navegación; 4. ejecutar el sitio localmente; 5. reportar los archivos modificados.\nNunca hacer push directamente sin comprobar primero el render."
   },
   {
+    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html",
+    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html",
+    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
+    "section": "",
+    "text": "Analizar cómo los ajustes de precios y costos afectan el VAN, comprobar la consistencia nominal-real y distinguir el valor del proyecto de su capacidad de pago.\nDescargar archivo Excel"
+  },
+  {
+    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#propósito",
+    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#propósito",
+    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
+    "section": "",
+    "text": "Analizar cómo los ajustes de precios y costos afectan el VAN, comprobar la consistencia nominal-real y distinguir el valor del proyecto de su capacidad de pago.\nDescargar archivo Excel"
+  },
+  {
+    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#caso-planta-de-alimentos",
+    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#caso-planta-de-alimentos",
+    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
+    "section": "Caso: planta de alimentos",
+    "text": "Caso: planta de alimentos\nTodos los valores son supuestos académicos, expresados en quetzales. La inversión inicial de Q2,400,000 ocurre en el año 0. La planta vende 100,000 unidades anuales durante cinco años. El precio inicial es Q30 y el costo variable Q18 por unidad. Los costos fijos iniciales son Q400,000 anuales. La rentabilidad real requerida es 8% y la inflación esperada al evaluar es 4%.\nEl flujo simplificado corresponde a cobros menos pagos operativos al cierre de cada año. No incluye impuestos, capital de trabajo, reposición ni valor residual. El ejercicio permite aislar mecanismos, pero no sustituye una evaluación financiera completa."
+  },
+  {
+    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#organización-y-tiempo",
+    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#organización-y-tiempo",
+    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
+    "section": "Organización y tiempo",
+    "text": "Organización y tiempo\nTrabajo grupal de 45 minutos. Antes de cada cambio, escriban una predicción. Modifiquen únicamente las entradas amarillas y revisen las fórmulas. No hay ponderación nueva asignada a esta actividad."
+  },
+  {
+    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#experimento-1-escenario-base-8-minutos",
+    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#experimento-1-escenario-base-8-minutos",
+    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
+    "section": "Experimento 1 · Escenario base (8 minutos)",
+    "text": "Experimento 1 · Escenario base (8 minutos)\nEn Proyecto, mantengan en 4% las trayectorias de inflación general, precios, costo variable y costos fijos para los cinco años.\n\nExpliquen cómo se obtiene la tasa nominal de 12.32%.\nRegistren VAN nominal, VAN real equivalente y flujo del año 1.\nComprueben que la diferencia entre ambos VAN es aproximadamente cero.\n¿Por qué el flujo nominal crece aunque el volumen permanezca constante?"
+  },
+  {
+    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#experimento-2-sorpresa-de-costos-10-minutos",
+    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#experimento-2-sorpresa-de-costos-10-minutos",
+    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
+    "section": "Experimento 2 · Sorpresa de costos (10 minutos)",
+    "text": "Experimento 2 · Sorpresa de costos (10 minutos)\nCambien las tasas de los años 1 y 2, columnas C y D:\n\n\n\nEntrada\nTasa anual\n\n\n\n\nInflación general\n8%\n\n\nAjuste de precio de venta\n4%\n\n\nAumento del costo variable\n10%\n\n\nAumento de costos fijos\n8%\n\n\n\nDesde el año 3, mantengan las tasas de ajuste en 4%. La rentabilidad nominal requerida permanece en 12.32% para aislar el canal operativo.\n\nComparen el VAN con el base y calculen el cambio absoluto.\n¿Qué ocurre con el margen unitario?\n¿Por qué volver a una tasa de 4% no devuelve los costos a su nivel base?\nLa igualdad nominal-real se conserva usando el factor real acumulado equivalente. Expliquen por qué no corresponde descontar estos flujos reales automáticamente al 8% original."
+  },
+  {
+    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#experimento-3-respuesta-comercial-8-minutos",
+    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#experimento-3-respuesta-comercial-8-minutos",
+    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
+    "section": "Experimento 3 · Respuesta comercial (8 minutos)",
+    "text": "Experimento 3 · Respuesta comercial (8 minutos)\nSobre el experimento 2, aumenten a 8% el ajuste del precio en los años 1 y 2. Mantengan las demás entradas.\n\n¿Cuánto valor recupera el proyecto?\n¿Qué supuesto comercial permite esa recuperación?\n¿Qué evidencia pedirían para mantener constantes las 100,000 unidades vendidas después del ajuste de precio?"
+  },
+  {
+    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#experimento-4-crédito-y-transmisión-9-minutos",
+    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#experimento-4-crédito-y-transmisión-9-minutos",
+    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
+    "section": "Experimento 4 · Crédito y transmisión (9 minutos)",
+    "text": "Experimento 4 · Crédito y transmisión (9 minutos)\nEn Credito, el préstamo es Q1,200,000 y se amortiza en partes iguales durante cinco años. La tasa base es 10%. Un aumento supuesto de 2 puntos porcentuales de la tasa líder se transmite en 50% a un préstamo variable. Es una relación didáctica, no una estimación empírica.\n\nComparen el control C9 en 0 (tasa fija) y 1 (variable).\nExpliquen por qué la tasa variable aplicada llega a 11%, no a 12%.\nComparen servicio de deuda, cobertura y efectivo después de deuda en el año 1.\n¿Por qué este control no cambia el VAN de Proyecto? El modelo separa el flujo antes de deuda de la capacidad de pago. No estima VAN del accionista ni recalcula el costo de capital.\nPrueben una transmisión de 0% y de 100%. Restablezcan 50% para la discusión."
+  },
+  {
+    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#registro-y-recomendación-10-minutos",
+    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#registro-y-recomendación-10-minutos",
+    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
+    "section": "Registro y recomendación (10 minutos)",
+    "text": "Registro y recomendación (10 minutos)\nCopien cada resultado como valor en la tabla de Actividades antes de pasar al siguiente experimento. La tabla conserva capturas del trabajo del grupo, mientras las hojas de cálculo muestran el experimento activo.\nEntregable: el Excel con fórmulas y registro completo, acompañado de una recomendación de hasta 150 palabras. Incluyan dos resultados numéricos, una medida concreta y un supuesto que requiera validación. Presenten sus conclusiones en tres minutos."
+  },
+  {
+    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#método-de-valoración",
+    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#método-de-valoración",
+    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
+    "section": "Método de valoración",
+    "text": "Método de valoración\n\\[i=(1+r)(1+\\pi^e)-1\\]\n\\[FC_t=Q_t(P_t-CVu_t)-CF_t\\]\nEl índice general acumula la inflación de cada año. El flujo real divide el nominal entre ese índice. El factor de descuento real equivalente divide el factor nominal acumulado entre el mismo índice. De esta manera, ambos valores presentes coinciden incluso con inflación variable."
+  },
+  {
+    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#fuentes-conceptuales",
+    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#fuentes-conceptuales",
+    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
+    "section": "Fuentes conceptuales",
+    "text": "Fuentes conceptuales\n\nBanco de Guatemala: tasa líder.\nFMI: inflación y poder adquisitivo.\nBank of England: creación de dinero bancario.\n\nVolver a sesión 09"
+  },
+  {
     "objectID": "laboratorios/index.html",
     "href": "laboratorios/index.html",
     "title": "Laboratorios",
     "section": "",
-    "text": "Los laboratorios están diseñados para aplicar los conceptos desarrollados en clase mediante ejercicios de cálculo, interpretación y uso de información económica oficial.\n\n\n\nMedición económica agregada\nAplicación de los conceptos de medición del PIB y uso de información estadística del Banco de Guatemala.\nEl laboratorio permite trabajar con:\n\ncuentas nacionales;\nequilibrio oferta-utilización;\ninterpretación de información económica;\nestimación y análisis de magnitudes agregadas.\n\nVer laboratorio PDF →\nDescargar Excel de trabajo →\n\n\n\n\nShocks macroeconómicos y su incidencia en la evaluación de proyectos\nAnálisis de los shocks macroeconómicos y su incidencia en la evaluación y formulación de proyectos.\nEl laboratorio trabajar en grupos y sigue:\n\nOferta agregada y demanda agregada;\nshocks financieros;\nEvaluación financiera de proyectos;\n\nVer laboratorio PDF →\nDescargar Excel de trabajo →\n\n\n\n\nLos nuevos laboratorios se incorporarán a esta sección conforme avance el curso."
+    "text": "Los laboratorios están diseñados para aplicar los conceptos desarrollados en clase mediante ejercicios de cálculo, interpretación y uso de información económica oficial.\n\n\n\nMedición económica agregada\nAplicación de los conceptos de medición del PIB y uso de información estadística del Banco de Guatemala.\nEl laboratorio permite trabajar con:\n\ncuentas nacionales;\nequilibrio oferta-utilización;\ninterpretación de información económica;\nestimación y análisis de magnitudes agregadas.\n\nVer laboratorio PDF →\nDescargar Excel de trabajo →\n\n\n\n\nShocks macroeconómicos y su incidencia en la evaluación de proyectos\nAnálisis de los shocks macroeconómicos y su incidencia en la evaluación y formulación de proyectos.\nEl laboratorio trabajar en grupos y sigue:\n\nOferta agregada y demanda agregada;\nshocks financieros;\nEvaluación financiera de proyectos;\n\nVer laboratorio PDF →\nDescargar Excel de trabajo →\n\n\n\n\nCuatro experimentos en Excel sobre precios, costos, valoración nominal-real y capacidad de pago de deuda.\nVer guía\nDescargar Excel\n\n\n\nLos nuevos laboratorios se incorporarán a esta sección conforme avance el curso."
   },
   {
     "objectID": "laboratorios/index.html#laboratorios-del-curso",
     "href": "laboratorios/index.html#laboratorios-del-curso",
     "title": "Laboratorios",
     "section": "",
-    "text": "Los laboratorios están diseñados para aplicar los conceptos desarrollados en clase mediante ejercicios de cálculo, interpretación y uso de información económica oficial.\n\n\n\nMedición económica agregada\nAplicación de los conceptos de medición del PIB y uso de información estadística del Banco de Guatemala.\nEl laboratorio permite trabajar con:\n\ncuentas nacionales;\nequilibrio oferta-utilización;\ninterpretación de información económica;\nestimación y análisis de magnitudes agregadas.\n\nVer laboratorio PDF →\nDescargar Excel de trabajo →\n\n\n\n\nShocks macroeconómicos y su incidencia en la evaluación de proyectos\nAnálisis de los shocks macroeconómicos y su incidencia en la evaluación y formulación de proyectos.\nEl laboratorio trabajar en grupos y sigue:\n\nOferta agregada y demanda agregada;\nshocks financieros;\nEvaluación financiera de proyectos;\n\nVer laboratorio PDF →\nDescargar Excel de trabajo →\n\n\n\n\nLos nuevos laboratorios se incorporarán a esta sección conforme avance el curso."
+    "text": "Los laboratorios están diseñados para aplicar los conceptos desarrollados en clase mediante ejercicios de cálculo, interpretación y uso de información económica oficial.\n\n\n\nMedición económica agregada\nAplicación de los conceptos de medición del PIB y uso de información estadística del Banco de Guatemala.\nEl laboratorio permite trabajar con:\n\ncuentas nacionales;\nequilibrio oferta-utilización;\ninterpretación de información económica;\nestimación y análisis de magnitudes agregadas.\n\nVer laboratorio PDF →\nDescargar Excel de trabajo →\n\n\n\n\nShocks macroeconómicos y su incidencia en la evaluación de proyectos\nAnálisis de los shocks macroeconómicos y su incidencia en la evaluación y formulación de proyectos.\nEl laboratorio trabajar en grupos y sigue:\n\nOferta agregada y demanda agregada;\nshocks financieros;\nEvaluación financiera de proyectos;\n\nVer laboratorio PDF →\nDescargar Excel de trabajo →\n\n\n\n\nCuatro experimentos en Excel sobre precios, costos, valoración nominal-real y capacidad de pago de deuda.\nVer guía\nDescargar Excel\n\n\n\nLos nuevos laboratorios se incorporarán a esta sección conforme avance el curso."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#vender-más-quetzales-significa-ganar-más",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#vender-más-quetzales-significa-ganar-más",
+    "title": "Dinero e inflación",
+    "section": "¿Vender más quetzales significa ganar más?",
+    "text": "¿Vender más quetzales significa ganar más?\nMaestría en Formulación y Evaluación de Proyectos\nUna planta de alimentos aumenta sus ventas de Q3.0 a Q3.3 millones.\nSus insumos suben 15%. El banco revisa la tasa del préstamo.\n¿Aprobarían la inversión con la misma evaluación financiera?\n\nVotación inicial: sí, no, faltan datos. Solicitar una razón por respuesta. No resolver todavía. Supuestos académicos, no cifras de una empresa real."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#lo-que-podremos-decidir-al-terminar",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#lo-que-podremos-decidir-al-terminar",
+    "title": "Dinero e inflación",
+    "section": "Lo que podremos decidir al terminar",
+    "text": "Lo que podremos decidir al terminar\n\nDistinguir dinero, crédito y medios de pago.\nExplicar cómo dinero, precios y producción se relacionan.\nConvertir tasas y flujos entre términos nominales y reales.\nTraducir inflación y política monetaria a supuestos del proyecto.\n\nProducto de la sesión: una recomendación sustentada en el laboratorio Excel."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#ruta-de-trabajo-180-minutos",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#ruta-de-trabajo-180-minutos",
+    "title": "Dinero e inflación",
+    "section": "Ruta de trabajo: 180 minutos",
+    "text": "Ruta de trabajo: 180 minutos\n\n\n\nTramo\nMinutos\nParticipación\n\n\n\n\nDinero y bancos\n30\nClasificar y reconstruir un préstamo\n\n\nDinero, producción e inflación\n30\nPredicción y cálculo\n\n\nPausa\n10\n\n\n\nTasas, contratos y transmisión\n45\nResolver y debatir\n\n\nLaboratorio Excel\n45\nCuatro experimentos\n\n\nPuesta en común y cierre\n20\nDefender una decisión\n\n\n\n\nTiempos orientativos. Las participaciones y cálculos están incluidos en cada tramo."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#cuál-de-estos-elementos-es-dinero",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#cuál-de-estos-elementos-es-dinero",
+    "title": "Dinero e inflación",
+    "section": "¿Cuál de estos elementos es dinero?",
+    "text": "¿Cuál de estos elementos es dinero?\n\n\n\nElemento\n¿Dinero, activo o instrumento de pago?\n\n\n\n\nBillete de Q100\n\n\n\nDepósito disponible en cuenta\n\n\n\nTarjeta de débito\n\n\n\nLínea de crédito aprobada\n\n\n\nTerreno que podemos vender\n\n\n\n\n\nBillete y depósito transferible cumplen funciones monetarias. La tarjeta da acceso al depósito. La línea permite endeudarse. El terreno es un activo poco líquido."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#tres-funciones-que-usa-cualquier-proyecto",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#tres-funciones-que-usa-cualquier-proyecto",
+    "title": "Dinero e inflación",
+    "section": "Tres funciones que usa cualquier proyecto",
+    "text": "Tres funciones que usa cualquier proyecto\n\n\nMedio de intercambio\nPagar materias primas y cobrar ventas sin trueque.\nUnidad de cuenta\nExpresar precios, costos y contratos en una medida común.\n\nDepósito de valor\nTrasladar capacidad de compra al futuro.\nPregunta: si la inflación aumenta, ¿cuál función se deteriora primero para una caja ociosa?\n\n\nFuente conceptual: FMI, What Is Money? La inflación erosiona el poder adquisitivo de saldos nominales. No implica que todo activo sea dinero."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#oferta-de-dinero-qué-estamos-midiendo",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#oferta-de-dinero-qué-estamos-midiendo",
+    "title": "Dinero e inflación",
+    "section": "Oferta de dinero: ¿qué estamos midiendo?",
+    "text": "Oferta de dinero: ¿qué estamos midiendo?\nBase monetaria: efectivo y reservas bancarias en el banco central.\nDinero de uso del público: efectivo y depósitos incluidos en el agregado que se analice.\nLa composición depende del agregado estadístico. Base monetaria y dinero amplio tienen alcances distintos.\n\nSi transfiero Q5,000 de mi cuenta al proveedor, ¿aumenta el dinero total o cambia su tenedor?\n\n\nEn una transferencia entre depósitos, cambia el tenedor. No se crea dinero adicional por el pago."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#un-préstamo-también-crea-un-depósito",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#un-préstamo-también-crea-un-depósito",
+    "title": "Dinero e inflación",
+    "section": "Un préstamo también crea un depósito",
+    "text": "Un préstamo también crea un depósito\nUn banco concede Q100,000 a la planta y acredita su cuenta.\n\n\n\nBalance del banco\nCambio\n\n\n\n\nActivo: préstamo por cobrar\n+Q100,000\n\n\nPasivo: depósito del cliente\n+Q100,000\n\n\n\nLa planta obtiene un depósito y asume una deuda por el mismo principal.\nNo aumenta su patrimonio neto por recibir el préstamo.\n\nFuente: Bank of England (2014), Money creation in the modern economy. Ejemplo contable simplificado, sin comisiones. La amortización de principal reduce préstamo y depósito a escala del sistema. Un pago a otro banco requiere liquidación entre bancos."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#por-qué-el-banco-no-presta-sin-límite",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#por-qué-el-banco-no-presta-sin-límite",
+    "title": "Dinero e inflación",
+    "section": "¿Por qué el banco no presta sin límite?",
+    "text": "¿Por qué el banco no presta sin límite?\n\nDebe cumplir requisitos de capital y liquidez.\nEvalúa riesgo, garantías y capacidad de pago.\nNecesita recursos para liquidar pagos y atender retiros.\nEl costo del financiamiento y la demanda solvente importan.\n\n\nLa planta tiene un VAN positivo, pero poca caja para pagar cuotas. ¿Qué preguntaría el banco?\n\n\nConectar valor económico con calendario de liquidez. Evitar presentar el multiplicador 1/encaje como mecanismo automático o límite operativo único."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#banco-central-bancos-y-supervisión",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#banco-central-bancos-y-supervisión",
+    "title": "Dinero e inflación",
+    "section": "Banco central, bancos y supervisión",
+    "text": "Banco central, bancos y supervisión\n\n\n\n\n\n\n\nInstitución\nPapel que interesa al proyecto\n\n\n\n\nJunta Monetaria\nDetermina la política monetaria, cambiaria y crediticia\n\n\nBanco de Guatemala\nEjecuta esa política y opera en el sistema monetario\n\n\nBancos comerciales\nOtorgan crédito, administran depósitos y pagos\n\n\nSuperintendencia de Bancos\nSupervisa entidades bajo su ámbito\n\n\n\nLa tasa líder orienta las condiciones monetarias. El banco comercial cotiza el préstamo según sus condiciones y el riesgo del cliente."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#más-dinero-produce-más-bienes",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#más-dinero-produce-más-bienes",
+    "title": "Dinero e inflación",
+    "section": "¿Más dinero produce más bienes?",
+    "text": "¿Más dinero produce más bienes?\nImaginemos una economía con 100 canastas y Q1,000 de gasto nominal.\nEl gasto aumenta a Q1,100.\nVotación: ¿el precio sube necesariamente 10%?\n\nDepende de la respuesta de la producción y de la velocidad de circulación. Si las canastas aumentan a 110, el precio promedio puede permanecer igual."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#la-identidad-cuantitativa-organiza-la-pregunta",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#la-identidad-cuantitativa-organiza-la-pregunta",
+    "title": "Dinero e inflación",
+    "section": "La identidad cuantitativa organiza la pregunta",
+    "text": "La identidad cuantitativa organiza la pregunta\n\\[MV=PY\\]\n\n\n\nSímbolo\nInterpretación\n\n\n\n\n\\(M\\)\nStock de dinero del agregado elegido\n\n\n\\(V\\)\nVelocidad de circulación respecto del producto\n\n\n\\(P\\)\nNivel general de precios\n\n\n\\(Y\\)\nProducción real\n\n\n\nComo identidad, organiza el gasto nominal. Para explicar causalidad necesitamos supuestos sobre \\(V\\) y \\(Y\\)."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#cuándo-se-convierte-en-teoría-cuantitativa",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#cuándo-se-convierte-en-teoría-cuantitativa",
+    "title": "Dinero e inflación",
+    "section": "¿Cuándo se convierte en teoría cuantitativa?",
+    "text": "¿Cuándo se convierte en teoría cuantitativa?\nSi la velocidad es relativamente estable y el producto real depende de factores reales en el largo plazo, un crecimiento monetario persistente por encima del producto presiona los precios.\n\\[\\pi \\approx g_M+g_V-g_Y\\]\nPrecaución: es una aproximación. En el corto plazo cambian producción, demanda de dinero y velocidad.\n\nFuente conceptual: FMI, Monetarism: Money Is Where It’s At. La identidad no demuestra que cualquier expansión monetaria cause una inflación inmediata y proporcional."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#cálculo-en-parejas-dos-economías",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#cálculo-en-parejas-dos-economías",
+    "title": "Dinero e inflación",
+    "section": "Cálculo en parejas: dos economías",
+    "text": "Cálculo en parejas: dos economías\nEn ambas, \\(M\\) aumenta 10% y \\(Y\\) aumenta 3%.\n\n\n\nCaso\nCambio de \\(V\\)\nInflación aproximada\n\n\n\n\nA\n0%\n¿?\n\n\nB\n−5%\n¿?\n\n\n\n\nA: aproximadamente 7%. B: aproximadamente 2%.\nExacto: \\(1+\\pi=(1+g_M)(1+g_V)/(1+g_Y)\\), que da 6.80% y 1.46%."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#inflación-desinflación-y-precio-relativo",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#inflación-desinflación-y-precio-relativo",
+    "title": "Dinero e inflación",
+    "section": "Inflación, desinflación y precio relativo",
+    "text": "Inflación, desinflación y precio relativo\nInflación: aumento del nivel general de precios durante un período.\nDesinflación: la inflación baja. Los precios pueden seguir aumentando.\nPrecio relativo: un producto se encarece frente a otros.\n\nEl IPC aumenta 4% y el empaque de la planta aumenta 12%. ¿Qué tasa usarían para proyectar el costo del empaque?\n\n\nEl supuesto específico del insumo, sustentado en información pertinente. El IPC no representa exactamente la canasta de costos de la planta."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#una-caja-nominal-puede-comprar-menos",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#una-caja-nominal-puede-comprar-menos",
+    "title": "Dinero e inflación",
+    "section": "Una caja nominal puede comprar menos",
+    "text": "Una caja nominal puede comprar menos\nHoy Q100,000 compran una canasta de insumos.\nCon inflación de 8%, esa misma canasta costaría Q108,000 dentro de un año.\n\\[\\text{Poder de compra de Q100,000}=\\frac{100,000}{1.08}=Q92,593\\]\nPregunta: ¿qué ocurre con una reserva de mantenimiento que permanece inmóvil?"
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#la-inflación-esperada-entra-en-la-evaluación",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#la-inflación-esperada-entra-en-la-evaluación",
+    "title": "Dinero e inflación",
+    "section": "La inflación esperada entra en la evaluación",
+    "text": "La inflación esperada entra en la evaluación\nAl formular, los inversionistas anticipan inflación de 4%.\n\nNegocian ajustes de precios y salarios.\nEstiman compras y necesidades de caja.\nExigen una rentabilidad nominal compatible con esa expectativa.\n\nLa expectativa puede equivocarse. Conviene registrar qué se esperaba y cuándo."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#la-sorpresa-redistribuye-riesgos",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#la-sorpresa-redistribuye-riesgos",
+    "title": "Dinero e inflación",
+    "section": "La sorpresa redistribuye riesgos",
+    "text": "La sorpresa redistribuye riesgos\nLa inflación observada resulta 8%, frente al 4% esperado.\n\n\n\n\n\n\n\nContrato\nExposición\n\n\n\n\nPrecio de venta fijo\nLos costos pueden crecer más que los ingresos\n\n\nInsumos reajustables\nEl proveedor traslada parte del aumento\n\n\nDeuda nominal fija\nEl pago pierde valor real si sube el nivel de precios\n\n\nCrédito de tasa variable\nLos intereses pueden ajustarse\n\n\n\nDiscusión: un menor valor real de la deuda no garantiza que el deudor pueda pagarla. Sus ingresos también importan."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#tasa-nominal-y-tasa-real",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#tasa-nominal-y-tasa-real",
+    "title": "Dinero e inflación",
+    "section": "Tasa nominal y tasa real",
+    "text": "Tasa nominal y tasa real\nUna inversión paga 10% nominal. La inflación es 4%.\n\\[r=\\frac{1+i}{1+\\pi}-1=\\frac{1.10}{1.04}-1=5.77\\%\\]\nLa aproximación \\(r\\approx i-\\pi\\) da 6%.\n\n¿Qué rentabilidad nominal exige alguien que busca 8% real y espera 4% de inflación?\n\n\n\\(i=(1.08)(1.04)-1=\\mathbf{12.32\\%}\\)."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#ex-ante-y-ex-post-responden-preguntas-distintas",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#ex-ante-y-ex-post-responden-preguntas-distintas",
+    "title": "Dinero e inflación",
+    "section": "Ex ante y ex post responden preguntas distintas",
+    "text": "Ex ante y ex post responden preguntas distintas\nEx ante: poder adquisitivo que esperamos ganar, usando inflación esperada.\nEx post: poder adquisitivo que efectivamente ganamos, usando inflación observada.\nPara una tasa nominal fija de 10%:\n\n\n\nInflación\nTasa real\n\n\n\n\nEsperada: 4%\n5.77% ex ante\n\n\nObservada: 8%\n1.85% ex post\n\n\n\n¿Quién absorbe la sorpresa en un préstamo fijo?"
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#guatemala-la-inflación-también-enfrenta-choques",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#guatemala-la-inflación-también-enfrenta-choques",
+    "title": "Dinero e inflación",
+    "section": "Guatemala: la inflación también enfrenta choques",
+    "text": "Guatemala: la inflación también enfrenta choques\n\nInflación histórica de Guatemala, 1997–junio de 2026. La línea vertical marca el inicio del EMEI y la banda muestra el rango meta vigente.\nFuente: Paulo Garrido, Evolución del anclaje de las expectativas de inflación en Guatemala, figura 1, p. 10. Datos hasta junio de 2026.\n\n¿Estar fuera del rango meta significa que el banco central perdió toda credibilidad?\n\nDedicar 2 minutos. Primero pedir que localicen 2005, la banda y el episodio 2021–2023. EMEI significa Esquema de Metas Explícitas de Inflación. La banda es un rango objetivo, no un intervalo de confianza. La figura describe la inflación y no identifica el efecto causal del régimen. La respuesta a la pregunta requiere mirar también expectativas, horizonte y persistencia."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#qué-esperaban-los-analistas-a-distintos-horizontes",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#qué-esperaban-los-analistas-a-distintos-horizontes",
+    "title": "Dinero e inflación",
+    "section": "¿Qué esperaban los analistas a distintos horizontes?",
+    "text": "¿Qué esperaban los analistas a distintos horizontes?\n\nExpectativas de inflación a 12 y 24 meses y meta central en Guatemala, 2010–junio de 2026.\nFuente: Paulo Garrido, mismo estudio, figura 2, p. 16. Encuesta de Expectativas Económicas del Banco de Guatemala, hasta junio de 2026.\n\nEn 2021–2023, ¿qué horizonte reaccionó más? ¿Qué nos dice la diferencia?\n\nDedicar 2 minutos. Identificar azul oscuro: 12 meses; gris: 24 meses; línea discontinua: meta central; banda: rango meta. La expectativa a 24 meses aumenta menos durante el episodio. Son pronósticos a horizontes constantes de un panel de analistas privados, no expectativas medidas directamente para todos los hogares o empresas. La expectativa registrada en cada fecha se refiere a un horizonte futuro: no compararla como si fuera una predicción de la inflación contemporánea. El estudio distingue proximidad a la meta y sensibilidad a perturbaciones."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#por-qué-importa-el-quehacer-del-banco-central",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#por-qué-importa-el-quehacer-del-banco-central",
+    "title": "Dinero e inflación",
+    "section": "¿Por qué importa el quehacer del banco central?",
+    "text": "¿Por qué importa el quehacer del banco central?\nUna referencia de inflación creíble ayuda a que un choque actual tenga menor influencia sobre lo que se espera a mediano plazo.\n\n\n\n\n\n\n\nTrabajo del banco central\nRelevancia para formular proyectos\n\n\n\n\nExplicar la meta y sus decisiones\nOfrece una referencia para supuestos nominales\n\n\nActuar de manera coherente con la estabilidad de precios\nSostiene la confianza en esa referencia\n\n\nEvaluar choques y sus efectos persistentes\nAyuda a distinguir presiones transitorias de riesgos duraderos\n\n\n\nDiscusión: si los costos suben hoy, ¿indexarían un contrato de cinco años con esa misma tasa?\n\nDedicar 1 minuto y recuperar la discusión durante el laboratorio. La lectura del paper es compatible con un fortalecimiento gradual del anclaje, pero las gráficas por sí solas no atribuyen causalidad a una decisión específica. Una expectativa anclada no elimina riesgo ni garantiza que los costos de un proyecto sigan el IPC. Distinguir el supuesto de inflación general de los ajustes de insumos y del contrato comercial."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#un-flujo-admite-dos-formas-consistentes-de-valoración",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#un-flujo-admite-dos-formas-consistentes-de-valoración",
+    "title": "Dinero e inflación",
+    "section": "Un flujo admite dos formas consistentes de valoración",
+    "text": "Un flujo admite dos formas consistentes de valoración\n\n\n\nFlujo\nDescuento compatible\n\n\n\n\nQuetzales de cada año, nominales\nTasa nominal\n\n\nQuetzales del año 0, reales\nTasa real coherente con el deflactor\n\n\n\nCon inflación constante:\n\\[\\frac{FC_t^{nom}}{(1+i)^t}=\\frac{FC_t^{nom}/(1+\\pi)^t}{(1+r)^t}\\]\nEl VAN debe coincidir cuando \\(1+i=(1+r)(1+\\pi)\\) y se conserva el mismo proyecto.\n\nPara inflación variable, el laboratorio usa factores reales acumulados equivalentes: factor nominal dividido por índice de precios. La igualdad sigue siendo válida. No se supone que la tasa real ex ante permanezca constante después de una sorpresa."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#detectives-del-van-dónde-está-el-error",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#detectives-del-van-dónde-está-el-error",
+    "title": "Dinero e inflación",
+    "section": "Detectives del VAN: ¿dónde está el error?",
+    "text": "Detectives del VAN: ¿dónde está el error?\nUn analista proyecta flujos con inflación y los descuenta a 8% real.\nOtro mantiene todos los flujos a precios del año 0 y usa 12.32% nominal.\nEn parejas · 3 minutos: ¿qué sesgo introduce cada uno?\n\nEl primero sobrevalora. El segundo subvalora, frente a una valoración consistente con inflación de 4%. Ambos mezclan unidades de poder adquisitivo."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#tasa-líder-una-señal-que-se-transmite",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#tasa-líder-una-señal-que-se-transmite",
+    "title": "Dinero e inflación",
+    "section": "Tasa líder: una señal que se transmite",
+    "text": "Tasa líder: una señal que se transmite\nLa autoridad monetaria modifica las condiciones de corto plazo para influir sobre gasto, crédito y expectativas de inflación.\nLa tasa del préstamo incorpora además: costo de fondeo, plazo, riesgo del cliente, garantías y margen bancario.\n\nSi la tasa líder sube 1 punto porcentual, ¿todos los préstamos suben 1 punto al día siguiente?\n\n\nLa transmisión puede ser parcial y tener rezagos. Depende del contrato, la liquidez y las condiciones del sistema financiero."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#los-canales-llegan-a-variables-concretas",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#los-canales-llegan-a-variables-concretas",
+    "title": "Dinero e inflación",
+    "section": "Los canales llegan a variables concretas",
+    "text": "Los canales llegan a variables concretas\n\n\n\n\n\n\n\n\nCanal\nCambio posible\nSupuesto del proyecto\n\n\n\n\nTasas\nFinanciarse cuesta más\nCuotas y costo de capital\n\n\nCrédito\nMenor disponibilidad\nCapital de trabajo y ejecución\n\n\nExpectativas\nCambia gasto previsto\nVentas e inversión\n\n\nTipo de cambio\nCambian precios externos en Q\nInsumos importados e ingresos externos\n\n\n\nLa dirección y magnitud dependen del contexto. Un endurecimiento monetario busca moderar presiones inflacionarias y puede reducir demanda en el corto plazo."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#observatorio-guatemala-evidencia-antes-del-supuesto",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#observatorio-guatemala-evidencia-antes-del-supuesto",
+    "title": "Dinero e inflación",
+    "section": "Observatorio Guatemala: evidencia antes del supuesto",
+    "text": "Observatorio Guatemala: evidencia antes del supuesto\nActividad guiada · 5 minutos\n\nConsulten la tasa líder en Banguat.\nIdentifiquen fecha de vigencia y última decisión disponible.\nConsulten inflación y expectativas.\nDistingan dato observado, expectativa y decisión de política.\n\n¿Qué información falta para estimar la tasa que pagaría nuestra planta?\n\nNo hay una tasa vigente fijada en la lámina: la consulta en clase permite actualizar coyuntura. Registrar fuente, fecha del dato y fecha de consulta. Los números del Excel son supuestos académicos y no se sustituyen mecánicamente por la tasa líder."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#comité-de-crédito-tres-papeles",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#comité-de-crédito-tres-papeles",
+    "title": "Dinero e inflación",
+    "section": "Comité de crédito: tres papeles",
+    "text": "Comité de crédito: tres papeles\nEquipos de tres · 5 minutos\nGerencia: necesita preservar margen y ventas.\nProveedor: solicita reajuste de 10% por costos.\nBanco: ofrece tasa variable o tasa fija con condiciones distintas.\nNegocien una medida. Expliquen qué riesgo reduce, quién lo asume y qué costo introduce."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#el-caso-y-sus-límites",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#el-caso-y-sus-límites",
+    "title": "Dinero e inflación",
+    "section": "El caso y sus límites",
+    "text": "El caso y sus límites\n\n\n\nSupuesto año 0\nValor\n\n\n\n\nInversión inicial\nQ2,400,000\n\n\nVentas anuales\n100,000 unidades\n\n\nPrecio / costo variable unitario\nQ30 / Q18\n\n\nCostos fijos anuales\nQ400,000\n\n\nRentabilidad real requerida\n8%\n\n\nInflación esperada\n4%\n\n\n\nCinco años. Flujo antes de deuda. Sin impuestos, capital de trabajo, reposición ni valor residual. Modelo didáctico simplificado."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#antes-de-excel-nuestra-predicción",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#antes-de-excel-nuestra-predicción",
+    "title": "Dinero e inflación",
+    "section": "Antes de Excel: nuestra predicción",
+    "text": "Antes de Excel: nuestra predicción\nEl precio de venta sube 4%, pero el costo unitario sube 10%.\n¿Qué esperan que ocurra con el margen y el VAN?\n\\[FC_t=Q_t(P_t-CVu_t)-CF_t\\]\nEl margen depende de los ajustes de cada precio y costo. El IPC sirve como deflactor general, mientras los insumos pueden seguir otra trayectoria."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#cuatro-experimentos-una-decisión",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#cuatro-experimentos-una-decisión",
+    "title": "Dinero e inflación",
+    "section": "Cuatro experimentos, una decisión",
+    "text": "Cuatro experimentos, una decisión\n\n\n\nExperimento\nCambio\n\n\n\n\n1. Base\nInflación, precios y costos aumentan 4% anual\n\n\n2. Sorpresa\nAños 1–2: inflación 8%, precio 4%, CV 10%, CF 8%\n\n\n3. Respuesta\nSobre el caso 2, precio aumenta 8% en años 1–2\n\n\n4. Crédito\nCompare tasa fija y variable con el mismo proyecto\n\n\n\nDesde el año 3, las tasas de ajuste vuelven a 4%. Los niveles no vuelven al escenario base."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#cómo-trabajar-el-archivo",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#cómo-trabajar-el-archivo",
+    "title": "Dinero e inflación",
+    "section": "Cómo trabajar el archivo",
+    "text": "Cómo trabajar el archivo\n45 minutos · grupos\n\nPredigan el resultado antes de modificar entradas amarillas.\nRevisen las fórmulas de Proyecto y la igualdad de ambos VAN.\nRegistren cada experimento como valores en Actividades.\nComparen cobertura de deuda fija y variable en Credito.\nRedacten una recomendación de hasta 150 palabras.\n\nDescargar Excel · Abrir guía"
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#valor-del-proyecto-y-capacidad-de-pago",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#valor-del-proyecto-y-capacidad-de-pago",
+    "title": "Dinero e inflación",
+    "section": "Valor del proyecto y capacidad de pago",
+    "text": "Valor del proyecto y capacidad de pago\nVAN del proyecto: flujo operativo simplificado antes de deuda, descontado a una tasa requerida.\nCobertura: flujo disponible dividido entre servicio de deuda.\n\\[\\text{Cobertura}=\\frac{FC\\ disponible}{Intereses+Amortización}\\]\nUna cobertura inferior a 1 indica insuficiencia en ese año. Una inversión con VAN positivo puede enfrentar falta de liquidez.\n\nNo descontar flujos después de deuda a la tasa del proyecto ni restar intereses otra vez al VAN presentado. El ejercicio no calcula VAN del accionista ni WACC. La rentabilidad real requerida es un supuesto didáctico, no una estimación del costo de capital."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#puesta-en-común-defiendan-una-medida",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#puesta-en-común-defiendan-una-medida",
+    "title": "Dinero e inflación",
+    "section": "Puesta en común: defiendan una medida",
+    "text": "Puesta en común: defiendan una medida\nCada grupo dispone de 3 minutos.\n\n¿Qué supuesto explica el deterioro del VAN?\n¿Cuánto cambia y qué ocurre con la cobertura?\n¿Es viable aumentar precios sin perder volumen?\n¿Qué contrato o reserva revisarían primero?\n\nLa demanda permanece constante en el Excel. Expliquen cómo cambiaría su recomendación si el alza de precios redujera las ventas."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#tres-preguntas-de-salida",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#tres-preguntas-de-salida",
+    "title": "Dinero e inflación",
+    "section": "Tres preguntas de salida",
+    "text": "Tres preguntas de salida\n\n¿Un préstamo vuelve más rica a la planta al desembolsarse?\n¿Qué tasa corresponde a un flujo en quetzales constantes?\n¿Qué información necesitan para llevar una decisión de tasa líder al flujo de caja?\n\n\n\nAumentan activo y deuda. 2. Una tasa real coherente. 3. Contrato, transmisión, plazo y exposición de ingresos y costos."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#volvamos-a-la-decisión-inicial",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#volvamos-a-la-decisión-inicial",
+    "title": "Dinero e inflación",
+    "section": "Volvamos a la decisión inicial",
+    "text": "Volvamos a la decisión inicial\n¿Vender más quetzales significa ganar más?\nLa evaluación exige revisar cantidades, precios relativos, poder adquisitivo, contratos y condiciones financieras.\nLa recomendación debe indicar qué supuesto cambia y cómo afecta el valor o la liquidez."
+  },
+  {
+    "objectID": "presentaciones/sesion09/sesion09_dinero_inflacion.html#fuentes-para-profundizar",
+    "href": "presentaciones/sesion09/sesion09_dinero_inflacion.html#fuentes-para-profundizar",
+    "title": "Dinero e inflación",
+    "section": "Fuentes para profundizar",
+    "text": "Fuentes para profundizar\n\nPaulo Garrido: Evolución del anclaje de las expectativas de inflación en Guatemala: una aproximación a la credibilidad de la política monetaria, 2010–2026. Documento proporcionado por el autor. Figuras 1 y 2.\nFMI: What Is Money?, funciones del dinero.\nBank of England: Money creation in the modern economy, creación de depósitos y restricciones bancarias.\nFMI: Monetarism: Money Is Where It’s At, identidad cuantitativa y supuestos.\nFMI: Inflation: Prices on the Rise, inflación y poder adquisitivo.\nBanco de Guatemala: política monetaria, tasa líder e inflación.\n\nLos ejemplos numéricos y contratos del caso son supuestos académicos."
+  },
+  {
+    "objectID": "sesiones/index.html",
+    "href": "sesiones/index.html",
+    "title": "Sesiones",
+    "section": "",
+    "text": "Los materiales de cada sesión incluyen presentaciones, lecturas, ejercicios, laboratorios y actividades correspondientes al desarrollo del curso.\n\n\nIntroducción al análisis macroeconómico\nPrincipios económicos, escasez, elección, costo de oportunidad y una primera aproximación al funcionamiento agregado de la economía.\nVer sesión →\n\n\n\n\nMedición económica agregada\nProducto Interno Bruto, cuentas nacionales y medición de la actividad económica mediante los enfoques de producción, gasto e ingreso.\nVer sesión →\nVer presentación interactiva →\n\n\n\n\nOferta-utilización y dimensionamiento del mercado\nDe las cuentas nacionales al análisis del mercado: oferta, utilización y aplicación al estudio de demanda de un proyecto.\nVer sesión →\n\n\n\n\nDinámica Económica\nFluctuaciones económicas, oferta y demanda agregada.\nVer sesión →.\n\n\n\n\nGuia examen parcial\n¿que deben de estudiar para prepararse par el examen parcial?"
+  },
+  {
+    "objectID": "sesiones/index.html#programa-de-sesiones",
+    "href": "sesiones/index.html#programa-de-sesiones",
+    "title": "Sesiones",
+    "section": "",
+    "text": "Los materiales de cada sesión incluyen presentaciones, lecturas, ejercicios, laboratorios y actividades correspondientes al desarrollo del curso.\n\n\nIntroducción al análisis macroeconómico\nPrincipios económicos, escasez, elección, costo de oportunidad y una primera aproximación al funcionamiento agregado de la economía.\nVer sesión →\n\n\n\n\nMedición económica agregada\nProducto Interno Bruto, cuentas nacionales y medición de la actividad económica mediante los enfoques de producción, gasto e ingreso.\nVer sesión →\nVer presentación interactiva →\n\n\n\n\nOferta-utilización y dimensionamiento del mercado\nDe las cuentas nacionales al análisis del mercado: oferta, utilización y aplicación al estudio de demanda de un proyecto.\nVer sesión →\n\n\n\n\nDinámica Económica\nFluctuaciones económicas, oferta y demanda agregada.\nVer sesión →.\n\n\n\n\nGuia examen parcial\n¿que deben de estudiar para prepararse par el examen parcial?"
+  },
+  {
+    "objectID": "sesiones/index.html#ver-sesión-.",
+    "href": "sesiones/index.html#ver-sesión-.",
+    "title": "Sesiones",
+    "section": "Ver sesión →.",
+    "text": "Ver sesión →.\n\nSesión 06\nChoques macroeconómicos, sensibilidad y VAN del proyecto\nVer sesión →.\n\n\nSesión 07\nCrecimiento y desarrollo económico: evidencia para Guatemala\nVer sesión →.\n\n\nSesión 09\nDinero, inflación y valores del proyecto\nFunciones del dinero, sistema bancario, inflación, tasas nominales y reales y transmisión de la política monetaria hacia los proyectos.\nVer sesión →"
+  },
+  {
+    "objectID": "sesiones/sesion09.html",
+    "href": "sesiones/sesion09.html",
+    "title": "Sesión 9",
+    "section": "",
+    "text": "SESIÓN 09\n\n\n\n\nDe las funciones del dinero y el sistema bancario a los precios, contratos, tasas y flujos de caja de una inversión.\n\nMacroeconomía · 200 FP\nMaestría en Formulación y Evaluación de Proyectos · USAC"
+  },
+  {
+    "objectID": "sesiones/sesion09.html#presentación-de-clase",
+    "href": "sesiones/sesion09.html#presentación-de-clase",
+    "title": "Sesión 9",
+    "section": "Presentación de clase",
+    "text": "Presentación de clase\nFunciones y oferta de dinero, bancos y banco central, teoría cuantitativa, inflación esperada y no esperada, tasas nominales y reales, tasa líder y transmisión hacia proyectos.\nAbrir presentación"
+  },
+  {
+    "objectID": "sesiones/sesion09.html#laboratorio-en-excel",
+    "href": "sesiones/sesion09.html#laboratorio-en-excel",
+    "title": "Sesión 9",
+    "section": "Laboratorio en Excel",
+    "text": "Laboratorio en Excel\nCuatro experimentos: escenario base, sorpresa de costos, ajuste comercial y crédito fijo frente a variable.\nVer guía\nDescargar Excel"
+  },
+  {
+    "objectID": "sesiones/sesion09.html#una-valoración-consistente",
+    "href": "sesiones/sesion09.html#una-valoración-consistente",
+    "title": "Sesión 9",
+    "section": "Una valoración consistente",
+    "text": "Una valoración consistente\nLos flujos nominales y reales deben producir el mismo VAN cuando las tasas y el deflactor corresponden al mismo escenario. La liquidez para pagar deuda requiere, además, revisar el calendario de pagos."
   }
 ]
