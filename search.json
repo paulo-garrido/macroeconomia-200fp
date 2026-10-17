@@ -1386,83 +1386,6 @@
     "text": "Antes de modificar una sesión: 1. revisar sesiones anteriores; 2. conservar diseño y estructura; 3. verificar navegación; 4. ejecutar el sitio localmente; 5. reportar los archivos modificados.\nNunca hacer push directamente sin comprobar primero el render."
   },
   {
-    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html",
-    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html",
-    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
-    "section": "",
-    "text": "Analizar cómo los ajustes de precios y costos afectan el VAN, comprobar la consistencia nominal-real y distinguir el valor del proyecto de su capacidad de pago.\nDescargar archivo Excel"
-  },
-  {
-    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#propósito",
-    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#propósito",
-    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
-    "section": "",
-    "text": "Analizar cómo los ajustes de precios y costos afectan el VAN, comprobar la consistencia nominal-real y distinguir el valor del proyecto de su capacidad de pago.\nDescargar archivo Excel"
-  },
-  {
-    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#caso-planta-de-alimentos",
-    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#caso-planta-de-alimentos",
-    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
-    "section": "Caso: planta de alimentos",
-    "text": "Caso: planta de alimentos\nTodos los valores son supuestos académicos, expresados en quetzales. La inversión inicial de Q2,400,000 ocurre en el año 0. La planta vende 100,000 unidades anuales durante cinco años. El precio inicial es Q30 y el costo variable Q18 por unidad. Los costos fijos iniciales son Q400,000 anuales. La rentabilidad real requerida es 8% y la inflación esperada al evaluar es 4%.\nEl flujo simplificado corresponde a cobros menos pagos operativos al cierre de cada año. No incluye impuestos, capital de trabajo, reposición ni valor residual. El ejercicio permite aislar mecanismos, pero no sustituye una evaluación financiera completa."
-  },
-  {
-    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#organización-y-tiempo",
-    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#organización-y-tiempo",
-    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
-    "section": "Organización y tiempo",
-    "text": "Organización y tiempo\nTrabajo grupal de 45 minutos. Antes de cada cambio, escriban una predicción. Modifiquen únicamente las entradas amarillas y revisen las fórmulas. No hay ponderación nueva asignada a esta actividad."
-  },
-  {
-    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#experimento-1-escenario-base-8-minutos",
-    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#experimento-1-escenario-base-8-minutos",
-    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
-    "section": "Experimento 1 · Escenario base (8 minutos)",
-    "text": "Experimento 1 · Escenario base (8 minutos)\nEn Proyecto, mantengan en 4% las trayectorias de inflación general, precios, costo variable y costos fijos para los cinco años.\n\nExpliquen cómo se obtiene la tasa nominal de 12.32%.\nRegistren VAN nominal, VAN real equivalente y flujo del año 1.\nComprueben que la diferencia entre ambos VAN es aproximadamente cero.\n¿Por qué el flujo nominal crece aunque el volumen permanezca constante?"
-  },
-  {
-    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#experimento-2-sorpresa-de-costos-10-minutos",
-    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#experimento-2-sorpresa-de-costos-10-minutos",
-    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
-    "section": "Experimento 2 · Sorpresa de costos (10 minutos)",
-    "text": "Experimento 2 · Sorpresa de costos (10 minutos)\nCambien las tasas de los años 1 y 2, columnas C y D:\n\n\n\nEntrada\nTasa anual\n\n\n\n\nInflación general\n8%\n\n\nAjuste de precio de venta\n4%\n\n\nAumento del costo variable\n10%\n\n\nAumento de costos fijos\n8%\n\n\n\nDesde el año 3, mantengan las tasas de ajuste en 4%. La rentabilidad nominal requerida permanece en 12.32% para aislar el canal operativo.\n\nComparen el VAN con el base y calculen el cambio absoluto.\n¿Qué ocurre con el margen unitario?\n¿Por qué volver a una tasa de 4% no devuelve los costos a su nivel base?\nLa igualdad nominal-real se conserva usando el factor real acumulado equivalente. Expliquen por qué no corresponde descontar estos flujos reales automáticamente al 8% original."
-  },
-  {
-    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#experimento-3-respuesta-comercial-8-minutos",
-    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#experimento-3-respuesta-comercial-8-minutos",
-    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
-    "section": "Experimento 3 · Respuesta comercial (8 minutos)",
-    "text": "Experimento 3 · Respuesta comercial (8 minutos)\nSobre el experimento 2, aumenten a 8% el ajuste del precio en los años 1 y 2. Mantengan las demás entradas.\n\n¿Cuánto valor recupera el proyecto?\n¿Qué supuesto comercial permite esa recuperación?\n¿Qué evidencia pedirían para mantener constantes las 100,000 unidades vendidas después del ajuste de precio?"
-  },
-  {
-    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#experimento-4-crédito-y-transmisión-9-minutos",
-    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#experimento-4-crédito-y-transmisión-9-minutos",
-    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
-    "section": "Experimento 4 · Crédito y transmisión (9 minutos)",
-    "text": "Experimento 4 · Crédito y transmisión (9 minutos)\nEn Credito, el préstamo es Q1,200,000 y se amortiza en partes iguales durante cinco años. La tasa base es 10%. Un aumento supuesto de 2 puntos porcentuales de la tasa líder se transmite en 50% a un préstamo variable. Es una relación didáctica, no una estimación empírica.\n\nComparen el control C9 en 0 (tasa fija) y 1 (variable).\nExpliquen por qué la tasa variable aplicada llega a 11%, no a 12%.\nComparen servicio de deuda, cobertura y efectivo después de deuda en el año 1.\n¿Por qué este control no cambia el VAN de Proyecto? El modelo separa el flujo antes de deuda de la capacidad de pago. No estima VAN del accionista ni recalcula el costo de capital.\nPrueben una transmisión de 0% y de 100%. Restablezcan 50% para la discusión."
-  },
-  {
-    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#registro-y-recomendación-10-minutos",
-    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#registro-y-recomendación-10-minutos",
-    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
-    "section": "Registro y recomendación (10 minutos)",
-    "text": "Registro y recomendación (10 minutos)\nCopien cada resultado como valor en la tabla de Actividades antes de pasar al siguiente experimento. La tabla conserva capturas del trabajo del grupo, mientras las hojas de cálculo muestran el experimento activo.\nEntregable: el Excel con fórmulas y registro completo, acompañado de una recomendación de hasta 150 palabras. Incluyan dos resultados numéricos, una medida concreta y un supuesto que requiera validación. Presenten sus conclusiones en tres minutos."
-  },
-  {
-    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#método-de-valoración",
-    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#método-de-valoración",
-    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
-    "section": "Método de valoración",
-    "text": "Método de valoración\n\\[i=(1+r)(1+\\pi^e)-1\\]\n\\[FC_t=Q_t(P_t-CVu_t)-CF_t\\]\nEl índice general acumula la inflación de cada año. El flujo real divide el nominal entre ese índice. El factor de descuento real equivalente divide el factor nominal acumulado entre el mismo índice. De esta manera, ambos valores presentes coinciden incluso con inflación variable."
-  },
-  {
-    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#fuentes-conceptuales",
-    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#fuentes-conceptuales",
-    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
-    "section": "Fuentes conceptuales",
-    "text": "Fuentes conceptuales\n\nBanco de Guatemala: tasa líder.\nFMI: inflación y poder adquisitivo.\nBank of England: creación de dinero bancario.\n\nVolver a sesión 09"
-  },
-  {
     "objectID": "laboratorios/index.html",
     "href": "laboratorios/index.html",
     "title": "Laboratorios",
@@ -1736,27 +1659,6 @@
     "text": "Fuentes para profundizar\n\nPaulo Garrido: Evolución del anclaje de las expectativas de inflación en Guatemala: una aproximación a la credibilidad de la política monetaria, 2010–2026. Documento proporcionado por el autor. Figuras 1 y 2.\nFMI: What Is Money?, funciones del dinero.\nBank of England: Money creation in the modern economy, creación de depósitos y restricciones bancarias.\nFMI: Monetarism: Money Is Where It’s At, identidad cuantitativa y supuestos.\nFMI: Inflation: Prices on the Rise, inflación y poder adquisitivo.\nBanco de Guatemala: política monetaria, tasa líder e inflación.\n\nLos ejemplos numéricos y contratos del caso son supuestos académicos."
   },
   {
-    "objectID": "sesiones/index.html",
-    "href": "sesiones/index.html",
-    "title": "Sesiones",
-    "section": "",
-    "text": "Los materiales de cada sesión incluyen presentaciones, lecturas, ejercicios, laboratorios y actividades correspondientes al desarrollo del curso.\n\n\nIntroducción al análisis macroeconómico\nPrincipios económicos, escasez, elección, costo de oportunidad y una primera aproximación al funcionamiento agregado de la economía.\nVer sesión →\n\n\n\n\nMedición económica agregada\nProducto Interno Bruto, cuentas nacionales y medición de la actividad económica mediante los enfoques de producción, gasto e ingreso.\nVer sesión →\nVer presentación interactiva →\n\n\n\n\nOferta-utilización y dimensionamiento del mercado\nDe las cuentas nacionales al análisis del mercado: oferta, utilización y aplicación al estudio de demanda de un proyecto.\nVer sesión →\n\n\n\n\nDinámica Económica\nFluctuaciones económicas, oferta y demanda agregada.\nVer sesión →.\n\n\n\n\nGuia examen parcial\n¿que deben de estudiar para prepararse par el examen parcial?"
-  },
-  {
-    "objectID": "sesiones/index.html#programa-de-sesiones",
-    "href": "sesiones/index.html#programa-de-sesiones",
-    "title": "Sesiones",
-    "section": "",
-    "text": "Los materiales de cada sesión incluyen presentaciones, lecturas, ejercicios, laboratorios y actividades correspondientes al desarrollo del curso.\n\n\nIntroducción al análisis macroeconómico\nPrincipios económicos, escasez, elección, costo de oportunidad y una primera aproximación al funcionamiento agregado de la economía.\nVer sesión →\n\n\n\n\nMedición económica agregada\nProducto Interno Bruto, cuentas nacionales y medición de la actividad económica mediante los enfoques de producción, gasto e ingreso.\nVer sesión →\nVer presentación interactiva →\n\n\n\n\nOferta-utilización y dimensionamiento del mercado\nDe las cuentas nacionales al análisis del mercado: oferta, utilización y aplicación al estudio de demanda de un proyecto.\nVer sesión →\n\n\n\n\nDinámica Económica\nFluctuaciones económicas, oferta y demanda agregada.\nVer sesión →.\n\n\n\n\nGuia examen parcial\n¿que deben de estudiar para prepararse par el examen parcial?"
-  },
-  {
-    "objectID": "sesiones/index.html#ver-sesión-.",
-    "href": "sesiones/index.html#ver-sesión-.",
-    "title": "Sesiones",
-    "section": "Ver sesión →.",
-    "text": "Ver sesión →.\n\nSesión 06\nChoques macroeconómicos, sensibilidad y VAN del proyecto\nVer sesión →.\n\n\nSesión 07\nCrecimiento y desarrollo económico: evidencia para Guatemala\nVer sesión →.\n\n\nSesión 09\nDinero, inflación y valores del proyecto\nFunciones del dinero, sistema bancario, inflación, tasas nominales y reales y transmisión de la política monetaria hacia los proyectos.\nVer sesión →"
-  },
-  {
     "objectID": "sesiones/sesion09.html",
     "href": "sesiones/sesion09.html",
     "title": "Sesión 9",
@@ -1783,5 +1685,131 @@
     "title": "Sesión 9",
     "section": "Una valoración consistente",
     "text": "Una valoración consistente\nLos flujos nominales y reales deben producir el mismo VAN cuando las tasas y el deflactor corresponden al mismo escenario. La liquidez para pagar deuda requiere, además, revisar el calendario de pagos."
+  },
+  {
+    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html",
+    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html",
+    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
+    "section": "",
+    "text": "Analizar cómo los ajustes de precios y costos afectan el VAN, comprobar la consistencia nominal-real y distinguir el valor del proyecto de su capacidad de pago.\nDescargar archivo Excel"
+  },
+  {
+    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#propósito",
+    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#propósito",
+    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
+    "section": "",
+    "text": "Analizar cómo los ajustes de precios y costos afectan el VAN, comprobar la consistencia nominal-real y distinguir el valor del proyecto de su capacidad de pago.\nDescargar archivo Excel"
+  },
+  {
+    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#caso-planta-de-alimentos",
+    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#caso-planta-de-alimentos",
+    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
+    "section": "Caso: planta de alimentos",
+    "text": "Caso: planta de alimentos\nTodos los valores son supuestos académicos, expresados en quetzales. La inversión inicial de Q2,400,000 ocurre en el año 0. La planta vende 100,000 unidades anuales durante cinco años. El precio inicial es Q30 y el costo variable Q18 por unidad. Los costos fijos iniciales son Q400,000 anuales. La rentabilidad real requerida es 8% y la inflación esperada al evaluar es 4%.\nEl flujo simplificado corresponde a cobros menos pagos operativos al cierre de cada año. No incluye impuestos, capital de trabajo, reposición ni valor residual. El ejercicio permite aislar mecanismos, pero no sustituye una evaluación financiera completa."
+  },
+  {
+    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#organización-y-tiempo",
+    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#organización-y-tiempo",
+    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
+    "section": "Organización y tiempo",
+    "text": "Organización y tiempo\nTrabajo individual de 45 minutos. Antes de cada cambio, escriba una predicción. Modifique únicamente las entradas amarillas y revise las fórmulas. No hay ponderación nueva asignada a esta actividad."
+  },
+  {
+    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#experimento-1-escenario-base-8-minutos",
+    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#experimento-1-escenario-base-8-minutos",
+    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
+    "section": "Experimento 1 · Escenario base (8 minutos)",
+    "text": "Experimento 1 · Escenario base (8 minutos)\nEn Proyecto, mantengan en 4% las trayectorias de inflación general, precios, costo variable y costos fijos para los cinco años.\n\nExpliquen cómo se obtiene la tasa nominal de 12.32%.\nRegistren VAN nominal, VAN real equivalente y flujo del año 1.\nComprueben que la diferencia entre ambos VAN es aproximadamente cero.\n¿Por qué el flujo nominal crece aunque el volumen permanezca constante?"
+  },
+  {
+    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#experimento-2-sorpresa-de-costos-10-minutos",
+    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#experimento-2-sorpresa-de-costos-10-minutos",
+    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
+    "section": "Experimento 2 · Sorpresa de costos (10 minutos)",
+    "text": "Experimento 2 · Sorpresa de costos (10 minutos)\nCambien las tasas de los años 1 y 2, columnas C y D:\n\n\n\nEntrada\nTasa anual\n\n\n\n\nInflación general\n8%\n\n\nAjuste de precio de venta\n4%\n\n\nAumento del costo variable\n10%\n\n\nAumento de costos fijos\n8%\n\n\n\nDesde el año 3, mantengan las tasas de ajuste en 4%. La rentabilidad nominal requerida permanece en 12.32% para aislar el canal operativo.\n\nComparen el VAN con el base y calculen el cambio absoluto.\n¿Qué ocurre con el margen unitario?\n¿Por qué volver a una tasa de 4% no devuelve los costos a su nivel base?\nLa igualdad nominal-real se conserva usando el factor real acumulado equivalente. Expliquen por qué no corresponde descontar estos flujos reales automáticamente al 8% original."
+  },
+  {
+    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#experimento-3-respuesta-comercial-8-minutos",
+    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#experimento-3-respuesta-comercial-8-minutos",
+    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
+    "section": "Experimento 3 · Respuesta comercial (8 minutos)",
+    "text": "Experimento 3 · Respuesta comercial (8 minutos)\nSobre el experimento 2, aumenten a 8% el ajuste del precio en los años 1 y 2. Mantengan las demás entradas.\n\n¿Cuánto valor recupera el proyecto?\n¿Qué supuesto comercial permite esa recuperación?\n¿Qué evidencia pedirían para mantener constantes las 100,000 unidades vendidas después del ajuste de precio?"
+  },
+  {
+    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#experimento-4-crédito-y-transmisión-9-minutos",
+    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#experimento-4-crédito-y-transmisión-9-minutos",
+    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
+    "section": "Experimento 4 · Crédito y transmisión (9 minutos)",
+    "text": "Experimento 4 · Crédito y transmisión (9 minutos)\nEn Credito, el préstamo es Q1,200,000 y se amortiza en partes iguales durante cinco años. La tasa base es 10%. Un aumento supuesto de 2 puntos porcentuales de la tasa líder se transmite en 50% a un préstamo variable. Es una relación didáctica, no una estimación empírica.\n\nComparen el control C9 en 0 (tasa fija) y 1 (variable).\nExpliquen por qué la tasa variable aplicada llega a 11%, no a 12%.\nComparen servicio de deuda, cobertura y efectivo después de deuda en el año 1.\n¿Por qué este control no cambia el VAN de Proyecto? El modelo separa el flujo antes de deuda de la capacidad de pago. No estima VAN del accionista ni recalcula el costo de capital.\nPrueben una transmisión de 0% y de 100%. Restablezcan 50% para la discusión."
+  },
+  {
+    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#registro-y-recomendación-10-minutos",
+    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#registro-y-recomendación-10-minutos",
+    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
+    "section": "Registro y recomendación (10 minutos)",
+    "text": "Registro y recomendación (10 minutos)\nCopie cada resultado como valor en la tabla de Actividades antes de pasar al siguiente experimento. La tabla conserva capturas de su trabajo individual, mientras las hojas de cálculo muestran el experimento activo.\nEntregable individual: el Excel con fórmulas y registro completo, acompañado de una recomendación de hasta 150 palabras. Incluya dos resultados numéricos, una medida concreta y un supuesto que requiera validación. Presente sus conclusiones en tres minutos."
+  },
+  {
+    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#método-de-valoración",
+    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#método-de-valoración",
+    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
+    "section": "Método de valoración",
+    "text": "Método de valoración\n\\[i=(1+r)(1+\\pi^e)-1\\]\n\\[FC_t=Q_t(P_t-CVu_t)-CF_t\\]\nEl índice general acumula la inflación de cada año. El flujo real divide el nominal entre ese índice. El factor de descuento real equivalente divide el factor nominal acumulado entre el mismo índice. De esta manera, ambos valores presentes coinciden incluso con inflación variable."
+  },
+  {
+    "objectID": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#fuentes-conceptuales",
+    "href": "laboratorios/sesion09/laboratorio_dinero_inflacion.html#fuentes-conceptuales",
+    "title": "Laboratorio · Dinero, inflación y valor del proyecto",
+    "section": "Fuentes conceptuales",
+    "text": "Fuentes conceptuales\n\nBanco de Guatemala: tasa líder.\nFMI: inflación y poder adquisitivo.\nBank of England: creación de dinero bancario.\n\nVolver a sesión 09"
+  },
+  {
+    "objectID": "sesiones/sesion11.html",
+    "href": "sesiones/sesion11.html",
+    "title": "Sesión 11",
+    "section": "",
+    "text": "SESIÓN 11\n\n\n\n\nRetomamos el ejercicio de dinero, inflación y valor del proyecto que quedó pendiente de resolver en clase.\n\nViernes 16 de octubre de 2026 · Sesión de reposición\nMacroeconomía · 200 FP\nMaestría en Formulación y Evaluación de Proyectos · USAC\nVolver a las sesiones"
+  },
+  {
+    "objectID": "sesiones/sesion11.html#excel-de-trabajo",
+    "href": "sesiones/sesion11.html#excel-de-trabajo",
+    "title": "Sesión 11",
+    "section": "Excel de trabajo",
+    "text": "Excel de trabajo\nEsta sesión se dedicará a resolver el laboratorio pendiente de forma individual. Descargue el archivo y ábralo en Excel para seguir los ejercicios en clase.\nDescargar Excel\nConsultar la guía del laboratorio"
+  },
+  {
+    "objectID": "sesiones/sesion11.html#trabajo-en-clase",
+    "href": "sesiones/sesion11.html#trabajo-en-clase",
+    "title": "Sesión 11",
+    "section": "Trabajo en clase",
+    "text": "Trabajo en clase\nResolveremos los cuatro experimentos de la guía:\n\nEscenario base: comparar el VAN nominal con el VAN real equivalente.\nSorpresa de costos: observar el efecto sobre el margen y el VAN.\nRespuesta comercial: evaluar la recuperación de valor al ajustar precios.\nCrédito fijo y variable: comparar el servicio de deuda y la capacidad de pago.\n\nCada estudiante trabajará en su propio archivo. Registre los resultados en la hoja Actividades antes de pasar al siguiente experimento y formule la recomendación indicada en la guía."
+  },
+  {
+    "objectID": "sesiones/sesion11.html#registro-de-asistencia",
+    "href": "sesiones/sesion11.html#registro-de-asistencia",
+    "title": "Sesión 11",
+    "section": "Registro de asistencia",
+    "text": "Registro de asistencia\nRegistre su asistencia correspondiente a la Sesión 11 · 16 de octubre de 2026.\nComplete su carné, nombre y el código de asistencia indicado durante la sesión. El formulario registra automáticamente la fecha y hora de envío.\nRegistrar asistencia"
+  },
+  {
+    "objectID": "sesiones/index.html",
+    "href": "sesiones/index.html",
+    "title": "Sesiones",
+    "section": "",
+    "text": "Los materiales de cada sesión incluyen presentaciones, lecturas, ejercicios, laboratorios y actividades correspondientes al desarrollo del curso.\n\n\nIntroducción al análisis macroeconómico\nPrincipios económicos, escasez, elección, costo de oportunidad y una primera aproximación al funcionamiento agregado de la economía.\nVer sesión →\n\n\n\n\nMedición económica agregada\nProducto Interno Bruto, cuentas nacionales y medición de la actividad económica mediante los enfoques de producción, gasto e ingreso.\nVer sesión →\nVer presentación interactiva →\n\n\n\n\nOferta-utilización y dimensionamiento del mercado\nDe las cuentas nacionales al análisis del mercado: oferta, utilización y aplicación al estudio de demanda de un proyecto.\nVer sesión →\n\n\n\n\nDinámica Económica\nFluctuaciones económicas, oferta y demanda agregada.\nVer sesión →.\n\n\n\n\nGuia examen parcial\n¿que deben de estudiar para prepararse par el examen parcial?"
+  },
+  {
+    "objectID": "sesiones/index.html#programa-de-sesiones",
+    "href": "sesiones/index.html#programa-de-sesiones",
+    "title": "Sesiones",
+    "section": "",
+    "text": "Los materiales de cada sesión incluyen presentaciones, lecturas, ejercicios, laboratorios y actividades correspondientes al desarrollo del curso.\n\n\nIntroducción al análisis macroeconómico\nPrincipios económicos, escasez, elección, costo de oportunidad y una primera aproximación al funcionamiento agregado de la economía.\nVer sesión →\n\n\n\n\nMedición económica agregada\nProducto Interno Bruto, cuentas nacionales y medición de la actividad económica mediante los enfoques de producción, gasto e ingreso.\nVer sesión →\nVer presentación interactiva →\n\n\n\n\nOferta-utilización y dimensionamiento del mercado\nDe las cuentas nacionales al análisis del mercado: oferta, utilización y aplicación al estudio de demanda de un proyecto.\nVer sesión →\n\n\n\n\nDinámica Económica\nFluctuaciones económicas, oferta y demanda agregada.\nVer sesión →.\n\n\n\n\nGuia examen parcial\n¿que deben de estudiar para prepararse par el examen parcial?"
+  },
+  {
+    "objectID": "sesiones/index.html#ver-sesión-.",
+    "href": "sesiones/index.html#ver-sesión-.",
+    "title": "Sesiones",
+    "section": "Ver sesión →.",
+    "text": "Ver sesión →.\n\nSesión 06\nChoques macroeconómicos, sensibilidad y VAN del proyecto\nVer sesión →.\n\n\nSesión 07\nCrecimiento y desarrollo económico: evidencia para Guatemala\nVer sesión →.\n\n\nSesión 09\nDinero, inflación y valores del proyecto\nFunciones del dinero, sistema bancario, inflación, tasas nominales y reales y transmisión de la política monetaria hacia los proyectos.\nVer sesión →\n\n\n\nSesión 11 · Reposición · 16 de octubre de 2026\nResolución del laboratorio de dinero e inflación\nTrabajo en Excel sobre el ejercicio pendiente: escenario base, sorpresa de costos, respuesta comercial y crédito fijo frente a variable.\nVer sesión →"
   }
 ]
