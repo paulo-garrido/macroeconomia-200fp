@@ -342,6 +342,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="material-de-la-sesión" class="level2">
 <h2 class="anchored" data-anchor-id="material-de-la-sesión">Material de la sesión</h2>
+<p><a href="../presentaciones/sesion07/reposicion_crecimiento_desarrollo_25sep_v5.html" class="course-btn primary">Abrir presentación de la sesión 07</a></p>
 <div class="resource-grid">
 <section id="panel-de-evidencia" class="level3 resource-card">
 <h3 class="anchored" data-anchor-id="panel-de-evidencia">Panel de evidencia</h3>
@@ -370,7 +371,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="registro-de-asistencia">Registro de asistencia</h2>
 <p>Registre su asistencia correspondiente a la <strong>Sesión 07</strong>.</p>
 <p>El formulario registra automáticamente la fecha y hora de envío. Complete correctamente su carné, nombre y el código de asistencia indicado durante la sesión.</p>
-<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfj3CT9kTzVRnLW000dwj3_kfSfsu0q3rqh-c4v6pKlmb0o7w/viewform?usp=pp_url&amp;entry.981962467=Sesi%C3%B3n+06" class="course-btn primary" target="_blank">Registrar asistencia →</a></p>
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfj3CT9kTzVRnLW000dwj3_kfSfsu0q3rqh-c4v6pKlmb0o7w/viewform?usp=pp_url&amp;entry.981962467=Sesi%C3%B3n+07" class="course-btn primary" target="_blank">Registrar asistencia →</a></p>
 </section>
 </div>
 
@@ -451,7 +452,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/paulo-garrido\.github\.io\/macroeconomia-200fp\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
