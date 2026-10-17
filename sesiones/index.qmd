@@ -82,3 +82,13 @@ Crecimiento y desarrollo económico: evidencia para Guatemala
 Funciones del dinero, sistema bancario, inflación, tasas nominales y reales y transmisión de la política monetaria hacia los proyectos.
 
 [Ver sesión →](sesion09.qmd)
+
+---
+
+### Sesión 11 · Reposición · 16 de octubre de 2026
+
+**Resolución del laboratorio de dinero e inflación**
+
+Trabajo en Excel sobre el ejercicio pendiente: escenario base, sorpresa de costos, respuesta comercial y crédito fijo frente a variable.
+
+[Ver sesión →](sesion11.qmd)

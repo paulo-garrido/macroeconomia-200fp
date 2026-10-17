@@ -18,7 +18,7 @@ El flujo simplificado corresponde a cobros menos pagos operativos al cierre de c
 
 ## Organización y tiempo
 
-Trabajo grupal de 45 minutos. Antes de cada cambio, escriban una predicción. Modifiquen únicamente las entradas amarillas y revisen las fórmulas. No hay ponderación nueva asignada a esta actividad.
+Trabajo individual de 45 minutos. Antes de cada cambio, escriba una predicción. Modifique únicamente las entradas amarillas y revise las fórmulas. No hay ponderación nueva asignada a esta actividad.
 
 ## Experimento 1 · Escenario base (8 minutos)
 
@@ -67,9 +67,9 @@ En `Credito`, el préstamo es Q1,200,000 y se amortiza en partes iguales durante
 
 ## Registro y recomendación (10 minutos)
 
-Copien cada resultado **como valor** en la tabla de `Actividades` antes de pasar al siguiente experimento. La tabla conserva capturas del trabajo del grupo, mientras las hojas de cálculo muestran el experimento activo.
+Copie cada resultado **como valor** en la tabla de `Actividades` antes de pasar al siguiente experimento. La tabla conserva capturas de su trabajo individual, mientras las hojas de cálculo muestran el experimento activo.
 
-Entregable: el Excel con fórmulas y registro completo, acompañado de una recomendación de hasta 150 palabras. Incluyan dos resultados numéricos, una medida concreta y un supuesto que requiera validación. Presenten sus conclusiones en tres minutos.
+Entregable individual: el Excel con fórmulas y registro completo, acompañado de una recomendación de hasta 150 palabras. Incluya dos resultados numéricos, una medida concreta y un supuesto que requiera validación. Presente sus conclusiones en tres minutos.
 
 ## Método de valoración
 
