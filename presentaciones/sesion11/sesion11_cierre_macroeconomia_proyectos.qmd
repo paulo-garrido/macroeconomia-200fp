@@ -1,0 +1,514 @@
+---
+title: "¿Qué nos deja la macroeconomía para evaluar proyectos?"
+subtitle: "Cierre integrador · Sesión 11"
+author: "Macroeconomía · 200 FP · USAC"
+lang: es
+format:
+  revealjs:
+    theme: [default, styles.scss]
+    width: 1600
+    height: 900
+    margin: 0.06
+    center: false
+    transition: fade
+    slide-number: c/t
+    controls: true
+    progress: true
+    overview: true
+    hash: true
+    history: true
+    navigation-mode: linear
+    slide-level: 2
+    pdf-separate-fragments: false
+    include-after-body: back-button.html
+execute:
+  echo: false
+---
+
+## Del laboratorio al cierre integrador
+
+| Tiempo acumulado | Tramo | Minutos |
+|---|---|---:|
+| 0–45 | Revisar resultados del laboratorio de la sesión 10 | 45 |
+| 45–60 | Reconstruir el hilo del curso | 15 |
+| 60–90 | Guatemala: variables que afectan la inversión | 30 |
+| 90–100 | Pausa | 10 |
+| 100–120 | Construir y comparar escenarios | 20 |
+| 120–150 | Comité de inversión y discusión | 30 |
+| 150–165 | Síntesis y cierre individual | 15 |
+
+**45 minutos para recuperar resultados + 120 minutos de cierre.**
+
+::: {.notes}
+Tiempo total solicitado: 165 minutos. Los 120 minutos incluyen pausa y participación. La discusión recupera la pregunta del panel-foro no realizado como actividad formativa; no sustituye ni modifica administrativamente su evaluación. No se crean ponderaciones ni entregas calificadas.
+:::
+
+## Primero: recuperar los resultados del laboratorio {.section-slide}
+
+**45 minutos · trabajo individual**
+
+Retomamos la planta de alimentos trabajada en la sesión 08 y resuelta en la sesión 10.
+
+[Descargar Excel](../../laboratorios/sesion09/laboratorio_dinero_inflacion.xlsx) · [Consultar guía](../../laboratorios/sesion09/laboratorio_dinero_inflacion.qmd)
+
+::: {.notes}
+Este bloque termina en el minuto 45. Recuperar los resultados y recomendaciones de la sesión 10 para contrastarlos y justificarlos. No repetir el laboratorio completo. Mantener el trabajo individual.
+:::
+
+## Con el Excel de la sesión 10, expliquen su resultado
+
+1. **Base:** ¿por qué coinciden el VAN nominal y el real equivalente?
+2. **Costos:** ¿qué ajuste deteriora el margen?
+3. **Precios:** ¿qué supuesto permite recuperar valor?
+4. **Crédito:** ¿qué cambia en la capacidad de pago?
+
+Utilicen los resultados guardados en `Actividades` y la recomendación elaborada en la sesión 10.
+
+::: {.answer-box}
+El valor del proyecto, la caja disponible y el poder adquisitivo responden a preguntas diferentes.
+:::
+
+::: {.notes}
+Dentro de los 45 minutos: 30 para revisar resultados, 10 para discutir recomendaciones y 5 para contrastar respuestas. Pedir dos intervenciones breves. En el Excel, el crédito no recalcula el VAN del proyecto ni su tasa de descuento.
+:::
+
+## La pregunta que integra el curso {.section-slide}
+
+**Entorno macroeconómico y viabilidad de proyectos de inversión en Guatemala:**
+
+¿qué variables determinarán las decisiones de inversión en los próximos años?
+
+::: {.notes}
+Minutos 45–60: esta lámina y las tres siguientes. Pedir una respuesta inicial de una frase. Recuperar al final si cambió la variable que cada persona considera decisiva. No prometer un pronóstico único: priorizar exposiciones, mecanismos y decisiones condicionadas.
+:::
+
+## El entramado: cada tema aporta una pieza
+
+| Lo que estudiamos | Lo que aporta al proyecto |
+|---|---|
+| Escasez y costo de oportunidad | Elegir entre usos alternativos del capital |
+| PIB y oferta-utilización | Ubicar actividad, mercado y disponibilidad de bienes |
+| Fluctuaciones y OA–DA | Explicar cambios en demanda, producción y costos |
+| Crecimiento y desarrollo | Revisar territorio, capacidades y demanda efectiva |
+| Dinero, inflación y tasas | Construir flujos, contratos y tasas coherentes |
+| Choques, sensibilidad y VAN | Evaluar cuánto resiste la inversión |
+
+**Hoy incorporamos sector externo, política fiscal y ejecución como conexiones de cierre.**
+
+::: {.notes}
+Retomar los materiales de sesiones 01–04, 06, 07 y 08. La última línea distingue conexiones nuevas de contenidos efectivamente desarrollados. Preguntar: ¿qué supuesto de su proyecto cambió al aprender alguno de estos temas?
+:::
+
+## Del indicador a la decisión
+
+::: {.causal-chain}
+**Entorno macroeconómico** → **exposición del proyecto** → **supuesto** → **flujo y valor** → **decisión**
+:::
+
+**Ejemplo:** menos ingreso de los clientes → menor demanda del producto → menos unidades vendidas → menor flujo → ajustar escala o aplazar.
+
+::: {.question-box}
+¿Qué evidencia necesitamos para pasar del ingreso nacional a las ventas de una planta específica?
+:::
+
+::: {.notes}
+Exigir el eslabón sectorial y territorial. PIB creciente no permite asumir idéntico crecimiento de ventas. Solicitar información sobre clientes, sustitutos, elasticidades y capacidad instalada. Dibujar el canal propuesto por un estudiante en el pizarrón.
+:::
+
+## Tres preguntas que una buena evaluación separa
+
+:::: {.columns}
+::: {.column width="50%"}
+**¿Crea valor?**
+
+VAN con flujos, moneda y tasa consistentes.
+
+**¿Puede pagar a tiempo?**
+
+Liquidez, capital de trabajo y servicio de deuda.
+:::
+::: {.column width="50%"}
+**¿Puede operar y sostenerse?**
+
+Mercado, permisos, infraestructura, capacidades y recursos.
+
+En proyectos públicos, agregar beneficios y costos sociales y sostenibilidad fiscal.
+:::
+::::
+
+::: {.notes}
+Cerrar el bloque de 15 minutos. Pedir un ejemplo de proyecto con VAN positivo que podría fracasar por falta de liquidez o por restricciones operativas. La evaluación social requiere un método propio, no se obtiene sumando empleo al VAN financiero.
+:::
+
+## Guatemala: estabilidad y condiciones para invertir
+
+La misión del FMI de **junio de 2026** destacó:
+
+- Resiliencia macroeconómica y expectativas de inflación ancladas.
+- Riesgos asociados a energía, migración y remesas.
+- Necesidad de infraestructura y capacidad de ejecución para impulsar inversión privada.
+
+**Lectura para proyectos:** la estabilidad ayuda a planificar; la viabilidad exige además mercado y condiciones de operación.
+
+::: {.figure-source}
+Fuente: [FMI, declaración de la misión, 8 de junio de 2026](https://www.imf.org/es/news/articles/2026/06/08/mcs060826-guatemala-staff-concluding-statement-of-the-2026-article-iv-mission). Diagnóstico fechado; no es un dato de cierre de 2026. La última frase es una interpretación docente.
+:::
+
+::: {.notes}
+Minutos 60–90: diez láminas de entorno, aproximadamente tres minutos por lámina. Esta declaración contiene conclusiones preliminares del personal técnico. No presentar como cifras actuales las tasas o proyecciones de junio. El objetivo es relacionar evidencia con decisiones de inversión para 2027–2030, horizonte de discusión, no de predicción cierta.
+:::
+
+## 1 · Demanda efectiva: ¿quién comprará?
+
+**Observar:** actividad sectorial, empleo e ingreso real de los clientes, mercado territorial.
+
+**Traducir:** unidades vendidas, ocupación, tarifa y plazo de cobro.
+
+**Decidir:** capacidad inicial, segmento y localización.
+
+::: {.question-box}
+El país crece, pero el ingreso de nuestros clientes se estanca. ¿Mantendríamos el aumento previsto de ventas?
+:::
+
+::: {.notes}
+Conectar medición del PIB y desarrollo. La necesidad social no equivale a demanda solvente. Para un proyecto público puede justificar provisión o subsidio, que debe tener financiamiento. No aplicar mecánicamente la tasa de crecimiento del PIB a las ventas.
+:::
+
+## 2 · Remesas y Estados Unidos: exposición indirecta
+
+**Canal de demanda:** ingreso de hogares receptores → consumo → ventas de negocios locales.
+
+**Canal externo:** actividad y condiciones comerciales en Estados Unidos → pedidos, turismo y exportaciones.
+
+**Decidir:** diversificar clientes y probar una desaceleración de ventas.
+
+**Verificar:** cuánto dependen nuestros clientes de esos ingresos y mercados.
+
+::: {.notes}
+Los riesgos de migración y remesas aparecen en el diagnóstico del FMI citado. Los canales hacia un proyecto son hipótesis a validar; no todas las remesas se consumen ni todos los hogares las reciben. Una caída de remesas no implica automáticamente una caída proporcional de ventas. Puede afectar también construcción, ahorro o inversión familiar.
+:::
+
+## 3 · Inflación y energía: importa el margen
+
+**Observar:** precio de insumos, combustibles, electricidad y transporte; capacidad de ajustar el precio de venta.
+
+$$\text{Margen unitario}=P-CVu$$
+
+Un IPC bajo puede coexistir con aumentos en los insumos relevantes para una empresa.
+
+**Decidir:** contratos de suministro, eficiencia, inventarios y reglas de ajuste de precios.
+
+::: {.notes}
+Recuperar el experimento de costos. Si el ajuste comercial reduce volumen, la respuesta puede no recuperar valor. Evitar suponer que el IPC representa la canasta de costos de la planta. Los inventarios consumen caja y añaden costos de almacenamiento y riesgo de pérdida.
+:::
+
+## 4 · Tasas y crédito: costo, plazo y acceso
+
+| Revisar | Efecto en el proyecto |
+|---|---|
+| Tasa contractual y sus revisiones | Servicio de deuda |
+| Plazo, gracia y amortización | Calendario de caja |
+| Garantías y disponibilidad | Posibilidad de ejecutar |
+| Rentabilidad requerida por los financiadores | Valor presente de los flujos |
+
+**La tasa líder es una señal; la tasa del préstamo exige revisar el contrato.**
+
+::: {.notes}
+No trasladar un cambio de tasa líder uno a uno a la tasa comercial o al costo de capital. Separar evaluación del proyecto y financiamiento. Si se cambia la tasa de descuento, justificar moneda, inflación, plazo y riesgo; evitar contar dos veces el mismo riesgo. Crédito barato no crea por sí solo demanda.
+:::
+
+## 5 · Tipo de cambio: ¿en qué moneda cobro y pago?
+
+**Maquinaria importada:** US$100,000 × Q7.70/US$ = Q770,000.
+
+Con Q8.00/US$, el desembolso sería **Q800,000: Q30,000 adicionales**.
+
+Un exportador puede recibir más quetzales por dólar, pero también pagar más por insumos o deuda en dólares.
+
+**Decidir:** alinear monedas, negociar condiciones y evaluar cobertura si está disponible y conviene.
+
+::: {.figure-source}
+Ejemplo académico. Los tipos de cambio son supuestos, no cotizaciones ni pronósticos.
+:::
+
+::: {.notes}
+Definir aumento de Q/US$ como depreciación del quetzal. El efecto neto depende de ingresos, costos, deuda y fechas. Una cobertura tiene costo y condiciones. Distinguir competitividad real de una simple conversión contable de dólares a quetzales.
+:::
+
+## 6 · Política fiscal e infraestructura: ejecución real
+
+**Una asignación presupuestaria no garantiza una carretera disponible.**
+
+- La infraestructura ejecutada puede reducir tiempos y costos logísticos.
+- La contratación pública puede generar demanda, con plazos y riesgo de cobro.
+- Cambios tributarios pueden modificar flujos después de impuestos.
+
+**Decidir:** localizar y programar la inversión según obras y contratos verificables.
+
+::: {.notes}
+El FMI destaca la agenda de infraestructura y sus restricciones de ejecución. Los canales son aplicaciones docentes. No anunciar reformas tributarias como hechos aprobados. Para un proveedor estatal, comprobar presupuesto, contratación, avance, pagos y capital de trabajo. Para un proyecto público, revisar costos de operación y mantenimiento futuros.
+:::
+
+## 7 · Productividad, instituciones y clima
+
+| Condición | Supuesto que puede cambiar | Decisión |
+|---|---|---|
+| Talento y capacidades | Rendimiento, formación y salarios | Tecnología y capacitación |
+| Permisos y certeza contractual | Fecha de inicio y contingencias | Secuencia de inversión |
+| Agua y eventos climáticos | Producción, interrupciones y seguros | Ubicación y resiliencia |
+
+**Convertir cada riesgo en costo, plazo o cantidad antes de evaluarlo.**
+
+::: {.notes}
+Distinguir variables macroeconómicas de condiciones estructurales y riesgos del territorio: se complementan, no son categorías idénticas. No sumar arbitrariamente una prima a la tasa por cada riesgo; modelar flujos y escenarios y explicar el riesgo residual. Incluir costo de mitigación y límites de los seguros.
+:::
+
+## ¿Qué pesa más? Depende de la exposición
+
+| Proyecto | Variables que conviene probar primero |
+|---|---|
+| Planta de alimentos | Demanda, insumos, energía y capacidad de ajustar precios |
+| Hotel | Ocupación, tarifas, turismo y costos fijos |
+| Exportador | Pedidos externos, tipo de cambio e insumos importados |
+| Generación solar | Inversión importada, financiamiento y contrato de venta |
+| Agua pública | Demanda social, inversión, operación y financiamiento fiscal |
+
+**La prioridad es una hipótesis: se confirma con evidencia y sensibilidad.**
+
+::: {.notes}
+Recuperar los cuatro proyectos del laboratorio de sesión 06 y añadir el público para conectar la maestría. Esta tabla no es un ranking empírico ni exhaustivo. Pedir a dos estudiantes que expliquen una exposición distinta para el mismo proyecto.
+:::
+
+## Nuestra respuesta a la pregunta del panel
+
+Para **2027–2030**, vigilaremos demanda e ingreso, remesas y entorno externo, costos y energía, tasas y crédito, tipo de cambio e infraestructura ejecutada.
+
+La productividad, las instituciones y la exposición climática condicionarán cómo esas variables llegan al proyecto.
+
+::: {.answer-box}
+La variable decisiva será la que más comprometa el valor, la caja o la operación del proyecto. La inversión debe condicionarse a evidencia y umbrales verificables.
+:::
+
+::: {.notes}
+Síntesis docente apoyada en los mecanismos discutidos y el diagnóstico fechado del FMI; no es un pronóstico de niveles ni de dirección para cada variable. No existe una variable dominante universal. Recuperar la respuesta inicial: ¿cambiarían su prioridad y por qué?
+:::
+
+## Pausa {.section-slide}
+
+**10 minutos · regresamos en el minuto 100.**
+
+Al volver: ¿cuánto resiste la planta antes de dejar de crear valor?
+
+## De la sensibilidad al escenario
+
+**Sensibilidad:** cambiar un supuesto para identificar vulnerabilidad.
+
+**Escenario:** combinar cambios que respondan a una misma explicación económica.
+
+Ejemplo adverso: menor demanda + insumos más caros + mayor rentabilidad requerida.
+
+**No asignaremos probabilidades sin fundamento.**
+
+::: {.notes}
+Minutos 100–120: cuatro láminas, con cálculo y discusión incluidos. La combinación es un escenario académico de tensión, no una previsión para Guatemala. Los precios relativos y la tasa real pueden cambiar simultáneamente. Un escenario favorable también debe sustentarse; no es aumentar todas las variables por el mismo porcentaje.
+:::
+
+## La misma planta, una extensión en quetzales constantes
+
+**Inversión inicial Q2,400,000 · cinco años · flujos al final de cada año.**
+
+| Supuesto constante en años 1–5 | Base | Adverso | Respuesta comercial |
+|---|---:|---:|---:|
+| Unidades anuales | 100,000 | 90,000 | 90,000 |
+| Precio real por unidad | Q30 | Q30 | Q32 |
+| Costo variable real unitario | Q18 | Q20 | Q20 |
+| Costos fijos reales anuales | Q400,000 | Q440,000 | Q440,000 |
+| Tasa real requerida | 8% | 10% | 10% |
+
+::: {.figure-source}
+Supuestos académicos. Extensión independiente del Excel: sin deuda, impuestos, capital de trabajo, reposición ni residual. Los cambios de precios y costos son reales; no se agrega inflación.
+:::
+
+::: {.notes}
+Conservar el Excel del laboratorio como está y resolver esta extensión en pizarrón, calculadora o archivo aparte. La tasa real requerida de 10% es un supuesto de tensión para valorar el proyecto, no la tasa de un préstamo. Los valores anuales permanecen constantes dentro de cada escenario, no crecen cada año. Pedir que calculen primero los tres flujos.
+:::
+
+## El valor cambia cuando cambian los supuestos
+
+$$FC=Q(P-CVu)-CF \qquad VAN=-I_0+\sum_{t=1}^{5}\frac{FC}{(1+r)^t}$$
+
+| Resultado | Base | Adverso | Respuesta comercial |
+|---|---:|---:|---:|
+| Flujo anual real | Q800,000 | Q460,000 | Q640,000 |
+| VAN aproximado | Q794,168 | −Q656,238 | Q26,104 |
+
+::: {.question-box}
+¿Aprobaríamos la respuesta comercial solo porque el VAN vuelve a ser positivo?
+:::
+
+::: {.notes}
+Mostrar resultados después del cálculo de los estudiantes. Base: 100000×12−400000. Adverso: 90000×10−440000. Respuesta: 90000×12−440000. Factores de anualidad: 3.992710 a 8% y 3.790787 a 10%. El cambio de VAN combina efectos operativos y de tasa; no atribuir toda la pérdida a una sola variable. La respuesta comercial no incluye costos de implementación.
+:::
+
+## Un VAN positivo también puede ser frágil
+
+Con el precio de Q32 y la tasa real de 10%:
+
+$$Q^*=\frac{2{,}400{,}000/3.790787+440{,}000}{32-20}\approx89{,}426\text{ unidades/año}$$
+
+La respuesta supone **90,000 unidades**: apenas unas **574 unidades** sobre el umbral de VAN cero.
+
+**Condición para decidir:** validar que el aumento de precio sostenga el volumen y completar los costos omitidos.
+
+::: {.notes}
+Este umbral supone ventas iguales en los cinco años y las demás variables constantes. Para unidades enteras se requieren al menos 89,427. No es el punto de equilibrio contable ni una garantía bancaria. Una reducción adicional de aproximadamente 0.64% sobre 90000 unidades agotaría el margen de valor. Pedir una interpretación verbal antes de avanzar.
+:::
+
+## Comité de inversión: decidir con condiciones {.section-slide}
+
+**30 minutos · actividad formativa**
+
+Invertir ahora · invertir por etapas · rediseñar · aplazar · descartar.
+
+Cada decisión debe indicar **evidencia, exposición y condición de revisión**.
+
+::: {.notes}
+Minutos 120–150. Distribución: 3 de instrucciones, 12 de preparación, 12 de discusión y 3 de síntesis docente. No añade nota ni sustituye la evaluación del panel-foro. Usar la planta para todos; la comparación entre proyectos ya se trabajó en la matriz anterior.
+:::
+
+## Tres miradas sobre la misma planta
+
+**Formulación:** explique la demanda y el canal macroeconómico más importante.
+
+**Financiamiento:** pregunte por valor, caja, deuda y costos omitidos.
+
+**Contraparte:** cuestione el supuesto más débil y proponga evidencia para comprobarlo.
+
+Trabajen en equipos pequeños. Distribuyan los tres papeles; en equipos mayores pueden compartirlos.
+
+::: {.notes}
+El comité continúa el trabajo individual sin cambiar su entrega. En la preparación cada equipo produce una recomendación común. Si el grupo es pequeño, trabajar en parejas y el docente asume contraparte. No requiere invitados ni presentaciones preparadas fuera de clase.
+:::
+
+## La recomendación debe caber en cinco líneas
+
+1. **Decisión:** ¿qué haríamos con la planta?
+2. **Evidencia:** ¿qué dato y período necesitamos consultar?
+3. **Canal:** ¿qué supuesto y flujo cambia?
+4. **Condición:** ¿qué umbral sostiene la decisión?
+5. **Respuesta:** ¿qué medida tomaríamos y cuánto costaría?
+
+Pueden usar una hoja o el pizarrón. **No hay una entrega adicional calificada.**
+
+::: {.notes}
+12 minutos de preparación. Distinguir evidencia que ya existe del dato que se solicitaría: no inventar cifras de remesas, inflación o ventas. Exigir al menos un resultado de la extensión y una limitación. Si proponen etapas, explicar que la inversión y los flujos deben recalcularse; no conservar automáticamente el VAN presentado.
+:::
+
+## Discusión: ¿qué tendría que ser cierto?
+
+**Tres equipos: 2 minutos de recomendación + 2 minutos de contraparte cada uno.**
+
+- ¿Por qué priorizaron esa variable y no otra?
+- ¿Qué evidencia sostiene las 90,000 unidades a Q32?
+- ¿La medida reduce el riesgo o lo traslada a alguien?
+- ¿Qué cambio obligaría a revisar su decisión?
+
+Los demás equipos contrastan su respuesta con las recomendaciones expuestas.
+
+::: {.notes}
+12 minutos totales. Si hay menos de tres equipos, distribuir el mismo tiempo entre ellos. No intentar exposiciones extensas de todos los equipos. El docente recoge en el pizarrón: decisión / condición / evidencia faltante.
+:::
+
+## Una recomendación posible
+
+**No comprometer todavía toda la inversión.** Validar ventas al precio de Q32 y completar la evaluación antes de aprobar.
+
+El VAN simplificado de Q26,104 depende de vender 90,000 unidades anuales; el umbral es aproximadamente 89,426.
+
+Solicitar prueba comercial, cotizaciones de insumos y condiciones de crédito. Incluir capital de trabajo, impuestos y reposición.
+
+**Si se propone ejecutar por etapas, recalcular inversión, costos y flujos de cada etapa.**
+
+::: {.notes}
+3 minutos de síntesis. Esta es una respuesta ilustrativa, no la única admisible. Otra decisión puede defenderse si explicita condiciones y costos. La evaluación simplificada no basta para aprobar una inversión real. No afirmar que el comité ha demostrado la viabilidad completa.
+:::
+
+## Rentabilidad financiera y desarrollo se complementan
+
+Una necesidad importante no asegura ingresos suficientes para financiar el servicio.
+
+Un proyecto rentable tampoco garantiza beneficios sociales netos positivos.
+
+Para inversión pública: valorar beneficios y costos sociales, alternativas, distribución, ambiente y operación futura.
+
+**La macroeconomía ayuda a evaluar el contexto; la decisión requiere también estudios de mercado, técnicos, institucionales y financieros.**
+
+::: {.notes}
+Minutos 150–165: esta lámina y las cuatro siguientes, aproximadamente 3 minutos cada una. Conectar crecimiento y desarrollo. No confundir empleo bruto con beneficio social neto ni sumar sin método efectos externos al VAN financiero. Preguntar quién recibe los beneficios y quién asume los costos.
+:::
+
+## Lo que nos llevamos del curso
+
+| Herramienta | Hábito para formular y evaluar |
+|---|---|
+| Medición | Preguntar qué mide el indicador y qué deja fuera |
+| Explicación económica | Justificar el mecanismo antes de cambiar una celda |
+| Consistencia financiera | Alinear moneda, precios, tasas y plazos |
+| Escenarios | Reconocer qué supuesto sostiene la viabilidad |
+| Desarrollo y territorio | Identificar capacidades, restricciones y efectos |
+| Seguimiento | Definir señales para revisar la decisión |
+
+**Un buen diagnóstico macroeconómico termina en supuestos verificables.**
+
+## Un tablero mínimo para el proyecto
+
+| Señal que seguimos | Supuesto que revisamos | Fuente o evidencia |
+|---|---|---|
+| Actividad e ingreso del mercado | Volumen y cobros | Banguat + ventas y clientes |
+| Precios e insumos | Margen y capital de trabajo | Banguat + cotizaciones |
+| Tasas y crédito | Cuotas y liquidez | Banguat + oferta bancaria |
+| Moneda y mercado externo | Inversión, costos e ingresos | Banguat + contratos |
+| Obras, permisos y recursos | Inicio y continuidad | Registros y verificación local |
+
+Asignar responsable, frecuencia y **umbral de revisión específico** a cada señal.
+
+::: {.notes}
+No usar umbrales universales de inflación o tasas para todos los proyectos. Ejemplo para la planta: revisar si la evidencia comercial ya no sostiene las ventas mínimas del escenario, actualizando el umbral con los costos completos. Toda ficha debe registrar fecha del dato, publicación y consulta; separar observado, proyección y supuesto.
+:::
+
+## Cierre individual: completen tres frases
+
+**Antes del curso**, habría evaluado el entorno mirando…
+
+**Ahora**, antes de recomendar una inversión, verificaría…
+
+**En mi proyecto**, la variable que más puede cambiar la decisión es…, porque afecta…
+
+Escriban durante dos minutos. Compartamos dos respuestas breves.
+
+::: {.notes}
+Actividad de reflexión sin nota nueva. Pedir respuestas concretas: una variable, un supuesto, un efecto y una decisión. Conectar con la pregunta inicial del panel.
+:::
+
+## ¿Qué nos deja la macroeconomía? {.section-slide}
+
+La capacidad de explicar **de qué depende un proyecto**, cuánto puede resistir y cuándo debemos revisar la decisión.
+
+**El cierre de la evaluación es una recomendación con condiciones, evidencia y responsabilidad.**
+
+::: {.notes}
+Cerrar en el minuto 165. Recuperar la pregunta literal del panel y pedir una última respuesta en una frase. Los materiales de fuentes quedan para consulta; no requieren exposición adicional.
+:::
+
+## Fuentes y consulta de coyuntura
+
+- [FMI · Declaración de la misión de 2026](https://www.imf.org/es/news/articles/2026/06/08/mcs060826-guatemala-staff-concluding-statement-of-the-2026-article-iv-mission), 8 de junio: diagnóstico y riesgos.
+- [FMI · Consulta del Artículo IV 2026](https://www.imf.org/en/publications/cr/issues/2026/08/05/guatemala-2026-article-iv-consultation-press-release-and-staff-report-578564), 5 de agosto: informe para ampliar.
+- [Banguat · Evaluación y perspectivas](https://www.banguat.gob.gt/page/evaluacion-de-la-politica-monetaria-cambiaria-y-crediticia).
+- [Banguat · Inflación](https://banguat.gob.gt/page/inflacion-1) y [tasa líder](https://banguat.gob.gt/page/tasa-de-interes-lider-de-politica-monetaria).
+
+Registrar **fuente, período y fecha**. Separar datos observados, proyecciones y supuestos académicos.
+
+::: {.figure-source}
+Consulta de fuentes: 16 de octubre de 2026. Los cálculos, escenarios, tipos de cambio y umbrales de esta presentación son ejercicios académicos.
+:::

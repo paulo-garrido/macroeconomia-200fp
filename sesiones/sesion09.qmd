@@ -1,5 +1,5 @@
 ---
-title: "Sesión 9"
+title: "Sesión 8"
 subtitle: "Dinero, inflación y valores del proyecto"
 toc: false
 page-layout: full
@@ -7,7 +7,7 @@ page-layout: full
 
 ::: {.session-hero}
 ::: {.session-number}
-SESIÓN 09
+SESIÓN 08
 :::
 
 # ¿Cómo afectan el dinero y la inflación a los valores del proyecto?
@@ -54,4 +54,12 @@ Cuatro experimentos: escenario base, sorpresa de costos, ajuste comercial y cré
 ## Una valoración consistente
 
 Los flujos nominales y reales deben producir el mismo VAN cuando las tasas y el deflactor corresponden al mismo escenario. La liquidez para pagar deuda requiere, además, revisar el calendario de pagos.
+:::
+
+::: {.attendance-card}
+## Registro de asistencia
+
+Registre su asistencia correspondiente a la **Sesión 08**. Complete su carné, nombre y el código de asistencia indicado durante la sesión.
+
+[Registrar asistencia](https://docs.google.com/forms/d/e/1FAIpQLSfj3CT9kTzVRnLW000dwj3_kfSfsu0q3rqh-c4v6pKlmb0o7w/viewform?usp=pp_url&entry.981962467=Sesi%C3%B3n+08){.course-btn .primary target="_blank"}
 :::

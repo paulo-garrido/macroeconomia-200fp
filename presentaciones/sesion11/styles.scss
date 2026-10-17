@@ -1,0 +1,157 @@
+/*-- scss:defaults --*/
+$body-bg: #f7f5ef;
+  
+$body-color: #17324d;
+  
+$link-color: #bd5709;
+  
+$presentation-heading-color: #0b2e4f;
+  
+$font-family-sans-serif: "Aptos", "Avenir Next", Arial, sans-serif;
+  
+$presentation-font-size-root: 34px;
+  
+/*-- scss:rules --*/
+.reveal .wp-chart {
+  display: block;
+  width: auto;
+  height: 480px;
+  max-width: 100%;
+  object-fit: contain;
+  margin: 0 auto;
+}
+.reveal .evidence-slide figure {
+  margin: 0;
+}
+.reveal .evidence-slide figcaption {
+  display: none;
+}
+.reveal .figure-source p {
+  font-size: 18px;
+  line-height: 1.3;
+  color: #617385;
+  margin: 10px 0 16px;
+}
+.reveal .slides {
+  text-align:left;
+  
+}
+
+.reveal .slides section {
+  box-sizing:border-box;
+   padding:20px 36px;
+  
+}
+
+.reveal h1 {
+  font-size:1.85em;
+  
+}
+
+.reveal h2 {
+  font-size:1.5em;
+   border-bottom:4px solid #e97817;
+   padding-bottom:.22em;
+   margin-bottom:.55em;
+  
+}
+
+.reveal p,.reveal li {
+  font-size:.85em;
+  line-height:1.4;
+  
+}
+
+.reveal li {
+  margin-bottom:.4em;
+  
+}
+
+.reveal table {
+  font-size:.72em;
+  width:100%;
+  margin:20px 0;
+  
+}
+
+.reveal th {
+  background:#0b2e4f;
+  color:white;
+  padding:14px;
+  
+}
+
+.reveal td {
+  padding:13px;
+  border-bottom:1px solid #d9d5cc;
+  
+}
+
+.reveal strong {
+  color:#0b2e4f;
+  
+}
+
+.reveal .section-slide,.reveal #title-slide {
+  background:#0b2e4f;
+  color:white;
+   padding:55px !important;
+  
+}
+
+.reveal .section-slide h1,.reveal .section-slide h2,.reveal .section-slide strong,.reveal #title-slide h1 {
+  color:white;
+  
+}
+
+.reveal #title-slide .subtitle {
+  color:#ffd4ac;
+  font-size:1em;
+  
+}
+
+.reveal #title-slide .author {
+  color:#d9e5ee;
+  font-size:.65em;
+  
+}
+
+.question-box,.answer-box {
+  padding:20px 26px;
+  margin-top:25px;
+  border-left:6px solid #e97817;
+  background:#fff0de;
+  
+}
+
+.answer-box {
+  background:#eaf2f8;
+  border-color:#1f5a99;
+  
+}
+
+.reveal .progress span {
+  background:#e97817;
+  
+}
+
+.reveal .slide-number {
+  background:transparent;
+  color:#617385;
+  font-size:18px;
+  
+}
+
+.back-to-session {
+  position:fixed;
+  top:10px;
+  left:15px;
+  z-index:1000;
+  font:14px Arial,sans-serif;
+  background:#0b2e4f;
+  color:white;
+  padding:8px 14px;
+  border-radius:18px;
+  text-decoration:none;
+  
+}

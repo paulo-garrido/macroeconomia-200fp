@@ -1,6 +1,6 @@
 ---
 title: "Laboratorio · Dinero, inflación y valor del proyecto"
-subtitle: "Sesión 09 · Macroeconomía 200 FP"
+subtitle: "Sesión 08 · Macroeconomía 200 FP"
 format: html
 ---
 
@@ -85,4 +85,4 @@ El índice general acumula la inflación de cada año. El flujo real divide el n
 - [FMI: inflación y poder adquisitivo](https://www.imf.org/en/publications/fandd/issues/series/back-to-basics/inflation).
 - [Bank of England: creación de dinero bancario](https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy).
 
-[Volver a sesión 09](../../sesiones/sesion09.qmd)
+[Volver a sesión 08](../../sesiones/sesion09.qmd)

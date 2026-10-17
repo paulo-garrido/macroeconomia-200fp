@@ -1,0 +1,69 @@
+---
+title: "Sesión 10"
+subtitle: "Reposición · Resolución del laboratorio de dinero e inflación"
+toc: false
+page-layout: full
+---
+
+::: {.session-hero}
+::: {.session-number}
+SESIÓN 10
+:::
+
+# Resolución del laboratorio en Excel
+
+::: {.session-lead}
+Retomamos el ejercicio de dinero, inflación y valor del proyecto que quedó pendiente de resolver en clase.
+:::
+
+**Viernes 16 de octubre de 2026 · Sesión de reposición**  
+**Macroeconomía · 200 FP**  
+Maestría en Formulación y Evaluación de Proyectos · USAC
+:::
+
+::: {.session-main-resource}
+::: {.session-main-copy}
+## Excel de trabajo
+
+Esta sesión se dedicará a resolver el laboratorio pendiente de forma **individual**. Descargue el archivo y ábralo en Excel para seguir los ejercicios en clase.
+
+[Descargar Excel](../laboratorios/sesion09/laboratorio_dinero_inflacion.xlsx){.course-btn .primary download="laboratorio_dinero_inflacion.xlsx"}
+
+[Consultar la guía del laboratorio](../laboratorios/sesion09/laboratorio_dinero_inflacion.qmd)
+:::
+
+::: {.session-main-side}
+### Propósito
+
+Analizar cómo los cambios en precios, costos y tasas afectan el valor del proyecto y su capacidad de pago.
+
+Utilizaremos el mismo archivo y las instrucciones del laboratorio de la [sesión 08](sesion09.qmd).
+:::
+:::
+
+::: {.session-materials}
+::: {.material-card}
+## Trabajo en clase
+
+Resolveremos los cuatro experimentos de la guía:
+
+1. **Escenario base:** comparar el VAN nominal con el VAN real equivalente.
+2. **Sorpresa de costos:** observar el efecto sobre el margen y el VAN.
+3. **Respuesta comercial:** evaluar la recuperación de valor al ajustar precios.
+4. **Crédito fijo y variable:** comparar el servicio de deuda y la capacidad de pago.
+
+Cada estudiante trabajará en su propio archivo. Registre los resultados en la hoja `Actividades` antes de pasar al siguiente experimento y formule la recomendación indicada en la guía.
+:::
+:::
+
+::: {.attendance-card}
+## Registro de asistencia
+
+Registre su asistencia correspondiente a la **Sesión 10 · 16 de octubre de 2026**.
+
+Complete su carné, nombre y el código de asistencia indicado durante la sesión. El formulario registra automáticamente la fecha y hora de envío.
+
+[Registrar asistencia](https://docs.google.com/forms/d/e/1FAIpQLSfj3CT9kTzVRnLW000dwj3_kfSfsu0q3rqh-c4v6pKlmb0o7w/viewform?usp=pp_url&entry.981962467=Sesi%C3%B3n+10){.course-btn .primary target="_blank"}
+:::
+
+[Volver a las sesiones](index.qmd)

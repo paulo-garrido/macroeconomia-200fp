@@ -75,7 +75,7 @@ Crecimiento y desarrollo económico: evidencia para Guatemala
 
 [Ver sesión →](sesion07.qmd).
 
-### Sesión 09
+### Sesión 08
 
 **Dinero, inflación y valores del proyecto**
 
@@ -85,10 +85,20 @@ Funciones del dinero, sistema bancario, inflación, tasas nominales y reales y t
 
 ---
 
-### Sesión 11 · Reposición · 16 de octubre de 2026
+### Sesión 10 · Reposición · 16 de octubre de 2026
 
 **Resolución del laboratorio de dinero e inflación**
 
-Trabajo en Excel sobre el ejercicio pendiente: escenario base, sorpresa de costos, respuesta comercial y crédito fijo frente a variable.
+Trabajo individual en Excel para concluir el laboratorio pendiente de la sesión 08.
+
+[Ver sesión →](sesion10.qmd)
+
+---
+
+### Sesión 11
+
+**Cierre integrador · Macroeconomía y viabilidad de proyectos en Guatemala**
+
+Revisión de los resultados del laboratorio de la sesión 10 e integración del curso: entorno de Guatemala, escenarios y decisiones de inversión sustentadas en evidencia.
 
 [Ver sesión →](sesion11.qmd)

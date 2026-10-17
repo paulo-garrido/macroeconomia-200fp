@@ -1,6 +1,6 @@
 ---
 title: "Dinero e inflación"
-subtitle: "¿Cómo cambian los valores del proyecto? · Sesión 09"
+subtitle: "¿Cómo cambian los valores del proyecto? · Sesión 08"
 author: "Macroeconomía · 200 FP · USAC"
 lang: es
 format:
@@ -464,7 +464,7 @@ Desde el año 3, las tasas de ajuste vuelven a 4%. **Los niveles no vuelven al e
 
 ## Cómo trabajar el archivo
 
-**45 minutos · grupos**
+**45 minutos · trabajo individual**
 
 1. Predigan el resultado antes de modificar entradas amarillas.
 2. Revisen las fórmulas de `Proyecto` y la igualdad de ambos VAN.
@@ -490,7 +490,7 @@ No descontar flujos después de deuda a la tasa del proyecto ni restar intereses
 
 ## Puesta en común: defiendan una medida
 
-**Cada grupo dispone de 3 minutos.**
+**Cada estudiante dispone de 3 minutos.**
 
 - ¿Qué supuesto explica el deterioro del VAN?
 - ¿Cuánto cambia y qué ocurre con la cobertura?

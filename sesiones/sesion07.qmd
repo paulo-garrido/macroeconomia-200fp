@@ -242,6 +242,8 @@ El objetivo no será encontrar un indicador que sustituya al PIB, sino comprende
 
 ## Material de la sesión
 
+[Abrir presentación de la sesión 07](../presentaciones/sesion07/reposicion_crecimiento_desarrollo_25sep_v5.qmd){.course-btn .primary}
+
 ::: {.resource-grid}
 
 ::: {.resource-card}
@@ -283,6 +285,6 @@ Registre su asistencia correspondiente a la **Sesión 07**.
 
 El formulario registra automáticamente la fecha y hora de envío. Complete correctamente su carné, nombre y el código de asistencia indicado durante la sesión.
 
-[Registrar asistencia →](https://docs.google.com/forms/d/e/1FAIpQLSfj3CT9kTzVRnLW000dwj3_kfSfsu0q3rqh-c4v6pKlmb0o7w/viewform?usp=pp_url&entry.981962467=Sesi%C3%B3n+06){.course-btn .primary target="_blank"}
+[Registrar asistencia →](https://docs.google.com/forms/d/e/1FAIpQLSfj3CT9kTzVRnLW000dwj3_kfSfsu0q3rqh-c4v6pKlmb0o7w/viewform?usp=pp_url&entry.981962467=Sesi%C3%B3n+07){.course-btn .primary target="_blank"}
 
 :::

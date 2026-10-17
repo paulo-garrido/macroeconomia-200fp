@@ -1,0 +1,432 @@
+---
+title: "Crecimiento y desarrollo económico"
+subtitle: "Panel de evidencia · Sesión 07 · Reposición"
+author: "Macroeconomía · 200 FP"
+date: "2026-09-25"
+date-format: long
+lang: es
+format:
+  revealjs:
+    theme: [default, reposicion_crecimiento_desarrollo_25sep_v5.scss]
+    slide-number: c/t
+    transition: fade
+    background-transition: fade
+    center: false
+    controls: true
+    progress: true
+    hash: true
+    history: true
+    width: 1600
+    height: 900
+    margin: 0.055
+    navigation-mode: linear
+    slide-level: 2
+    preview-links: auto
+    chalkboard: false
+    pdf-separate-fragments: false
+execute:
+  echo: false
+---
+
+## Una sola pregunta, cuatro formas de responderla {.section-title}
+
+::: {.hero-question}
+**Guatemala ha crecido, pero ¿en qué medida ese crecimiento se ha traducido en desarrollo?**
+:::
+
+::: {.subtle}
+Hoy no veremos cuatro exposiciones independientes. Cada grupo añadirá una pieza a la misma historia.
+:::
+
+
+## La distinción que ordena toda la sesión
+
+:::: {.two-col}
+
+::: {.concept-card .growth}
+<div class="card-title">Crecimiento</div>
+
+Aumenta la **producción real** de la economía y, con ello, la cantidad de bienes y servicios generados.
+
+**Pregunta típica:**  
+¿cuánto creció el PIB real?
+:::
+
+::: {.concept-card .development}
+<div class="card-title">Desarrollo</div>
+
+Pregunta **qué ocurre con las condiciones de vida y las capacidades** cuando la economía produce más.
+
+**Pregunta típica:**  
+¿quién se beneficia, de qué manera y con qué sostenibilidad?
+:::
+
+::::
+
+::: {.bottom-line}
+El crecimiento amplía posibilidades. El desarrollo examina **cómo se convierten esas posibilidades en bienestar**.
+:::
+
+
+## El hilo de la sesión
+
+:::: {.storyline}
+::: {.story-step}
+<span>01</span>
+**Producción**  
+¿la economía genera más?
+:::
+<div class="story-arrow">→</div>
+::: {.story-step}
+<span>02</span>
+**Distribución**  
+¿el ingreso llega a los hogares?
+:::
+<div class="story-arrow">→</div>
+::: {.story-step}
+<span>03</span>
+**Capacidades**  
+¿se transforma en salud y educación?
+:::
+<div class="story-arrow">→</div>
+::: {.story-step}
+<span>04</span>
+**Trabajo**  
+¿genera empleos productivos?
+:::
+<div class="story-arrow">→</div>
+::: {.story-step}
+<span>05</span>
+**Sostenibilidad**  
+¿puede sostenerse en el tiempo?
+:::
+::::
+
+::: {.takeaway}
+El PIB es indispensable para leer la primera parte de la historia; no pretende responder por sí solo las demás.
+:::
+
+
+## Cómo funcionará el panel
+
+:::: {.timing-grid}
+::: {.timing-card}
+<div class="card-title">7 min</div>
+**Exposición**
+
+3 diapositivas: evidencia, interpretación e implicación para proyectos.
+:::
+::: {.timing-card}
+<div class="card-title">2 min</div>
+**Contraparte**
+
+Una objeción, una limitación o una pregunta que obligue a precisar el argumento.
+:::
+::: {.timing-card}
+<div class="card-title">1 idea</div>
+**Para retener**
+
+¿Qué añade este bloque a nuestra comprensión del desarrollo?
+:::
+::::
+
+::: {.rule}
+**Regla de la discusión:** una afirmación empírica debe rastrearse a una fuente; una conclusión debe guardar relación con la evidencia mostrada.
+:::
+
+
+## Antes de empezar: tres preguntas para escuchar mejor
+
+::: {.question-list}
+1. **¿Qué dimensión del bienestar no captura directamente el PIB?**
+2. **¿Qué relación muestran realmente los datos y qué no permiten afirmar?**
+3. **¿Qué cambiaría en la formulación o evaluación de un proyecto?**
+:::
+
+::: {.small-note}
+No buscamos una colección de cifras. Buscamos relaciones económicas defendibles.
+:::
+
+
+## Crecimiento, pobreza y desigualdad {.section-title}
+
+::: {.eyebrow}
+BLOQUE 1 · DISTRIBUCIÓN
+:::
+
+::: {.big-question}
+**¿Hasta qué punto crecer significa que los hogares viven mejor?**
+:::
+
+::: {.listen-for}
+<div class="card-title">Mientras escuchamos, observemos…</div>
+- PIB total frente a **PIB o ingreso por habitante**.
+- Evolución de la pobreza, no solo su nivel en un año.
+- Diferencias territoriales y distributivas que el promedio nacional puede ocultar.
+:::
+
+::: {.counterpart}
+**Contraparte:** Grupo 2
+:::
+
+
+## Primera pieza de la historia: crecer no dice cómo se distribuye
+
+:::: {.insight-grid}
+::: {.insight-card}
+<div class="card-title">El promedio</div>
+El PIB per cápita aproxima recursos disponibles por persona, pero sigue siendo un **promedio**.
+:::
+::: {.insight-card}
+<div class="card-title">La distribución</div>
+La pobreza y la desigualdad muestran si la expansión económica alcanza de forma semejante a distintos hogares y territorios.
+:::
+::: {.insight-card}
+<div class="card-title">El proyecto</div>
+Demanda efectiva, capacidad de pago, localización y focalización pueden cambiar aun con el mismo crecimiento agregado.
+:::
+::::
+
+::: {.bridge}
+**Puente al siguiente bloque:** incluso cuando el ingreso mejora, todavía falta preguntar **en qué se transforma**.
+:::
+
+
+## Crecimiento y desarrollo humano {.section-title}
+
+::: {.eyebrow}
+BLOQUE 2 · CAPACIDADES
+:::
+
+::: {.big-question}
+**¿Un mayor ingreso por habitante basta para hablar de desarrollo?**
+:::
+
+::: {.listen-for}
+<div class="card-title">Mientras escuchamos, observemos…</div>
+- Qué añade el **IDH** al análisis del ingreso.
+- Cómo entran salud, educación y capacidades humanas.
+- Por qué economías con ingresos parecidos pueden ofrecer oportunidades distintas a su población.
+:::
+
+::: {.counterpart}
+**Contraparte:** Grupo 3
+:::
+
+
+## Segunda pieza: el ingreso importa por lo que permite hacer
+
+:::: {.flow-3}
+::: {.flow-box}
+**Más ingreso**
+
+amplía recursos disponibles
+:::
+<div class="flow-arrow">→</div>
+::: {.flow-box}
+**Capacidades**
+
+salud · educación · conocimientos
+:::
+<div class="flow-arrow">→</div>
+::: {.flow-box}
+**Oportunidades**
+
+productividad · participación · elección
+:::
+::::
+
+::: {.project-strip}
+**Para proyectos:** los rezagos en capacidades alteran productividad laboral, costos de capacitación, adopción tecnológica, demanda de servicios y diseño de intervenciones sociales.
+:::
+
+::: {.bridge}
+**Puente al siguiente bloque:** las capacidades se conectan con el lugar donde buena parte del ingreso se genera: **el mercado de trabajo**.
+:::
+
+
+## Crecimiento, empleo e informalidad {.section-title}
+
+::: {.eyebrow}
+BLOQUE 3 · TRABAJO
+:::
+
+::: {.big-question}
+**¿Qué tipo de empleo acompaña al crecimiento?**
+:::
+
+::: {.listen-for}
+<div class="card-title">Mientras escuchamos, observemos…</div>
+- Por qué una baja tasa de desempleo no describe toda la calidad laboral.
+- Diferencias de informalidad entre territorios.
+- Relación entre productividad, ingreso laboral y estabilidad económica de los hogares.
+:::
+
+::: {.counterpart}
+**Contraparte:** Grupo 4
+:::
+
+
+## Tercera pieza: no todo empleo tiene la misma capacidad de sostener bienestar
+
+:::: {.two-col}
+::: {.concept-card}
+<div class="card-title">Cantidad de empleo</div>
+¿La población encuentra una ocupación?
+
+Es una pregunta necesaria.
+:::
+::: {.concept-card}
+<div class="card-title">Calidad y productividad</div>
+¿El empleo genera ingresos suficientes, estabilidad y acumulación de capacidades?
+
+Es una pregunta adicional.
+:::
+::::
+
+::: {.project-strip}
+**Para proyectos:** la estructura laboral incide en capacidad de pago, estabilidad de la demanda, disponibilidad de talento, formalización de proveedores y costos de contratación.
+:::
+
+::: {.bridge}
+**Puente al último bloque:** aun si el crecimiento genera ingresos y empleo, queda una pregunta intertemporal: **¿puede sostenerse?**
+:::
+
+
+## Crecimiento y sostenibilidad {.section-title}
+
+::: {.eyebrow}
+BLOQUE 4 · SOSTENIBILIDAD
+:::
+
+::: {.big-question}
+**¿Producir más hoy garantiza poder producir y vivir mejor mañana?**
+:::
+
+::: {.listen-for}
+<div class="card-title">Mientras escuchamos, observemos…</div>
+- Qué recurso o presión ambiental se relaciona con la producción.
+- Si su uso crece más rápido, igual o más lento que el PIB real.
+- Qué revela un indicador de **intensidad**.
+:::
+
+::: {.counterpart}
+**Contraparte:** Grupo 1
+:::
+
+
+## Cuarta pieza: el crecimiento también tiene una dimensión intertemporal
+
+::: {.formula-card}
+$$
+\text{Intensidad del recurso}
+=
+\frac{\text{Uso del recurso}}{\text{PIB real}}
+$$
+:::
+
+:::: {.three-signals}
+::: {.signal}
+**↓ Intensidad**  
+menos recurso por unidad producida
+:::
+::: {.signal}
+**≈ Intensidad**  
+uso y producción avanzan a ritmo similar
+:::
+::: {.signal}
+**↑ Intensidad**  
+más recurso por unidad producida
+:::
+::::
+
+::: {.project-strip}
+**Para proyectos:** disponibilidad de agua, energía o materiales; costos futuros; restricciones regulatorias; externalidades y riesgos ambientales pasan a formar parte del diagnóstico.
+:::
+
+
+## Ahora sí: las cuatro exposiciones cuentan una sola historia
+
+| Dimensión | Pregunta que añade al PIB | Variable crítica para proyectos |
+|---|---|---|
+| **Pobreza y desigualdad** | ¿Quién recibe los beneficios del crecimiento? | Demanda efectiva · capacidad de pago · focalización |
+| **Desarrollo humano** | ¿El ingreso se convierte en capacidades? | Capital humano · productividad · acceso a servicios |
+| **Empleo e informalidad** | ¿Qué calidad tiene la inserción productiva? | Ingresos laborales · talento · estabilidad de la demanda |
+| **Sostenibilidad** | ¿Puede mantenerse el patrón de producción? | Insumos · costos futuros · externalidades · riesgo |
+
+::: {.takeaway}
+El diagnóstico macroeconómico se vuelve más útil cuando pasa de **“¿cuánto crece?”** a **“¿cómo crece, para quién y con qué consecuencias?”**
+:::
+
+
+## El mismo crecimiento puede esconder diagnósticos muy distintos
+
+::: {.scenario}
+Un departamento muestra **crecimiento económico**, pero mantiene pobreza elevada, informalidad laboral, rezagos educativos y restricciones de acceso a servicios.
+:::
+
+:::: {.impact-grid}
+::: {.impact-card}
+<div class="card-title">Estudio de mercado</div>
+¿El crecimiento observado se traduce en demanda con capacidad de pago?
+:::
+::: {.impact-card}
+<div class="card-title">Estudio técnico</div>
+¿Existe el capital humano, la infraestructura y los insumos requeridos?
+:::
+::: {.impact-card}
+<div class="card-title">Evaluación social</div>
+¿Quién recibe beneficios y quién asume costos?
+:::
+::: {.impact-card}
+<div class="card-title">Riesgo y sensibilidad</div>
+¿Qué vulnerabilidades no aparecen en el escenario central de crecimiento?
+:::
+::::
+
+
+## Crecimiento y desarrollo no compiten: responden preguntas distintas
+
+:::: {.closing-contrast}
+::: {.closing-side}
+<div class="card-title">Crecimiento pregunta</div>
+**¿Se amplía la capacidad productiva y el ingreso real?**
+:::
+::: {.closing-side}
+<div class="card-title">Desarrollo pregunta</div>
+**¿Esa ampliación genera capacidades, oportunidades y bienestar sostenible?**
+:::
+::::
+
+::: {.closing-line}
+Para formular proyectos, confundir ambas preguntas puede producir un diagnóstico incompleto del mercado, del territorio y del riesgo.
+:::
+
+
+## Cierre del panel {.section-title}
+
+::: {.hero-question}
+**Dos territorios pueden crecer a la misma tasa.**  
+**¿Formularíamos el mismo proyecto en ambos?**
+:::
+
+::: {.final-prompts}
+- ¿Qué variable cambiaría primero en el estudio de mercado?
+- ¿Qué riesgo aparecería al ampliar el diagnóstico hacia desarrollo?
+- ¿Qué indicador usarían para justificar esa decisión?
+:::
+
+::: {.subtle}
+La respuesta final debe apoyarse en lo que los cuatro grupos mostraron hoy.
+:::
+
+
+## Idea para llevarse de la sesión
+
+::: {.final-card}
+El crecimiento económico es una condición importante para ampliar posibilidades, pero **la evaluación de proyectos exige mirar qué ocurre detrás del promedio**: distribución, capacidades, empleo, territorio y sostenibilidad.
+:::
+
+::: {.footer-note}
+Macroeconomía · 200 FP · Maestría en Formulación y Evaluación de Proyectos
+:::

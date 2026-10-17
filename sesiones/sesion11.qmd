@@ -1,6 +1,6 @@
 ---
 title: "Sesión 11"
-subtitle: "Reposición · Resolución del laboratorio de dinero e inflación"
+subtitle: "Cierre integrador · Macroeconomía y viabilidad de proyectos en Guatemala"
 toc: false
 page-layout: full
 ---
@@ -10,56 +10,82 @@ page-layout: full
 SESIÓN 11
 :::
 
-# Resolución del laboratorio en Excel
+# ¿Qué nos deja la macroeconomía para evaluar proyectos?
 
 ::: {.session-lead}
-Retomamos el ejercicio de dinero, inflación y valor del proyecto que quedó pendiente de resolver en clase.
+Recuperamos los resultados del laboratorio de la sesión 10 y conectamos los aprendizajes del curso con las decisiones de inversión en Guatemala.
 :::
 
-**Viernes 16 de octubre de 2026 · Sesión de reposición**  
 **Macroeconomía · 200 FP**  
 Maestría en Formulación y Evaluación de Proyectos · USAC
 :::
 
 ::: {.session-main-resource}
 ::: {.session-main-copy}
-## Excel de trabajo
+## Presentación de cierre
 
-Esta sesión se dedicará a resolver el laboratorio pendiente de forma **individual**. Descargue el archivo y ábralo en Excel para seguir los ejercicios en clase.
+Una síntesis del curso para pasar del indicador macroeconómico a los supuestos, flujos y decisiones de un proyecto.
 
-[Descargar Excel](../laboratorios/sesion09/laboratorio_dinero_inflacion.xlsx){.course-btn .primary download="laboratorio_dinero_inflacion.xlsx"}
+[Abrir presentación](../presentaciones/sesion11/sesion11_cierre_macroeconomia_proyectos.qmd){.course-btn .primary}
+
+[Descargar Excel del laboratorio](../laboratorios/sesion09/laboratorio_dinero_inflacion.xlsx){.course-btn download="laboratorio_dinero_inflacion.xlsx"}
 
 [Consultar la guía del laboratorio](../laboratorios/sesion09/laboratorio_dinero_inflacion.qmd)
 :::
 
 ::: {.session-main-side}
-### Propósito
+### Pregunta conductora
 
-Analizar cómo los cambios en precios, costos y tasas afectan el valor del proyecto y su capacidad de pago.
+**Entorno macroeconómico y viabilidad de proyectos de inversión en Guatemala: ¿qué variables determinarán las decisiones de inversión en los próximos años?**
 
-Utilizaremos el mismo archivo y las instrucciones del laboratorio de la [sesión 09](sesion09.qmd).
+Recuperamos la pregunta del panel-foro en una discusión guiada sobre demanda, costos, crédito, sector externo e infraestructura.
 :::
 :::
+
+## Ruta de la sesión · 165 minutos
+
+| Tramo | Minutos |
+|---|---:|
+| Revisar los resultados del laboratorio individual de la sesión 10 | 45 |
+| Reconstruir el hilo del curso | 15 |
+| Guatemala: variables que afectan la inversión | 30 |
+| Pausa | 10 |
+| Construir y comparar escenarios | 20 |
+| Comité de inversión y discusión | 30 |
+| Síntesis y cierre individual | 15 |
+
+**Después del laboratorio: dos horas, incluida la pausa.**
 
 ::: {.session-materials}
 ::: {.material-card}
-## Trabajo en clase
+## Primero · Recuperar los resultados
 
-Resolveremos los cuatro experimentos de la guía:
+Retomamos los resultados de los cuatro experimentos iniciados en la sesión 08 y resueltos en la [sesión 10](sesion10.qmd): escenario base, sorpresa de costos, respuesta comercial y crédito fijo frente a variable.
 
-1. **Escenario base:** comparar el VAN nominal con el VAN real equivalente.
-2. **Sorpresa de costos:** observar el efecto sobre el margen y el VAN.
-3. **Respuesta comercial:** evaluar la recuperación de valor al ajustar precios.
-4. **Crédito fijo y variable:** comparar el servicio de deuda y la capacidad de pago.
-
-Cada estudiante trabajará en su propio archivo. Registre los resultados en la hoja `Actividades` antes de pasar al siguiente experimento y formule la recomendación indicada en la guía.
+Cada estudiante utilizará su archivo individual y la recomendación elaborada en la sesión 10. Contrastaremos valor del proyecto, consistencia nominal-real y capacidad de pago.
 :::
+
+::: {.material-card}
+## Después · Integrar y decidir
+
+Conectaremos medición económica, fluctuaciones, crecimiento y desarrollo, dinero e inflación con supuestos verificables del proyecto. Incorporaremos conexiones con tipo de cambio, política fiscal, infraestructura y condiciones de operación.
+
+La planta de alimentos servirá para comparar escenarios y formular una recomendación: invertir, ejecutar por etapas, rediseñar, aplazar o descartar. La extensión numérica se resuelve aparte, en quetzales constantes, con supuestos académicos explícitos.
+:::
+:::
+
+::: {.session-callout}
+## Una decisión sustentada
+
+La discusión del comité y la reflexión de cierre son **formativas, sin ponderación nueva**. Recuperan la pregunta del panel-foro; no modifican la estructura de evaluación del curso.
+
+Cada recomendación debe identificar evidencia, canal de transmisión, supuesto afectado, umbral y medida concreta. Un VAN positivo debe contrastarse con liquidez, condiciones de operación y los costos que falten por incorporar.
 :::
 
 ::: {.attendance-card}
 ## Registro de asistencia
 
-Registre su asistencia correspondiente a la **Sesión 11 · 16 de octubre de 2026**.
+Registre su asistencia correspondiente a la **Sesión 11**.
 
 Complete su carné, nombre y el código de asistencia indicado durante la sesión. El formulario registra automáticamente la fecha y hora de envío.
 

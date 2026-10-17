@@ -49,7 +49,7 @@ El laboratorio trabajar en grupos y sigue:
 ---
 
 
-### Sesión 09 · Dinero, inflación y valor del proyecto
+### Sesión 08 · Dinero, inflación y valor del proyecto
 
 Cuatro experimentos en Excel sobre precios, costos, valoración nominal-real y capacidad de pago de deuda.
 
