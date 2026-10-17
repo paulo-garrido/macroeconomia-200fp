@@ -1,6 +1,10 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - "**/*.qmd"
+    - "**/*.md"
+    - "!administracion_privada/**"
 
   resources:
     - assets/img/**
@@ -62,5 +66,3 @@ format:
     html-math-method: mathjax
 
 lang: es
-
-   

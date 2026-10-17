@@ -51,7 +51,7 @@ Recuperamos la pregunta del panel-foro en una discusión guiada sobre demanda, c
 | Guatemala: variables que afectan la inversión | 30 |
 | Pausa | 10 |
 | Construir y comparar escenarios | 20 |
-| Comité de inversión y discusión | 30 |
+| Kahoot: macroeconomía y proyectos | 30 |
 | Síntesis y cierre individual | 15 |
 
 **Después del laboratorio: dos horas, incluida la pausa.**
@@ -72,12 +72,22 @@ Conectaremos medición económica, fluctuaciones, crecimiento y desarrollo, dine
 
 La planta de alimentos servirá para comparar escenarios y formular una recomendación: invertir, ejecutar por etapas, rediseñar, aplazar o descartar. La extensión numérica se resuelve aparte, en quetzales constantes, con supuestos académicos explícitos.
 :::
+
+::: {.material-card}
+## Kahoot · Macroeconomía y proyectos
+
+Cuestionario individual de 12 preguntas sobre demanda, PIB, inflación, costos, tasas, tipo de cambio, flujos y VAN. Después de cada pregunta, observaremos las respuestas y discutiremos el mecanismo económico.
+
+[Ingresar a Kahoot](https://kahoot.it/){.course-btn .primary target="_blank"}
+
+Ingrese el PIN que se mostrará en clase e identifíquese con nombre y apellido. El cuestionario se desarrollará en vivo, con el ritmo guiado por el docente.
+:::
 :::
 
 ::: {.session-callout}
 ## Una decisión sustentada
 
-La discusión del comité y la reflexión de cierre son **formativas, sin ponderación nueva**. Recuperan la pregunta del panel-foro; no modifican la estructura de evaluación del curso.
+El cuestionario, la discusión y la reflexión de cierre son **formativos, sin ponderación nueva**. Recuperan los aprendizajes del curso; no modifican su estructura de evaluación.
 
 Cada recomendación debe identificar evidencia, canal de transmisión, supuesto afectado, umbral y medida concreta. Un VAN positivo debe contrastarse con liquidez, condiciones de operación y los costos que falten por incorporar.
 :::
