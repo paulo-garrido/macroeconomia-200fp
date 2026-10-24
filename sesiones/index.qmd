@@ -102,3 +102,13 @@ Trabajo individual en Excel para concluir el laboratorio pendiente de la sesión
 Revisión de los resultados del laboratorio de la sesión 10 e integración del curso: entorno de Guatemala, escenarios y decisiones de inversión sustentadas en evidencia.
 
 [Ver sesión →](sesion11.qmd)
+
+---
+
+### Sesión 12
+
+**Examen final · Guía breve de preparación**
+
+Resumen para integrar mercado, flujos, inflación, choques y crédito en una decisión de inversión, con materiales de repaso y registro de asistencia.
+
+[Ver sesión →](sesion12.qmd)

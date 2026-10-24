@@ -1,0 +1,115 @@
+---
+title: "Sesión 12"
+subtitle: "Examen final · Guía breve de preparación"
+toc: false
+page-layout: full
+---
+
+::: {.session-hero}
+::: {.session-number}
+SESIÓN 12
+:::
+
+# Del entorno macroeconómico a la decisión de inversión
+
+::: {.session-lead}
+Una guía breve para integrar lo aprendido y abordar el examen final: explicar el mecanismo económico, construir cálculos consistentes y sustentar una recomendación.
+:::
+
+**Macroeconomía · 200 FP**  
+Maestría en Formulación y Evaluación de Proyectos · USAC
+:::
+
+::: {.session-main-resource}
+::: {.session-main-copy}
+## ¿Cómo abordar el examen?
+
+El examen plantea un caso integrador de evaluación de un proyecto. Lea primero las instrucciones y los supuestos; identifique qué datos corresponden a su versión del Excel y qué cambia entre escenarios.
+
+Trabaje en este orden: **mercado → flujos → tasas → VAN → crédito → decisión**. Acompañe los resultados con una explicación económica breve, apoyada en sus propios cálculos.
+
+[Repasar la presentación de cierre](../presentaciones/sesion11/sesion11_cierre_macroeconomia_proyectos.qmd){.course-btn .primary}
+
+[Consultar el laboratorio de dinero e inflación](../laboratorios/sesion09/laboratorio_dinero_inflacion.qmd){.course-btn}
+:::
+
+::: {.session-main-side}
+### Idea conductora
+
+**¿Qué supuesto del proyecto cambia, por qué cambia y cómo afecta su viabilidad?**
+
+Conecte el choque macroeconómico con ventas, precios, costos o financiamiento. Después explique su efecto sobre el flujo, el valor del proyecto y la capacidad de pago.
+:::
+:::
+
+## Repaso esencial
+
+::: {.session-materials}
+::: {.material-card}
+### 1. Mercado y volumen de ventas
+
+Distinga producción nacional, importaciones, exportaciones y consumo aparente. Aplique las proporciones de mercado relevante y participación capturable según el caso. Revise las unidades: un aumento del PIB nominal no implica el mismo crecimiento de las ventas físicas del proyecto.
+:::
+
+::: {.material-card}
+### 2. Flujos, inflación y tasas
+
+Distinga quetzales corrientes de quetzales con poder adquisitivo del año base. Descuente flujos nominales con tasas nominales y flujos reales con tasas reales. Use la relación de Fisher: $1+i=(1+r)(1+\pi^e)$. Bajo supuestos equivalentes, ambas valoraciones deben coincidir.
+:::
+
+::: {.material-card}
+### 3. Choques y escenarios
+
+Explique cómo una menor demanda o mayores costos afectan el margen y el flujo. Separe el efecto operativo del cambio en la rentabilidad requerida. Distinga aumentos reales de costos, inflación general y cambios de precios relativos; respete cuándo un ajuste ocurre una sola vez y cuándo se acumula.
+:::
+
+::: {.material-card}
+### 4. Respuesta comercial
+
+Evalúe conjuntamente el aumento del precio, la posible caída del volumen vendido y los costos de implementar la medida. Compare el VAN con el escenario adverso y con el base. Una subida de precio requiere valorar la respuesta de los compradores.
+:::
+
+::: {.material-card}
+### 5. Crédito y capacidad de pago
+
+Distinga saldo, amortización, intereses y servicio de deuda. Compare crédito a tasa fija y variable, y explique la transmisión de las condiciones monetarias al costo del préstamo. La tasa del crédito y la tasa de descuento cumplen funciones distintas. Un VAN positivo no garantiza caja suficiente para pagar cada cuota.
+:::
+
+::: {.material-card}
+### 6. Recomendación final
+
+Compare los escenarios base, adverso y con respuesta comercial. Identifique el canal que explica el resultado, contraste valor y capacidad de pago, y proponga una medida concreta con una condición verificable. Sustente si conviene invertir, ajustar o posponer con los resultados de su versión.
+:::
+:::
+
+::: {.session-callout}
+## Antes de entregar
+
+- Compruebe las unidades, los signos y el momento de cada flujo.
+- En Excel, reste la inversión del año 0 fuera de la función `VNA` cuando esta incluya únicamente los flujos de los años siguientes.
+- Verifique que no haya aplicado inflación dos veces ni mezclado tasas y flujos de distinto poder adquisitivo.
+- Mantenga separado el flujo del proyecto del análisis del préstamo, conforme a las instrucciones del caso.
+- Conserve las fórmulas y explique qué significan los resultados; revise el nombre y la versión del archivo solicitado.
+
+Las instrucciones del examen precisan los datos, supuestos y condiciones de entrega. Esta guía orienta el repaso.
+:::
+
+## Materiales para repasar
+
+- [Medición económica y PIB · Sesión 02](sesion02.qmd).
+- [Oferta-utilización y mercado del proyecto · Sesión 03](sesion03.qmd).
+- [Choques macroeconómicos y VAN · Sesión 06](sesion06.qmd).
+- [Dinero, inflación y valor del proyecto · Sesión 08](sesion09.qmd).
+- [Resolución del laboratorio en Excel · Sesión 10](sesion10.qmd).
+
+::: {.attendance-card}
+## Registro de asistencia
+
+Registre su asistencia correspondiente a la **Sesión 12**.
+
+Complete su carné, nombre y el código de asistencia indicado durante la sesión. El formulario registra automáticamente la fecha y hora de envío.
+
+[Registrar asistencia](https://docs.google.com/forms/d/e/1FAIpQLSfj3CT9kTzVRnLW000dwj3_kfSfsu0q3rqh-c4v6pKlmb0o7w/viewform?usp=pp_url&entry.981962467=Sesi%C3%B3n+12){.course-btn .primary target="_blank"}
+:::
+
+[Volver a las sesiones](index.qmd)

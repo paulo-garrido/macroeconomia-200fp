@@ -1,0 +1,56 @@
+actividad: Examen final Macroeconomía 200 FP, III 2026
+escala_interna: 100
+ponderacion_curso: Se conserva la establecida en el programa; esta rúbrica no la modifica.
+criterios:
+  - id: '1.1'
+    maximo: 5
+    componentes: {consumo_aparente: 1, mercado_relevante: 1, volumen_capturable: 1, pib_nominal_y_evidencia: 2}
+  - id: '1.2'
+    maximo: 10
+    componentes: {flujos_reales_y_nominales: 3, seleccion_y_justificacion_tasas: 3, tasa_fisher: 1, van_y_conciliacion: 3}
+  - id: '1.3'
+    maximo: 5
+    componentes: {inconsistencia_y_sesgo: 3, nominal_vs_volumen: 2}
+  - id: '2.1'
+    maximo: 7
+    componentes: {diagnostico_demanda_oferta: 3, cadenas_transmision: 4}
+  - id: '2.2'
+    maximo: 13
+    componentes: {flujos_adversos: 4, tasas_consistentes: 2, van_ambos: 3, atribucion_y_conciliacion: 4}
+  - id: '2.3'
+    maximo: 5
+    componentes: {precios_relativos: 2, neutralidad_cambio_solo_nominal: 3}
+  - id: '3.1'
+    maximo: 10
+    componentes: {precio_volumen_costos_implementacion: 4, margen_y_flujo_real: 2, van_y_variacion: 4}
+  - id: '3.2'
+    maximo: 5
+    componentes: {deflactacion: 2, tasa_real_correcta: 1, conciliacion_y_explicacion: 2}
+  - id: '3.3'
+    maximo: 5
+    componentes: {juicio_con_evidencia: 3, supuesto_comercial: 2}
+  - id: '4.1'
+    maximo: 9
+    componentes: {principal_amortizacion_tasas: 3, interes_servicio: 2, cobertura_caja_y_comparacion: 4}
+  - id: '4.2'
+    maximo: 6
+    componentes: {transmision_y_tres_tasas: 3, separacion_valor_caja_y_cobertura: 3}
+  - id: '5.2'
+    maximo: 20
+    componentes: {decision_justificada: 4, comparacion_de_tres_van: 5, capacidad_de_pago: 3, canal_dominante: 3, medida_y_condicion_verificable: 5}
+aplicacion:
+  - Cada componente recibe la totalidad si es correcto y está sustentado, la mitad si hay un avance pertinente pero incompleto, y cero si está ausente o es incorrecto. Se permiten medios puntos.
+  - Un error de origen se descuenta en su criterio. Los procedimientos posteriores coherentes con ese resultado conservan su puntuación metodológica; registrar el arrastre.
+  - Aceptar procedimientos equivalentes, fórmulas auxiliares y recomendaciones alternativas sustentadas. No asignar puntos por coincidencia de una decisión sin razonamiento.
+  - Tolerancia numérica Q0.01 usando precisión completa. Aceptar diferencias explicadas por redondeo mostrado; no confundirlas con errores metodológicos.
+  - No penalizar estética, estilo, rapidez ni elementos ajenos a los criterios. Los límites de palabras ordenan las respuestas y no crean una penalización adicional.
+  - No inferir asistencia de IA por estilo de redacción ni usar detectores como evidencia de calificación. Cualquier incidencia se tramita por la normativa institucional aplicable.
+registro_obligatorio:
+  - estudiante
+  - actividad
+  - criterio
+  - puntuacion_y_maximo
+  - justificacion
+  - nota_total
+  - comentario_breve
+  - aspectos_a_mejorar
